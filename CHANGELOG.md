@@ -4,6 +4,4 @@
 
 Sources: 4 ok.
 
-Pick changes:
-
-- Following instructions and structured output, best: GLM 5.3 Flash -> Qwen3.7 Plus
+No pick changes this week.

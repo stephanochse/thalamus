@@ -8,7 +8,7 @@
    "ok": true,
    "rows": 359,
    "fetched": "2026-11-02",
-   "seconds": 0.6
+   "seconds": 0.1
   },
   "arena": {
    "name": "Arena (lmarena-ai/leaderboard-dataset)",
@@ -17,7 +17,7 @@
    "ok": true,
    "rows": 819,
    "fetched": "2026-11-02",
-   "seconds": 17.2
+   "seconds": 3.5
   },
   "llmstats": {
    "name": "llm-stats",
@@ -26,7 +26,7 @@
    "ok": true,
    "rows": 406,
    "fetched": "2026-11-02",
-   "seconds": 1.9
+   "seconds": 0.7
   },
   "epoch": {
    "name": "Epoch AI benchmarking hub",
@@ -35,7 +35,7 @@
    "ok": true,
    "rows": 304,
    "fetched": "2026-11-02",
-   "seconds": 1.4
+   "seconds": 0.4
   }
  }
 }
