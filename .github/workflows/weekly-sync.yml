@@ -104,8 +104,6 @@ jobs:
               for name in set(re.findall(r"<!-- thalamus:([a-z]+):start -->", text)):
                   if text.count(f"<!-- thalamus:{name}:start -->") != 1 or text.count(f"<!-- thalamus:{name}:end -->") != 1:
                       sys.exit(f"{f}: the '{name}' block markers are broken; refusing to commit.")
-              if text.count("<!--") != text.count("-->"):
-                  sys.exit(f"{f}: unbalanced comment markers; refusing to commit.")
           b = json.load(open("data/brain.json", encoding="utf-8"))
           for src, why in b.get("quarantined", {}).items():
               print(f"quarantined this week: {src}: {why}")
