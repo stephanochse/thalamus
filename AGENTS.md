@@ -17,9 +17,11 @@ Your session model is whatever the tool launched with, and a session can't switc
    - **budget** for bulk, first drafts, extraction, classification and summaries.
    - **fast** when someone is waiting on the answer.
    - **open** when the data must stay on hardware the user controls.
+   - **other lab** for a second opinion or a reviewer: the best model from a different lab than the best pick.
 3. Prefer what the user already pays for. `route` returns `your_picks` for the user's own channels and the models each subscription serves on their plan. A subscription seat (Claude plan, ChatGPT plan, Grok plan, Google plan, local Ollama) beats a metered API call when it's within 10% on quality. If a job comes back with no picks, the data for it isn't available this week: say so instead of guessing.
-4. Run independent subtasks in parallel, and say which model produced what when it matters.
-5. Check your own results. Picks come from public leaderboards, and leaderboards measure the average user.
+4. Spread the work across labs. `route` also returns `other_labs` (every lab's best model for the job, with its rank and share of the top score) and, when the user set `favourites`, where the model families they like stand. When several labs sit within a few points of the top, use more than one of them: different labs make different mistakes.
+5. Run independent subtasks in parallel, and say which model produced what when it matters.
+6. Check your own results. Picks come from public leaderboards, and leaderboards measure the average user. [BRAIN.md](BRAIN.md) says what the weekly self-check trusted less and which new models it can't judge yet.
 
 ## 3. The effort ladder: "think harder" means more minds
 
@@ -64,7 +66,7 @@ Without MCP, the same engine runs from a terminal: `python -m thalamus route "..
 
 ## 6. Learn from the user
 
-When the user accepts, rejects or corrects a model's work, call `feedback` with the job and model. When they pick one of two answers, pass `beats`. This stays on their machine and bends future routing toward their taste after three or more verdicts. Every so often, when the task is low-stakes, use `scout` to try a model the user hasn't rated yet.
+When the user accepts, rejects or corrects a model's work, call `feedback` with the job and model. When they pick one of two answers, pass `beats`. This stays on their machine and bends future routing toward their taste after three or more verdicts. The result includes a `share` link that would add the verdict to the public rankings as a GitHub issue: mention it only if the user wants to share, and let them submit it themselves. Every so often, when the task is low-stakes, use `scout` to try a model the user hasn't rated yet.
 
 ## 7. When a login drops
 
@@ -75,34 +77,34 @@ Run `doctor`. It names the failed lane and the fix (`codex login`, `claude` then
 <!-- thalamus:picks:start -->
 Current picks, week of 2026-11-02 (ids are OpenRouter slugs):
 
-| Job | Best | Value | Budget | Mix saves |
-|---|---|---|---|---|
-| Everyday questions and chat | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 75% |
-| Strategy, plans and decisions | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 59% |
-| Business, finance and analysis | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 82% |
-| Legal and compliance | Muse Wonder (Max) `meta/muse-wonder` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 82% |
-| Health and medical | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 59% |
-| Research and facts | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 4 Argon (High) `google/gemini-4-argon` | MiMo-V2.6-Pro `xiaomi/mimo-v2.6-pro` | 71% |
-| Math and hard reasoning | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 87% |
-| Long documents and big codebases | Claude Opus 5 (High) `anthropic/claude-opus-5` | Claude Opus 5 (High) `anthropic/claude-opus-5` | GPT-5.6 Sol (xHigh) `openai/gpt-5.6-sol` | 12% |
-| Writing, copy and voice | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 84% |
-| Personality and conversation | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 77% |
-| Translation and other languages | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 78% |
-| Following instructions and structured output | Qwen3.7 Plus `qwen/qwen3.7-plus` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` |  |
-| Writing code | GPT-6 Astra (Max) `openai/gpt-6-astra` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 84% |
-| Autonomous coding agents | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (Max) `anthropic/claude-sonnet-5.5` | 30% |
-| Code review and debugging | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | MiMo-V2.6-Pro `xiaomi/mimo-v2.6-pro` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 88% |
-| Websites, UI and screenshot-to-code | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | GPT-6.1 Terra (Max) `openai/gpt-6.1-terra` | 60% |
-| Tool use and multi-step agents | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | GPT-6.1 Terra (Max) `openai/gpt-6.1-terra` | 45% |
-| Reading images, screenshots and documents | Claude Fable 5 (High) `anthropic/claude-fable-5` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | 87% |
-| Image generation | GPT-Image-2 (Medium) |  |  |  |
-| Ads, posters and images with text | GPT-Image-2 (Medium) |  |  |  |
-| Photoreal images and product shots | GPT-Image-2 (Medium) |  |  |  |
-| Image editing | GPT-Image-2.5 Sunburst |  |  |  |
-| Video from text | grok-imagine-video-1.5-agent |  |  |  |
-| Animate an image into video | gemini-omni-1.1-flash |  |  |  |
-| Video editing | wan3.0 |  |  |  |
-| Bulk work at the lowest price | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GPT-6.1 Terra `openai/gpt-6.1-terra` | GLM 5.3 Flash `z-ai/glm-5.3-flash` |  |
+| Job | Best | Value | Budget | Other lab | Mix saves |
+|---|---|---|---|---|---|
+| Everyday questions and chat | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 75% |
+| Strategy, plans and decisions | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 59% |
+| Business, finance and analysis | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GPT-6.1 Sol (Max) `openai/gpt-6.1-sol` | 82% |
+| Legal and compliance | Muse Wonder (Max) `meta/muse-wonder` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Qwen3.7 Max `qwen/qwen3.7-max` | 82% |
+| Health and medical | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Qwen3.7 Max `qwen/qwen3.7-max` | 87% |
+| Research and facts | Claude Opus 5 (High) `anthropic/claude-opus-5` | Qwen3.8 Max (0902) `qwen/qwen3.8-max-0902` | DeepSeek V4.1 Flash (Max) `deepseek/deepseek-v4.1-flash` | Qwen3.8 Max (0902) `qwen/qwen3.8-max-0902` | 80% |
+| Math and hard reasoning | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 87% |
+| Long documents and big codebases | Claude Opus 5 (High) `anthropic/claude-opus-5` | Claude Opus 5 (High) `anthropic/claude-opus-5` | Claude Opus 5 (High) `anthropic/claude-opus-5` |  | 0% |
+| Writing, copy and voice | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 84% |
+| Personality and conversation | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 4.6 (High) `anthropic/claude-opus-4.6` | 59% |
+| Translation and other languages | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | 78% |
+| Following instructions and structured output | Qwen3.7 Plus `qwen/qwen3.7-plus` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` |  |
+| Writing code | GPT-6 Astra (Max) `openai/gpt-6-astra` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | 84% |
+| Autonomous coding agents | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (Max) `anthropic/claude-sonnet-5.5` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 30% |
+| Code review and debugging | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 75% |
+| Websites, UI and screenshot-to-code | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 45% |
+| Tool use and multi-step agents | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | GPT-6.1 Terra (Max) `openai/gpt-6.1-terra` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 45% |
+| Reading images, screenshots and documents | Claude Fable 5 (High) `anthropic/claude-fable-5` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | 87% |
+| Image generation | GPT-Image-2 (Medium) |  |  |  |  |
+| Ads, posters and images with text | GPT-Image-2 (Medium) |  |  |  |  |
+| Photoreal images and product shots | GPT-Image-2 (Medium) |  |  |  |  |
+| Image editing | GPT-Image-2.5 Sunburst |  |  | MAI-Image-2.7-Preview |  |
+| Video from text | grok-imagine-video-1.5-agent |  |  | muse-video |  |
+| Animate an image into video | gemini-omni-1.1-flash |  |  | hidream-o1-video-1.0 |  |
+| Video editing | wan3.0 |  |  | dreamina-seedance-2.5-720p |  |
+| Bulk work at the lowest price | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GPT-6.1 Terra `openai/gpt-6.1-terra` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | DeepSeek V4.1 Flash (Max) `deepseek/deepseek-v4.1-flash` |  |
 <!-- thalamus:picks:end -->
 
 Full tables, prices and the signals behind every score: `ROUTES.md` in the repo, or the `leaderboard` tool.

@@ -60,7 +60,7 @@ class PublicBuildStaysClean(unittest.TestCase):
         self.assertIn("epochx.", update._closed_prefixes())
 
     def test_jobs_only_lean_on_public_or_declared_prefixes(self):
-        known = ("aa.", "arena.", "llmstats.", "epoch.", "epochx.", "benchlm.", "eqbench.", "x.")
+        known = ("aa.", "arena.", "llmstats.", "epoch.", "epochx.", "benchlm.", "eqbench.", "vectara.", "tau2.", "x.")
         for job in score.load_jobs():
             for m in job["metrics"]:
                 self.assertTrue(m["id"].startswith(known), m["id"])

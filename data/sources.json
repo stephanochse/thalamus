@@ -6,9 +6,9 @@
    "url": "https://openrouter.ai/api/v1/models",
    "attribution": "Model ids, prices and context windows from OpenRouter (openrouter.ai).",
    "ok": true,
-   "rows": 359,
+   "rows": 357,
    "fetched": "2026-11-02",
-   "seconds": 0.1
+   "seconds": 0.6
   },
   "arena": {
    "name": "Arena (lmarena-ai/leaderboard-dataset)",
@@ -17,7 +17,7 @@
    "ok": true,
    "rows": 819,
    "fetched": "2026-11-02",
-   "seconds": 3.5
+   "seconds": 17.9
   },
   "llmstats": {
    "name": "llm-stats",
@@ -26,7 +26,7 @@
    "ok": true,
    "rows": 406,
    "fetched": "2026-11-02",
-   "seconds": 0.7
+   "seconds": 12.7
   },
   "epoch": {
    "name": "Epoch AI benchmarking hub",
@@ -35,7 +35,25 @@
    "ok": true,
    "rows": 304,
    "fetched": "2026-11-02",
-   "seconds": 0.4
+   "seconds": 1.4
+  },
+  "vectara": {
+   "name": "Vectara hallucination leaderboard",
+   "url": "https://raw.githubusercontent.com/vectara/hallucination-leaderboard/main/README.md",
+   "attribution": "Hallucination rates from Vectara's HHEM leaderboard (github.com/vectara/hallucination-leaderboard), Apache-2.0.",
+   "ok": true,
+   "rows": 111,
+   "fetched": "2026-11-02",
+   "seconds": 0.0
+  },
+  "tau2": {
+   "name": "tau2-bench (Sierra)",
+   "url": "https://taubench.com",
+   "attribution": "Agent results from tau2-bench by Sierra (github.com/sierra-research/tau2-bench), MIT.",
+   "ok": true,
+   "rows": 27,
+   "fetched": "2026-11-02",
+   "seconds": 1.4
   }
  }
 }

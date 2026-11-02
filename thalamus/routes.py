@@ -122,6 +122,35 @@ def your_picks(entry: dict, access: list[str], prefer_subscriptions: bool = True
                 "via": v["access"]} for k, v in out.items()}
 
 
+def _matches(pattern: str, model_id: str) -> bool:
+    try:
+        return re.match(pattern, model_id) is not None
+    except re.error:
+        return model_id.startswith(pattern)
+
+
+def your_favourites(entry: dict, patterns: list[str]) -> list[dict]:
+    """Where each model family you like stands for this job: its best model, rank and share of the top
+    score. Looks through the job's top list, then its lab champions (which cover every ranked model)."""
+    rows = [r for r in entry.get("top", []) if r.get("pickable", True)]  # models you can call
+    top_score = max((r["score"] for r in rows), default=None)
+    pool = rows + [c for c in entry.get("labs", []) if c["id"] not in {r["id"] for r in rows}]
+    out = []
+    for p in patterns or []:
+        hit = next(((i, r) for i, r in enumerate(pool, 1) if _matches(p, r["id"])), None)
+        if not hit:
+            continue
+        i, r = hit
+        out.append({"pattern": p, "id": r["id"], "name": r["name"], "rank": r.get("rank", i), "score": r["score"],
+                    "of_best": round(100 * r["score"] / top_score) if top_score else None, "price": r.get("price")})
+    seen, unique = set(), []
+    for f in sorted(out, key=lambda f: -f["score"]):
+        if f["id"] not in seen:
+            seen.add(f["id"])
+            unique.append(f)
+    return unique
+
+
 def route(task: str, job: str | None = None, budget: str | None = None) -> dict:
     data = _routes()
     jobs = data["jobs"]
@@ -147,6 +176,11 @@ def route(task: str, job: str | None = None, budget: str | None = None) -> dict:
                        "Picks are relative to this week's public leaderboards; check your own results. "
                        "Record how it went with the feedback tool so routing learns your taste."),
     }
+    if entry.get("labs"):
+        result["other_labs"] = [{k: c[k] for k in ("lab", "name", "id", "rank", "of_best", "price")}
+                                for c in entry["labs"][:8]]
+    if cfg.get("favourites") or cfg.get("favorites"):
+        result["your_favourites"] = your_favourites(entry, cfg.get("favourites") or cfg.get("favorites"))
     if any(r.get("your_verdicts") for r in entry["top"]):
         result["personal_top"] = [{"id": r["id"], "name": r["name"], "public": r["score"],
                                    "yours": r.get("personal_score"), "verdicts": r.get("your_verdicts")}
@@ -176,7 +210,7 @@ def leaderboard(job: str, n: int = 10, kind: str | None = None) -> dict:
     if kind:
         rows = [r for r in rows if kind in (r.get("kinds") or entry["kinds"])]
     return {"job": job, "title": entry["title"], "updated": data.get("updated"), "rows": rows[:n],
-            "based_on": entry["metrics"]}
+            "every_lab": entry.get("labs", [])[:16], "based_on": entry["metrics"]}
 
 
 def jobs() -> list[dict]:

@@ -14,6 +14,7 @@ import json
 import re
 
 from .paths import DATA
+from .safe import clean_text
 
 LABS = {
     "openai": ("OpenAI", "US"), "anthropic": ("Anthropic", "US"), "google": ("Google", "US"),
@@ -85,16 +86,80 @@ def _strip_effort(s: str) -> tuple[str, str | None]:
     if " " in s.strip():  # only slug-style names ("claude-opus-5-high") carry effort as a suffix
         return s, None
     parts = [p for p in re.split(r"[-_]+", s.strip()) if p]
-    if len(parts) > 2 and parts[-1] in EFFORT_WORDS - {"max"}:  # "max" is also a model tier (Qwen Max)
-        return "-".join(parts[:-1]), parts[-1]
+    if len(parts) > 2 and parts[-1] in EFFORT_WORDS - {"max"} and parts[-2] not in NEGATIONS:
+        return "-".join(parts[:-1]), parts[-1]  # "max" is also a model tier (Qwen Max), so it's left alone
     return s, None
 
 
+# Effort words that can trail a plain name ("DeepSeek V4 Pro Max", "Grok 4.20 Reasoning"). "fast" and
+# "search" are left out: "Grok 4 Fast" is its own model.
+TRAILING_EFFORT = EFFORT_WORDS - {"fast", "search"}
+NEGATIONS = {"non", "no", "without"}  # "Grok 4.20 Non-Reasoning" is the plain model
+AMBIGUOUS = "\0ambiguous"  # two different models claimed this name; match neither by it
+
+
+DATED = re.compile(r"[-_](20\d{6}|\d{4})$")
+
+
+def _register(table: dict, key: tuple, model_id: str, dated: dict[str, bool] | None = None) -> None:
+    """Two models claiming one name make it ambiguous, except a dated build ("-1017") against the plain model:
+    the plain name keeps pointing at the plain model, and the dated build is found by its exact name."""
+    current = table.get(key)
+    dated = dated or {}
+    if current is None:
+        table[key] = model_id
+    elif current in (model_id, AMBIGUOUS):
+        return
+    elif dated.get(current) and not dated.get(model_id):
+        table[key] = model_id
+    elif dated.get(model_id) and not dated.get(current):
+        return
+    else:
+        table[key] = AMBIGUOUS
+
+
+def _get(table: dict, key: tuple) -> str | None:
+    value = table.get(key)
+    return None if value in (None, AMBIGUOUS) else value
+
+
+def exact(name: str) -> str:
+    """The name with only case, punctuation, a 'Lab: ' prefix and effort tags removed. Dates, 'Chat',
+    'Thinking' and 'Preview' stay, so 'GPT-5.2 Chat' finds openai/gpt-5.2-chat before canon() folds it
+    into openai/gpt-5.2."""
+    s = name.lower().replace("+", " plus ")
+    s = re.sub(r"^[a-z0-9.\- ]+:\s+", "", s)
+    s = re.sub(r"\b20\d\d(\d\d)(\d\d)\b", r"\1\2", s)  # "...-20261017" and "...-1017" are the same build
+
+    def tag(m: re.Match) -> str:
+        first = (m.group(1).split(",")[0].strip().split() or [""])[0]
+        return " " if first in EFFORT_WORDS else f" {m.group(1)} "
+    s = re.sub(VARIANT, tag, s)
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def paren_variant(name: str) -> str | None:
+    """An effort level written as a tag, '(High)', and nothing else."""
+    found = re.findall(VARIANT, name)
+    if not found:
+        return None
+    first = (found[-1].split(",")[0].strip().lower().split() or [""])[0]
+    return first if first in EFFORT_WORDS else None
+
+
+def _trailing_effort(name: str) -> tuple[str, str | None]:
+    """'DeepSeek V4 Pro Max' -> ('DeepSeek V4 Pro', 'max'). Only tried after the full name found no match."""
+    words = [w for w in re.split(r"[\s_-]+", re.sub(VARIANT, " ", name)) if w]
+    if len(words) > 2 and words[-1].lower() in TRAILING_EFFORT and words[-2].lower() not in NEGATIONS:
+        return " ".join(words[:-1]), words[-1].lower()
+    return name, None
+
+
 def canon(name: str) -> str:
-    s = name.lower()
+    s = name.lower().replace("+", " plus ")
     s = re.sub(VARIANT, " ", s)
     s = _strip_effort(s)[0]
-    s = re.sub(r"^[a-z0-9.\- ]+:\s*", "", s) if ":" in s else s  # drop "OpenAI: " prefixes
+    s = re.sub(r"^[a-z0-9.\- ]+:\s+", "", s) if ":" in s else s  # drop "OpenAI: " prefixes, keep "v1:0"
     s = re.sub(NOISE, " ", s)
     s = re.sub(r"\b20\d\d[-_]?\d\d[-_]?\d\d\b|\b\d{4}\b(?=\s*$)", " ", s)
     s = re.sub(r"([a-z])(\d)", r"\1-\2", s)  # "qwen3.8" and "qwen 3.8" become the same name
@@ -112,8 +177,9 @@ def variant_of(name: str) -> str | None:
         return _strip_effort(name.lower())[1]
     v = found[-1].split(",")[0].strip().lower()  # "(Max, Default Fallback)" -> "max"
     first = v.split()[0] if v.split() else ""
-    # only effort levels are variants; dates, quantization and "(Preview)" are not
-    return first if first in EFFORT_WORDS else None
+    # only effort levels are variants; dates, quantization and "(Preview)" are not, but the name before a
+    # date tag can still end in one ("Qwen3-235B-A22B-Thinking (2507)")
+    return first if first in EFFORT_WORDS else _strip_effort(re.sub(VARIANT, "", name).strip().lower())[1]
 
 
 def clean_name(name: str) -> str:
@@ -122,6 +188,16 @@ def clean_name(name: str) -> str:
         first = m.group(1).split(",")[0].strip().lower().split()
         return m.group(0) if first and first[0] in EFFORT_WORDS else ""
     return re.sub(r"\s+", " ", re.sub(VARIANT, keep, name)).strip()
+
+
+EFFORT_LABELS = {"xhigh": "xHigh", "nothinking": "No thinking"}
+
+
+def variant_name(base_name: str, variant: str) -> str:
+    """'DeepSeek V4.1 Flash' + 'max' -> 'DeepSeek V4.1 Flash (Max)'. The callable model's own name, without the
+    dates and build tags leaderboards add ("DeepSeek-V4.1-Flash-20260910")."""
+    base = re.sub(r"\s+\d{4}$", "", clean_name(base_name)).strip()  # "DeepSeek V4 Pro 0423" -> "DeepSeek V4 Pro"
+    return f"{base} ({EFFORT_LABELS.get(variant, variant.capitalize())})"
 
 
 def _load_aliases() -> dict:
@@ -134,9 +210,10 @@ def _load_aliases() -> dict:
 
 def _new_entry(rec: dict, base: str, variant: str | None) -> dict:
     lid = lab_id(rec.get("lab"))
-    lab_name, country = LABS.get(lid, (rec.get("lab"), None))
+    lab_name, country = LABS.get(lid, (clean_text(rec.get("lab"), 60), None))
     return {
-        "id": f"{base}@{variant}" if variant else base, "base": base, "name": rec["name"], "variant": variant,
+        "id": f"{base}@{variant}" if variant else base, "base": base, "name": clean_text(rec["name"]) or "unknown",
+        "variant": variant,
         "lab": lab_name, "lab_id": lid, "country": country, "kind": rec.get("kind", "llm"),
         "open_weights": rec.get("open_weights"), "released": rec.get("released"), "context": rec.get("context"),
         "input": rec.get("input"), "reasoning": rec.get("reasoning"), "price": rec.get("price"),
@@ -165,12 +242,31 @@ def _absorb(entry: dict, rec: dict) -> None:
         entry["lab"] = rec["lab"]
 
 
+def _match_trailing_effort(rec: dict, kind: str, lid: str | None, catalog: dict, by_canon: dict, by_tokens: dict,
+                           by_canon_any: dict) -> tuple[str | None, str | None]:
+    stem, effort = _trailing_effort(rec["name"])
+    if not effort:
+        return None, None
+    target = _get(by_canon, (kind, lid, canon(stem))) or _get(by_tokens, (kind, lid, tokens(stem)))
+    if not target:
+        hits = by_canon_any.get((kind, canon(stem)), [])
+        target = hits[0] if len(hits) == 1 else None
+    if not target or target not in catalog:
+        return None, None
+    # "max" is also a model tier ("Mistral Small Max"): only read it as effort on a reasoning model
+    if effort == "max" and not catalog[target].get("reasoning"):
+        return None, None
+    return target, effort
+
+
 def merge(raw: dict[str, list[dict]]) -> tuple[list[dict], list[dict]]:
     aliases = _load_aliases()
     catalog: dict[str, dict] = {}
     by_canon: dict[tuple, str] = {}
     by_tokens: dict[tuple, str] = {}
     by_canon_any: dict[tuple, list[str]] = {}
+    by_exact: dict[tuple, str] = {}
+    dated = {r["key"]: bool(DATED.search(r["key"])) for r in raw.get("openrouter", [])}
 
     # 1) backbone: every callable OpenRouter model
     for rec in raw.get("openrouter", []):
@@ -178,11 +274,16 @@ def merge(raw: dict[str, list[dict]]) -> tuple[list[dict], list[dict]]:
         _absorb(e, rec)
         e["where"]["openrouter"] = rec["key"]
         catalog[e["id"]] = e
+        if rec["key"].startswith("~"):
+            continue  # router aliases ("~google/gemini-pro-latest") point at whatever is current; no scores
         slug_name = rec["key"].split("/", 1)[-1]
         for nm in (rec["name"], slug_name):
-            by_canon[(e["kind"], e["lab_id"], canon(nm))] = e["id"]
-            by_tokens[(e["kind"], e["lab_id"], tokens(nm))] = e["id"]
-            by_canon_any.setdefault((e["kind"], canon(nm)), []).append(e["id"])
+            _register(by_exact, (e["kind"], exact(nm)), e["id"])
+            _register(by_canon, (e["kind"], e["lab_id"], canon(nm)), e["id"], dated)
+            _register(by_tokens, (e["kind"], e["lab_id"], tokens(nm)), e["id"], dated)
+            hits = by_canon_any.setdefault((e["kind"], canon(nm)), [])
+            if e["id"] not in hits:
+                hits.append(e["id"])
 
     unmatched = []
     for source, recs in raw.items():
@@ -196,17 +297,23 @@ def merge(raw: dict[str, list[dict]]) -> tuple[list[dict], list[dict]]:
             if not target and rec.get("slug_hint") in catalog:
                 target = rec["slug_hint"]
             if not target:
-                target = by_canon.get((kind, lid, canon(rec["name"]))) or by_tokens.get((kind, lid, tokens(rec["name"])))
+                hit = _get(by_exact, (kind, exact(rec["name"])))
+                if hit:
+                    target, variant = hit, rec.get("variant") or paren_variant(rec["name"])
+            if not target:
+                target = _get(by_canon, (kind, lid, canon(rec["name"]))) or _get(by_tokens, (kind, lid, tokens(rec["name"])))
             if not target:
                 hits = by_canon_any.get((kind, canon(rec["name"])), [])
                 target = hits[0] if len(hits) == 1 else None
+            if not target and not variant:
+                target, variant = _match_trailing_effort(rec, kind, lid, catalog, by_canon, by_tokens, by_canon_any)
             if target and target in catalog:
                 base_entry = catalog[catalog[target]["base"]] if catalog[target]["base"] in catalog else catalog[target]
                 if variant and rec.get("metrics"):
                     vid = f"{base_entry['base']}@{variant}"
                     if vid not in catalog:
                         ve = _new_entry({**rec, "lab": base_entry.get("lab")}, base_entry["base"], variant)
-                        ve["name"] = clean_name(rec["name"])
+                        ve["name"] = variant_name(base_entry["name"], variant)
                         for f in ("price", "context", "input", "open_weights", "released", "reasoning", "lab_id",
                                   "lab", "country"):
                             ve[f] = base_entry.get(f) if base_entry.get(f) is not None else ve.get(f)
@@ -219,7 +326,7 @@ def merge(raw: dict[str, list[dict]]) -> tuple[list[dict], list[dict]]:
             # unmatched: a neutral base entry for the model, keyed by source, plus a separate entry per effort
             # variant, so "(High)" scores never land on "(Low)"
             key_tuple = (kind, lid, canon(rec["name"]))
-            base_id = by_canon.get(key_tuple) or by_tokens.get((kind, lid, tokens(rec["name"])))
+            base_id = _get(by_canon, key_tuple) or _get(by_tokens, (kind, lid, tokens(rec["name"])))
             if not base_id or base_id not in catalog:
                 base_id = f"{source}:{canon(rec['name']) or rec['key']}"
                 base = _new_entry({**rec, "price": rec.get("price")}, base_id, None)
@@ -227,7 +334,9 @@ def merge(raw: dict[str, list[dict]]) -> tuple[list[dict], list[dict]]:
                 catalog[base_id] = base
                 by_canon[key_tuple] = base_id
                 by_tokens[(kind, lid, tokens(rec["name"]))] = base_id
-                by_canon_any.setdefault((kind, canon(rec["name"])), []).append(base_id)
+                hits = by_canon_any.setdefault((kind, canon(rec["name"])), [])
+                if base_id not in hits:
+                    hits.append(base_id)
                 if kind == "llm":
                     unmatched.append({"source": source, "source_id": rec["key"], "name": rec["name"],
                                       "lab": rec.get("lab")})

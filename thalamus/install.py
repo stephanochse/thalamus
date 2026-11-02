@@ -137,6 +137,8 @@ class Installer:
 
     # ---------- markdown rules block ----------
     def md_block(self) -> str:
+        if MD_START in self.rules or MD_END in self.rules:
+            raise ValueError("the rules text contains Thalamus's own block markers; refusing to install it")
         return f"{MD_START}\n{MANAGED}\n\n{self.rules.rstrip()}\n{MD_END}\n"
 
     @staticmethod

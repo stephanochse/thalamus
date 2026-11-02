@@ -19,9 +19,30 @@ CATEGORIES = ["general", "agents", "code", "reasoning", "legal", "finance", "eco
               "instruction_following", "math", "writing", "creativity", "healthcare", "language", "multimodal"]
 
 
-def fetch() -> list[dict]:
+# Individual benchmarks, as the labs reported them at launch (llm-stats marks almost every score
+# self_reported). They reach new models weeks before independent boards do, so jobs use them as "claim"
+# signals: small weights that can lift a score but never count against a model that lacks them.
+TOP = "https://api.llm-stats.com/leaderboard/benchmarks/top/providers"
+DETAILS = "https://api.llm-stats.com/leaderboard/benchmarks/{id}/details"
+BENCHMARKS = {  # llm-stats benchmark id -> metric
+    "gpqa": "llmstats.gpqa", "aime-2025": "llmstats.aime", "swe-bench-verified": "llmstats.swe_verified",
+    "swe-bench-pro": "llmstats.swe_pro", "humanity's-last-exam": "llmstats.hle", "mmmu-pro": "llmstats.mmmu_pro",
+    "browsecomp": "llmstats.browsecomp", "ifeval": "llmstats.ifeval", "livecodebench-v6": "llmstats.livecodebench",
+}
+DETAIL_BENCHMARKS = {
+    "terminal-bench-2.1": "llmstats.terminal_bench", "toolathlon": "llmstats.toolathlon",
+    "mcp-atlas": "llmstats.mcp_atlas", "osworld-verified": "llmstats.osworld", "simpleqa": "llmstats.simpleqa",
+    "ifbench": "llmstats.ifbench", "aa-lcr": "llmstats.lcr", "mrcr-v2-(8-needle)": "llmstats.mrcr",
+    "finance-agent-v2": "llmstats.finance_agent", "charxiv-r": "llmstats.charxiv", "deepswe-1.1": "llmstats.deepswe",
+}
+
+
+def _rec(models: dict, model_id: str, name: str, lab: str | None) -> dict:
+    return models.setdefault(model_id, record("llmstats", model_id, name, lab=lab))
+
+
+def _add_indexes(models: dict) -> None:
     data = get_json(API)
-    models: dict[str, dict] = {}
     for cat in CATEGORIES:
         board = (data.get(cat) or {}).get("models") or []
         if len(board) < MIN_MODELS:
@@ -30,9 +51,43 @@ def fetch() -> list[dict]:
             score = num(m.get("conservative"))
             if score is None or not m.get("model_name"):
                 continue
-            rec = models.setdefault(m["model_id"], record(
-                "llmstats", m["model_id"], m["model_name"], lab=m.get("organization_name") or m.get("organization_id")))
+            rec = _rec(models, m["model_id"], m["model_name"], m.get("organization_name") or m.get("organization_id"))
             rec["metrics"][f"llmstats.{cat}"] = score
+
+
+def _add_benchmarks(models: dict) -> list[str]:
+    """Benchmark scores in 0-100. Returns the benchmarks that couldn't be read (the indexes still count)."""
+    missing = []
+    try:
+        for m in get_json(TOP).get("models", []):
+            for bid, metric in BENCHMARKS.items():
+                score = num(((m.get("benchmark_scores") or {}).get(bid) or {}).get("score"))
+                if score is not None and m.get("model_id") and m.get("model_name"):
+                    _rec(models, m["model_id"], m["model_name"], m.get("organization_name"))["metrics"][metric] = \
+                        round(100 * score, 2)
+    except Exception:  # benchmarks are extra: a bad payload must not cost the indexes
+        missing.append("top benchmarks")
+    for bid, metric in DETAIL_BENCHMARKS.items():
+        try:
+            rows = get_json(DETAILS.format(id=bid), timeout=30).get("models", []) or []
+        except Exception:
+            missing.append(bid)
+            continue
+        for m in rows:
+            score = num(m.get("score"))
+            if score is not None and m.get("model_id") and m.get("model_name"):
+                _rec(models, m["model_id"], m["model_name"], m.get("organization_name"))["metrics"][metric] = \
+                    round(100 * score, 2)
+    return missing
+
+
+PARTIAL: list[str] = []
+
+
+def fetch() -> list[dict]:
+    models: dict[str, dict] = {}
+    _add_indexes(models)
     if not models:
         raise RuntimeError("llm-stats returned no usable categories")
+    PARTIAL[:] = [f"{m} (missing)" for m in _add_benchmarks(models)]
     return list(models.values())

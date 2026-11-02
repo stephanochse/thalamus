@@ -1,0 +1,1979 @@
+{
+ "weeks": [
+  {
+   "date": "2026-11-02",
+   "jobs": {
+    "general": [
+     [
+      "anthropic/claude-opus-5.5@high",
+      96.2,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "arena:gemini-4-carbon@high",
+      95.3,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      94.2,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      92.4,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      89.2,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-5@max",
+      89.1,
+      "Claude Opus 5 (Max)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      89.0,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      88.3,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@xhigh",
+      88.0,
+      "Claude Sonnet 5.5 (xHigh)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      86.8,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "openai/gpt-5.6-sol@xhigh",
+      86.2,
+      "GPT-5.6 Sol (xHigh)"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      84.6,
+      "Muse Spark 1.3 (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      84.4,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      83.8,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "openai/gpt-5.5@high",
+      83.7,
+      "GPT-5.5 (High)"
+     ]
+    ],
+    "strategy": [
+     [
+      "arena:gemini-4-carbon@high",
+      96.0,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      95.1,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-opus-5.5@high",
+      95.1,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      92.7,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      91.8,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "anthropic/claude-opus-5@high",
+      91.0,
+      "Claude Opus 5 (High)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      90.4,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@xhigh",
+      90.4,
+      "Claude Sonnet 5.5 (xHigh)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      89.8,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "openai/gpt-5.6-sol@xhigh",
+      89.2,
+      "GPT-5.6 Sol (xHigh)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      89.1,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      88.7,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@high",
+      88.6,
+      "Claude Opus 4.7 (High)"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      88.2,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.8@high",
+      87.9,
+      "Claude Opus 4.8 (High)"
+     ]
+    ],
+    "business": [
+     [
+      "arena:gemini-4-carbon@high",
+      93.2,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "anthropic/claude-opus-5.5@high",
+      91.8,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      89.9,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      89.6,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@high",
+      88.6,
+      "Claude Opus 4.7 (High)"
+     ],
+     [
+      "anthropic/claude-opus-5@high",
+      88.5,
+      "Claude Opus 5 (High)"
+     ],
+     [
+      "meta/muse-spark-1.2@xhigh",
+      87.9,
+      "Muse Spark 1.2 (xHigh)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      87.6,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@xhigh",
+      87.1,
+      "Claude Sonnet 5.5 (xHigh)"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      86.4,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "meta/muse-spark-1.1",
+      86.3,
+      "Muse Spark 1.1"
+     ],
+     [
+      "openai/gpt-5.5@high",
+      85.8,
+      "GPT-5.5 (High)"
+     ],
+     [
+      "qwen/qwen3.8-max-0902",
+      85.6,
+      "Qwen3.8 Max (0902)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      85.5,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      85.5,
+      "Claude Fable 5.1 (Max)"
+     ]
+    ],
+    "legal": [
+     [
+      "arena:gemini-4-carbon@high",
+      95.0,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      82.9,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "meta/muse-spark-1.2@xhigh",
+      81.5,
+      "Muse Spark 1.2 (xHigh)"
+     ],
+     [
+      "qwen/qwen3.7-max",
+      79.8,
+      "Qwen3.7 Max"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      78.2,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      76.3,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      75.8,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "arena:muse-spark",
+      75.6,
+      "Muse Spark"
+     ],
+     [
+      "anthropic/claude-opus-4.8@high",
+      75.1,
+      "Claude Opus 4.8 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      75.0,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "meta/muse-spark-1.1",
+      74.3,
+      "Muse Spark 1.1"
+     ],
+     [
+      "qwen/qwen3.8-max-0902",
+      74.0,
+      "Qwen3.8 Max (0902)"
+     ],
+     [
+      "anthropic/claude-opus-5@max",
+      73.7,
+      "Claude Opus 5 (Max)"
+     ],
+     [
+      "z-ai/glm-5.2@max",
+      73.2,
+      "GLM 5.2 (Max)"
+     ],
+     [
+      "google/gemini-3.6-flash@high",
+      72.3,
+      "Gemini 3.6 Flash (High)"
+     ]
+    ],
+    "health": [
+     [
+      "arena:gemini-4-carbon@high",
+      90.5,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      89.0,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "qwen/qwen3.7-max",
+      82.6,
+      "Qwen3.7 Max"
+     ],
+     [
+      "meta/muse-spark-1.2@xhigh",
+      81.8,
+      "Muse Spark 1.2 (xHigh)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      81.5,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "deepseek/deepseek-v4.1-flash@max",
+      81.1,
+      "DeepSeek V4.1 Flash (Max)"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      81.0,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "google/gemini-3.8-flash@high",
+      80.1,
+      "Gemini 3.8 Flash (High)"
+     ],
+     [
+      "google/gemini-3.7-flash@high",
+      80.0,
+      "Gemini 3.7 Flash (High)"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      79.7,
+      "Muse Spark 1.3 (Max)"
+     ],
+     [
+      "arena:muse-spark",
+      79.6,
+      "Muse Spark"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@xhigh",
+      79.4,
+      "Claude Sonnet 5.5 (xHigh)"
+     ],
+     [
+      "anthropic/claude-opus-5.5@high",
+      79.0,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      79.0,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "xiaomi/mimo-v2.6-pro",
+      78.4,
+      "MiMo-V2.6-Pro"
+     ]
+    ],
+    "research": [
+     [
+      "anthropic/claude-opus-5@high",
+      79.2,
+      "Claude Opus 5 (High)"
+     ],
+     [
+      "qwen/qwen3.8-max-0902",
+      74.4,
+      "Qwen3.8 Max (0902)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      73.5,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "openai/gpt-5.6-sol@xhigh",
+      72.9,
+      "GPT-5.6 Sol (xHigh)"
+     ],
+     [
+      "openai/gpt-5.5@search",
+      72.8,
+      "GPT-5.5 (Search)"
+     ],
+     [
+      "anthropic/claude-opus-5.5@high",
+      71.9,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      70.5,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      68.8,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "openai/gpt-5.4@high",
+      65.8,
+      "GPT-5.4 (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      65.6,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.8@high",
+      65.0,
+      "Claude Opus 4.8 (High)"
+     ],
+     [
+      "openai/gpt-5.6-terra@xhigh",
+      64.1,
+      "GPT-5.6 Terra (xHigh)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@high",
+      64.0,
+      "Claude Opus 4.7 (High)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      63.3,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      63.3,
+      "GPT-6.1 Sol (Max)"
+     ]
+    ],
+    "math": [
+     [
+      "anthropic/claude-fable-5.1@max",
+      97.3,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      95.8,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-opus-5@high",
+      95.3,
+      "Claude Opus 5 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      94.2,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-5.5@high",
+      94.1,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "arena:gemini-4-carbon@high",
+      92.2,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@xhigh",
+      91.2,
+      "Claude Sonnet 5.5 (xHigh)"
+     ],
+     [
+      "google/gemini-3.8-flash@high",
+      91.0,
+      "Gemini 3.8 Flash (High)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      90.3,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      90.0,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "z-ai/glm-5.3@max",
+      88.9,
+      "GLM 5.3 (Max)"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      88.8,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      88.4,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@high",
+      88.1,
+      "Claude Opus 4.7 (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.8@high",
+      88.1,
+      "Claude Opus 4.8 (High)"
+     ]
+    ],
+    "long-context": [
+     [
+      "anthropic/claude-opus-5@high",
+      86.9,
+      "Claude Opus 5 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      84.6,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5",
+      74.2,
+      "Claude Fable 5"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      73.0,
+      "Muse Spark 1.3 (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.6",
+      70.5,
+      "Claude Opus 4.6"
+     ],
+     [
+      "openai/gpt-5.6-terra@xhigh",
+      67.6,
+      "GPT-5.6 Terra (xHigh)"
+     ],
+     [
+      "openai/gpt-5.6-sol@xhigh",
+      67.4,
+      "GPT-5.6 Sol (xHigh)"
+     ],
+     [
+      "openai/gpt-5.5",
+      64.1,
+      "GPT-5.5"
+     ],
+     [
+      "openai/gpt-5.4",
+      57.6,
+      "GPT-5.4"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      55.6,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "anthropic/claude-sonnet-5@high",
+      55.3,
+      "Claude Sonnet 5 (High)"
+     ],
+     [
+      "meta/muse-spark-1.1",
+      55.0,
+      "Muse Spark 1.1"
+     ],
+     [
+      "openai/gpt-4.1",
+      54.7,
+      "GPT-4.1"
+     ],
+     [
+      "anthropic/claude-opus-4.8",
+      54.6,
+      "Claude Opus 4.8"
+     ],
+     [
+      "anthropic/claude-opus-4.7",
+      54.6,
+      "Claude Opus 4.7"
+     ]
+    ],
+    "writing": [
+     [
+      "anthropic/claude-opus-5.5@high",
+      98.0,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "arena:gemini-4-carbon@high",
+      98.0,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      97.2,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      93.7,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      92.7,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@high",
+      90.8,
+      "Claude Opus 4.7 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      90.7,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "google/gemini-3.7-flash@high",
+      90.5,
+      "Gemini 3.7 Flash (High)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      90.4,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "google/gemini-3.8-flash@high",
+      90.0,
+      "Gemini 3.8 Flash (High)"
+     ],
+     [
+      "arena:gemini-3-pro",
+      88.7,
+      "Gemini 3 Pro"
+     ],
+     [
+      "google/gemini-3.1-pro-preview",
+      88.2,
+      "Gemini 3.1 Pro Preview"
+     ],
+     [
+      "anthropic/claude-opus-5@max",
+      86.8,
+      "Claude Opus 5 (Max)"
+     ],
+     [
+      "openai/gpt-5.6-sol@xhigh",
+      86.3,
+      "GPT-5.6 Sol (xHigh)"
+     ],
+     [
+      "google/gemini-3.6-flash@high",
+      85.8,
+      "Gemini 3.6 Flash (High)"
+     ]
+    ],
+    "personality": [
+     [
+      "arena:gemini-4-carbon@high",
+      99.8,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      96.9,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      92.1,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      92.1,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      91.9,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "anthropic/claude-opus-5.5@high",
+      91.5,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@high",
+      91.3,
+      "Claude Opus 4.7 (High)"
+     ],
+     [
+      "google/gemini-3.8-flash@high",
+      89.5,
+      "Gemini 3.8 Flash (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      88.5,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "meta/muse-spark-1.2@xhigh",
+      87.6,
+      "Muse Spark 1.2 (xHigh)"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      87.5,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "google/gemini-3.1-pro-preview",
+      87.5,
+      "Gemini 3.1 Pro Preview"
+     ],
+     [
+      "arena:gemini-3-pro",
+      87.5,
+      "Gemini 3 Pro"
+     ],
+     [
+      "google/gemini-3.7-flash@high",
+      87.1,
+      "Gemini 3.7 Flash (High)"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      87.1,
+      "Muse Spark 1.3 (Max)"
+     ]
+    ],
+    "translation": [
+     [
+      "arena:gemini-4-carbon@high",
+      97.0,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      94.5,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      91.5,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      91.4,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      90.5,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "qwen/qwen3.7-max",
+      90.1,
+      "Qwen3.7 Max"
+     ],
+     [
+      "google/gemini-3.8-flash@high",
+      89.1,
+      "Gemini 3.8 Flash (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@high",
+      88.9,
+      "Claude Opus 4.7 (High)"
+     ],
+     [
+      "google/gemini-3.7-flash@high",
+      88.6,
+      "Gemini 3.7 Flash (High)"
+     ],
+     [
+      "meta/muse-spark-1.2@xhigh",
+      88.6,
+      "Muse Spark 1.2 (xHigh)"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      88.5,
+      "Muse Spark 1.3 (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      88.3,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "meta/muse-spark-1.1",
+      88.2,
+      "Muse Spark 1.1"
+     ],
+     [
+      "anthropic/claude-opus-5@high",
+      87.9,
+      "Claude Opus 5 (High)"
+     ],
+     [
+      "google/gemini-3.1-pro-preview",
+      87.8,
+      "Gemini 3.1 Pro Preview"
+     ]
+    ],
+    "extraction": [
+     [
+      "qwen/qwen3.7-plus",
+      78.5,
+      "Qwen3.7 Plus"
+     ],
+     [
+      "qwen/qwen3.8-max-0902@xhigh",
+      78.5,
+      "Qwen3.8 Max (xHigh)"
+     ],
+     [
+      "qwen/qwen3.7-max",
+      75.1,
+      "Qwen3.7 Max"
+     ],
+     [
+      "z-ai/glm-5.3-flash",
+      74.7,
+      "GLM 5.3 Flash"
+     ],
+     [
+      "qwen/qwen3.6-plus",
+      73.8,
+      "Qwen3.6 Plus"
+     ],
+     [
+      "deepseek/deepseek-v4.1-flash@max",
+      73.0,
+      "DeepSeek V4.1 Flash (Max)"
+     ],
+     [
+      "arena:qwen-3-max@thinking",
+      72.2,
+      "Qwen3-Max-Preview (Thinking)"
+     ],
+     [
+      "arena:gpt-5.2@low",
+      71.7,
+      "GPT-5.2 Chat (Low)"
+     ],
+     [
+      "arena:claude-3.7-sonnet@thinking",
+      70.3,
+      "Claude 3.7 Sonnet (Thinking 32K, 20250219)"
+     ],
+     [
+      "google/gemini-3.8-flash@high",
+      68.3,
+      "Gemini 3.8 Flash (High)"
+     ],
+     [
+      "xiaomi/mimo-v2.6-pro",
+      67.8,
+      "MiMo-V2.6-Pro"
+     ],
+     [
+      "google/gemini-3.7-flash@high",
+      67.8,
+      "Gemini 3.7 Flash (High)"
+     ],
+     [
+      "z-ai/glm-5.3@max",
+      67.6,
+      "GLM 5.3 (Max)"
+     ],
+     [
+      "google/gemma-4-26b-a4b-it",
+      67.4,
+      "Gemma 4 26B A4B"
+     ],
+     [
+      "qwen/qwen3.8-27b",
+      67.3,
+      "Qwen3.8 27B"
+     ]
+    ],
+    "code-build": [
+     [
+      "arena:gemini-4-carbon@high",
+      91.7,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      88.3,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@xhigh",
+      87.3,
+      "Claude Sonnet 5.5 (xHigh)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      83.9,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      81.5,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      81.3,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      80.3,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-5@max",
+      78.4,
+      "Claude Opus 5 (Max)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      78.0,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "moonshotai/kimi-k3@max",
+      77.6,
+      "Kimi K3 (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@max",
+      77.4,
+      "Claude Opus 4.7 (Max)"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      76.2,
+      "Muse Spark 1.3 (Max)"
+     ],
+     [
+      "xiaomi/mimo-v2.6-pro",
+      74.6,
+      "MiMo-V2.6-Pro"
+     ],
+     [
+      "openai/gpt-6-sol@max",
+      74.4,
+      "GPT-6 Sol (Max)"
+     ],
+     [
+      "qwen/qwen3.8-max-0902",
+      73.5,
+      "Qwen3.8 Max (0902)"
+     ]
+    ],
+    "code-agent": [
+     [
+      "anthropic/claude-opus-5.5@max",
+      97.5,
+      "Claude Opus 5.5 (Max)"
+     ],
+     [
+      "arena:gemini-4-carbon@high",
+      86.8,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@max",
+      81.9,
+      "Claude Sonnet 5.5 (Max)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      81.3,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      76.5,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      76.3,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      76.3,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "arena:muse-wonder-full@max",
+      75.4,
+      "Muse Wonder Full (Max)"
+     ],
+     [
+      "openai/gpt-6.1-terra@max",
+      71.0,
+      "GPT-6.1 Terra (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      71.0,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-5@max",
+      68.7,
+      "Claude Opus 5 (Max)"
+     ],
+     [
+      "openai/gpt-5.6-sol@xhigh",
+      66.3,
+      "GPT-5.6 Sol (xHigh)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@max",
+      65.3,
+      "Claude Opus 4.7 (Max)"
+     ],
+     [
+      "openai/gpt-6-sol@max",
+      64.7,
+      "GPT-6 Sol (Max)"
+     ],
+     [
+      "moonshotai/kimi-k3.1-pro@max",
+      64.3,
+      "Kimi K3.1 Pro (Max)"
+     ]
+    ],
+    "code-review": [
+     [
+      "arena:gemini-4-carbon@high",
+      96.2,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "anthropic/claude-opus-5.5@high",
+      89.5,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.7@max",
+      88.3,
+      "Claude Opus 4.7 (Max)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      87.4,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      86.9,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "meta/muse-wonder@max",
+      85.4,
+      "Muse Wonder (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      85.1,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      83.6,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "xiaomi/mimo-v2.6-pro",
+      82.0,
+      "MiMo-V2.6-Pro"
+     ],
+     [
+      "openai/gpt-5.5@xhigh",
+      81.9,
+      "GPT-5.5 (xHigh)"
+     ],
+     [
+      "meta/muse-spark-1.2@xhigh",
+      81.5,
+      "Muse Spark 1.2 (xHigh)"
+     ],
+     [
+      "anthropic/claude-opus-5@max",
+      81.1,
+      "Claude Opus 5 (Max)"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      80.0,
+      "Muse Spark 1.3 (Max)"
+     ],
+     [
+      "qwen/qwen3.7-max",
+      80.0,
+      "Qwen3.7 Max"
+     ],
+     [
+      "openai/gpt-5.4@high",
+      80.0,
+      "GPT-5.4 (High)"
+     ]
+    ],
+    "frontend": [
+     [
+      "anthropic/claude-opus-5.5@max",
+      97.0,
+      "Claude Opus 5.5 (Max)"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@xhigh",
+      91.5,
+      "Claude Sonnet 5.5 (xHigh)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      90.9,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      88.5,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      86.7,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "arena:gemini-4-carbon@high",
+      85.9,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "arena:muse-wonder-full@max",
+      78.6,
+      "Muse Wonder Full (Max)"
+     ],
+     [
+      "anthropic/claude-opus-5@max",
+      75.4,
+      "Claude Opus 5 (Max)"
+     ],
+     [
+      "openai/gpt-6-sol@max",
+      74.4,
+      "GPT-6 Sol (Max)"
+     ],
+     [
+      "moonshotai/kimi-k3.1-pro@max",
+      73.4,
+      "Kimi K3.1 Pro (Max)"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      73.0,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      72.0,
+      "Muse Spark 1.3 (Max)"
+     ],
+     [
+      "qwen/qwen3.8-max-0902",
+      71.8,
+      "Qwen3.8 Max (0902)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      70.7,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "openai/gpt-6.1-terra@max",
+      69.6,
+      "GPT-6.1 Terra (Max)"
+     ]
+    ],
+    "agentic": [
+     [
+      "anthropic/claude-opus-5.5@max",
+      94.5,
+      "Claude Opus 5.5 (Max)"
+     ],
+     [
+      "arena:gemini-4-carbon@high",
+      87.1,
+      "Gemini 4 Carbon (High)"
+     ],
+     [
+      "openai/gpt-6-astra@max",
+      83.6,
+      "GPT-6 Astra (Max)"
+     ],
+     [
+      "anthropic/claude-sonnet-5.5@max",
+      83.2,
+      "Claude Sonnet 5.5 (Max)"
+     ],
+     [
+      "google/gemini-4-argon@high",
+      74.3,
+      "Gemini 4 Argon (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      74.2,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "openai/gpt-6.1-terra@max",
+      73.9,
+      "GPT-6.1 Terra (Max)"
+     ],
+     [
+      "anthropic/claude-opus-5@max",
+      70.7,
+      "Claude Opus 5 (Max)"
+     ],
+     [
+      "openai/gpt-6.1-sol@max",
+      69.2,
+      "GPT-6.1 Sol (Max)"
+     ],
+     [
+      "anthropic/claude-opus-4.8@max",
+      69.2,
+      "Claude Opus 4.8 (Max)"
+     ],
+     [
+      "qwen/qwen3.8-max-0902@xhigh",
+      69.1,
+      "Qwen3.8 Max (xHigh)"
+     ],
+     [
+      "arena:muse-wonder-full@max",
+      69.1,
+      "Muse Wonder Full (Max)"
+     ],
+     [
+      "openai/gpt-5.6-sol@xhigh",
+      68.2,
+      "GPT-5.6 Sol (xHigh)"
+     ],
+     [
+      "moonshotai/kimi-k3.1-pro@max",
+      67.6,
+      "Kimi K3.1 Pro (Max)"
+     ],
+     [
+      "openai/gpt-5.5@xhigh",
+      66.6,
+      "GPT-5.5 (xHigh)"
+     ]
+    ],
+    "vision": [
+     [
+      "anthropic/claude-fable-5@high",
+      97.4,
+      "Claude Fable 5 (High)"
+     ],
+     [
+      "anthropic/claude-opus-5.5@high",
+      96.1,
+      "Claude Opus 5.5 (High)"
+     ],
+     [
+      "anthropic/claude-fable-5.1@max",
+      95.5,
+      "Claude Fable 5.1 (Max)"
+     ],
+     [
+      "anthropic/claude-opus-5@high",
+      94.7,
+      "Claude Opus 5 (High)"
+     ],
+     [
+      "google/gemini-3.8-flash@high",
+      90.9,
+      "Gemini 3.8 Flash (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.7",
+      90.8,
+      "Claude Opus 4.7"
+     ],
+     [
+      "qwen/qwen3.8-max-0902",
+      88.6,
+      "Qwen3.8 Max (0902)"
+     ],
+     [
+      "google/gemini-3.7-flash@high",
+      87.8,
+      "Gemini 3.7 Flash (High)"
+     ],
+     [
+      "anthropic/claude-opus-4.6@high",
+      83.5,
+      "Claude Opus 4.6 (High)"
+     ],
+     [
+      "google/gemini-3.5-flash@medium",
+      83.3,
+      "Gemini 3.5 Flash (Medium)"
+     ],
+     [
+      "meta/muse-spark-1.3@max",
+      82.9,
+      "Muse Spark 1.3 (Max)"
+     ],
+     [
+      "meta/muse-spark-1.2@xhigh",
+      81.6,
+      "Muse Spark 1.2 (xHigh)"
+     ],
+     [
+      "openai/gpt-5.5",
+      80.8,
+      "GPT-5.5"
+     ],
+     [
+      "openai/gpt-5.4@high",
+      80.6,
+      "GPT-5.4 (High)"
+     ],
+     [
+      "google/gemini-3.6-flash@high",
+      80.3,
+      "Gemini 3.6 Flash (High)"
+     ]
+    ],
+    "image-gen": [
+     [
+      "arena:gpt-image-2@medium",
+      100.0,
+      "GPT-Image-2 (Medium)"
+     ],
+     [
+      "arena:qwen-image-3.0-pro",
+      65.5,
+      "Qwen-Image-3.0-Pro"
+     ],
+     [
+      "arena:gpt-image-1.5@high",
+      60.7,
+      "GPT-Image-1.5 (High Fidelity)"
+     ],
+     [
+      "arena:ideogram-4.0",
+      50.8,
+      "Ideogram 4.0"
+     ],
+     [
+      "arena:mai-image-2",
+      46.4,
+      "MAI-Image-2"
+     ],
+     [
+      "arena:recraft-v-4.1-utility-pro",
+      42.3,
+      "Recraft V4.1 Utility Pro"
+     ],
+     [
+      "arena:cosmos-3-super-text-2image",
+      41.2,
+      "Cosmos3-Super-Text2Image"
+     ],
+     [
+      "arena:grok-imagine-image-pro",
+      40.4,
+      "Grok Imagine Image Pro"
+     ],
+     [
+      "arena:reve-v-1.5",
+      38.5,
+      "Reve v1.5"
+     ],
+     [
+      "arena:imagen-4-ultra",
+      36.3,
+      "Imagen 4 Ultra"
+     ],
+     [
+      "arena:wan-2.6",
+      34.1,
+      "Wan 2.6"
+     ],
+     [
+      "arena:recraft-v-4.1-pro",
+      32.3,
+      "Recraft V4.1 Pro"
+     ],
+     [
+      "arena:imagen-4",
+      31.5,
+      "Imagen 4"
+     ],
+     [
+      "arena:krea-2-medium",
+      31.4,
+      "Krea 2 Medium"
+     ],
+     [
+      "arena:qwen-image",
+      30.5,
+      "Qwen-Image"
+     ]
+    ],
+    "image-text": [
+     [
+      "arena:gpt-image-2@medium",
+      100.0,
+      "GPT-Image-2 (Medium)"
+     ],
+     [
+      "arena:qwen-image-3.0-pro",
+      66.1,
+      "Qwen-Image-3.0-Pro"
+     ],
+     [
+      "arena:gpt-image-1.5@high",
+      60.2,
+      "GPT-Image-1.5 (High Fidelity)"
+     ],
+     [
+      "arena:ideogram-4.0",
+      54.6,
+      "Ideogram 4.0"
+     ],
+     [
+      "arena:reve-v-1.5",
+      44.0,
+      "Reve v1.5"
+     ],
+     [
+      "arena:mai-image-2",
+      43.6,
+      "MAI-Image-2"
+     ],
+     [
+      "arena:grok-imagine-image-pro",
+      42.4,
+      "Grok Imagine Image Pro"
+     ],
+     [
+      "arena:recraft-v-4.1-utility-pro",
+      40.0,
+      "Recraft V4.1 Utility Pro"
+     ],
+     [
+      "arena:cosmos-3-super-text-2image",
+      37.1,
+      "Cosmos3-Super-Text2Image"
+     ],
+     [
+      "arena:imagen-4-ultra",
+      36.3,
+      "Imagen 4 Ultra"
+     ],
+     [
+      "arena:wan-2.6",
+      36.0,
+      "Wan 2.6"
+     ],
+     [
+      "arena:recraft-v-4.1-pro",
+      35.6,
+      "Recraft V4.1 Pro"
+     ],
+     [
+      "arena:recraft-v-4",
+      31.9,
+      "Recraft V4"
+     ],
+     [
+      "arena:hidream-o-1-image",
+      31.3,
+      "HiDream-O1-Image"
+     ],
+     [
+      "arena:krea-2-medium",
+      30.8,
+      "Krea 2 Medium"
+     ]
+    ],
+    "image-photo": [
+     [
+      "arena:gpt-image-2@medium",
+      100.0,
+      "GPT-Image-2 (Medium)"
+     ],
+     [
+      "arena:qwen-image-3.0-pro",
+      68.1,
+      "Qwen-Image-3.0-Pro"
+     ],
+     [
+      "arena:gpt-image-1.5@high",
+      64.1,
+      "GPT-Image-1.5 (High Fidelity)"
+     ],
+     [
+      "arena:ideogram-4.0",
+      52.7,
+      "Ideogram 4.0"
+     ],
+     [
+      "arena:mai-image-2",
+      51.9,
+      "MAI-Image-2"
+     ],
+     [
+      "arena:recraft-v-4.1-utility-pro",
+      46.1,
+      "Recraft V4.1 Utility Pro"
+     ],
+     [
+      "arena:grok-imagine-image-pro",
+      43.8,
+      "Grok Imagine Image Pro"
+     ],
+     [
+      "arena:cosmos-3-super-text-2image",
+      43.1,
+      "Cosmos3-Super-Text2Image"
+     ],
+     [
+      "arena:imagen-4-ultra",
+      39.4,
+      "Imagen 4 Ultra"
+     ],
+     [
+      "arena:reve-v-1.5",
+      38.9,
+      "Reve v1.5"
+     ],
+     [
+      "arena:recraft-v-4.1-pro",
+      37.0,
+      "Recraft V4.1 Pro"
+     ],
+     [
+      "arena:imagen-4",
+      34.6,
+      "Imagen 4"
+     ],
+     [
+      "arena:krea-2-medium",
+      34.5,
+      "Krea 2 Medium"
+     ],
+     [
+      "arena:wan-2.6",
+      34.3,
+      "Wan 2.6"
+     ],
+     [
+      "arena:qwen-image",
+      34.2,
+      "Qwen-Image"
+     ]
+    ],
+    "image-edit": [
+     [
+      "arena:gpt-image-2.5-sunburst",
+      100.0,
+      "GPT-Image-2.5 Sunburst"
+     ],
+     [
+      "arena:gpt-image-2.5-flare",
+      90.7,
+      "GPT-Image-2.5 Flare"
+     ],
+     [
+      "arena:mai-image-2.7",
+      87.9,
+      "MAI-Image-2.7-Preview"
+     ],
+     [
+      "arena:grok-imagine-image-2.0",
+      79.3,
+      "Grok Imagine Image 2.0"
+     ],
+     [
+      "arena:mai-image-2.6",
+      76.3,
+      "MAI-Image-2.6"
+     ],
+     [
+      "arena:gemini-nano-banana-2.1",
+      76.2,
+      "Gemini Nano Banana 2.1"
+     ],
+     [
+      "arena:krea-3-ultra",
+      72.0,
+      "Krea 3 Ultra"
+     ],
+     [
+      "arena:muse-image",
+      69.1,
+      "Muse Image"
+     ],
+     [
+      "arena:mai-image-2.5",
+      69.1,
+      "MAI-Image-2.5"
+     ],
+     [
+      "arena:seedream-5.0-pro",
+      66.6,
+      "Seedream 5.0 Pro"
+     ],
+     [
+      "arena:grok-imagine-image",
+      66.6,
+      "Grok Imagine Image"
+     ],
+     [
+      "arena:gemini-3-pro-image",
+      66.3,
+      "Gemini 3 Pro Image"
+     ],
+     [
+      "arena:gemini-3.1-flash-image",
+      65.6,
+      "Gemini 3.1 Flash Image"
+     ],
+     [
+      "arena:chatgpt-image@high",
+      65.4,
+      "ChatGPT Image Latest (High Fidelity, 20251216)"
+     ],
+     [
+      "arena:reve-2.1",
+      62.0,
+      "Reve 2.1"
+     ]
+    ],
+    "video-gen": [
+     [
+      "arena:grok-imagine-video-1.5-agent",
+      100.0,
+      "grok-imagine-video-1.5-agent"
+     ],
+     [
+      "arena:muse-video",
+      91.4,
+      "muse-video"
+     ],
+     [
+      "arena:sora-2-pro",
+      70.6,
+      "sora-2-pro"
+     ],
+     [
+      "arena:sora-2",
+      64.6,
+      "sora-2"
+     ],
+     [
+      "arena:wan-2.7-t-2v",
+      63.4,
+      "wan2.7-t2v"
+     ],
+     [
+      "arena:wan-2.6-t-2v",
+      60.9,
+      "wan2.6-t2v"
+     ],
+     [
+      "arena:veo-3@fast",
+      42.3,
+      "veo-3 (Fast)"
+     ],
+     [
+      "arena:wan-2.5-t-2v",
+      41.7,
+      "wan2.5-t2v-preview"
+     ],
+     [
+      "arena:runway-gen-4.5",
+      36.8,
+      "runway-gen-4.5"
+     ],
+     [
+      "arena:kandinsky-5.0-t-2v-pro",
+      25.1,
+      "kandinsky-5.0-t2v-pro"
+     ],
+     [
+      "arena:kandinsky-5.0-t-2v-lite",
+      10.3,
+      "kandinsky-5.0-t2v-lite"
+     ],
+     [
+      "arena:sora",
+      0.0,
+      "sora"
+     ],
+     [
+      "arena:mochi-v-1",
+      0.0,
+      "mochi-v1"
+     ]
+    ],
+    "image-to-video": [
+     [
+      "arena:gemini-omni-1.1-flash",
+      100.0,
+      "gemini-omni-1.1-flash"
+     ],
+     [
+      "arena:hidream-o-1-video-1.0",
+      90.1,
+      "hidream-o1-video-1.0"
+     ],
+     [
+      "arena:grok-imagine-video-1.5-720p",
+      89.9,
+      "grok-imagine-video-1.5-720p"
+     ],
+     [
+      "arena:flux-3-video",
+      87.9,
+      "flux-3-video-20260811"
+     ],
+     [
+      "arena:wan-2.7-i-2v",
+      81.3,
+      "wan2.7-i2v"
+     ],
+     [
+      "arena:grok-imagine-video-720p",
+      77.3,
+      "grok-imagine-video-720p"
+     ],
+     [
+      "arena:veo-3.1-audio",
+      72.0,
+      "veo-3.1-audio"
+     ],
+     [
+      "arena:veo-3.1-audio-1080p",
+      69.6,
+      "veo-3.1-audio-1080p"
+     ],
+     [
+      "arena:veo-3.1-fast-audio",
+      67.9,
+      "veo-3.1-fast-audio"
+     ],
+     [
+      "arena:grok-imagine-video-480p",
+      67.9,
+      "grok-imagine-video-480p"
+     ],
+     [
+      "arena:veo-3.1-fast-audio-1080p",
+      63.8,
+      "veo-3.1-fast-audio-1080p"
+     ],
+     [
+      "arena:vidu-q-3-pro",
+      61.2,
+      "vidu-q3-pro"
+     ],
+     [
+      "arena:kling-v-3-pro",
+      58.3,
+      "kling-v3-pro"
+     ],
+     [
+      "arena:veo-3-audio",
+      51.3,
+      "veo-3-audio"
+     ],
+     [
+      "arena:veo-3-fast-audio",
+      49.7,
+      "veo-3-fast-audio"
+     ]
+    ],
+    "video-edit": [
+     [
+      "arena:wan-3.0",
+      100.0,
+      "wan3.0"
+     ],
+     [
+      "arena:dreamina-seedance-2.5-720p",
+      98.1,
+      "dreamina-seedance-2.5-720p"
+     ],
+     [
+      "arena:minimax-h-3",
+      90.6,
+      "minimax-h3"
+     ],
+     [
+      "arena:gemini-omni-flash",
+      79.5,
+      "gemini-omni-flash"
+     ],
+     [
+      "arena:dreamina-seedance-2.0-720p",
+      78.7,
+      "dreamina-seedance-2.0-720p"
+     ],
+     [
+      "arena:happyhorse-1.0",
+      53.7,
+      "happyhorse-1.0"
+     ],
+     [
+      "arena:grok-imagine-video",
+      32.6,
+      "grok-imagine-video"
+     ],
+     [
+      "arena:kling-o-3-pro",
+      31.5,
+      "kling-o3-pro"
+     ],
+     [
+      "arena:kling-o-1-pro",
+      6.5,
+      "kling-o1-pro"
+     ],
+     [
+      "arena:runway-gen-4-aleph",
+      0.0,
+      "runway-gen4-aleph"
+     ]
+    ],
+    "voice": [],
+    "transcription": [],
+    "bulk": [
+     [
+      "arena:gemini-3-pro",
+      77.1,
+      "Gemini 3 Pro"
+     ],
+     [
+      "arena:muse-spark",
+      76.2,
+      "Muse Spark"
+     ],
+     [
+      "arena:qwen-3.6-max",
+      71.4,
+      "Qwen3.6-Max-Preview"
+     ],
+     [
+      "z-ai/glm-5.3-flash",
+      70.2,
+      "GLM 5.3 Flash"
+     ],
+     [
+      "arena:gpt-5.5-instant",
+      69.4,
+      "GPT-5.5 Instant"
+     ],
+     [
+      "arena:claude-opus-4@thinking",
+      64.6,
+      "Claude Opus 4 (Thinking 16K, 20250514)"
+     ],
+     [
+      "deepseek/deepseek-v4.1-flash@max",
+      64.0,
+      "DeepSeek V4.1 Flash (Max)"
+     ],
+     [
+      "arena:qwen-3-max",
+      63.7,
+      "Qwen3-Max-Preview"
+     ],
+     [
+      "arena:gpt-4.5",
+      62.7,
+      "GPT-4.5 Preview"
+     ],
+     [
+      "arena:grok-4",
+      61.6,
+      "Grok 4"
+     ],
+     [
+      "arena:grok-4-fast",
+      60.9,
+      "Grok 4 Fast"
+     ],
+     [
+      "google/gemma-4-26b-a4b-it",
+      60.6,
+      "Gemma 4 26B A4B"
+     ],
+     [
+      "arena:claude-sonnet-4@thinking",
+      60.0,
+      "Claude Sonnet 4 (Thinking 32K, 20250514)"
+     ],
+     [
+      "openai/gpt-6-luna@max",
+      59.7,
+      "GPT-6 Luna (Max)"
+     ],
+     [
+      "anthropic/claude-haiku-5.5@high",
+      59.6,
+      "Claude Haiku 5.5 (High)"
+     ]
+    ],
+    "fast": []
+   }
+  }
+ ]
+}

@@ -54,11 +54,13 @@ TOOLS = [
     {"name": "routing_rules", "description": "The routing rules (AGENTS.md of this repo).",
      "inputSchema": {"type": "object", "properties": {}}},
     {"name": "route",
-     "description": "Recommend a model for a task. Optional job (task category) and budget.",
+     "description": "Recommend a model for a task: best, value, budget, fast, open and other-lab picks, every "
+                    "lab's best model for the job (other_labs) and, if configured, where the user's favourite "
+                    "model families stand. Optional job (task category) and budget.",
      "inputSchema": {"type": "object", "required": ["task"], "properties": {
          "task": {"type": "string"}, "job": {"type": "string"}, "budget": {"type": "string"}}}},
     {"name": "leaderboard",
-     "description": "Top models for a job. Optional n and kind.",
+     "description": "Top models for a job, plus every lab's best model (every_lab). Optional n and kind.",
      "inputSchema": {"type": "object", "required": ["job"], "properties": {
          "job": {"type": "string"}, "n": {"type": "integer", "default": 10}, "kind": {"type": "string"}}}},
     {"name": "feedback",
@@ -175,7 +177,16 @@ def tool_feedback(job, model, verdict=None, note="", beats=None) -> str:
     if not verdict and not beats:
         raise ValueError("Give verdict (good or bad) or beats (the model it beat).")
     row = learn.record(job, model, "good" if beats else verdict, note=note, vs=beats, source="mcp")
-    return json.dumps({"saved": row, "now": learn.report()}, indent=2, ensure_ascii=False)
+    from . import community
+    try:
+        share = community.share_url(job, model, "good" if beats else verdict, beats)
+    except ValueError:
+        share = None
+    return json.dumps({"saved": row, "now": learn.report(),
+                       "share": share and {"url": share, "note": "Only if the user wants this verdict in the public "
+                                                                "rankings: it opens a public GitHub issue they submit "
+                                                                "themselves. Never open or submit it for them."}},
+                      indent=2, ensure_ascii=False)
 
 
 def tool_scout(job) -> str:

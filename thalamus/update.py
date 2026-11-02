@@ -14,13 +14,13 @@ import json
 import time
 from datetime import datetime, timezone
 
-from . import render
+from . import brain, brainmap, community, render
 from .merge import merge
 from . import paths
 from .paths import DATA
 from .score import build_routes, load_jobs
 
-SOURCES = ["openrouter", "arena", "llmstats", "epoch"]
+SOURCES = ["openrouter", "arena", "llmstats", "epoch", "vectara", "tau2"]
 # Off by default because of their data terms (see each module). Turn on for a personal build with
 # `thalamus update --personal --with aa,epoch_external` or config "extra_sources". A personal build writes to
 # ~/.thalamus/data and never touches the repo, so nothing from these sources gets published.
@@ -32,6 +32,18 @@ CACHE = DATA / "cache"
 
 def _today() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def _week() -> str:
+    year, week, _ = datetime.now(timezone.utc).isocalendar()
+    return f"{year}-W{week:02d}"
+
+
+def _load_json(path) -> dict:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
 
 
 def _write(path, obj) -> None:
@@ -150,15 +162,39 @@ def run(only: list[str] | None = None, offline: bool = False, quiet: bool = Fals
         raise RuntimeError("OpenRouter catalog unavailable and no cache: nothing to merge onto.")
     catalog, unmatched = merge(raw)
     jobs = load_jobs()
-    routes = build_routes(catalog, jobs)
-    previous = {}
     prev_path = out_dir / "routes.json"
-    if prev_path.exists():
-        try:
-            previous = json.loads(prev_path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError:
-            previous = {}
+    previous = _load_json(prev_path)
     updated = _today()
+
+    # The brain checks this week's inputs against last week and against each other before scoring. A second
+    # run in the same ISO week starts from the same prior state as the first, so re-runs don't double-count.
+    week = _week()
+    state = _load_json(out_dir / "brain.json")
+    snap = _load_json(out_dir / "snapshot.json")
+    rerun = state.get("week") == week
+    if rerun:
+        base, prior_trust = snap.get("base", {}), state.get("prior_trust", {})
+    else:
+        base = snap.get("current") or brain.metric_map(_load_json(out_dir / "models.json").get("models", []))
+        prior_trust = state.get("trust", {})
+    now = brain.metric_map(catalog)
+    quarantined = brain.quarantine(base, now) if base else {}
+    agreement = brain.source_agreement(catalog, brain.apply_trust(jobs, {}, quarantined))
+    trust = brain.update_trust(prior_trust, agreement)
+    community_data = community.load(paths.DATA / "community.json")
+    routes = build_routes(catalog, brain.apply_trust(jobs, trust, quarantined), previous=previous,
+                          community=community_data)
+    history = brain.remember(_load_json(out_dir / "history.json"), updated, routes)
+    held = [f"{e['title']}: {e['picks']['best']['name']} ({e['picks']['best']['held']})"
+            for e in routes.values() if (e["picks"].get("best") or {}).get("held")]
+    _write(out_dir / "brain.json", {"updated": updated, "week": week, "trust": trust, "prior_trust": prior_trust,
+                                    "quarantined": quarantined})
+    # next week compares against this week's values, with last week's kept for any metric that sat out
+    keep = {r["id"] for e in routes.values() for r in e.get("top", []) + e.get("labs", [])}
+    _write(out_dir / "snapshot.json", {"week": week, "base": base,
+                                       "current": brain.carry_forward({k: v for k, v in now.items() if k in keep},
+                                                                      base, quarantined)})
+    _write(out_dir / "history.json", history)
     payload = {"updated": updated, "sources": status, "personal": personal,
                "jobs": routes if personal else _publishable_routes(routes)}
     scored = [m for m in catalog if not m.get("catalog_only")]
@@ -169,10 +205,15 @@ def run(only: list[str] | None = None, offline: bool = False, quiet: bool = Fals
     _write(out_dir / "unmatched.json", {"updated": updated, "note": "Add an entry to data/aliases.json to merge these.",
                                      "records": unmatched})
     changes = render.diff(previous, payload, catalog, out_dir)
+    reflection = brain.reflect(updated, trust, quarantined, routes, history, brain.unmatched_entries(catalog),
+                               community_data, held)
     if personal:
-        (out_dir / "ROUTES.md").write_text(render.routes_md(payload, jobs), encoding="utf-8")
+        (out_dir / "ROUTES.md").write_text(render.routes_md(payload, jobs, history), encoding="utf-8")
+        (out_dir / "BRAIN.md").write_text(reflection, encoding="utf-8")
     else:
-        render.write_all(payload, catalog, changes, jobs)
+        render.write_all(payload, catalog, changes, jobs, history)
+        (paths.REPO / "BRAIN.md").write_text(reflection, encoding="utf-8")
+        brainmap.write(payload, jobs, paths.REPO / "assets")
     _write(out_dir / "last_run.json", {"ran": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                                     "sources_ok": sum(1 for s in status.values() if s.get("ok")),
                                     "sources_total": len(status), "models": len(catalog), "scored": len(scored)})

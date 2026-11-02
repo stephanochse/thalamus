@@ -22,6 +22,12 @@
   },
   {
    "source": "arena",
+   "source_id": "llm:GPT-5.2 Chat (20260210)",
+   "name": "GPT-5.2 Chat (20260210)",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
    "source_id": "llm:Grok 4.20 Beta 1",
    "name": "Grok 4.20 Beta 1",
    "lab": "xai"
@@ -94,9 +100,9 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Inkling",
-   "name": "Inkling",
-   "lab": "thinky"
+   "source_id": "llm:DeepSeek-V4-Flash Preview (High)",
+   "name": "DeepSeek-V4-Flash Preview (High)",
+   "lab": "deepseek"
   },
   {
    "source": "arena",
@@ -154,6 +160,12 @@
   },
   {
    "source": "arena",
+   "source_id": "llm:Kimi K2 Preview (0905)",
+   "name": "Kimi K2 Preview (0905)",
+   "lab": "moonshot"
+  },
+  {
+   "source": "arena",
    "source_id": "llm:Grok 4 Fast (Non-Reasoning)",
    "name": "Grok 4 Fast (Non-Reasoning)",
    "lab": "xai"
@@ -175,12 +187,6 @@
    "source_id": "llm:Grok 4 (0709)",
    "name": "Grok 4 (0709)",
    "lab": "xai"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:Inkling-Small",
-   "name": "Inkling-Small",
-   "lab": "thinky"
   },
   {
    "source": "arena",
@@ -234,7 +240,7 @@
    "source": "arena",
    "source_id": "llm:Trinity Large Preview",
    "name": "Trinity Large Preview",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -247,12 +253,6 @@
    "source_id": "llm:Qwen2.5-Max",
    "name": "Qwen2.5-Max",
    "lab": "alibaba"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:Trinity Large Thinking",
-   "name": "Trinity Large Thinking",
-   "lab": ""
   },
   {
    "source": "arena",
@@ -288,7 +288,7 @@
    "source": "arena",
    "source_id": "llm:INTELLECT-3",
    "name": "INTELLECT-3",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -402,7 +402,7 @@
    "source": "arena",
    "source_id": "llm:Yi Lightning",
    "name": "Yi Lightning",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -498,7 +498,7 @@
    "source": "arena",
    "source_id": "llm:Athene V2 Chat",
    "name": "Athene V2 Chat",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -528,7 +528,7 @@
    "source": "arena",
    "source_id": "llm:Athene 70B (0725)",
    "name": "Athene 70B (0725)",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -541,6 +541,12 @@
    "source_id": "llm:Mercury",
    "name": "Mercury",
    "lab": "inception-ai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mistral Large (2411)",
+   "name": "Mistral Large (2411)",
+   "lab": "mistral"
   },
   {
    "source": "arena",
@@ -582,13 +588,13 @@
    "source": "arena",
    "source_id": "llm:Jamba 1.5 Large",
    "name": "Jamba 1.5 Large",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:Reka Core (20240904)",
    "name": "Reka Core (20240904)",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -624,7 +630,7 @@
    "source": "arena",
    "source_id": "llm:Gemma 2 9B IT SimPO",
    "name": "Gemma 2 9B IT SimPO",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -648,7 +654,7 @@
    "source": "arena",
    "source_id": "llm:Reka Flash (20240904)",
    "name": "Reka Flash (20240904)",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -708,7 +714,7 @@
    "source": "arena",
    "source_id": "llm:Jamba 1.5 Mini",
    "name": "Jamba 1.5 Mini",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -720,7 +726,7 @@
    "source": "arena",
    "source_id": "llm:Reka Flash 21B (Online, 20240226)",
    "name": "Reka Flash 21B (Online, 20240226)",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -768,13 +774,13 @@
    "source": "arena",
    "source_id": "llm:Zephyr ORPO 141B A35B v0.1",
    "name": "Zephyr ORPO 141B A35B v0.1",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:Yi 1.5 34B Chat",
    "name": "Yi 1.5 34B Chat",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -810,7 +816,7 @@
    "source": "arena",
    "source_id": "llm:DBRX Instruct Preview",
    "name": "DBRX Instruct Preview",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -822,7 +828,7 @@
    "source": "arena",
    "source_id": "llm:InternLM2.5 20B Chat",
    "name": "InternLM2.5 20B Chat",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -840,7 +846,7 @@
    "source": "arena",
    "source_id": "llm:Yi 34B Chat",
    "name": "Yi 34B Chat",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -852,7 +858,7 @@
    "source": "arena",
    "source_id": "llm:OpenChat 3.5",
    "name": "OpenChat 3.5",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -864,7 +870,7 @@
    "source": "arena",
    "source_id": "llm:Snowflake Arctic Instruct",
    "name": "Snowflake Arctic Instruct",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -876,19 +882,19 @@
    "source": "arena",
    "source_id": "llm:Tulu 2 DPO 70B",
    "name": "Tulu 2 DPO 70B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:OpenHermes 2.5 Mistral 7B",
    "name": "OpenHermes 2.5 Mistral 7B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:Vicuna 33B",
    "name": "Vicuna 33B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -900,7 +906,7 @@
    "source": "arena",
    "source_id": "llm:Starling LM 7B Beta",
    "name": "Starling LM 7B Beta",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -912,13 +918,13 @@
    "source": "arena",
    "source_id": "llm:Starling LM 7B Alpha",
    "name": "Starling LM 7B Alpha",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:Nous Hermes 2 Mixtral 8x7B DPO",
    "name": "Nous Hermes 2 Mixtral 8x7B DPO",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -942,13 +948,13 @@
    "source": "arena",
    "source_id": "llm:Dolphin 2.2.1 Mistral 7B",
    "name": "Dolphin 2.2.1 Mistral 7B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:MPT 30B Chat",
    "name": "MPT 30B Chat",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -966,7 +972,7 @@
    "source": "arena",
    "source_id": "llm:Falcon 180B Chat",
    "name": "Falcon 180B Chat",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -984,7 +990,7 @@
    "source": "arena",
    "source_id": "llm:Vicuna 13B",
    "name": "Vicuna 13B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1020,7 +1026,7 @@
    "source": "arena",
    "source_id": "llm:Zephyr 7B Beta",
    "name": "Zephyr 7B Beta",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1032,19 +1038,19 @@
    "source": "arena",
    "source_id": "llm:Guanaco 33B",
    "name": "Guanaco 33B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:Zephyr 7B Alpha",
    "name": "Zephyr 7B Alpha",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:StripedHyena Nous 7B",
    "name": "StripedHyena Nous 7B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1062,13 +1068,13 @@
    "source": "arena",
    "source_id": "llm:Vicuna 7B",
    "name": "Vicuna 7B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:SmolLM2 1.7B Instruct",
    "name": "SmolLM2 1.7B Instruct",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1104,67 +1110,67 @@
    "source": "arena",
    "source_id": "llm:Koala 13B",
    "name": "Koala 13B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:Alpaca 13B",
    "name": "Alpaca 13B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:GPT4All 13B Snoozy",
    "name": "GPT4All 13B Snoozy",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:MPT 7B Chat",
    "name": "MPT 7B Chat",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:ChatGLM3 6B",
    "name": "ChatGLM3 6B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:RWKV-4 Raven 14B",
    "name": "RWKV-4 Raven 14B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:ChatGLM2 6B",
    "name": "ChatGLM2 6B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:OpenAssistant Pythia 12B",
    "name": "OpenAssistant Pythia 12B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:ChatGLM 6B",
    "name": "ChatGLM 6B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:FastChat-T5 3B",
    "name": "FastChat-T5 3B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:Dolly 2.0 12B",
    "name": "Dolly 2.0 12B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1176,7 +1182,7 @@
    "source": "arena",
    "source_id": "llm:StableLM Tuned Alpha 7B",
    "name": "StableLM Tuned Alpha 7B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1218,7 +1224,7 @@
    "source": "arena",
    "source_id": "llm:KAT-Coder-Pro V1",
    "name": "KAT-Coder-Pro V1",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1284,7 +1290,7 @@
    "source": "arena",
    "source_id": "llm:InternVL2 26B",
    "name": "InternVL2 26B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1314,7 +1320,7 @@
    "source": "arena",
    "source_id": "llm:Yi Vision",
    "name": "Yi Vision",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1332,7 +1338,7 @@
    "source": "arena",
    "source_id": "llm:InternVL2 4B",
    "name": "InternVL2 4B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1344,7 +1350,7 @@
    "source": "arena",
    "source_id": "llm:LLaVA 1.6 34B",
    "name": "LLaVA 1.6 34B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1356,13 +1362,13 @@
    "source": "arena",
    "source_id": "llm:LLaVA-OneVision Qwen2 72B OV",
    "name": "LLaVA-OneVision Qwen2 72B OV",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
    "source_id": "llm:MiniCPM-V 2.6",
    "name": "MiniCPM-V 2.6",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "arena",
@@ -1378,26 +1384,14 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:claude-fable-5.1-max",
-   "name": "claude-fable-5.1-max",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:claude-opus-4-6-high",
    "name": "claude-opus-4-6-high",
    "lab": "anthropic"
   },
   {
    "source": "arena",
-   "source_id": "llm:claude-opus-4-7",
-   "name": "claude-opus-4-7",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:claude-sonnet-4-6",
-   "name": "claude-sonnet-4-6",
+   "source_id": "llm:claude-opus-4-7-high",
+   "name": "claude-opus-4-7-high",
    "lab": "anthropic"
   },
   {
@@ -1405,18 +1399,6 @@
    "source_id": "llm:claude-opus-4-8-high",
    "name": "claude-opus-4-8-high",
    "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:muse-spark-1.3-max",
-   "name": "muse-spark-1.3-max",
-   "lab": "meta"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:gpt-6-astra-max",
-   "name": "gpt-6-astra-max",
-   "lab": "openai"
   },
   {
    "source": "arena",
@@ -1438,9 +1420,9 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:gpt-6.1-sol-max",
-   "name": "gpt-6.1-sol-max",
-   "lab": "openai"
+   "source_id": "llm:claude-sonnet-4-6-search",
+   "name": "claude-sonnet-4-6-search",
+   "lab": "anthropic"
   },
   {
    "source": "arena",
@@ -1468,12 +1450,6 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:gpt-6-sol-max",
-   "name": "gpt-6-sol-max",
-   "lab": "openai"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:gpt-5.2-search-non-reasoning",
    "name": "gpt-5.2-search-non-reasoning",
    "lab": "openai"
@@ -1483,12 +1459,6 @@
    "source_id": "llm:grok-4-1-fast-search",
    "name": "grok-4-1-fast-search",
    "lab": "xai"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:gpt-6-luna-max",
-   "name": "gpt-6-luna-max",
-   "lab": "openai"
   },
   {
    "source": "arena",
@@ -1564,18 +1534,6 @@
   },
   {
    "source": "llmstats",
-   "source_id": "deepseek-v4-pro-max",
-   "name": "DeepSeek-V4-Pro-Max",
-   "lab": "DeepSeek"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "ember-1",
-   "name": "Ember-1",
-   "lab": "Fireworks AI"
-  },
-  {
-   "source": "llmstats",
    "source_id": "grok-4-heavy",
    "name": "Grok-4 Heavy",
    "lab": "xAI"
@@ -1612,27 +1570,9 @@
   },
   {
    "source": "llmstats",
-   "source_id": "inkling-small",
-   "name": "Inkling-Small",
-   "lab": "Thinking Machines Lab"
-  },
-  {
-   "source": "llmstats",
    "source_id": "gemini-3.5-flash-cyber",
    "name": "Gemini 3.5 Flash Cyber",
    "lab": "Google"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "inkling",
-   "name": "Inkling",
-   "lab": "Thinking Machines Lab"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "gpt-5.1-thinking-2025-11-12",
-   "name": "GPT-5.1 Thinking",
-   "lab": "OpenAI"
   },
   {
    "source": "llmstats",
@@ -1648,21 +1588,9 @@
   },
   {
    "source": "llmstats",
-   "source_id": "gpt-5.1-high-2025-11-12",
-   "name": "GPT-5.1 High",
-   "lab": "OpenAI"
-  },
-  {
-   "source": "llmstats",
    "source_id": "seed-1.8",
    "name": "Seed 1.8",
    "lab": "ByteDance"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "gpt-5-high-2025-08-07",
-   "name": "GPT-5 High",
-   "lab": "OpenAI"
   },
   {
    "source": "llmstats",
@@ -1678,20 +1606,8 @@
   },
   {
    "source": "llmstats",
-   "source_id": "qwen3-max-thinking",
-   "name": "Qwen3 Max Thinking",
-   "lab": "Alibaba Cloud / Qwen Team"
-  },
-  {
-   "source": "llmstats",
    "source_id": "gpt-rosalind-research",
    "name": "GPT-Rosalind",
-   "lab": "OpenAI"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "gpt-5.1-medium-2025-11-12",
-   "name": "GPT-5.1 Medium",
    "lab": "OpenAI"
   },
   {
@@ -1714,18 +1630,6 @@
   },
   {
    "source": "llmstats",
-   "source_id": "gpt-5.1-codex-high",
-   "name": "GPT-5.1 Codex High",
-   "lab": "OpenAI"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "gpt-5-medium-2025-08-07",
-   "name": "GPT-5 Medium",
-   "lab": "OpenAI"
-  },
-  {
-   "source": "llmstats",
    "source_id": "nemotron-3.5-bolt-74b-a9b-24gb",
    "name": "Nemotron 3.5 Bolt (74B A9B 24GB)",
    "lab": "NVIDIA"
@@ -1744,21 +1648,9 @@
   },
   {
    "source": "llmstats",
-   "source_id": "gpt-oss-20b-high",
-   "name": "GPT OSS 20B High",
-   "lab": "OpenAI"
-  },
-  {
-   "source": "llmstats",
    "source_id": "gpt-5-codex-2025-09-15",
    "name": "GPT-5 Codex",
    "lab": "OpenAI"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "qwen3-vl-235b-a22b-thinking",
-   "name": "Qwen3 VL 235B A22B Thinking",
-   "lab": "Alibaba Cloud / Qwen Team"
   },
   {
    "source": "llmstats",
@@ -1798,21 +1690,9 @@
   },
   {
    "source": "llmstats",
-   "source_id": "gpt-oss-120b-high",
-   "name": "GPT OSS 120B High",
-   "lab": "OpenAI"
-  },
-  {
-   "source": "llmstats",
    "source_id": "laguna-xs-2.1",
    "name": "Laguna XS 2.1",
    "lab": "Poolside"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "grok-4.20-beta-0309-reasoning",
-   "name": "Grok-4.20 Beta Reasoning",
-   "lab": "xAI"
   },
   {
    "source": "llmstats",
@@ -1861,12 +1741,6 @@
    "source_id": "minimax-m1-80k",
    "name": "MiniMax M1 80K",
    "lab": "MiniMax"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "nemotron-3-nano-30b-a3b",
-   "name": "Nemotron 3 Nano (30B A3B)",
-   "lab": "NVIDIA"
   },
   {
    "source": "llmstats",
@@ -1936,24 +1810,6 @@
   },
   {
    "source": "llmstats",
-   "source_id": "gemini-2.0-flash-thinking",
-   "name": "Gemini 2.0 Flash Thinking",
-   "lab": "Google"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "qwen3-vl-8b-thinking",
-   "name": "Qwen3 VL 8B Thinking",
-   "lab": "Alibaba Cloud / Qwen Team"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "grok-4.1-thinking-2025-11-17",
-   "name": "Grok-4.1 Thinking",
-   "lab": "xAI"
-  },
-  {
-   "source": "llmstats",
    "source_id": "deepseek-r1-zero",
    "name": "DeepSeek R1 Zero",
    "lab": "DeepSeek"
@@ -2014,14 +1870,8 @@
   },
   {
    "source": "llmstats",
-   "source_id": "phi-4-reasoning",
-   "name": "Phi 4 Reasoning",
-   "lab": "Microsoft"
-  },
-  {
-   "source": "llmstats",
    "source_id": "ministral-3b-latest",
-   "name": "Min  istral 3 (3B Reasoning 2512)",
+   "name": "Min istral 3 (3B Reasoning 2512)",
    "lab": "Mistral AI"
   },
   {
@@ -2122,9 +1972,21 @@
   },
   {
    "source": "llmstats",
+   "source_id": "hermes-3-405b",
+   "name": "Hermes 3 405B",
+   "lab": "Nous Research"
+  },
+  {
+   "source": "llmstats",
    "source_id": "mistral-small-24b-instruct-2501",
    "name": "Mistral Small 3 24B Instruct",
    "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "hermes-3-70b",
+   "name": "Hermes 3 70B",
+   "lab": "Nous Research"
   },
   {
    "source": "llmstats",
@@ -2356,6 +2218,12 @@
   },
   {
    "source": "epoch",
+   "source_id": "Gemini 2.5 Pro (Jun 2025)",
+   "name": "Gemini 2.5 Pro (Jun 2025)",
+   "lab": "Google DeepMind"
+  },
+  {
+   "source": "epoch",
    "source_id": "Qwen3-8B",
    "name": "Qwen3-8B",
    "lab": "Alibaba"
@@ -2371,6 +2239,12 @@
    "source_id": "Magistral Small 1.0",
    "name": "Magistral Small 1.0",
    "lab": "Mistral AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "GPT-4o (May 2024)",
+   "name": "GPT-4o (May 2024)",
+   "lab": "OpenAI"
   },
   {
    "source": "epoch",
@@ -2436,13 +2310,13 @@
    "source": "epoch",
    "source_id": "Qwen2.5-Coder-14B",
    "name": "Qwen2.5-Coder-14B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
    "source_id": "PaLM 2-L",
    "name": "PaLM 2-L",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2460,7 +2334,7 @@
    "source": "epoch",
    "source_id": "internlm-20b",
    "name": "internlm-20b",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2484,13 +2358,13 @@
    "source": "epoch",
    "source_id": "DeepSeek-Coder-V2-Lite-Base",
    "name": "DeepSeek-Coder-V2-Lite-Base",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
    "source_id": "PaLM 2-M",
    "name": "PaLM 2-M",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2502,7 +2376,7 @@
    "source": "epoch",
    "source_id": "Qwen2.5-Coder-3B",
    "name": "Qwen2.5-Coder-3B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2514,7 +2388,7 @@
    "source": "epoch",
    "source_id": "Yi-9B",
    "name": "Yi-9B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2532,7 +2406,7 @@
    "source": "epoch",
    "source_id": "PaLM 2-S",
    "name": "PaLM 2-S",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2568,7 +2442,7 @@
    "source": "epoch",
    "source_id": "internlm-7b",
    "name": "internlm-7b",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2604,13 +2478,13 @@
    "source": "epoch",
    "source_id": "CodeQwen1.5-7B",
    "name": "CodeQwen1.5-7B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
    "source_id": "vicuna-13b-v1.1",
    "name": "vicuna-13b-v1.1",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2628,13 +2502,13 @@
    "source": "epoch",
    "source_id": "Qwen-1_8B",
    "name": "Qwen-1.8B (8b)",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
    "source_id": "open_llama_7b",
    "name": "open_llama_7b (7b)",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2652,7 +2526,7 @@
    "source": "epoch",
    "source_id": "RedPajama-INCITE-7B-Base",
    "name": "RedPajama-INCITE-7B-Base",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2670,7 +2544,7 @@
    "source": "epoch",
    "source_id": "Qwen2.5-Coder-0.5B",
    "name": "Qwen2.5-Coder-0.5B",
-   "lab": ""
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2689,6 +2563,108 @@
    "source_id": "claude-3-7-sonnet-20250219",
    "name": "claude-3-7-sonnet-20250219",
    "lab": "Anthropic"
+  },
+  {
+   "source": "vectara",
+   "source_id": "antgroup/finix_s1_32b",
+   "name": "finix_s1_32b",
+   "lab": "antgroup"
+  },
+  {
+   "source": "vectara",
+   "source_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+   "name": "Llama-3.3-70B-Instruct-Turbo",
+   "lab": "Meta"
+  },
+  {
+   "source": "vectara",
+   "source_id": "ai21labs/jamba-mini-2",
+   "name": "jamba-mini-2",
+   "lab": "AI21"
+  },
+  {
+   "source": "vectara",
+   "source_id": "qwen/qwen3-4b",
+   "name": "qwen3-4b",
+   "lab": "Alibaba (Qwen)"
+  },
+  {
+   "source": "vectara",
+   "source_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+   "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+   "lab": "Meta"
+  },
+  {
+   "source": "vectara",
+   "source_id": "MiniMaxAI/minimax-m2p5",
+   "name": "minimax-m2p5",
+   "lab": "MiniMax"
+  },
+  {
+   "source": "vectara",
+   "source_id": "zai-org/GLM-4.5-AIR-FP8",
+   "name": "GLM-4.5-AIR-FP8",
+   "lab": "Zhipu (Z.ai)"
+  },
+  {
+   "source": "vectara",
+   "source_id": "CohereLabs/c4ai-aya-expanse-8b",
+   "name": "c4ai-aya-expanse-8b",
+   "lab": "Cohere"
+  },
+  {
+   "source": "vectara",
+   "source_id": "ai21labs/jamba-large-1.7-2025-07",
+   "name": "jamba-large-1.7-2025-07",
+   "lab": "AI21"
+  },
+  {
+   "source": "vectara",
+   "source_id": "CohereLabs/c4ai-aya-expanse-32b",
+   "name": "c4ai-aya-expanse-32b",
+   "lab": "Cohere"
+  },
+  {
+   "source": "vectara",
+   "source_id": "zai-org/glm-4p7",
+   "name": "glm-4p7",
+   "lab": "Zhipu (Z.ai)"
+  },
+  {
+   "source": "vectara",
+   "source_id": "MiniMaxAI/minimax-m2p1",
+   "name": "minimax-m2p1",
+   "lab": "MiniMax"
+  },
+  {
+   "source": "vectara",
+   "source_id": "MiniMaxAI/minimax-m2p7",
+   "name": "minimax-m2p7",
+   "lab": "MiniMax"
+  },
+  {
+   "source": "vectara",
+   "source_id": "ai21labs/jamba-mini-1.7-2025-07",
+   "name": "jamba-mini-1.7-2025-07",
+   "lab": "AI21"
+  },
+  {
+   "source": "vectara",
+   "source_id": "xai-org/grok-4-1-fast-non-reasoning",
+   "name": "grok-4-1-fast-non-reasoning",
+   "lab": "xAI"
+  },
+  {
+   "source": "vectara",
+   "source_id": "xai-org/grok-4-fast-non-reasoning",
+   "name": "grok-4-fast-non-reasoning",
+   "lab": "xAI"
+  },
+  {
+   "source": "tau2",
+   "source_id": "grok-4-2_sierra_2026-05-05",
+   "name": "Grok 4.2 (High)",
+   "lab": "xAI"
   }
  ]
 }

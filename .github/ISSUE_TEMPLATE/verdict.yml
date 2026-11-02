@@ -1,0 +1,76 @@
+name: Model verdict
+description: Tell Thalamus whether a model did well or badly on a kind of job.
+title: "verdict: "
+labels: ["verdict"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One verdict is one vote. The weekly run counts verdicts per job and model, needs at least 5 different people before a model's ranking moves, and moves it by at most 10%. Only job, model, verdict and "beat" are read. Your GitHub name is used once to avoid double counting and is not stored in the data.
+  - type: dropdown
+    id: job
+    attributes:
+      label: Job
+      description: The kind of work you gave the model.
+      options:
+        - "general (Everyday questions and chat)"
+        - "strategy (Strategy, plans and decisions)"
+        - "business (Business, finance and analysis)"
+        - "legal (Legal and compliance)"
+        - "health (Health and medical)"
+        - "research (Research and facts)"
+        - "math (Math and hard reasoning)"
+        - "long-context (Long documents and big codebases)"
+        - "writing (Writing, copy and voice)"
+        - "personality (Personality and conversation)"
+        - "translation (Translation and other languages)"
+        - "extraction (Following instructions and structured output)"
+        - "code-build (Writing code)"
+        - "code-agent (Autonomous coding agents)"
+        - "code-review (Code review and debugging)"
+        - "frontend (Websites, UI and screenshot-to-code)"
+        - "agentic (Tool use and multi-step agents)"
+        - "vision (Reading images, screenshots and documents)"
+        - "image-gen (Image generation)"
+        - "image-text (Ads, posters and images with text)"
+        - "image-photo (Photoreal images and product shots)"
+        - "image-edit (Image editing)"
+        - "video-gen (Video from text)"
+        - "image-to-video (Animate an image into video)"
+        - "video-edit (Video editing)"
+        - "voice (Voiceover and text-to-speech)"
+        - "transcription (Transcription and speech-to-text)"
+        - "bulk (Bulk work at the lowest price)"
+        - "fast (Instant answers (lowest latency))"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: "OpenRouter id, e.g. anthropic/claude-opus-5.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict
+      options:
+        - good
+        - bad
+    validations:
+      required: true
+  - type: input
+    id: beats
+    attributes:
+      label: Beats
+      description: "Optional. If you compared two models: the one this model beat"
+    validations:
+      required: false
+  - type: textarea
+    id: note
+    attributes:
+      label: Note
+      description: Optional. Context for the maintainers. Notes are never copied into the data and are not read by the weekly run.
+    validations:
+      required: false

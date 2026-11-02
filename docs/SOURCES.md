@@ -10,8 +10,10 @@ These run in the GitHub Action and feed the committed `data/` and `ROUTES.md`.
 |---|---|---|---|
 | [OpenRouter](https://openrouter.ai) | The callable catalog: ids, prices, context windows, modalities, release dates | Documented public API `/api/v1/models`, no key | Public API |
 | [Arena](https://arena.ai) | Human preference: overall, coding, hard prompts, creative writing, math, instruction following, multi-turn, expert, non-English, legal, business, healthcare, factuality, web development, screenshot-to-web, vision, documents, search, agents, image (overall, text rendering, photoreal, design), image editing, video, image-to-video, video editing | Arena's open dataset on Hugging Face, `lmarena-ai/leaderboard-dataset` | CC BY 4.0 |
-| [llm-stats](https://llm-stats.com) | Category indexes: legal, finance, agents, tool calling, long context, structured output and more | Open JSON API at `api.llm-stats.com` | Reuse, including commercial, allowed with attribution. Many underlying scores are self-reported by vendors, so they carry small weights |
+| [llm-stats](https://llm-stats.com) | Category indexes (legal, finance, agents, tool calling, long context, structured output and more) and 20 individual benchmarks: SWE-bench Verified and Pro, Terminal-Bench 2.1, Toolathlon, MCP-Atlas, OSWorld, BrowseComp, Humanity's Last Exam, SimpleQA, GPQA, AIME, IFBench, IFEval, LiveCodeBench, MMMU-Pro, CharXiv, AA-LCR, MRCR, DeepSWE, Finance Agent | Open JSON API at `api.llm-stats.com` (`/leaderboard/indexes/compact`, `/leaderboard/benchmarks/top/providers`, `/leaderboard/benchmarks/{id}/details`) | The site's terms allow reuse, including commercial, with attribution. Almost every benchmark score is self-reported by the lab, so they enter jobs as "claims" at small weights (see METHOD.md) |
 | [Epoch AI](https://epoch.ai) | Epoch Capabilities Index and Epoch's own SWE-bench Verified runs | `benchmark_data.zip` | CC BY 4.0 for Epoch's own data |
+| [Vectara](https://github.com/vectara/hallucination-leaderboard) | Hallucination rate when summarising a supplied document (HHEM), about 110 models, updated about monthly | The table in the repo README | Apache-2.0 |
+| [tau2-bench](https://github.com/sierra-research/tau2-bench) (Sierra) | Agents using tools under a written policy with a simulated user: banking (2026 runs) and airline, retail and telecom (earlier runs) | `web/leaderboard/public/submissions/manifest.json` and one `submission.json` per run; only standard text runs with unmodified prompts | MIT |
 
 ## Personal builds (opt-in, never published)
 
@@ -25,6 +27,19 @@ These run in the GitHub Action and feed the committed `data/` and `ROUTES.md`.
 | [EQ-Bench](https://eqbench.com) (`eqbench`) | Creative writing Elo and a "slop" score | No published license or terms for the data |
 
 Without these, three jobs can't be ranked: instant answers (needs speed data), voiceover and transcription (need audio boards). They show as "not enough data" in the public tables.
+
+## Checked and left out (for now)
+
+| Source | Why |
+|---|---|
+| OpenRouter `/models/{id}/endpoints` speed fields | Documented and keyless, but latency and throughput came back empty on every model tested in Nov 2026 |
+| llm-stats speed fields | Mostly round vendor figures (100 or 42 tokens per second), not measurements |
+| TTS Arena V2 | Open code, but no stated licence for the vote data and the JSON isn't a documented API |
+| BFCL, Aider polyglot, Terminal-Bench 2 repo, HELM | Open licences, but their newest models are one or two generations old |
+| Toolathlon, MathArena, Vals AI, Kagi | No licence or terms found for the data |
+| SWE-bench official site data | CC BY-NC 4.0 |
+| ARC Prize, Scale SEAL | Terms forbid automated use or derivative works |
+| GitHub Models (to let the Action write its own notes) | Retired by GitHub on 30 Jul 2026 |
 
 ## Not used, on purpose
 

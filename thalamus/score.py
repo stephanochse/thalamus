@@ -87,8 +87,9 @@ def score_job(job: dict, models: list[dict]) -> list[dict]:
                 vals[m["id"]] = float(v)
         scaled[mt["id"]] = _scale(vals, mt.get("higher", True))
     # Coverage counts only metrics some source actually reported this week, so a source that is
-    # down doesn't knock every model under min_coverage.
-    total_w = sum(mt["w"] for mt in metrics if scaled[mt["id"]]) or total_w
+    # down doesn't knock every model under min_coverage. "claim" metrics (benchmarks the labs report
+    # about their own models) can add to a model's coverage but don't raise the bar for everyone else.
+    total_w = sum(mt["w"] for mt in metrics if scaled[mt["id"]] and not mt.get("claim")) or total_w
     if essential and not any(scaled.get(e) for e in essential):
         return []  # e.g. "fast" without any speed data: better no ranking than a wrong one
 
@@ -100,8 +101,10 @@ def score_job(job: dict, models: list[dict]) -> list[dict]:
         if essential and not essential & {mt["id"] for mt, _ in got}:
             continue
         w = sum(mt["w"] for mt, _ in got)
-        coverage = w / total_w
-        if coverage < job.get("min_coverage", 0.5):
+        coverage = min(1.0, w / total_w)
+        # the bar is cleared on independent evidence only; vendor claims can add to the score, never qualify it
+        independent = sum(mt["w"] for mt, _ in got if not mt.get("claim"))
+        if independent / total_w < job.get("min_coverage", 0.5):
             continue
         quality = sum(mt["w"] * s for mt, s in got) / w
         q_only = [(mt, s) for mt, s in got if _is_quality(mt["id"])]
@@ -169,18 +172,40 @@ def mix_savings(picks: dict, mix: dict | None = None) -> dict | None:
             "saves_pct": round(100 * (1 - cost / best["price"]))}
 
 
-def build_routes(models: list[dict], jobs: list[dict] | None = None, top_n: int = 40) -> dict:
+PICK_FIELDS = ("id", "name", "lab", "score", "price", "price_unit", "tps", "openrouter", "access", "held")
+
+
+def build_routes(models: list[dict], jobs: list[dict] | None = None, top_n: int = 40,
+                 previous: dict | None = None, community: dict | None = None) -> dict:
+    """previous: last week's routes payload (keeps near-tie best picks steady).
+    community: data/community.json (verdicts filed as GitHub issues)."""
+    from . import brain
     jobs = jobs or load_jobs()
+    prev_jobs = (previous or {}).get("jobs", {})
+    votes = (community or {}).get("jobs", {})
     out = {}
     for job in jobs:
-        rows = score_job(job, models)
+        public_rows = score_job(job, models)
+        rows = brain.apply_community(public_rows, votes.get(job["id"], {}))
+        prev_best = ((prev_jobs.get(job["id"], {}).get("picks") or {}).get("best") or {}).get("id")
+        # community verdicts shift ranks, value and budget, but the best pick always comes from the public
+        # evidence alone, so a handful of accounts can never decide what everyone uses for the hardest work
+        public_best = brain.steady(pick(public_rows), public_rows, prev_best).get("best")
         picks = pick(rows)
+        if public_best:
+            shown = next((r for r in rows if r["id"] == public_best["id"]), public_best)
+            picks = {**picks, "best": {**shown, **({"held": public_best["held"]} if public_best.get("held") else {})}}
+        other = brain.rival(rows, picks.get("best"))
+        if other:
+            picks = {**picks, "rival": other}
         out[job["id"]] = {
-            "title": job["title"], "group": job.get("group"), "kinds": job["kinds"],
+            "title": job["title"], "short": job.get("short", job["title"]), "group": job.get("group"),
+            "kinds": job["kinds"],
             "needs": job.get("essential", []) if not rows else [],
             "about": job.get("about", ""), "metrics": [mt["id"] for mt in job["metrics"]],
-            "ranked": len(rows), "top": rows[:top_n],
-            "picks": {k: {kk: v[kk] for kk in ("id", "name", "score", "price", "price_unit", "tps", "openrouter", "access")}
+            "weights": {mt["id"]: mt["w"] for mt in job["metrics"]},
+            "ranked": len(rows), "top": rows[:top_n], "labs": brain.lab_champions(rows),
+            "picks": {k: {kk: v.get(kk) for kk in PICK_FIELDS if v.get(kk) is not None or kk in ("price", "tps")}
                       for k, v in picks.items()},
             "mix": mix_savings(picks),
             "median_price": median([r["price"] for r in rows if r["price"] is not None]) if any(
