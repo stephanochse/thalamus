@@ -6,9 +6,9 @@
    "url": "https://openrouter.ai/api/v1/models",
    "attribution": "Model ids, prices and context windows from OpenRouter (openrouter.ai).",
    "ok": true,
-   "rows": 357,
+   "rows": 358,
    "fetched": "2026-11-02",
-   "seconds": 0.6
+   "seconds": 0.1
   },
   "arena": {
    "name": "Arena (lmarena-ai/leaderboard-dataset)",
@@ -17,7 +17,7 @@
    "ok": true,
    "rows": 819,
    "fetched": "2026-11-02",
-   "seconds": 17.9
+   "seconds": 3.9
   },
   "llmstats": {
    "name": "llm-stats",
@@ -26,7 +26,7 @@
    "ok": true,
    "rows": 406,
    "fetched": "2026-11-02",
-   "seconds": 12.7
+   "seconds": 6.1
   },
   "epoch": {
    "name": "Epoch AI benchmarking hub",
@@ -35,7 +35,7 @@
    "ok": true,
    "rows": 304,
    "fetched": "2026-11-02",
-   "seconds": 1.4
+   "seconds": 0.2
   },
   "vectara": {
    "name": "Vectara hallucination leaderboard",
@@ -44,7 +44,7 @@
    "ok": true,
    "rows": 111,
    "fetched": "2026-11-02",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   "tau2": {
    "name": "tau2-bench (Sierra)",
@@ -53,7 +53,7 @@
    "ok": true,
    "rows": 27,
    "fetched": "2026-11-02",
-   "seconds": 1.4
+   "seconds": 0.9
   }
  },
  "personal": false,
@@ -14498,30 +14498,6 @@
      "rank": 15
     },
     {
-     "quality": 77.0,
-     "id": "google/gemma-4-26b-a4b-it",
-     "name": "Gemma 4 26B A4B",
-     "lab": "Google",
-     "open_weights": true,
-     "score": 67.4,
-     "coverage": 0.64,
-     "price": 0.081,
-     "price_unit": "usd_per_mtok",
-     "context": 262144,
-     "openrouter": "google/gemma-4-26b-a4b-it",
-     "access": [
-      "openrouter"
-     ],
-     "basis": {
-      "arena.if": 78,
-      "x.price": 51,
-      "vectara.hallucination": 73
-     },
-     "pickable": true,
-     "unreleased": false,
-     "rank": 16
-    },
-    {
      "quality": 75.1,
      "id": "qwen/qwen3.8-27b",
      "name": "Qwen3.8 27B",
@@ -14545,7 +14521,7 @@
      },
      "pickable": true,
      "unreleased": false,
-     "rank": 17
+     "rank": 16
     },
     {
      "quality": 95.9,
@@ -14568,7 +14544,7 @@
      },
      "pickable": true,
      "unreleased": false,
-     "rank": 18
+     "rank": 17
     },
     {
      "quality": 91.3,
@@ -14589,6 +14565,30 @@
       "arena.if": 92,
       "x.price": 0,
       "tau2.banking": 85
+     },
+     "pickable": true,
+     "unreleased": false,
+     "rank": 18
+    },
+    {
+     "quality": 77.0,
+     "id": "google/gemma-4-26b-a4b-it",
+     "name": "Gemma 4 26B A4B",
+     "lab": "Google",
+     "open_weights": true,
+     "score": 66.9,
+     "coverage": 0.64,
+     "price": 0.1023,
+     "price_unit": "usd_per_mtok",
+     "context": 262144,
+     "openrouter": "google/gemma-4-26b-a4b-it",
+     "access": [
+      "openrouter"
+     ],
+     "basis": {
+      "arena.if": 78,
+      "x.price": 49,
+      "vectara.hallucination": 73
      },
      "pickable": true,
      "unreleased": false,
@@ -15157,8 +15157,8 @@
      "id": "anthropic/claude-fable-5@high",
      "name": "Claude Fable 5 (High)",
      "score": 67.3,
-     "rank": 18,
-     "place": 14,
+     "rank": 17,
+     "place": 13,
      "of_best": 86,
      "price": 20.0,
      "price_unit": "usd_per_mtok"
@@ -29457,31 +29457,6 @@
      "rank": 18
     },
     {
-     "quality": 70.0,
-     "id": "google/gemma-4-26b-a4b-it",
-     "name": "Gemma 4 26B A4B",
-     "lab": "Google",
-     "open_weights": true,
-     "score": 60.6,
-     "coverage": 1.0,
-     "price": 0.081,
-     "price_unit": "usd_per_mtok",
-     "context": 262144,
-     "openrouter": "google/gemma-4-26b-a4b-it",
-     "access": [
-      "openrouter"
-     ],
-     "basis": {
-      "epoch.eci": 57,
-      "arena.text": 76,
-      "x.price": 51,
-      "arena.if": 78
-     },
-     "pickable": true,
-     "unreleased": false,
-     "rank": 19
-    },
-    {
      "quality": 64.8,
      "id": "arena:claude-sonnet-4@thinking",
      "name": "Claude Sonnet 4 (Thinking 32K, 20250514)",
@@ -29501,7 +29476,7 @@
      },
      "pickable": false,
      "unreleased": false,
-     "rank": 20
+     "rank": 19
     },
     {
      "quality": 78.3,
@@ -29526,7 +29501,7 @@
      },
      "pickable": true,
      "unreleased": false,
-     "rank": 21
+     "rank": 20
     },
     {
      "quality": 78.1,
@@ -29551,7 +29526,7 @@
      },
      "pickable": true,
      "unreleased": false,
-     "rank": 22
+     "rank": 21
     },
     {
      "quality": 64.2,
@@ -29573,7 +29548,7 @@
      },
      "pickable": false,
      "unreleased": false,
-     "rank": 23
+     "rank": 22
     },
     {
      "quality": 64.2,
@@ -29594,6 +29569,31 @@
       "arena.if": 70
      },
      "pickable": false,
+     "unreleased": false,
+     "rank": 23
+    },
+    {
+     "quality": 70.0,
+     "id": "google/gemma-4-26b-a4b-it",
+     "name": "Gemma 4 26B A4B",
+     "lab": "Google",
+     "open_weights": true,
+     "score": 59.3,
+     "coverage": 1.0,
+     "price": 0.1023,
+     "price_unit": "usd_per_mtok",
+     "context": 262144,
+     "openrouter": "google/gemma-4-26b-a4b-it",
+     "access": [
+      "openrouter"
+     ],
+     "basis": {
+      "epoch.eci": 57,
+      "arena.text": 76,
+      "x.price": 49,
+      "arena.if": 78
+     },
+     "pickable": true,
      "unreleased": false,
      "rank": 24
     },
@@ -29996,23 +29996,12 @@
      "price_unit": "usd_per_mtok"
     },
     {
-     "lab": "Google",
-     "id": "google/gemma-4-26b-a4b-it",
-     "name": "Gemma 4 26B A4B",
-     "score": 60.6,
-     "rank": 19,
-     "place": 3,
-     "of_best": 86,
-     "price": 0.081,
-     "price_unit": "usd_per_mtok"
-    },
-    {
      "lab": "OpenAI",
      "id": "openai/gpt-6-luna@max",
      "name": "GPT-6 Luna (Max)",
      "score": 59.7,
-     "rank": 21,
-     "place": 4,
+     "rank": 20,
+     "place": 3,
      "of_best": 85,
      "price": 0.2,
      "price_unit": "usd_per_mtok"
@@ -30022,10 +30011,21 @@
      "id": "anthropic/claude-haiku-5.5@high",
      "name": "Claude Haiku 5.5 (High)",
      "score": 59.6,
-     "rank": 22,
-     "place": 5,
+     "rank": 21,
+     "place": 4,
      "of_best": 85,
      "price": 0.2,
+     "price_unit": "usd_per_mtok"
+    },
+    {
+     "lab": "Google",
+     "id": "google/gemma-4-26b-a4b-it",
+     "name": "Gemma 4 26B A4B",
+     "score": 59.3,
+     "rank": 24,
+     "place": 5,
+     "of_best": 84,
+     "price": 0.1023,
      "price_unit": "usd_per_mtok"
     },
     {

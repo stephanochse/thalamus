@@ -31,8 +31,8 @@ Agreement is the rank correlation between one source's view of every job and all
 | Lab | Jobs won | Top 3 in | Strongest at |
 |---|---|---|---|
 | Anthropic | 12 | 16 | Everyday questions and chat (Claude Opus 5.5 (High)), 100% of the top score |
-| OpenAI | 5 | 10 | Writing code (GPT-6 Astra (Max)), 100% of the top score |
-| Google | 4 | 9 | Strategy, plans and decisions (Gemini 4 Argon (High)), 100% of the top score |
+| OpenAI | 5 | 11 | Writing code (GPT-6 Astra (Max)), 100% of the top score |
+| Google | 4 | 8 | Strategy, plans and decisions (Gemini 4 Argon (High)), 100% of the top score |
 | Alibaba (Qwen) | 2 | 8 | Following instructions and structured output (Qwen3.7 Plus), 100% of the top score |
 | Meta | 1 | 4 | Legal and compliance (Muse Wonder (Max)), 100% of the top score |
 | xAI | 1 | 2 | Video from text (grok-imagine-video-1.5-agent), 100% of the top score |

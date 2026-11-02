@@ -1,6 +1,6 @@
 {
  "updated": "2026-11-02",
- "count": 1108,
+ "count": 1109,
  "scored": 977,
  "models": [
   {
@@ -26371,9 +26371,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.054,
-    "output": 0.162,
-    "blended": 0.081,
+    "input": 0.068,
+    "output": 0.205,
+    "blended": 0.1023,
     "unit": "usd_per_mtok"
    },
    "metrics": {
@@ -26418,7 +26418,7 @@
     "vectara.hallucination": 5.2,
     "vectara.answer_rate": 99.8,
     "x.context": 262144,
-    "x.price": 0.081
+    "x.price": 0.1023
    },
    "where": {
     "openrouter": "google/gemma-4-26b-a4b-it",
@@ -50363,6 +50363,45 @@
    },
    "where": {
     "openrouter": "z-ai/glm-5.3-flashx"
+   },
+   "sources": [
+    "openrouter"
+   ],
+   "access": [
+    "openrouter"
+   ],
+   "catalog_only": true
+  },
+  {
+   "id": "z-ai/glm-5.3-flashx-legal",
+   "base": "z-ai/glm-5.3-flashx-legal",
+   "name": "GLM 5.3 FlashX Legal",
+   "variant": null,
+   "lab": "Zhipu (Z.ai)",
+   "lab_id": "zhipu",
+   "country": "CN",
+   "kind": "llm",
+   "open_weights": false,
+   "released": "2026-11-02",
+   "context": 1048576,
+   "input": [
+    "text",
+    "image",
+    "video"
+   ],
+   "reasoning": true,
+   "price": {
+    "input": 0.37,
+    "output": 1.25,
+    "blended": 0.59,
+    "unit": "usd_per_mtok"
+   },
+   "metrics": {
+    "x.context": 1048576,
+    "x.price": 0.59
+   },
+   "where": {
+    "openrouter": "z-ai/glm-5.3-flashx-legal"
    },
    "sources": [
     "openrouter"

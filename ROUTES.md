@@ -283,7 +283,7 @@ JSON, forms, data extraction and strict formats, usually at volume.
 
 **Best:** Qwen3.7 Plus ($0.56/M) | **Value:** Gemini 3.7 Flash (High) ($1.50/M) | **Budget:** GLM 5.3 Flash ($0.044/M) | **Open weights:** GLM 5.3 Flash ($0.044/M) | **Other lab:** GLM 5.3 Flash ($0.044/M)
 
-**Every lab:** Alibaba (Qwen): Qwen3.7 Plus (top) · Zhipu (Z.ai): GLM 5.3 Flash (#5, 95%) · DeepSeek: DeepSeek V4.1 Flash (Max) (#7, 93%) · Google: Gemini 3.8 Flash (High) (#12, 87%) · Xiaomi: MiMo-V2.6-Pro (#13, 86%) · Anthropic: Claude Fable 5 (High) (#18, 86%) · Meta: Muse Spark 1.3 (Max) (#23, 85%) · MiniMax: MiniMax M3 (#26, 84%) · Tencent: Hy3 (#27, 84%) · Thinking Machines: Inkling Small (#28, 84%) · Moonshot AI: Kimi K3 (Max) (#36, 83%) · OpenAI: GPT-6.1 Sol (Max) (#40, 83%)
+**Every lab:** Alibaba (Qwen): Qwen3.7 Plus (top) · Zhipu (Z.ai): GLM 5.3 Flash (#5, 95%) · DeepSeek: DeepSeek V4.1 Flash (Max) (#7, 93%) · Google: Gemini 3.8 Flash (High) (#12, 87%) · Xiaomi: MiMo-V2.6-Pro (#13, 86%) · Anthropic: Claude Fable 5 (High) (#17, 86%) · Meta: Muse Spark 1.3 (Max) (#23, 85%) · MiniMax: MiniMax M3 (#26, 84%) · Tencent: Hy3 (#27, 84%) · Thinking Machines: Inkling Small (#28, 84%) · Moonshot AI: Kimi K3 (Max) (#36, 83%) · OpenAI: GPT-6.1 Sol (Max) (#40, 83%)
 
 | # | Tier | Model | Lab | Score | Price | Speed | Based on |
 |---|---|---|---|---|---|---|---|
@@ -627,7 +627,7 @@ Thousands of summaries, classifications, rewrites. Intelligence per dollar.
 
 **Best:** GLM 5.3 Flash ($0.044/M) | **Value:** GPT-6.1 Terra ($2.00/M) | **Budget:** GLM 5.3 Flash ($0.044/M) | **Open weights:** GLM 5.3 Flash ($0.044/M) | **Other lab:** DeepSeek V4.1 Flash (Max) ($0.16/M)
 
-**Every lab:** Zhipu (Z.ai): GLM 5.3 Flash (#5, 100%) · DeepSeek: DeepSeek V4.1 Flash (Max) (#8, 91%) · Google: Gemma 4 26B A4B (#19, 86%) · OpenAI: GPT-6 Luna (Max) (#21, 85%) · Anthropic: Claude Haiku 5.5 (High) (#22, 85%) · Xiaomi: MiMo-V2.6-Flash (#36, 79%) · Alibaba (Qwen): Qwen3.5-Flash (#37, 78%) · Tencent: Hy3 (#39, 78%) · MiniMax: MiniMax M3 (#55, 73%) · Meta: Muse Spark 1.3 (Max) (#57, 73%) · StepFun: Step 3.5 Flash (#61, 73%) · Moonshot AI: Kimi K2.6 (#79, 70%)
+**Every lab:** Zhipu (Z.ai): GLM 5.3 Flash (#5, 100%) · DeepSeek: DeepSeek V4.1 Flash (Max) (#8, 91%) · OpenAI: GPT-6 Luna (Max) (#20, 85%) · Anthropic: Claude Haiku 5.5 (High) (#21, 85%) · Google: Gemma 4 26B A4B (#24, 84%) · Xiaomi: MiMo-V2.6-Flash (#36, 79%) · Alibaba (Qwen): Qwen3.5-Flash (#37, 78%) · Tencent: Hy3 (#39, 78%) · MiniMax: MiniMax M3 (#55, 73%) · Meta: Muse Spark 1.3 (Max) (#57, 73%) · StepFun: Step 3.5 Flash (#61, 73%) · Moonshot AI: Kimi K2.6 (#79, 70%)
 
 | # | Tier | Model | Lab | Score | Price | Speed | Based on |
 |---|---|---|---|---|---|---|---|
@@ -654,7 +654,7 @@ _Not enough data this week._
 
 | Source | Status | Rows | Fetched |
 |---|---|---|---|
-| [OpenRouter models](https://openrouter.ai/api/v1/models) | ok | 357 | 2026-11-02 |
+| [OpenRouter models](https://openrouter.ai/api/v1/models) | ok | 358 | 2026-11-02 |
 | [Arena (lmarena-ai/leaderboard-dataset)](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) | ok | 819 | 2026-11-02 |
 | [llm-stats](https://llm-stats.com) | ok | 406 | 2026-11-02 |
 | [Epoch AI benchmarking hub](https://epoch.ai/data/benchmark_data.zip) | ok | 304 | 2026-11-02 |

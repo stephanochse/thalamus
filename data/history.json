@@ -917,14 +917,14 @@
       "GLM 5.3 (Max)"
      ],
      [
-      "google/gemma-4-26b-a4b-it",
-      67.4,
-      "Gemma 4 26B A4B"
-     ],
-     [
       "qwen/qwen3.8-27b",
       67.3,
       "Qwen3.8 27B"
+     ],
+     [
+      "anthropic/claude-fable-5@high",
+      67.3,
+      "Claude Fable 5 (High)"
      ]
     ],
     "code-build": [
@@ -1952,11 +1952,6 @@
       "Grok 4 Fast"
      ],
      [
-      "google/gemma-4-26b-a4b-it",
-      60.6,
-      "Gemma 4 26B A4B"
-     ],
-     [
       "arena:claude-sonnet-4@thinking",
       60.0,
       "Claude Sonnet 4 (Thinking 32K, 20250514)"
@@ -1970,6 +1965,11 @@
       "anthropic/claude-haiku-5.5@high",
       59.6,
       "Claude Haiku 5.5 (High)"
+     ],
+     [
+      "arena:o-1",
+      59.4,
+      "o1"
      ]
     ],
     "fast": []
