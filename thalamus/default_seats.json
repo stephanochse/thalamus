@@ -1,0 +1,60 @@
+{
+  "_comment": "Default seats. Override or add seats in ~/.thalamus/seats.json (same shape; set a key to null to remove it). Slugs for openrouter seats were checked against GET https://openrouter.ai/api/v1/models on 2 Nov 2026.",
+  "seats": {
+    "gpt": {
+      "label": "GPT (Codex CLI, ChatGPT plan)",
+      "lane": "codex", "id": "gpt-6-astra", "default_effort": "high",
+      "family": "openai", "lab": "OpenAI", "country": "US", "open_weights": false, "metered": false
+    },
+    "claude": {
+      "label": "Claude (Claude Code headless, Claude plan)",
+      "lane": "claude-cli", "id": "opus", "default_effort": "high",
+      "family": "anthropic", "lab": "Anthropic", "country": "US", "open_weights": false, "metered": false
+    },
+    "grok": {
+      "label": "Grok (Grok Build CLI)",
+      "lane": "grok", "id": "grok-4.7", "default_effort": "high",
+      "family": "xai", "lab": "xAI", "country": "US", "open_weights": false, "metered": false
+    },
+    "gemini": {
+      "label": "Gemini (Antigravity CLI)",
+      "lane": "agy", "id": "gemini-3.8-flash-high", "default_effort": null,
+      "family": "google", "lab": "Google", "country": "US", "open_weights": false, "metered": false
+    },
+    "glm-5.3": {
+      "label": "GLM 5.3 (OpenRouter)",
+      "lane": "openrouter", "id": "z-ai/glm-5.3", "default_effort": "low",
+      "family": "zhipu", "lab": "Z.ai", "country": "CN", "open_weights": true, "metered": true
+    },
+    "kimi-k3": {
+      "label": "Kimi K3 (OpenRouter)",
+      "lane": "openrouter", "id": "moonshotai/kimi-k3", "default_effort": "low",
+      "family": "moonshot", "lab": "Moonshot AI", "country": "CN", "open_weights": true, "metered": true
+    },
+    "deepseek-v4-pro": {
+      "label": "DeepSeek V4 Pro (OpenRouter)",
+      "lane": "openrouter", "id": "deepseek/deepseek-v4-pro", "default_effort": "low",
+      "family": "deepseek", "lab": "DeepSeek", "country": "CN", "open_weights": true, "metered": true
+    },
+    "qwen-3.8": {
+      "label": "Qwen 3.8 2.4T (OpenRouter)",
+      "lane": "openrouter", "id": "qwen/qwen3.8-2.4t-a95b", "default_effort": "low",
+      "family": "qwen", "lab": "Alibaba Qwen", "country": "CN", "open_weights": true, "metered": true
+    },
+    "mistral-large": {
+      "label": "Mistral Large 4 (OpenRouter)",
+      "lane": "openrouter", "id": "mistralai/mistral-large-4-0", "default_effort": "low",
+      "family": "mistral", "lab": "Mistral AI", "country": "FR", "open_weights": true, "metered": true
+    },
+    "muse-spark": {
+      "label": "Muse Spark 1.3 (OpenRouter)",
+      "lane": "openrouter", "id": "meta/muse-spark-1.3", "default_effort": "low",
+      "family": "meta", "lab": "Meta", "country": "US", "open_weights": false, "metered": true
+    },
+    "local": {
+      "label": "Local model (Ollama)",
+      "lane": "ollama", "id": "llama3.2", "default_effort": null,
+      "family": "local", "lab": "local", "country": "local", "open_weights": true, "metered": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thalamus"
+version = "0.1.0"
+description = "Route every task to the AI model built for it, refreshed weekly from public leaderboards, with a council of rival labs on demand."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+sync = ["pyarrow>=14"]
+
+[project.scripts]
+thalamus = "thalamus.cli:main"
+
+[tool.setuptools]
+packages = ["thalamus", "thalamus.sources"]
+
+[tool.setuptools.package-data]
+thalamus = ["jobs.json", "default_seats.json"]

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+# raw source snapshots: kept by the Action's cache, never committed (some sources don't allow redistribution)
+data/cache/
+.DS_Store

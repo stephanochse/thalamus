@@ -1,0 +1,95 @@
+name: weekly-sync
+
+# Every Monday the runner pulls every public leaderboard, re-scores every model for every job
+# and commits the new routes. Runs in GitHub's cloud, so it happens whether or not your
+# computer is on. Your own machine pulls the result (or triggers this run if it's overdue).
+
+on:
+  schedule:
+    - cron: "23 5 * * 1"   # Monday 05:23 UTC
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated sources to refresh (empty = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the one sync-only dependency (reads Arena's parquet files)
+        run: pip install "pyarrow>=14"
+
+      # Raw snapshots stay out of git (some sources don't allow redistribution). The cache keeps last
+      # week's copy so a source that's down this week falls back instead of vanishing.
+      - name: Restore last week's raw snapshots
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: raw-${{ github.run_id }}
+          restore-keys: raw-
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -q
+
+      - name: Pull leaderboards and rebuild routes
+        # The manual input goes through an env var and a whitelist, never straight into the shell.
+        # Only licence-clean sources run here; Artificial Analysis and other opt-in sources are for
+        # personal builds on your own machine (see docs/SOURCES.md).
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+        run: |
+          if [ -n "$ONLY" ]; then
+            case "$ONLY" in
+              *[!a-z_,]*) echo "Invalid source list: use names like arena,epoch"; exit 1 ;;
+            esac
+            python -m thalamus update --only "$ONLY"
+          else
+            python -m thalamus update
+          fi
+
+      - name: Sanity check the output
+        run: |
+          python - <<'PY'
+          import json, sys
+          r = json.load(open("data/routes.json", encoding="utf-8"))
+          ranked = sum(1 for j in r["jobs"].values() if j["ranked"])
+          ok = [k for k, s in r["sources"].items() if s.get("ok")]
+          print(f"jobs with rankings: {ranked}/{len(r['jobs'])}, sources ok: {ok}")
+          for k, s in r["sources"].items():
+              if s.get("partial"):
+                  print(f"note: {k} used last week's copy for: {s['partial']}")
+          if "openrouter" not in ok:
+              sys.exit("OpenRouter catalog is not fresh; refusing to commit.")
+          if len(ok) < 3:
+              sys.exit("Fewer than 3 sources fresh; refusing to commit a degraded week.")
+          if ranked < len(r["jobs"]) // 2:
+              sys.exit("Too few jobs ranked; refusing to commit a broken week.")
+          PY
+
+      - name: Commit the week
+        run: |
+          git config user.name "weekly-sync"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data ROUTES.md README.md AGENTS.md CHANGELOG.md
+          if git diff --cached --quiet; then
+            echo "No changes this week."
+          else
+            git commit -m "data: weekly sync $(date -u +%F)"
+            git push
+          fi

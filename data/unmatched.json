@@ -1,0 +1,2694 @@
+{
+ "updated": "2026-11-02",
+ "note": "Add an entry to data/aliases.json to merge these.",
+ "records": [
+  {
+   "source": "arena",
+   "source_id": "llm:Gemini 4 Carbon (High)",
+   "name": "Gemini 4 Carbon (High)",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Muse Spark",
+   "name": "Muse Spark",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemini 3 Pro",
+   "name": "Gemini 3 Pro",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 4.20 Beta 1",
+   "name": "Grok 4.20 Beta 1",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:GPT-5.5 Instant",
+   "name": "GPT-5.5 Instant",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:ERNIE 5.1",
+   "name": "ERNIE 5.1",
+   "lab": "baidu"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 4.1 (Thinking)",
+   "name": "Grok 4.1 (Thinking)",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen3.5-Max-Preview",
+   "name": "Qwen3.5-Max-Preview",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen3.6-Max-Preview",
+   "name": "Qwen3.6-Max-Preview",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Dola Seed 2.0 Pro",
+   "name": "Dola Seed 2.0 Pro",
+   "lab": "bytedance"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:GPT-5.3 Chat",
+   "name": "GPT-5.3 Chat",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:ERNIE-5.0-Preview (1203)",
+   "name": "ERNIE-5.0-Preview (1203)",
+   "lab": "baidu"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MiMo-V2-Pro",
+   "name": "MiMo-V2-Pro",
+   "lab": "xiaomi"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:GPT-4.5 Preview (2025-02-27)",
+   "name": "GPT-4.5 Preview (2025-02-27)",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:ChatGPT-4o Latest (20250326)",
+   "name": "ChatGPT-4o Latest (20250326)",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Inkling",
+   "name": "Inkling",
+   "lab": "thinky"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:LongCat-Flash-Chat Exp (2602)",
+   "name": "LongCat-Flash-Chat Exp (2602)",
+   "lab": "meituan"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen3-Max-Preview",
+   "name": "Qwen3-Max-Preview",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MiMo-V2-Omni",
+   "name": "MiMo-V2-Omni",
+   "lab": "xiaomi"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 4.1 Fast (Reasoning)",
+   "name": "Grok 4.1 Fast (Reasoning)",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Kimi K2 Thinking Turbo",
+   "name": "Kimi K2 Thinking Turbo",
+   "lab": "moonshot"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:amazon-nova-experimental-chat (26-02-10)",
+   "name": "amazon-nova-experimental-chat (26-02-10)",
+   "lab": "amazon"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+   "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Claude Opus 4 (Thinking 16K, 20250514)",
+   "name": "Claude Opus 4 (Thinking 16K, 20250514)",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Muse Glimmer",
+   "name": "Muse Glimmer",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 4 Fast (Non-Reasoning)",
+   "name": "Grok 4 Fast (Non-Reasoning)",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+   "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 3 Preview (02-24)",
+   "name": "Grok 3 Preview (02-24)",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 4 (0709)",
+   "name": "Grok 4 (0709)",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Inkling-Small",
+   "name": "Inkling-Small",
+   "lab": "thinky"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:o1 (2024-12-17)",
+   "name": "o1 (2024-12-17)",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Claude Sonnet 4 (Thinking 32K, 20250514)",
+   "name": "Claude Sonnet 4 (Thinking 32K, 20250514)",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan Vision 1.5 Thinking",
+   "name": "Hunyuan Vision 1.5 Thinking",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MiMo-V2-Flash (Non-Thinking)",
+   "name": "MiMo-V2-Flash (Non-Thinking)",
+   "lab": "xiaomi"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:o4-mini (2025-04-16)",
+   "name": "o4-mini (2025-04-16)",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Claude 3.7 Sonnet (Thinking 32K, 20250219)",
+   "name": "Claude 3.7 Sonnet (Thinking 32K, 20250219)",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan T1 (20250711)",
+   "name": "Hunyuan T1 (20250711)",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan TurboS (20250416)",
+   "name": "Hunyuan TurboS (20250416)",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Trinity Large Preview",
+   "name": "Trinity Large Preview",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Claude 3.5 Sonnet (20241022)",
+   "name": "Claude 3.5 Sonnet (20241022)",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen2.5-Max",
+   "name": "Qwen2.5-Max",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Trinity Large Thinking",
+   "name": "Trinity Large Thinking",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 3 Mini (High)",
+   "name": "Grok 3 Mini (High)",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:o3-mini (High)",
+   "name": "o3-mini (High)",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemini 2.0 Flash (001)",
+   "name": "Gemini 2.0 Flash (001)",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:NVIDIA-Nemotron-3-Super-120B-A12B",
+   "name": "NVIDIA-Nemotron-3-Super-120B-A12B",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mistral Small 3.2 (2506)",
+   "name": "Mistral Small 3.2 (2506)",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:INTELLECT-3",
+   "name": "INTELLECT-3",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemini 2.0 Flash-Lite Preview (02-05)",
+   "name": "Gemini 2.0 Flash-Lite Preview (02-05)",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)",
+   "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemini 1.5 Pro (002)",
+   "name": "Gemini 1.5 Pro (002)",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Step-3",
+   "name": "Step-3",
+   "lab": "stepfun"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.1 Nemotron Ultra 253B v1",
+   "name": "Llama 3.1 Nemotron Ultra 253B v1",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Ling-flash-2.0",
+   "name": "Ling-flash-2.0",
+   "lab": "ant-group"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.3 Nemotron Super 49B v1.5",
+   "name": "Llama 3.3 Nemotron Super 49B v1.5",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:GLM-4-Plus (0111)",
+   "name": "GLM-4-Plus (0111)",
+   "lab": "zai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan Turbo (0110)",
+   "name": "Hunyuan Turbo (0110)",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite 4.2 30B",
+   "name": "Granite 4.2 30B",
+   "lab": "ibm"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:o1-mini",
+   "name": "o1-mini",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemini Advanced (0514)",
+   "name": "Gemini Advanced (0514)",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 2 (2024-08-13)",
+   "name": "Grok 2 (2024-08-13)",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:QwQ-32B",
+   "name": "QwQ-32B",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.1 405B Instruct (BF16)",
+   "name": "Llama 3.1 405B Instruct (BF16)",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Amazon Nova 2 Lite",
+   "name": "Amazon Nova 2 Lite",
+   "lab": "amazon"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Step-2 16K Exp (202412)",
+   "name": "Step-2 16K Exp (202412)",
+   "lab": "stepfun"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Olmo 3.1 32B Instruct",
+   "name": "Olmo 3.1 32B Instruct",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Yi Lightning",
+   "name": "Yi Lightning",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.3 Nemotron Super 49B v1",
+   "name": "Llama 3.3 Nemotron Super 49B v1",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 4 Maverick 17B 128E Instruct",
+   "name": "Llama 4 Maverick 17B 128E Instruct",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan Large (2025-02-10)",
+   "name": "Hunyuan Large (2025-02-10)",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Claude 3.5 Haiku (20241022)",
+   "name": "Claude 3.5 Haiku (20241022)",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:GPT-4 Turbo (2024-04-09)",
+   "name": "GPT-4 Turbo (2024-04-09)",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:DeepSeek-V2.5 (1210)",
+   "name": "DeepSeek-V2.5 (1210)",
+   "lab": "deepseek"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Ring-flash-2.0",
+   "name": "Ring-flash-2.0",
+   "lab": "ant-group"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Claude 3 Opus (20240229)",
+   "name": "Claude 3 Opus (20240229)",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 4 Scout 17B 16E Instruct",
+   "name": "Llama 4 Scout 17B 16E Instruct",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Molmo 2 8B",
+   "name": "Molmo 2 8B",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Step-1o Turbo (202506)",
+   "name": "Step-1o Turbo (202506)",
+   "lab": "stepfun"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen-Max (0919)",
+   "name": "Qwen-Max (0919)",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemma 3n E4B IT",
+   "name": "Gemma 3n E4B IT",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen2.5-Plus (1127)",
+   "name": "Qwen2.5-Plus (1127)",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mistral Large 2 (2407)",
+   "name": "Mistral Large 2 (2407)",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Athene V2 Chat",
+   "name": "Athene V2 Chat",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:NVIDIA-Nemotron-3-Nano-30B-A3B (BF16)",
+   "name": "NVIDIA-Nemotron-3-Nano-30B-A3B (BF16)",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan Standard (2025-02-10)",
+   "name": "Hunyuan Standard (2025-02-10)",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemini 1.5 Flash (002)",
+   "name": "Gemini 1.5 Flash (002)",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 2 mini (2024-08-13)",
+   "name": "Grok 2 mini (2024-08-13)",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Athene 70B (0725)",
+   "name": "Athene 70B (0725)",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Olmo 3 32B Think",
+   "name": "Olmo 3 32B Think",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mercury",
+   "name": "Mercury",
+   "lab": "inception-ai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Magistral Medium (2506)",
+   "name": "Magistral Medium (2506)",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite 4.1 8B",
+   "name": "Granite 4.1 8B",
+   "lab": "ibm"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.1 Nemotron 70B Instruct",
+   "name": "Llama 3.1 Nemotron 70B Instruct",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan Large Vision",
+   "name": "Hunyuan Large Vision",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Amazon Nova Pro 1.0",
+   "name": "Amazon Nova Pro 1.0",
+   "lab": "amazon"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite 4.2 3B",
+   "name": "Granite 4.2 3B",
+   "lab": "ibm"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Jamba 1.5 Large",
+   "name": "Jamba 1.5 Large",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Reka Core (20240904)",
+   "name": "Reka Core (20240904)",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite-4.0-H-Small",
+   "name": "Granite-4.0-H-Small",
+   "lab": "ibm"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.1 Nemotron 51B Instruct",
+   "name": "Llama 3.1 Nemotron 51B Instruct",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Olmo 3.1 32B Think",
+   "name": "Olmo 3.1 32B Think",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.1 Tulu 3 70B",
+   "name": "Llama 3.1 Tulu 3 70B",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Claude 3 Sonnet (20240229)",
+   "name": "Claude 3 Sonnet (20240229)",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemma 2 9B IT SimPO",
+   "name": "Gemma 2 9B IT SimPO",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Nemotron-4 340B Instruct",
+   "name": "Nemotron-4 340B Instruct",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3 70B Instruct",
+   "name": "Llama 3 70B Instruct",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:GLM-4 (0520)",
+   "name": "GLM-4 (0520)",
+   "lab": "zai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Reka Flash (20240904)",
+   "name": "Reka Flash (20240904)",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Aya Expanse 32B",
+   "name": "Aya Expanse 32B",
+   "lab": "cohere"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemma 2 9B IT",
+   "name": "Gemma 2 9B IT",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:DeepSeek-Coder-V2",
+   "name": "DeepSeek-Coder-V2",
+   "lab": "deepseek"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen2-72B-Instruct",
+   "name": "Qwen2-72B-Instruct",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Claude 3 Haiku (20240307)",
+   "name": "Claude 3 Haiku (20240307)",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Amazon Nova Lite 1.0",
+   "name": "Amazon Nova Lite 1.0",
+   "lab": "amazon"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemini 1.5 Flash-8B (001)",
+   "name": "Gemini 1.5 Flash-8B (001)",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:OLMo 2 32B Instruct (0325)",
+   "name": "OLMo 2 32B Instruct (0325)",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Amazon Nova Micro 1.0",
+   "name": "Amazon Nova Micro 1.0",
+   "lab": "amazon"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Jamba 1.5 Mini",
+   "name": "Jamba 1.5 Mini",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen1.5-110B-Chat",
+   "name": "Qwen1.5-110B-Chat",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Reka Flash 21B (Online, 20240226)",
+   "name": "Reka Flash 21B (Online, 20240226)",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen1.5-72B-Chat",
+   "name": "Qwen1.5-72B-Chat",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan Standard 256K",
+   "name": "Hunyuan Standard 256K",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mixtral 8x22B Instruct v0.1",
+   "name": "Mixtral 8x22B Instruct v0.1",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3 8B Instruct",
+   "name": "Llama 3 8B Instruct",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Aya Expanse 8B",
+   "name": "Aya Expanse 8B",
+   "lab": "cohere"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mistral Medium",
+   "name": "Mistral Medium",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.1 Tulu 3 8B",
+   "name": "Llama 3.1 Tulu 3 8B",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Zephyr ORPO 141B A35B v0.1",
+   "name": "Zephyr ORPO 141B A35B v0.1",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Yi 1.5 34B Chat",
+   "name": "Yi 1.5 34B Chat",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite 3.1 8B Instruct",
+   "name": "Granite 3.1 8B Instruct",
+   "lab": "ibm"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen1.5-32B-Chat",
+   "name": "Qwen1.5-32B-Chat",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemma 2 2B IT",
+   "name": "Gemma 2 2B IT",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Phi-3 Medium 4K Instruct",
+   "name": "Phi-3 Medium 4K Instruct",
+   "lab": "microsoft"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mixtral 8x7B Instruct v0.1",
+   "name": "Mixtral 8x7B Instruct v0.1",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:DBRX Instruct Preview",
+   "name": "DBRX Instruct Preview",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen1.5-14B-Chat",
+   "name": "Qwen1.5-14B-Chat",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:InternLM2.5 20B Chat",
+   "name": "InternLM2.5 20B Chat",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:DeepSeek LLM 67B Chat",
+   "name": "DeepSeek LLM 67B Chat",
+   "lab": "deepseek"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:WizardLM 70B",
+   "name": "WizardLM 70B",
+   "lab": "microsoft"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Yi 34B Chat",
+   "name": "Yi 34B Chat",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite 3.0 8B Instruct",
+   "name": "Granite 3.0 8B Instruct",
+   "lab": "ibm"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:OpenChat 3.5",
+   "name": "OpenChat 3.5",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemma 1.1 7B IT",
+   "name": "Gemma 1.1 7B IT",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Snowflake Arctic Instruct",
+   "name": "Snowflake Arctic Instruct",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite 3.1 2B Instruct",
+   "name": "Granite 3.1 2B Instruct",
+   "lab": "ibm"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Tulu 2 DPO 70B",
+   "name": "Tulu 2 DPO 70B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:OpenHermes 2.5 Mistral 7B",
+   "name": "OpenHermes 2.5 Mistral 7B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Vicuna 33B",
+   "name": "Vicuna 33B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Phi-3 Small 8K Instruct",
+   "name": "Phi-3 Small 8K Instruct",
+   "lab": "microsoft"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Starling LM 7B Beta",
+   "name": "Starling LM 7B Beta",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 2 70B Chat",
+   "name": "Llama 2 70B Chat",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Starling LM 7B Alpha",
+   "name": "Starling LM 7B Alpha",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Nous Hermes 2 Mixtral 8x7B DPO",
+   "name": "Nous Hermes 2 Mixtral 8x7B DPO",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite 3.0 2B Instruct",
+   "name": "Granite 3.0 2B Instruct",
+   "lab": "ibm"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 2 70B SteerLM Chat",
+   "name": "Llama 2 70B SteerLM Chat",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:SOLAR 10.7B Instruct v1.0",
+   "name": "SOLAR 10.7B Instruct v1.0",
+   "lab": "upstage"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Dolphin 2.2.1 Mistral 7B",
+   "name": "Dolphin 2.2.1 Mistral 7B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MPT 30B Chat",
+   "name": "MPT 30B Chat",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:WizardLM 13B",
+   "name": "WizardLM 13B",
+   "lab": "microsoft"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mistral 7B Instruct v0.2",
+   "name": "Mistral 7B Instruct v0.2",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Falcon 180B Chat",
+   "name": "Falcon 180B Chat",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen1.5-7B-Chat",
+   "name": "Qwen1.5-7B-Chat",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Phi-3 Mini 4K Instruct (June 2024)",
+   "name": "Phi-3 Mini 4K Instruct (June 2024)",
+   "lab": "microsoft"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Vicuna 13B",
+   "name": "Vicuna 13B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 2 13B Chat",
+   "name": "Llama 2 13B Chat",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen-14B-Chat",
+   "name": "Qwen-14B-Chat",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:PaLM 2",
+   "name": "PaLM 2",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemma 7B IT",
+   "name": "Gemma 7B IT",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Code Llama 34B Instruct",
+   "name": "Code Llama 34B Instruct",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Zephyr 7B Beta",
+   "name": "Zephyr 7B Beta",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Phi-3 Mini 128K Instruct",
+   "name": "Phi-3 Mini 128K Instruct",
+   "lab": "microsoft"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Guanaco 33B",
+   "name": "Guanaco 33B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Zephyr 7B Alpha",
+   "name": "Zephyr 7B Alpha",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:StripedHyena Nous 7B",
+   "name": "StripedHyena Nous 7B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Code Llama 70B Instruct",
+   "name": "Code Llama 70B Instruct",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemma 1.1 2B IT",
+   "name": "Gemma 1.1 2B IT",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Vicuna 7B",
+   "name": "Vicuna 7B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:SmolLM2 1.7B Instruct",
+   "name": "SmolLM2 1.7B Instruct",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mistral 7B Instruct",
+   "name": "Mistral 7B Instruct",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 2 7B Chat",
+   "name": "Llama 2 7B Chat",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Gemma 2B IT",
+   "name": "Gemma 2B IT",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen1.5-4B-Chat",
+   "name": "Qwen1.5-4B-Chat",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:OLMo 7B Instruct",
+   "name": "OLMo 7B Instruct",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Koala 13B",
+   "name": "Koala 13B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Alpaca 13B",
+   "name": "Alpaca 13B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:GPT4All 13B Snoozy",
+   "name": "GPT4All 13B Snoozy",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MPT 7B Chat",
+   "name": "MPT 7B Chat",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:ChatGLM3 6B",
+   "name": "ChatGLM3 6B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:RWKV-4 Raven 14B",
+   "name": "RWKV-4 Raven 14B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:ChatGLM2 6B",
+   "name": "ChatGLM2 6B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:OpenAssistant Pythia 12B",
+   "name": "OpenAssistant Pythia 12B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:ChatGLM 6B",
+   "name": "ChatGLM 6B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:FastChat-T5 3B",
+   "name": "FastChat-T5 3B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Dolly 2.0 12B",
+   "name": "Dolly 2.0 12B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:LLaMA 13B",
+   "name": "LLaMA 13B",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:StableLM Tuned Alpha 7B",
+   "name": "StableLM Tuned Alpha 7B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Muse Wonder Full (Max)",
+   "name": "Muse Wonder Full (Max)",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen3.8-Flash-Next",
+   "name": "Qwen3.8-Flash-Next",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Seed2.1 Pro Preview",
+   "name": "Seed2.1 Pro Preview",
+   "lab": "bytedance"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Spark-X2.6",
+   "name": "Spark-X2.6",
+   "lab": "synlan"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Laguna M.1",
+   "name": "Laguna M.1",
+   "lab": "poolside"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Laguna XS.2",
+   "name": "Laguna XS.2",
+   "lab": "poolside"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:KAT-Coder-Pro V1",
+   "name": "KAT-Coder-Pro V1",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok Code Fast 1",
+   "name": "Grok Code Fast 1",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Devstral Medium (2507)",
+   "name": "Devstral Medium (2507)",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen-VL-Max (2025-08-13)",
+   "name": "Qwen-VL-Max (2025-08-13)",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen2.5-VL-32B-Instruct",
+   "name": "Qwen2.5-VL-32B-Instruct",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Step-1o Vision 32K (High Res)",
+   "name": "Step-1o Vision 32K (High Res)",
+   "lab": "stepfun"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Pixtral Large (2411)",
+   "name": "Pixtral Large (2411)",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen2-VL-72B",
+   "name": "Qwen2-VL-72B",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Step-1V 32K",
+   "name": "Step-1V 32K",
+   "lab": "stepfun"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Molmo 72B (0924)",
+   "name": "Molmo 72B (0924)",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Pixtral 12B (2409)",
+   "name": "Pixtral 12B (2409)",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:InternVL2 26B",
+   "name": "InternVL2 26B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.2 90B Vision Instruct",
+   "name": "Llama 3.2 90B Vision Instruct",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Hunyuan Standard Vision (2024-12-31)",
+   "name": "Hunyuan Standard Vision (2024-12-31)",
+   "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Aya Vision 32B",
+   "name": "Aya Vision 32B",
+   "lab": "cohere"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Qwen2-VL-7B-Instruct",
+   "name": "Qwen2-VL-7B-Instruct",
+   "lab": "alibaba"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Yi Vision",
+   "name": "Yi Vision",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.2 11B Vision Instruct",
+   "name": "Llama 3.2 11B Vision Instruct",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Molmo 7B-D (0924)",
+   "name": "Molmo 7B-D (0924)",
+   "lab": "allenai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:InternVL2 4B",
+   "name": "InternVL2 4B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:nvila-internal-15b-v1",
+   "name": "nvila-internal-15b-v1",
+   "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:LLaVA 1.6 34B",
+   "name": "LLaVA 1.6 34B",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:CogVLM2 Llama3 Chat 19B",
+   "name": "CogVLM2 Llama3 Chat 19B",
+   "lab": "zai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:LLaVA-OneVision Qwen2 72B OV",
+   "name": "LLaVA-OneVision Qwen2 72B OV",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MiniCPM-V 2.6",
+   "name": "MiniCPM-V 2.6",
+   "lab": ""
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Phi-3.5 Vision Instruct",
+   "name": "Phi-3.5 Vision Instruct",
+   "lab": "microsoft"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Phi-3 Vision 128K Instruct",
+   "name": "Phi-3 Vision 128K Instruct",
+   "lab": "microsoft"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-fable-5.1-max",
+   "name": "claude-fable-5.1-max",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-opus-4-6-high",
+   "name": "claude-opus-4-6-high",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-opus-4-7",
+   "name": "claude-opus-4-7",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-sonnet-4-6",
+   "name": "claude-sonnet-4-6",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-opus-4-8-high",
+   "name": "claude-opus-4-8-high",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:muse-spark-1.3-max",
+   "name": "muse-spark-1.3-max",
+   "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gpt-6-astra-max",
+   "name": "gpt-6-astra-max",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-opus-4-5-20251101",
+   "name": "claude-opus-4-5-20251101",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-sonnet-4-5-20250929",
+   "name": "claude-sonnet-4-5-20250929",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-haiku-4-5-20251001",
+   "name": "claude-haiku-4-5-20251001",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gpt-6.1-sol-max",
+   "name": "gpt-6.1-sol-max",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gemini-3.1-pro-grounding",
+   "name": "gemini-3.1-pro-grounding",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gemini-3-pro-grounding",
+   "name": "gemini-3-pro-grounding",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gemini-3-flash-grounding",
+   "name": "gemini-3-flash-grounding",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:grok-4.20-beta1",
+   "name": "grok-4.20-beta1",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gpt-6-sol-max",
+   "name": "gpt-6-sol-max",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gpt-5.2-search-non-reasoning",
+   "name": "gpt-5.2-search-non-reasoning",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:grok-4-1-fast-search",
+   "name": "grok-4-1-fast-search",
+   "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gpt-6-luna-max",
+   "name": "gpt-6-luna-max",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:claude-opus-4-1-search",
+   "name": "claude-opus-4-1-search",
+   "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:o3-search",
+   "name": "o3-search",
+   "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:gemini-2.5-pro-grounding",
+   "name": "gemini-2.5-pro-grounding",
+   "lab": "google"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:ppl-sonar-reasoning-pro-high",
+   "name": "ppl-sonar-reasoning-pro-high",
+   "lab": "perplexity"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:ppl-sonar-pro-high",
+   "name": "ppl-sonar-pro-high",
+   "lab": "perplexity"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:diffbot-small-xl",
+   "name": "diffbot-small-xl",
+   "lab": "diffbot"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:api-gpt-4o-search",
+   "name": "api-gpt-4o-search",
+   "lab": "openai"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "claude-mythos-preview",
+   "name": "Claude Mythos Preview",
+   "lab": "Anthropic"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "swe-2",
+   "name": "SWE-2",
+   "lab": "Cognition"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "beam-1.0-501b-a23b",
+   "name": "Beam 1.0",
+   "lab": "Reflection AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "claude-mythos-5-1",
+   "name": "Claude Mythos 5.1",
+   "lab": "Anthropic"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "ling-3.0-flash-fin",
+   "name": "Ling 3.0 Flash Fin",
+   "lab": "InclusionAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-v4-pro-max",
+   "name": "DeepSeek-V4-Pro-Max",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "ember-1",
+   "name": "Ember-1",
+   "lab": "Fireworks AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "grok-4-heavy",
+   "name": "Grok-4 Heavy",
+   "lab": "xAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "laguna-s-2.1",
+   "name": "Laguna S 2.1",
+   "lab": "Poolside"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemini-3.8-flash-cyber",
+   "name": "Gemini 3.8 Flash Cyber",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "seed-2.0-pro",
+   "name": "Seed 2.0 Pro",
+   "lab": "ByteDance"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-v4-flash-max",
+   "name": "DeepSeek-V4-Flash-Max",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "k2-horizon-375b-a23b",
+   "name": "K2 Horizon 375B-A23B",
+   "lab": "Institute of Foundation Models"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "inkling-small",
+   "name": "Inkling-Small",
+   "lab": "Thinking Machines Lab"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemini-3.5-flash-cyber",
+   "name": "Gemini 3.5 Flash Cyber",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "inkling",
+   "name": "Inkling",
+   "lab": "Thinking Machines Lab"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-5.1-thinking-2025-11-12",
+   "name": "GPT-5.1 Thinking",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-5.1-instant-2025-11-12",
+   "name": "GPT-5.1 Instant",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "longcat-flash-thinking-2601",
+   "name": "LongCat-Flash-Thinking-2601",
+   "lab": "Meituan"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-5.1-high-2025-11-12",
+   "name": "GPT-5.1 High",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "seed-1.8",
+   "name": "Seed 1.8",
+   "lab": "ByteDance"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-5-high-2025-08-07",
+   "name": "GPT-5 High",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-v3.2-speciale",
+   "name": "DeepSeek-V3.2-Speciale",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "mai-thinking-1",
+   "name": "MAI-Thinking-1",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3-max-thinking",
+   "name": "Qwen3 Max Thinking",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-rosalind-research",
+   "name": "GPT-Rosalind",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-5.1-medium-2025-11-12",
+   "name": "GPT-5.1 Medium",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nova-2-pro",
+   "name": "Nova 2 Pro",
+   "lab": "Amazon"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "k2-horizon-32b",
+   "name": "K2 Horizon 32B",
+   "lab": "Institute of Foundation Models"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "k2-horizon-mova-36b-a4b",
+   "name": "K2 Horizon MoVA 36B-A4B",
+   "lab": "Institute of Foundation Models"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-5.1-codex-high",
+   "name": "GPT-5.1 Codex High",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-5-medium-2025-08-07",
+   "name": "GPT-5 Medium",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nemotron-3.5-bolt-74b-a9b-24gb",
+   "name": "Nemotron 3.5 Bolt (74B A9B 24GB)",
+   "lab": "NVIDIA"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "mai-code-1-flash",
+   "name": "MAI-Code-1-Flash",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "mai-code-1.1-flash",
+   "name": "MAI-Code-1.1-Flash",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-oss-20b-high",
+   "name": "GPT OSS 20B High",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-5-codex-2025-09-15",
+   "name": "GPT-5 Codex",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3-vl-235b-a22b-thinking",
+   "name": "Qwen3 VL 235B A22B Thinking",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "k2-horizon-7b",
+   "name": "K2 Horizon 7B",
+   "lab": "Institute of Foundation Models"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "k-exaone-236b-a23b",
+   "name": "K-EXAONE-236B-A23B",
+   "lab": "LG AI Research"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "exaone-4.5-33b",
+   "name": "EXAONE 4.5 33B",
+   "lab": "LG AI Research"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nova-2-omni",
+   "name": "Nova 2 Omni",
+   "lab": "Amazon"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "step3-vl-10b",
+   "name": "Step3-VL-10B",
+   "lab": "StepFun"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "sarvam-105b",
+   "name": "Sarvam-105B",
+   "lab": "Sarvam AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-oss-120b-high",
+   "name": "GPT OSS 120B High",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "laguna-xs-2.1",
+   "name": "Laguna XS 2.1",
+   "lab": "Poolside"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "grok-4.20-beta-0309-reasoning",
+   "name": "Grok-4.20 Beta Reasoning",
+   "lab": "xAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3-vl-32b-thinking",
+   "name": "Qwen3 VL 32B Thinking",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "granite-4.2-30b",
+   "name": "IBM Granite 4.2 30B",
+   "lab": "IBM"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "u2",
+   "name": "U2",
+   "lab": "Unisound"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "north-mini-code-1.0",
+   "name": "North Mini Code 1.0",
+   "lab": "Cohere"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-4-12b-it",
+   "name": "Gemma 4 12B",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "k2-horizon-3.7b",
+   "name": "K2 Horizon 3.7B",
+   "lab": "Institute of Foundation Models"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nemotron-labs-dory-1.0-4b",
+   "name": "Nemotron Labs Dory 1.0 (4B)",
+   "lab": "NVIDIA"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "minimax-m1-80k",
+   "name": "MiniMax M1 80K",
+   "lab": "MiniMax"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nemotron-3-nano-30b-a3b",
+   "name": "Nemotron 3 Nano (30B A3B)",
+   "lab": "NVIDIA"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "ministral-14b-latest",
+   "name": "Ministral 3 (14B Reasoning 2512)",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "minimax-m1-40k",
+   "name": "MiniMax M1 40K",
+   "lab": "MiniMax"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3-vl-32b-instruct",
+   "name": "Qwen3 VL 32B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "granite-4.2-8b",
+   "name": "IBM Granite 4.2 8B",
+   "lab": "IBM"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "o1-pro",
+   "name": "o1-pro",
+   "lab": "OpenAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "sarvam-30b",
+   "name": "Sarvam-30B",
+   "lab": "Sarvam AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3.5-4b",
+   "name": "Qwen3.5-4B",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "diffusiongemma-26b-a4b-it",
+   "name": "DiffusionGemma 26B-A4B",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "longcat-flash-lite",
+   "name": "LongCat-Flash-Lite",
+   "lab": "Meituan"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nvidia-nemotron-nano-9b-v2",
+   "name": "Nemotron Nano 9B v2",
+   "lab": "NVIDIA"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "kimi-k1.5",
+   "name": "Kimi-k1.5",
+   "lab": "Moonshot AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemini-2.0-flash-thinking",
+   "name": "Gemini 2.0 Flash Thinking",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3-vl-8b-thinking",
+   "name": "Qwen3 VL 8B Thinking",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "grok-4.1-thinking-2025-11-17",
+   "name": "Grok-4.1 Thinking",
+   "lab": "xAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-r1-zero",
+   "name": "DeepSeek R1 Zero",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "granite-4.2-3b",
+   "name": "IBM Granite 4.2 3B",
+   "lab": "IBM"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "phi-4-reasoning-plus",
+   "name": "Phi 4 Reasoning Plus",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-r1-distill-llama-70b",
+   "name": "DeepSeek R1 Distill Llama 70B",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "minicpm-sala",
+   "name": "MiniCPM-SALA",
+   "lab": "OpenBMB"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "kimi-k2-base",
+   "name": "Kimi K2 Base",
+   "lab": "Moonshot AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-4-e4b-it",
+   "name": "Gemma 4 E4B",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-r1-distill-qwen-32b",
+   "name": "DeepSeek R1 Distill Qwen 32B",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3-vl-4b-thinking",
+   "name": "Qwen3 VL 4B Thinking",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nova-pro",
+   "name": "Nova Pro",
+   "lab": "Amazon"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "phi-4-reasoning",
+   "name": "Phi 4 Reasoning",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "ministral-3b-latest",
+   "name": "Min  istral 3 (3B Reasoning 2512)",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-r1-distill-qwen-14b",
+   "name": "DeepSeek R1 Distill Qwen 14B",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3-vl-4b-instruct",
+   "name": "Qwen3 VL 4B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "magistral-small-2506",
+   "name": "Magistral Small 2506",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nova-2-sonic",
+   "name": "Nova 2 Sonic",
+   "lab": "Amazon"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "devstral-small-2507",
+   "name": "Devstral Small 1.1",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-r1-distill-qwen-7b",
+   "name": "DeepSeek R1 Distill Qwen 7B",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qvq-72b-preview",
+   "name": "QvQ-72B-Preview",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nova-lite",
+   "name": "Nova Lite",
+   "lab": "Amazon"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen-2.5-32b-instruct",
+   "name": "Qwen2.5 32B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "phi-4-mini-reasoning",
+   "name": "Phi 4 Mini Reasoning",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-r1-distill-llama-8b",
+   "name": "DeepSeek R1 Distill Llama 8B",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen2.5-vl-7b",
+   "name": "Qwen2.5 VL 7B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-4-e2b-it",
+   "name": "Gemma 4 E2B",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "llama-3.2-90b-instruct",
+   "name": "Llama 3.2 90B Instruct",
+   "lab": "Meta"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen2.5-omni-7b",
+   "name": "Qwen2.5-Omni-7B",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "llama-3.1-nemotron-nano-8b-v1",
+   "name": "Llama 3.1 Nemotron Nano 8B V1",
+   "lab": "NVIDIA"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "mistral-small-24b-instruct-2501",
+   "name": "Mistral Small 3 24B Instruct",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3.5-2b",
+   "name": "Qwen3.5-2B",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen-2.5-14b-instruct",
+   "name": "Qwen2.5 14B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "lfm-2.5-vl-3b",
+   "name": "LFM2.5-VL-3B",
+   "lab": "Liquid AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-vl2",
+   "name": "DeepSeek VL2",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "phi-4-multimodal-instruct",
+   "name": "Phi-4-multimodal-instruct",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nova-micro",
+   "name": "Nova Micro",
+   "lab": "Amazon"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "granite-3.3-8b-instruct",
+   "name": "Granite 3.3 8B Instruct",
+   "lab": "IBM"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "phi-3.5-moe-instruct",
+   "name": "Phi-3.5-MoE-instruct",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-vl2-small",
+   "name": "DeepSeek VL2 Small",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "k2-horizon-0.9b",
+   "name": "K2 Horizon 0.9B",
+   "lab": "Institute of Foundation Models"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemini-diffusion",
+   "name": "Gemini Diffusion",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "mistral-small-3.1-24b-base-2503",
+   "name": "Mistral Small 3.1 24B Base",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "codestral-22b",
+   "name": "Codestral-22B",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "mistral-small-24b-base-2501",
+   "name": "Mistral Small 3 24B Base",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "granite-3.3-8b-base",
+   "name": "Granite 3.3 8B Base",
+   "lab": "IBM"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "grok-1.5v",
+   "name": "Grok-1.5V",
+   "lab": "xAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "llama-3.2-11b-instruct",
+   "name": "Llama 3.2 11B Instruct",
+   "lab": "Meta"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "shieldstral-1.0-3b",
+   "name": "Shieldstral 1.0 (3B)",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "grok-1.5",
+   "name": "Grok-1.5",
+   "lab": "xAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-r1-distill-qwen-1.5b",
+   "name": "DeepSeek R1 Distill Qwen 1.5B",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen-2.5-coder-7b-instruct",
+   "name": "Qwen2.5-Coder 7B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "grok-4.20-beta-0309-non-reasoning",
+   "name": "Grok-4.20 Beta Non-Reasoning",
+   "lab": "xAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "phi-3.5-mini-instruct",
+   "name": "Phi-3.5-mini-instruct",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "phi-4-mini",
+   "name": "Phi 4 Mini",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "medgemma-4b-it",
+   "name": "MedGemma 4B IT",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen2-7b-instruct",
+   "name": "Qwen2 7B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-vl2-tiny",
+   "name": "DeepSeek VL2 Tiny",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-3n-e4b-it",
+   "name": "Gemma 3n E4B Instructed",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "north-micro-vision-instruct",
+   "name": "North Micro Vision Instruct",
+   "lab": "Cohere"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-3n-e4b-it-litert-preview",
+   "name": "Gemma 3n E4B Instructed LiteRT Preview",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemini-1.0-pro",
+   "name": "Gemini 1.0 Pro",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "granite-4.0-tiny-preview",
+   "name": "IBM Granite 4.0 Tiny Preview",
+   "lab": "IBM"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen3.5-0.8b",
+   "name": "Qwen3.5-0.8B",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-3n-e2b-it-litert-preview",
+   "name": "Gemma 3n E2B Instructed LiteRT (Preview)",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-3n-e2b",
+   "name": "Gemma 3n E2B",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-3-1b-it",
+   "name": "Gemma 3 1B",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemma-3n-e2b-it",
+   "name": "Gemma 3n E2B Instructed",
+   "lab": "Google"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "ernie-4.5",
+   "name": "ERNIE 4.5",
+   "lab": "Baidu"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen3-8B",
+   "name": "Qwen3-8B",
+   "lab": "Alibaba"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Gemini 2.0 Pro",
+   "name": "Gemini 2.0 Pro",
+   "lab": "Google DeepMind"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Magistral Small 1.0",
+   "name": "Magistral Small 1.0",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Mistral Small 3.1",
+   "name": "Mistral Small 3.1",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "DeepSeek-V2 (MoE-236B, May 2024)",
+   "name": "DeepSeek-V2 (MoE-236B, May 2024)",
+   "lab": "DeepSeek"
+  },
+  {
+   "source": "epoch",
+   "source_id": "phi-3-small 7.4B",
+   "name": "phi-3-small 7.4B",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "epoch",
+   "source_id": "phi-3-medium 14B",
+   "name": "phi-3-medium 14B",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Claude Instant",
+   "name": "Claude Instant",
+   "lab": "Anthropic"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Claude 2",
+   "name": "Claude 2",
+   "lab": "Anthropic"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Claude 2.1",
+   "name": "Claude 2.1",
+   "lab": "Anthropic"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Mixtral 8x7B",
+   "name": "Mixtral 8x7B",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "phi-3-mini 3.8B",
+   "name": "phi-3-mini 3.8B",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Stable Beluga 2",
+   "name": "Stable Beluga 2",
+   "lab": "Stability AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen2.5-Coder-14B",
+   "name": "Qwen2.5-Coder-14B",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "PaLM 2-L",
+   "name": "PaLM 2-L",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen2.5-Coder (7B)",
+   "name": "Qwen2.5-Coder (7B)",
+   "lab": "Alibaba"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Mistral 7B v0.1",
+   "name": "Mistral 7B v0.1",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "internlm-20b",
+   "name": "internlm-20b",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "LLaMA-65B",
+   "name": "LLaMA-65B",
+   "lab": "Meta AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Falcon 2 11B",
+   "name": "Falcon 2 11B",
+   "lab": "Technology Innovation Institute"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Mistral 7B v0.3",
+   "name": "Mistral 7B v0.3",
+   "lab": "Mistral AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "DeepSeek-Coder-V2-Lite-Base",
+   "name": "DeepSeek-Coder-V2-Lite-Base",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "PaLM 2-M",
+   "name": "PaLM 2-M",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "Phi-2",
+   "name": "Phi-2",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen2.5-Coder-3B",
+   "name": "Qwen2.5-Coder-3B",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "Nemotron-4 15B",
+   "name": "Nemotron-4 15B",
+   "lab": "Nvidia"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Yi-9B",
+   "name": "Yi-9B",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "LLaMA-33B",
+   "name": "LLaMA-33B",
+   "lab": "Meta AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen-7B",
+   "name": "Qwen-7B",
+   "lab": "Alibaba"
+  },
+  {
+   "source": "epoch",
+   "source_id": "PaLM 2-S",
+   "name": "PaLM 2-S",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "Llama 2-34B",
+   "name": "Llama 2-34B",
+   "lab": "Meta AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "StarCoder 2 15B",
+   "name": "StarCoder 2 15B",
+   "lab": "Hugging Face,ServiceNow,Nvidia,BigCode"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Yi 6B",
+   "name": "Yi 6B",
+   "lab": "01.AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Falcon-40B",
+   "name": "Falcon-40B",
+   "lab": "Technology Innovation Institute"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Baichuan2-13B",
+   "name": "Baichuan2-13B",
+   "lab": "Baichuan"
+  },
+  {
+   "source": "epoch",
+   "source_id": "internlm-7b",
+   "name": "internlm-7b",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "INTELLECT-1",
+   "name": "INTELLECT-1",
+   "lab": "Prime Intellect,Hugging Face,Arcee AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "LLaMA-7B",
+   "name": "LLaMA-7B",
+   "lab": "Meta AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Baichuan 2-7B",
+   "name": "Baichuan 2-7B",
+   "lab": "Baichuan"
+  },
+  {
+   "source": "epoch",
+   "source_id": "DeepSeek Coder 33B",
+   "name": "DeepSeek Coder 33B",
+   "lab": "DeepSeek,Peking University"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Falcon-7B",
+   "name": "Falcon-7B",
+   "lab": "Technology Innovation Institute"
+  },
+  {
+   "source": "epoch",
+   "source_id": "CodeQwen1.5-7B",
+   "name": "CodeQwen1.5-7B",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "vicuna-13b-v1.1",
+   "name": "vicuna-13b-v1.1",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "StarCoder 2 7B",
+   "name": "StarCoder 2 7B",
+   "lab": "Hugging Face,ServiceNow,Nvidia,BigCode"
+  },
+  {
+   "source": "epoch",
+   "source_id": "XGen-7B",
+   "name": "XGen-7B",
+   "lab": "Salesforce"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen-1_8B",
+   "name": "Qwen-1.8B (8b)",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "open_llama_7b",
+   "name": "open_llama_7b (7b)",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "Phi-1.5",
+   "name": "Phi-1.5",
+   "lab": "Microsoft"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Baichuan1-7B",
+   "name": "Baichuan1-7B",
+   "lab": "Baichuan"
+  },
+  {
+   "source": "epoch",
+   "source_id": "RedPajama-INCITE-7B-Base",
+   "name": "RedPajama-INCITE-7B-Base",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "DeepSeek Coder 6.7B",
+   "name": "DeepSeek Coder 6.7B",
+   "lab": "DeepSeek,Peking University"
+  },
+  {
+   "source": "epoch",
+   "source_id": "StarCoder 2 3B",
+   "name": "StarCoder 2 3B",
+   "lab": "Hugging Face,ServiceNow,Nvidia,BigCode"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen2.5-Coder-0.5B",
+   "name": "Qwen2.5-Coder-0.5B",
+   "lab": ""
+  },
+  {
+   "source": "epoch",
+   "source_id": "Cerebras-GPT-13B",
+   "name": "Cerebras-GPT-13B",
+   "lab": "Cerebras Systems"
+  },
+  {
+   "source": "epoch",
+   "source_id": "DeepSeek Coder 1.3B",
+   "name": "DeepSeek Coder 1.3B",
+   "lab": "DeepSeek,Peking University"
+  },
+  {
+   "source": "epoch",
+   "source_id": "claude-3-7-sonnet-20250219",
+   "name": "claude-3-7-sonnet-20250219",
+   "lab": "Anthropic"
+  }
+ ]
+}
