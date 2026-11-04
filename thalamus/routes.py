@@ -15,6 +15,7 @@ prefer_subscriptions is on, a model you already pay for wins ties against a mete
 from __future__ import annotations
 
 import json
+import math
 import random
 import re
 
@@ -61,17 +62,115 @@ def _jobs_meta() -> list[dict]:
     return load_jobs()
 
 
+GROUP_SUPPORT = 0.25  # share of the weight from the job's group-mates that backs it (a build brief's parts)
+CLOSE = 0.8  # a single-word winner with a rival this close is a guess, not a match
+ALSO_MIN = 0.75  # weight another job needs to be listed as a part of the task
+
+
+def _rarity(meta: list[dict]) -> dict[str, float]:
+    """A keyword several jobs share ('script', 'transcript') says less than one only one job uses."""
+    df: dict[str, int] = {}
+    for job in meta:
+        for k in set(job.get("keywords", [])):
+            df[k] = df.get(k, 0) + 1
+    n = max(len(meta), 1)
+    return {k: math.log(1 + n / c) / math.log(1 + n) for k, c in df.items()}
+
+
+def _spans(text: str, keyword: str) -> list[tuple[int, int]]:
+    return [m.span() for m in re.finditer(r"(?<![a-z])" + re.escape(keyword) + r"(?![a-z])", text)]
+
+
+def _found(text: str, meta: list[dict]) -> set[str]:
+    """Keywords in the text, minus any that only appear inside a longer keyword that also matched:
+    'voice note' is not a vote for 'voice', and 'landing page copy' is not one for 'landing page'."""
+    spans = {k: s for k in {k for job in meta for k in job.get("keywords", [])} if (s := _spans(text, k))}
+
+    def inside(a: int, b: int, k: str) -> bool:
+        return any(len(o) > len(k) and x <= a and b <= y for o, ss in spans.items() for x, y in ss)
+    return {k for k, ss in spans.items() if not all(inside(a, b, k) for a, b in ss)}
+
+
+def _scored(task: str, meta: list[dict]) -> list[dict]:
+    """Every job with a hit: phrases count double, shared keywords count less, and a job gets a little
+    backing from hits on the other jobs in its group. Sorted best first; file order breaks ties."""
+    text, rare = task.lower(), _rarity(meta)
+    found = _found(text, meta)
+    rows = []
+    for order, job in enumerate(meta):
+        hits = [k for k in job.get("keywords", []) if k in found]
+        if hits:
+            weight = sum((2 if " " in h else 1) * rare.get(h, 1.0) for h in hits)
+            rows.append({"job": job["id"], "group": job.get("group"), "hits": hits, "weight": round(weight, 2),
+                         "order": order})
+    mass: dict[str | None, float] = {}
+    for r in rows:
+        mass[r["group"]] = mass.get(r["group"], 0.0) + r["weight"]
+    for r in rows:
+        r["total"] = round(r["weight"] + GROUP_SUPPORT * (mass[r["group"]] - r["weight"]), 2)
+    return sorted(rows, key=lambda r: (-r["total"], r["order"]))
+
+
+def _labels(meta: list[dict]) -> dict[str, str]:
+    return {j["id"]: f"{j['title']} (e.g. {', '.join(j.get('keywords', [])[:6])})" for j in meta}
+
+
+def classify_detail(task: str, classifier=None) -> dict:
+    """Which job a task is, how sure the match is, and the other jobs it touches.
+
+    confidence: high (two keywords or a phrase), medium (one word, nothing close), low (one word with a
+    close rival), none (no keyword). On low or none, `classifier(task, labels)` gets a say when given:
+    it returns {"choice", "probability", ...} or None, and None keeps the keyword result."""
+    meta = _jobs_meta()
+    rows = _scored(task, meta)
+    if rows:
+        top = rows[0]
+        strong = len(top["hits"]) >= 2 or any(" " in h for h in top["hits"])
+        close = any(r["weight"] >= CLOSE * top["weight"] for r in rows[1:])
+        confidence = "high" if strong else ("low" if close else "medium")
+        out = {"job": top["job"], "matched": top["hits"], "confidence": confidence, "method": "keywords"}
+    else:
+        out = {"job": "general", "matched": [], "confidence": "none", "method": "default"}
+    if out["confidence"] in ("low", "none") and classifier:
+        pick = classifier(task, _labels(meta))
+        if pick and pick.get("choice") in {j["id"] for j in meta}:
+            out.update(job=pick["choice"], method="classifier",
+                       matched=next((r["hits"] for r in rows if r["job"] == pick["choice"]), []),
+                       classifier={k: pick.get(k) for k in ("model", "probability", "cost")})
+    out["also"] = [{"job": r["job"], "matched": r["hits"]} for r in rows
+                   if r["job"] != out["job"] and r["weight"] >= ALSO_MIN][:4]
+    return out
+
+
 def classify(task: str) -> tuple[str, list[str]]:
     """Keyword match against jobs.json. Returns (job_id, matched words). Cheap and explainable;
-    an agent can always override by passing job= explicitly."""
-    text = task.lower()
-    best, best_hits = "general", []
-    for job in _jobs_meta():
-        hits = [k for k in job.get("keywords", []) if re.search(r"(?<![a-z])" + re.escape(k) + r"(?![a-z])", text)]
-        weight = sum(2 if " " in h else 1 for h in hits)
-        if weight > sum(2 if " " in h else 1 for h in best_hits):
-            best, best_hits = job["id"], hits
-    return best, best_hits
+    an agent can always override by passing job= explicitly. classify_detail says how sure it is."""
+    detail = classify_detail(task)
+    return detail["job"], detail["matched"]
+
+
+def _classifier(setting, cfg: dict):
+    """route()'s classifier argument: a callable, True/False, or None for the config and environment."""
+    if callable(setting):
+        return setting
+    from . import classifier as clf
+    if setting is False or (setting is None and not clf.enabled(cfg)):
+        return None
+    model = clf.model_from(cfg)
+    return lambda task, labels: clf.choose(task, labels, model=model)
+
+
+def local_options(job: str) -> list[dict]:
+    """Tools that do the job on your own machine (jobs.json "local"), with whether each is installed."""
+    import importlib.util
+    import shutil
+    meta = next((j for j in _jobs_meta() if j["id"] == job), {})
+    out = []
+    for opt in meta.get("local", []):
+        installed = bool((opt.get("module") and importlib.util.find_spec(opt["module"]))
+                         or (opt.get("command") and shutil.which(opt["command"])))
+        out.append({**{k: v for k, v in opt.items() if k not in ("module", "command")}, "installed": installed})
+    return sorted(out, key=lambda o: not o["installed"])
 
 
 def _served(served: dict | None) -> dict:
@@ -151,18 +250,22 @@ def your_favourites(entry: dict, patterns: list[str]) -> list[dict]:
     return unique
 
 
-def route(task: str, job: str | None = None, budget: str | None = None) -> dict:
+def route(task: str, job: str | None = None, budget: str | None = None, classifier=None) -> dict:
+    """classifier: None follows config/THALAMUS_CLASSIFIER, True/False forces it, or pass a callable
+    (task, labels) -> {"choice", "probability"} | None to use your own decision model."""
     data = _routes()
     jobs = data["jobs"]
+    cfg = _config()
     matched: list[str] = []
+    detail = None
     if not job:
-        job, matched = classify(task)
+        detail = classify_detail(task, classifier=_classifier(classifier, cfg))
+        job, matched = detail["job"], detail["matched"]
     if job not in jobs:
         job = "general" if "general" in jobs else next(iter(jobs))
     entry = dict(jobs[job])
     from . import learn
     entry["top"] = learn.personalize(job, entry.get("top", []))
-    cfg = _config()
     scout_pick = learn.scout(job, entry["top"]) if cfg.get("scout", True) and random.random() < cfg.get(
         "scout_rate", 0.1) else None
     result = {
@@ -176,6 +279,23 @@ def route(task: str, job: str | None = None, budget: str | None = None) -> dict:
                        "Picks are relative to this week's public leaderboards; check your own results. "
                        "Record how it went with the feedback tool so routing learns your taste."),
     }
+    if detail:
+        result["confidence"], result["method"] = detail["confidence"], detail["method"]
+        if detail.get("classifier"):
+            result["classifier"] = detail["classifier"]
+        if detail["also"]:
+            result["also"] = detail["also"]  # other parts of the task: route them on their own
+        if detail["confidence"] in ("low", "none") and detail["method"] != "classifier":
+            result["match_note"] = ("Weak keyword match. Pass job= if this is wrong (see `thalamus jobs`), or turn on "
+                                    "the classifier fallback (--classify, or \"classifier\": true in the config).")
+    if not entry.get("picks"):
+        local = local_options(job)
+        result["no_public_scores"] = True
+        result["note"] = (f"No model has public scores for '{entry['title']}' this week, so there are no picks. "
+                          "Say so rather than borrowing a pick from another job."
+                          + (" A local tool can do it: see local_options." if local else ""))
+        if local:
+            result["local_options"] = local
     if entry.get("labs"):
         result["other_labs"] = [{k: c[k] for k in ("lab", "name", "id", "rank", "of_best", "price")}
                                 for c in entry["labs"][:8]]

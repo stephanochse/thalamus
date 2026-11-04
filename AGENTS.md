@@ -10,7 +10,7 @@ If your prompt starts with `[council-seat]`, another agent called you as one sea
 
 Your session model is whatever the tool launched with, and a session can't switch its own model. You can still choose models for subtasks, subagents and outside checks. Do it without asking the user.
 
-1. Name the job. Call the `route` tool with the task in plain words (or pass `job` yourself). Jobs cover strategy, business, legal, health, research, math, long documents, writing, personality, translation, structured output, coding, coding agents, code review, frontend and screenshot-to-code, tool-using agents, vision, images (general, with text, photoreal), image editing, video, image-to-video, video editing, voice and transcription, plus bulk and instant work.
+1. Name the job. Call the `route` tool with the task in plain words (or pass `job` yourself). Jobs cover strategy, business, legal, health, research, math, long documents, writing, personality, translation, structured output, coding, coding agents, code review, frontend and screenshot-to-code, tool-using agents, vision, images (general, with text, photoreal), image editing, video, image-to-video, video editing, voice and transcription, plus bulk and instant work. Read `confidence`: on `low` or `none` the job is a guess, so pass `job` yourself. `also` lists the other jobs a brief touches (a bot build that also transcribes voice notes): route those parts on their own.
 2. Use the pick for the role the subtask plays:
    - **best** for the small, high-stakes share: the plan, the hard decision, the final review.
    - **value** for most of the work.
@@ -18,7 +18,7 @@ Your session model is whatever the tool launched with, and a session can't switc
    - **fast** when someone is waiting on the answer.
    - **open** when the data must stay on hardware the user controls.
    - **other lab** for a second opinion or a reviewer: the best model from a different lab than the best pick.
-3. Prefer what the user already pays for. `route` returns `your_picks` for the user's own channels and the models each subscription serves on their plan. A subscription seat (Claude plan, ChatGPT plan, Grok plan, Google plan, local Ollama) beats a metered API call when it's within 10% on quality. If a job comes back with no picks, the data for it isn't available this week: say so instead of guessing.
+3. Prefer what the user already pays for. `route` returns `your_picks` for the user's own channels and the models each subscription serves on their plan. A subscription seat (Claude plan, ChatGPT plan, Grok plan, Google plan, local Ollama) beats a metered API call when it's within 10% on quality. If a job comes back with no picks (`no_public_scores`), the data for it isn't available this week: say so instead of guessing, and offer the `local_options` it lists, such as faster-whisper for transcription, which runs free on the user's own machine.
 4. Spread the work across labs. `route` also returns `other_labs` (every lab's best model for the job, with its rank and share of the top score) and, when the user set `favourites`, where the model families they like stand. When several labs sit within a few points of the top, use more than one of them: different labs make different mistakes.
 5. Run independent subtasks in parallel, and say which model produced what when it matters.
 6. Check your own results. Picks come from public leaderboards, and leaderboards measure the average user. [BRAIN.md](BRAIN.md) says what the weekly self-check trusted less and which new models it can't judge yet.

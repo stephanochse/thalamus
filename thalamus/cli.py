@@ -2,7 +2,7 @@
 
     thalamus update [--only a,b]                  weekly sync (what the GitHub Action runs)
     thalamus update --personal --with aa          your own build with opt-in sources (~/.thalamus/data)
-    thalamus route "task text" [--job J] [--budget best|value|budget|fast|open]
+    thalamus route "task text" [--job J] [--budget best|value|budget|fast|open] [--classify]
     thalamus top <job> [-n 10] [--labs]           leaderboard for one job (--labs: every lab's best model)
     thalamus jobs                                 every job and what it covers
     thalamus council --tier deep --file task.md --draft mine.md --host claude
@@ -56,9 +56,11 @@ def main(argv: list[str] | None = None) -> int:
         ap.add_argument("task")
         ap.add_argument("--job")
         ap.add_argument("--budget")
+        ap.add_argument("--classify", action="store_true", default=None,
+                        help="when the keyword match is weak, ask a decision model on OpenRouter (your key, ~$0.00002)")
         a = ap.parse_args(rest)
         from . import routes
-        _print(routes.route(a.task, job=a.job, budget=a.budget))
+        _print(routes.route(a.task, job=a.job, budget=a.budget, classifier=a.classify))
         return 0
     if cmd == "top":
         ap = argparse.ArgumentParser(prog="thalamus top")

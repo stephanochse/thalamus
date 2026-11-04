@@ -229,6 +229,8 @@ Tell Thalamus what you have and what you like in `~/.thalamus/config.json`:
 
 `served` says which models each plan includes, so `route` offers a subscription pick only when a model matches. `favourites` makes every `route` answer show where the model families you like stand for that task, wherever they rank.
 
+`route` matches the task to a job by keywords. A phrase counts double, a keyword several jobs share counts less, and one stray word can't decide a long brief: every answer carries a `confidence` and lists the other jobs the task touches under `also`. Add `"classifier": true` to the config (or pass `--classify`) and a weak match goes to a decision model on OpenRouter instead, with your key, at about $0.00002 a call. It's off by default, and the task text is scrubbed before it leaves your machine. When a job has no public scores this week, `route` says so and lists free local tools that do the job, such as faster-whisper for transcription.
+
 ## It learns your taste
 
 ```bash
