@@ -8,7 +8,7 @@
 <h3 align="center">The right AI model for every job, re-ranked every Monday.</h3>
 
 <p align="center">
-Thalamus reads open AI leaderboards each week, ranks every model from every lab for 29 jobs, and tells Claude Code, Codex, Cursor and your other tools which one to use. It checks its own data, remembers past weeks and learns from your verdicts.
+Thalamus reads open AI leaderboards each week, ranks every model from every lab for 35 jobs, and tells Claude Code, Codex, Cursor and your other tools which one to use. It checks its own data, remembers past weeks and learns from your verdicts.
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ Thalamus reads open AI leaderboards each week, ranks every model from every lab 
   <a href="LICENSE"><img alt="license" src="https://img.shields.io/github/license/stephanochse/thalamus?style=flat-square"></a>
   <img alt="python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="no dependencies" src="https://img.shields.io/badge/dependencies-none-2EA44F?style=flat-square">
-  <img alt="29 jobs" src="https://img.shields.io/badge/jobs-29-E8590C?style=flat-square">
+  <img alt="35 jobs" src="https://img.shields.io/badge/jobs-35-E8590C?style=flat-square">
 </p>
 
 <!-- thalamus:example:start -->
@@ -71,7 +71,7 @@ In your brain, the thalamus sits in the middle and relays almost every signal to
 <!-- thalamus:headline:end -->
 
 <details>
-<summary><b>All 29 jobs</b>: best, value, budget, other lab, and what a mixed plan saves</summary>
+<summary><b>All 35 jobs</b>: best, value, budget, other lab, and what a mixed plan saves</summary>
 
 **Value** is the cheapest model within 90% of the top quality, **budget** the cheapest within 75%. **Other lab** is the best model from a different lab than the best pick. **Mix saves** compares a plan that sends 10% of tokens to the best model, 30% to the value pick and 60% to the budget pick with sending everything to the best model.
 
@@ -121,7 +121,7 @@ _Updated 2026-11-02 by the weekly sync. Full tables: [ROUTES.md](ROUTES.md)._
 
 ## Every lab
 
-How each lab did across all 29 jobs this week. "Strongest at" is the job where its best model gets closest to the top score. [ROUTES.md](ROUTES.md) lists every lab's best model for every job, with its rank.
+How each lab did across all 35 jobs this week. "Strongest at" is the job where its best model gets closest to the top score. [ROUTES.md](ROUTES.md) lists every lab's best model for every job, with its rank.
 
 <!-- thalamus:labs:start -->
 | Lab | Jobs won | In the top 3 for | Strongest at |
@@ -168,7 +168,7 @@ flowchart LR
   E[Vectara] --> M
   F[tau2-bench] --> M
   M[Merge names] --> Q{Self-check}
-  Q --> S[Score 29 jobs]
+  Q --> S[Score 35 jobs]
   V[Community verdicts] --> S
   S --> R[Routes, BRAIN.md, brain map]
   R --> T[Your tools]
