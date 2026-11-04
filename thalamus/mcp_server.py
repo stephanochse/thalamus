@@ -56,7 +56,9 @@ TOOLS = [
     {"name": "route",
      "description": "Recommend a model for a task: best, value, budget, fast, open and other-lab picks, every "
                     "lab's best model for the job (other_labs) and, if configured, where the user's favourite "
-                    "model families stand. Optional job (task category) and budget.",
+                    "model families stand. Optional job (task category) and budget. Says how sure the job match "
+                    "is (confidence: pass job yourself on low or none) and which other jobs the task touches "
+                    "(also). A job with no public scores says so and lists local_options instead.",
      "inputSchema": {"type": "object", "required": ["task"], "properties": {
          "task": {"type": "string"}, "job": {"type": "string"}, "budget": {"type": "string"}}}},
     {"name": "leaderboard",
