@@ -1,7 +1,7 @@
 {
- "ran": "2026-11-02T13:47:20+00:00",
+ "ran": "2026-11-09T14:02:15+00:00",
  "sources_ok": 6,
  "sources_total": 6,
- "models": 1109,
- "scored": 977
+ "models": 1085,
+ "scored": 951
 }

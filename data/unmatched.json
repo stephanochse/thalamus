@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-09",
  "note": "Add an entry to data/aliases.json to merge these.",
  "records": [
   {
@@ -118,15 +118,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:MiMo-V2-Omni",
-   "name": "MiMo-V2-Omni",
-   "lab": "xiaomi"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Grok 4.1 Fast (Reasoning)",
    "name": "Grok 4.1 Fast (Reasoning)",
    "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MiMo-V2-Omni",
+   "name": "MiMo-V2-Omni",
+   "lab": "xiaomi"
   },
   {
    "source": "arena",
@@ -142,15 +142,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
-   "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
-   "lab": "nvidia"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Claude Opus 4 (Thinking 16K, 20250514)",
    "name": "Claude Opus 4 (Thinking 16K, 20250514)",
    "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+   "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+   "lab": "nvidia"
   },
   {
    "source": "arena",
@@ -175,6 +175,12 @@
    "source_id": "llm:NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
    "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
    "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Inkling 2 Small",
+   "name": "Inkling 2 Small",
+   "lab": "thinky"
   },
   {
    "source": "arena",
@@ -232,6 +238,12 @@
   },
   {
    "source": "arena",
+   "source_id": "llm:MiniMax-M2.1 Preview",
+   "name": "MiniMax-M2.1 Preview",
+   "lab": "minimax"
+  },
+  {
+   "source": "arena",
    "source_id": "llm:Hunyuan TurboS (20250416)",
    "name": "Hunyuan TurboS (20250416)",
    "lab": "tencent"
@@ -256,15 +268,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Grok 3 Mini (High)",
-   "name": "Grok 3 Mini (High)",
-   "lab": "xai"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:o3-mini (High)",
    "name": "o3-mini (High)",
    "lab": "openai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 3 Mini (High)",
+   "name": "Grok 3 Mini (High)",
+   "lab": "xai"
   },
   {
    "source": "arena",
@@ -322,15 +334,27 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Ling-flash-2.0",
-   "name": "Ling-flash-2.0",
-   "lab": "ant-group"
+   "source_id": "llm:MiniMax-M2",
+   "name": "MiniMax-M2",
+   "lab": "minimax"
   },
   {
    "source": "arena",
    "source_id": "llm:Llama 3.3 Nemotron Super 49B v1.5",
    "name": "Llama 3.3 Nemotron Super 49B v1.5",
    "lab": "nvidia"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Ling-flash-2.0",
+   "name": "Ling-flash-2.0",
+   "lab": "ant-group"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mercury 2",
+   "name": "Mercury 2",
+   "lab": "inception-ai"
   },
   {
    "source": "arena",
@@ -538,15 +562,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Mercury",
-   "name": "Mercury",
-   "lab": "inception-ai"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Mistral Large (2411)",
    "name": "Mistral Large (2411)",
    "lab": "mistral"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mercury",
+   "name": "Mercury",
+   "lab": "inception-ai"
   },
   {
    "source": "arena",
@@ -610,14 +634,14 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Olmo 3.1 32B Think",
-   "name": "Olmo 3.1 32B Think",
+   "source_id": "llm:Llama 3.1 Tulu 3 70B",
+   "name": "Llama 3.1 Tulu 3 70B",
    "lab": "allenai"
   },
   {
    "source": "arena",
-   "source_id": "llm:Llama 3.1 Tulu 3 70B",
-   "name": "Llama 3.1 Tulu 3 70B",
+   "source_id": "llm:Olmo 3.1 32B Think",
+   "name": "Olmo 3.1 32B Think",
    "lab": "allenai"
   },
   {
@@ -1384,123 +1408,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:claude-opus-4-6-high",
-   "name": "claude-opus-4-6-high",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:claude-opus-4-7-high",
-   "name": "claude-opus-4-7-high",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:claude-opus-4-8-high",
-   "name": "claude-opus-4-8-high",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:claude-opus-4-5-20251101",
-   "name": "claude-opus-4-5-20251101",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:claude-sonnet-4-5-20250929",
-   "name": "claude-sonnet-4-5-20250929",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:claude-haiku-4-5-20251001",
-   "name": "claude-haiku-4-5-20251001",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:claude-sonnet-4-6-search",
-   "name": "claude-sonnet-4-6-search",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:gemini-3.1-pro-grounding",
-   "name": "gemini-3.1-pro-grounding",
+   "source_id": "llm:Gemini 2.5 Pro (Grounding)",
+   "name": "Gemini 2.5 Pro (Grounding)",
    "lab": "google"
   },
   {
    "source": "arena",
-   "source_id": "llm:gemini-3-pro-grounding",
-   "name": "gemini-3-pro-grounding",
-   "lab": "google"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:gemini-3-flash-grounding",
-   "name": "gemini-3-flash-grounding",
-   "lab": "google"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:grok-4.20-beta1",
-   "name": "grok-4.20-beta1",
-   "lab": "xai"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:gpt-5.2-search-non-reasoning",
-   "name": "gpt-5.2-search-non-reasoning",
-   "lab": "openai"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:grok-4-1-fast-search",
-   "name": "grok-4-1-fast-search",
-   "lab": "xai"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:claude-opus-4-1-search",
-   "name": "claude-opus-4-1-search",
-   "lab": "anthropic"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:o3-search",
-   "name": "o3-search",
-   "lab": "openai"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:gemini-2.5-pro-grounding",
-   "name": "gemini-2.5-pro-grounding",
-   "lab": "google"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:ppl-sonar-reasoning-pro-high",
-   "name": "ppl-sonar-reasoning-pro-high",
-   "lab": "perplexity"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:ppl-sonar-pro-high",
-   "name": "ppl-sonar-pro-high",
-   "lab": "perplexity"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:diffbot-small-xl",
-   "name": "diffbot-small-xl",
+   "source_id": "llm:Diffbot-Small-XL",
+   "name": "Diffbot-Small-XL",
    "lab": "diffbot"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:api-gpt-4o-search",
-   "name": "api-gpt-4o-search",
-   "lab": "openai"
   },
   {
    "source": "llmstats",
@@ -1510,15 +1426,15 @@
   },
   {
    "source": "llmstats",
-   "source_id": "swe-2",
-   "name": "SWE-2",
-   "lab": "Cognition"
+   "source_id": "longcat-2.5",
+   "name": "LongCat-2.5",
+   "lab": "Meituan"
   },
   {
    "source": "llmstats",
-   "source_id": "beam-1.0-501b-a23b",
-   "name": "Beam 1.0",
-   "lab": "Reflection AI"
+   "source_id": "swe-2",
+   "name": "SWE-2",
+   "lab": "Cognition"
   },
   {
    "source": "llmstats",
@@ -1528,9 +1444,21 @@
   },
   {
    "source": "llmstats",
+   "source_id": "beam-1.0-501b-a23b",
+   "name": "Beam 1.0",
+   "lab": "Reflection AI"
+  },
+  {
+   "source": "llmstats",
    "source_id": "ling-3.0-flash-fin",
    "name": "Ling 3.0 Flash Fin",
    "lab": "InclusionAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gpt-6-cyber",
+   "name": "GPT-6 Cyber",
+   "lab": "OpenAI"
   },
   {
    "source": "llmstats",
@@ -1582,6 +1510,12 @@
   },
   {
    "source": "llmstats",
+   "source_id": "mercury-3",
+   "name": "Mercury 3",
+   "lab": "Inception"
+  },
+  {
+   "source": "llmstats",
    "source_id": "longcat-flash-thinking-2601",
    "name": "LongCat-Flash-Thinking-2601",
    "lab": "Meituan"
@@ -1612,15 +1546,15 @@
   },
   {
    "source": "llmstats",
-   "source_id": "nova-2-pro",
-   "name": "Nova 2 Pro",
-   "lab": "Amazon"
-  },
-  {
-   "source": "llmstats",
    "source_id": "k2-horizon-32b",
    "name": "K2 Horizon 32B",
    "lab": "Institute of Foundation Models"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nova-2-pro",
+   "name": "Nova 2 Pro",
+   "lab": "Amazon"
   },
   {
    "source": "llmstats",
@@ -1672,15 +1606,15 @@
   },
   {
    "source": "llmstats",
-   "source_id": "nova-2-omni",
-   "name": "Nova 2 Omni",
-   "lab": "Amazon"
-  },
-  {
-   "source": "llmstats",
    "source_id": "step3-vl-10b",
    "name": "Step3-VL-10B",
    "lab": "StepFun"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nova-2-omni",
+   "name": "Nova 2 Omni",
+   "lab": "Amazon"
   },
   {
    "source": "llmstats",
@@ -1696,27 +1630,33 @@
   },
   {
    "source": "llmstats",
-   "source_id": "qwen3-vl-32b-thinking",
-   "name": "Qwen3 VL 32B Thinking",
-   "lab": "Alibaba Cloud / Qwen Team"
-  },
-  {
-   "source": "llmstats",
    "source_id": "granite-4.2-30b",
    "name": "IBM Granite 4.2 30B",
    "lab": "IBM"
   },
   {
    "source": "llmstats",
-   "source_id": "u2",
-   "name": "U2",
-   "lab": "Unisound"
+   "source_id": "qwen3-vl-32b-thinking",
+   "name": "Qwen3 VL 32B Thinking",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "nemotron-labs-dory-1.0-4b",
+   "name": "Nemotron Labs Dory 1.0 (4B)",
+   "lab": "NVIDIA"
   },
   {
    "source": "llmstats",
    "source_id": "north-mini-code-1.0",
    "name": "North Mini Code 1.0",
    "lab": "Cohere"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "u2",
+   "name": "U2",
+   "lab": "Unisound"
   },
   {
    "source": "llmstats",
@@ -1729,12 +1669,6 @@
    "source_id": "k2-horizon-3.7b",
    "name": "K2 Horizon 3.7B",
    "lab": "Institute of Foundation Models"
-  },
-  {
-   "source": "llmstats",
-   "source_id": "nemotron-labs-dory-1.0-4b",
-   "name": "Nemotron Labs Dory 1.0 (4B)",
-   "lab": "NVIDIA"
   },
   {
    "source": "llmstats",
@@ -1816,6 +1750,12 @@
   },
   {
    "source": "llmstats",
+   "source_id": "lfm3-vl-2b",
+   "name": "LFM3-VL-2B",
+   "lab": "Liquid AI"
+  },
+  {
+   "source": "llmstats",
    "source_id": "granite-4.2-3b",
    "name": "IBM Granite 4.2 3B",
    "lab": "IBM"
@@ -1828,15 +1768,15 @@
   },
   {
    "source": "llmstats",
-   "source_id": "deepseek-r1-distill-llama-70b",
-   "name": "DeepSeek R1 Distill Llama 70B",
-   "lab": "DeepSeek"
-  },
-  {
-   "source": "llmstats",
    "source_id": "minicpm-sala",
    "name": "MiniCPM-SALA",
    "lab": "OpenBMB"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "deepseek-r1-distill-llama-70b",
+   "name": "DeepSeek R1 Distill Llama 70B",
+   "lab": "DeepSeek"
   },
   {
    "source": "llmstats",
@@ -1930,6 +1870,12 @@
   },
   {
    "source": "llmstats",
+   "source_id": "qwen2.5-vl-7b",
+   "name": "Qwen2.5 VL 7B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
    "source_id": "phi-4-mini-reasoning",
    "name": "Phi 4 Mini Reasoning",
    "lab": "Microsoft"
@@ -1942,27 +1888,21 @@
   },
   {
    "source": "llmstats",
-   "source_id": "qwen2.5-vl-7b",
-   "name": "Qwen2.5 VL 7B Instruct",
-   "lab": "Alibaba Cloud / Qwen Team"
-  },
-  {
-   "source": "llmstats",
    "source_id": "gemma-4-e2b-it",
    "name": "Gemma 4 E2B",
    "lab": "Google"
   },
   {
    "source": "llmstats",
-   "source_id": "llama-3.2-90b-instruct",
-   "name": "Llama 3.2 90B Instruct",
-   "lab": "Meta"
-  },
-  {
-   "source": "llmstats",
    "source_id": "qwen2.5-omni-7b",
    "name": "Qwen2.5-Omni-7B",
    "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "llama-3.2-90b-instruct",
+   "name": "Llama 3.2 90B Instruct",
+   "lab": "Meta"
   },
   {
    "source": "llmstats",
@@ -2110,15 +2050,15 @@
   },
   {
    "source": "llmstats",
-   "source_id": "qwen-2.5-coder-7b-instruct",
-   "name": "Qwen2.5-Coder 7B Instruct",
-   "lab": "Alibaba Cloud / Qwen Team"
-  },
-  {
-   "source": "llmstats",
    "source_id": "grok-4.20-beta-0309-non-reasoning",
    "name": "Grok-4.20 Beta Non-Reasoning",
    "lab": "xAI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen-2.5-coder-7b-instruct",
+   "name": "Qwen2.5-Coder 7B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
   },
   {
    "source": "llmstats",
@@ -2218,8 +2158,8 @@
   },
   {
    "source": "epoch",
-   "source_id": "Gemini 2.5 Pro (Jun 2025)",
-   "name": "Gemini 2.5 Pro (Jun 2025)",
+   "source_id": "Gemini 2.0 Pro",
+   "name": "Gemini 2.0 Pro",
    "lab": "Google DeepMind"
   },
   {
@@ -2230,33 +2170,21 @@
   },
   {
    "source": "epoch",
-   "source_id": "Gemini 2.0 Pro",
-   "name": "Gemini 2.0 Pro",
-   "lab": "Google DeepMind"
-  },
-  {
-   "source": "epoch",
-   "source_id": "Magistral Small 1.0",
-   "name": "Magistral Small 1.0",
-   "lab": "Mistral AI"
-  },
-  {
-   "source": "epoch",
-   "source_id": "GPT-4o (May 2024)",
-   "name": "GPT-4o (May 2024)",
+   "source_id": "GPT-4o (Nov 2024)",
+   "name": "GPT-4o (Nov 2024)",
    "lab": "OpenAI"
-  },
-  {
-   "source": "epoch",
-   "source_id": "Mistral Small 3.1",
-   "name": "Mistral Small 3.1",
-   "lab": "Mistral AI"
   },
   {
    "source": "epoch",
    "source_id": "DeepSeek-V2 (MoE-236B, May 2024)",
    "name": "DeepSeek-V2 (MoE-236B, May 2024)",
    "lab": "DeepSeek"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Claude 2",
+   "name": "Claude 2",
+   "lab": "Anthropic"
   },
   {
    "source": "epoch",
@@ -2278,15 +2206,15 @@
   },
   {
    "source": "epoch",
-   "source_id": "Claude 2",
-   "name": "Claude 2",
-   "lab": "Anthropic"
+   "source_id": "PaLM 2-L",
+   "name": "PaLM 2-L",
+   "lab": null
   },
   {
    "source": "epoch",
-   "source_id": "Claude 2.1",
-   "name": "Claude 2.1",
-   "lab": "Anthropic"
+   "source_id": "Qwen2.5-Coder-14B",
+   "name": "Qwen2.5-Coder-14B",
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2308,18 +2236,6 @@
   },
   {
    "source": "epoch",
-   "source_id": "Qwen2.5-Coder-14B",
-   "name": "Qwen2.5-Coder-14B",
-   "lab": null
-  },
-  {
-   "source": "epoch",
-   "source_id": "PaLM 2-L",
-   "name": "PaLM 2-L",
-   "lab": null
-  },
-  {
-   "source": "epoch",
    "source_id": "Qwen2.5-Coder (7B)",
    "name": "Qwen2.5-Coder (7B)",
    "lab": "Alibaba"
@@ -2332,8 +2248,8 @@
   },
   {
    "source": "epoch",
-   "source_id": "internlm-20b",
-   "name": "internlm-20b",
+   "source_id": "Yi-9B",
+   "name": "Yi-9B",
    "lab": null
   },
   {
@@ -2344,20 +2260,26 @@
   },
   {
    "source": "epoch",
+   "source_id": "DeepSeek-Coder-V2-Lite-Base",
+   "name": "DeepSeek-Coder-V2-Lite-Base",
+   "lab": null
+  },
+  {
+   "source": "epoch",
    "source_id": "Falcon 2 11B",
    "name": "Falcon 2 11B",
    "lab": "Technology Innovation Institute"
   },
   {
    "source": "epoch",
-   "source_id": "Mistral 7B v0.3",
-   "name": "Mistral 7B v0.3",
-   "lab": "Mistral AI"
+   "source_id": "Nemotron-4 15B",
+   "name": "Nemotron-4 15B",
+   "lab": "Nvidia"
   },
   {
    "source": "epoch",
-   "source_id": "DeepSeek-Coder-V2-Lite-Base",
-   "name": "DeepSeek-Coder-V2-Lite-Base",
+   "source_id": "internlm-20b",
+   "name": "internlm-20b",
    "lab": null
   },
   {
@@ -2368,26 +2290,8 @@
   },
   {
    "source": "epoch",
-   "source_id": "Phi-2",
-   "name": "Phi-2",
-   "lab": "Microsoft"
-  },
-  {
-   "source": "epoch",
    "source_id": "Qwen2.5-Coder-3B",
    "name": "Qwen2.5-Coder-3B",
-   "lab": null
-  },
-  {
-   "source": "epoch",
-   "source_id": "Nemotron-4 15B",
-   "name": "Nemotron-4 15B",
-   "lab": "Nvidia"
-  },
-  {
-   "source": "epoch",
-   "source_id": "Yi-9B",
-   "name": "Yi-9B",
    "lab": null
   },
   {
@@ -2398,27 +2302,15 @@
   },
   {
    "source": "epoch",
-   "source_id": "Qwen-7B",
-   "name": "Qwen-7B",
-   "lab": "Alibaba"
-  },
-  {
-   "source": "epoch",
-   "source_id": "PaLM 2-S",
-   "name": "PaLM 2-S",
-   "lab": null
-  },
-  {
-   "source": "epoch",
-   "source_id": "Llama 2-34B",
-   "name": "Llama 2-34B",
-   "lab": "Meta AI"
-  },
-  {
-   "source": "epoch",
    "source_id": "StarCoder 2 15B",
    "name": "StarCoder 2 15B",
    "lab": "Hugging Face,ServiceNow,Nvidia,BigCode"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Phi-2",
+   "name": "Phi-2",
+   "lab": "Microsoft"
   },
   {
    "source": "epoch",
@@ -2428,9 +2320,15 @@
   },
   {
    "source": "epoch",
-   "source_id": "Falcon-40B",
-   "name": "Falcon-40B",
-   "lab": "Technology Innovation Institute"
+   "source_id": "Llama 2-34B",
+   "name": "Llama 2-34B",
+   "lab": "Meta AI"
+  },
+  {
+   "source": "epoch",
+   "source_id": "PaLM 2-S",
+   "name": "PaLM 2-S",
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2440,9 +2338,27 @@
   },
   {
    "source": "epoch",
+   "source_id": "Falcon-40B",
+   "name": "Falcon-40B",
+   "lab": "Technology Innovation Institute"
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen-7B",
+   "name": "Qwen-7B",
+   "lab": "Alibaba"
+  },
+  {
+   "source": "epoch",
    "source_id": "internlm-7b",
    "name": "internlm-7b",
    "lab": null
+  },
+  {
+   "source": "epoch",
+   "source_id": "Baichuan 2-7B",
+   "name": "Baichuan 2-7B",
+   "lab": "Baichuan"
   },
   {
    "source": "epoch",
@@ -2458,21 +2374,15 @@
   },
   {
    "source": "epoch",
-   "source_id": "Baichuan 2-7B",
-   "name": "Baichuan 2-7B",
-   "lab": "Baichuan"
-  },
-  {
-   "source": "epoch",
    "source_id": "DeepSeek Coder 33B",
    "name": "DeepSeek Coder 33B",
    "lab": "DeepSeek,Peking University"
   },
   {
    "source": "epoch",
-   "source_id": "Falcon-7B",
-   "name": "Falcon-7B",
-   "lab": "Technology Innovation Institute"
+   "source_id": "vicuna-13b-v1.1",
+   "name": "vicuna-13b-v1.1",
+   "lab": null
   },
   {
    "source": "epoch",
@@ -2482,9 +2392,9 @@
   },
   {
    "source": "epoch",
-   "source_id": "vicuna-13b-v1.1",
-   "name": "vicuna-13b-v1.1",
-   "lab": null
+   "source_id": "Falcon-7B",
+   "name": "Falcon-7B",
+   "lab": "Technology Innovation Institute"
   },
   {
    "source": "epoch",
@@ -2500,32 +2410,14 @@
   },
   {
    "source": "epoch",
-   "source_id": "Qwen-1_8B",
-   "name": "Qwen-1.8B (8b)",
-   "lab": null
-  },
-  {
-   "source": "epoch",
-   "source_id": "open_llama_7b",
-   "name": "open_llama_7b (7b)",
-   "lab": null
-  },
-  {
-   "source": "epoch",
    "source_id": "Phi-1.5",
    "name": "Phi-1.5",
    "lab": "Microsoft"
   },
   {
    "source": "epoch",
-   "source_id": "Baichuan1-7B",
-   "name": "Baichuan1-7B",
-   "lab": "Baichuan"
-  },
-  {
-   "source": "epoch",
-   "source_id": "RedPajama-INCITE-7B-Base",
-   "name": "RedPajama-INCITE-7B-Base",
+   "source_id": "Qwen2.5-Coder-0.5B",
+   "name": "Qwen2.5-Coder-0.5B",
    "lab": null
   },
   {
@@ -2542,8 +2434,20 @@
   },
   {
    "source": "epoch",
-   "source_id": "Qwen2.5-Coder-0.5B",
-   "name": "Qwen2.5-Coder-0.5B",
+   "source_id": "open_llama_7b",
+   "name": "open_llama_7b (7b)",
+   "lab": null
+  },
+  {
+   "source": "epoch",
+   "source_id": "Qwen-1_8B",
+   "name": "Qwen-1.8B (8b)",
+   "lab": null
+  },
+  {
+   "source": "epoch",
+   "source_id": "RedPajama-INCITE-7B-Base",
+   "name": "RedPajama-INCITE-7B-Base",
    "lab": null
   },
   {
@@ -2554,9 +2458,9 @@
   },
   {
    "source": "epoch",
-   "source_id": "DeepSeek Coder 1.3B",
-   "name": "DeepSeek Coder 1.3B",
-   "lab": "DeepSeek,Peking University"
+   "source_id": "claude-opus-4-1-20250805",
+   "name": "claude-opus-4-1-20250805",
+   "lab": "Anthropic"
   },
   {
    "source": "epoch",
@@ -2652,6 +2556,12 @@
    "source": "vectara",
    "source_id": "xai-org/grok-4-1-fast-non-reasoning",
    "name": "grok-4-1-fast-non-reasoning",
+   "lab": "xAI"
+  },
+  {
+   "source": "vectara",
+   "source_id": "xai-org/grok-4-1-fast-reasoning",
+   "name": "grok-4-1-fast-reasoning",
    "lab": "xAI"
   },
   {

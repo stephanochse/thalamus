@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-09",
  "sources": {
   "openrouter": {
    "name": "OpenRouter models",
@@ -7,7 +7,7 @@
    "attribution": "Model ids, prices and context windows from OpenRouter (openrouter.ai).",
    "ok": true,
    "rows": 358,
-   "fetched": "2026-11-02",
+   "fetched": "2026-11-09",
    "seconds": 0.1
   },
   "arena": {
@@ -15,26 +15,26 @@
    "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
    "attribution": "Human-preference ratings from Arena (arena.ai), dataset CC BY 4.0.",
    "ok": true,
-   "rows": 819,
-   "fetched": "2026-11-02",
-   "seconds": 3.9
+   "rows": 777,
+   "fetched": "2026-11-09",
+   "seconds": 1.6
   },
   "llmstats": {
    "name": "llm-stats",
    "url": "https://llm-stats.com",
    "attribution": "Category indexes from llm-stats.com.",
    "ok": true,
-   "rows": 406,
-   "fetched": "2026-11-02",
-   "seconds": 6.1
+   "rows": 412,
+   "fetched": "2026-11-09",
+   "seconds": 2.3
   },
   "epoch": {
    "name": "Epoch AI benchmarking hub",
    "url": "https://epoch.ai/data/benchmark_data.zip",
    "attribution": "Benchmark data from Epoch AI (epoch.ai), CC BY 4.0.",
    "ok": true,
-   "rows": 304,
-   "fetched": "2026-11-02",
+   "rows": 286,
+   "fetched": "2026-11-09",
    "seconds": 0.2
   },
   "vectara": {
@@ -43,7 +43,7 @@
    "attribution": "Hallucination rates from Vectara's HHEM leaderboard (github.com/vectara/hallucination-leaderboard), Apache-2.0.",
    "ok": true,
    "rows": 111,
-   "fetched": "2026-11-02",
+   "fetched": "2026-11-09",
    "seconds": 0.1
   },
   "tau2": {
@@ -52,8 +52,8 @@
    "attribution": "Agent results from tau2-bench by Sierra (github.com/sierra-research/tau2-bench), MIT.",
    "ok": true,
    "rows": 27,
-   "fetched": "2026-11-02",
-   "seconds": 0.9
+   "fetched": "2026-11-09",
+   "seconds": 0.3
   }
  }
 }
