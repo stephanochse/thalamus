@@ -75,42 +75,42 @@ Run `doctor`. It names the failed lane and the fix (`codex login`, `claude` then
 ## 8. This week's picks
 
 <!-- thalamus:picks:start -->
-Current picks, week of 2026-11-09 (ids are OpenRouter slugs):
+Current picks, week of 2026-11-16 (ids are OpenRouter slugs):
 
 | Job | Best | Value | Budget | Other lab | Mix saves |
 |---|---|---|---|---|---|
-| Everyday questions and chat | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 75% |
-| Strategy, plans and decisions | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 59% |
-| Business, finance and analysis | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GPT-6.1 Sol (Max) `openai/gpt-6.1-sol` | 82% |
-| Legal and compliance | Muse Wonder (Max) `meta/muse-wonder` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Qwen3.7 Max `qwen/qwen3.7-max` | 82% |
-| Health and medical | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | 88% |
-| Research and facts | Claude Opus 5 (High) `anthropic/claude-opus-5` | Qwen3.8 Max (0902) `qwen/qwen3.8-max-0902` | DeepSeek V4.1 Flash (Max) `deepseek/deepseek-v4.1-flash` | Qwen3.8 Max (0902) `qwen/qwen3.8-max-0902` | 80% |
+| Everyday questions and chat | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 59% |
+| Strategy, plans and decisions | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Hydrogen (High) `google/gemini-4-hydrogen` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 67% |
+| Business, finance and analysis | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 74% |
+| Legal and compliance | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Hydrogen (High) `google/gemini-4-hydrogen` | DeepSeek V4.1 Flash (Max) `deepseek/deepseek-v4.1-flash` | Muse Wonder (Max) `meta/muse-wonder` | 64% |
+| Health and medical | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | 59% |
+| Research and facts | Claude Opus 5 (High) `anthropic/claude-opus-5` | Kimi K3.1 Pro (Max) `moonshotai/kimi-k3.1-pro` | DeepSeek V4.1 Flash (Max) `deepseek/deepseek-v4.1-flash` | Qwen3.8 Max (0902) `qwen/qwen3.8-max-0902` | 82% |
 | Deep research and investigations | Claude Opus 5 (High) `anthropic/claude-opus-5` | Qwen3.8 Max (0902) `qwen/qwen3.8-max-0902` | Qwen3.8 Max (0902) `qwen/qwen3.8-max-0902` | Qwen3.8 Max (0902) `qwen/qwen3.8-max-0902` | 63% |
-| Math and hard reasoning | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 88% |
+| Math and hard reasoning | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 87% |
 | Long documents and big codebases | Claude Fable 5.1 (Max) `anthropic/claude-fable-5.1` | Claude Opus 5 (High) `anthropic/claude-opus-5` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` |  | 70% |
-| Negotiation, debate and persuasion | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Fable 5 (High) `anthropic/claude-fable-5` | 59% |
-| Learning a skill and being taught | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 59% |
-| Writing, copy and voice | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 78% |
-| Personality and conversation | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Muse Wonder (Max) `meta/muse-wonder` | 77% |
-| Translation and other languages | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Muse Wonder (Max) `meta/muse-wonder` | 78% |
-| Following instructions and structured output | Qwen3.8 Max (xHigh) `qwen/qwen3.8-max-0902` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` |  |
-| Writing code | GPT-6 Astra (Max) `openai/gpt-6-astra` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | 84% |
-| Backends, SaaS and system design | Claude Opus 4.7 (Max) `anthropic/claude-opus-4.7` | Muse Spark 1.2 (xHigh) `meta/muse-spark-1.2` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 84% |
-| Autonomous coding agents | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (Max) `anthropic/claude-sonnet-5.5` | GPT-6.1 Terra (Max) `openai/gpt-6.1-terra` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 60% |
-| Code review and debugging | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Argon (High) `google/gemini-4-argon` | 75% |
-| Websites, UI and screenshot-to-code | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 45% |
-| Games, 3D and interactive scenes | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | DeepSeek V4.1 Flash (Max) `deepseek/deepseek-v4.1-flash-1017` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 74% |
-| Tool use and multi-step agents | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (Max) `anthropic/claude-sonnet-5.5` | GPT-6.1 Terra (Max) `openai/gpt-6.1-terra` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 60% |
+| Negotiation, debate and persuasion | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Fable 5 (High) `anthropic/claude-fable-5` | 59% |
+| Learning a skill and being taught | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 59% |
+| Writing, copy and voice | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 77% |
+| Personality and conversation | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Muse Wonder (Max) `meta/muse-wonder` | 59% |
+| Translation and other languages | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 3.7 Flash (High) `google/gemini-3.7-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Muse Wonder (Max) `meta/muse-wonder` | 78% |
+| Following instructions and structured output | Qwen3.8 Max (xHigh) `qwen/qwen3.8-max-0902` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` |  |
+| Writing code | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 59% |
+| Backends, SaaS and system design | Gemini 4 Carbon (High) `google/gemini-4-carbon` | MiMo-V2.6-Pro `xiaomi/mimo-v2.6-pro` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 4.7 (Max) `anthropic/claude-opus-4.7` | 85% |
+| Autonomous coding agents | Claude Fable 5.2 (Max) `anthropic/claude-fable-5.2` | Claude Fable 5.2 (Max) `anthropic/claude-fable-5.2` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | 45% |
+| Code review and debugging | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 59% |
+| Websites, UI and screenshot-to-code | Claude Opus 5.5 (Max) `anthropic/claude-opus-5.5` | Claude Sonnet 5.5 (xHigh) `anthropic/claude-sonnet-5.5` | Qwen4 Max (xHigh) `qwen/qwen4-max` | GPT-6 Astra (Max) `openai/gpt-6-astra` | 58% |
+| Games, 3D and interactive scenes | Claude Fable 5.2 (xHigh) `anthropic/claude-fable-5.2` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Qwen3.7 Plus `qwen/qwen3.7-plus` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | 80% |
+| Tool use and multi-step agents | Claude Fable 5.2 (Max) `anthropic/claude-fable-5.2` | Claude Fable 5.2 (Max) `anthropic/claude-fable-5.2` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | 45% |
 | Reading images, screenshots and documents | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 3.8 Flash (High) `google/gemini-3.8-flash` | 83% |
-| Decks, slides and one-pagers | Gemini 4 Argon (High) `google/gemini-4-argon` | Gemini 4 Argon (High) `google/gemini-4-argon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 59% |
+| Decks, slides and one-pagers | Gemini 4 Carbon (High) `google/gemini-4-carbon` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Claude Opus 5.5 (High) `anthropic/claude-opus-5.5` | 59% |
 | Image generation | GPT-Image-2.6 Sunburst (Medium) |  |  |  |  |
 | Ads, posters and images with text | GPT-Image-2.6 Sunburst (Medium) |  |  |  |  |
 | Photoreal images and product shots | GPT-Image-2.6 Sunburst (Medium) |  |  |  |  |
 | Image editing | GPT-Image-2.5 Sunburst |  |  | MAI-Image-2.7-Preview |  |
 | Video from text | Muse Video |  |  | Sora 2 Pro |  |
-| Animate an image into video | Gemini Omni 1.1 Flash |  |  | SkyReels V4 |  |
+| Animate an image into video | Gemini Omni 1.1 Flash |  |  | HiDream-O1-Video-1.0 |  |
 | Video editing | Wan 3.0 |  |  | Dreamina Seedance 2.5 |  |
-| Bulk work at the lowest price | GLM 5.3 Flash `z-ai/glm-5.3-flash` | GPT-6.1 Terra `openai/gpt-6.1-terra` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | DeepSeek V4.1 Flash (Max) `deepseek/deepseek-v4.1-flash` |  |
+| Bulk work at the lowest price | GLM 5.3 Flash `z-ai/glm-5.3-flash` | Gemini 4 Carbon (High) `google/gemini-4-carbon` | GLM 5.3 Flash `z-ai/glm-5.3-flash` | DeepSeek V4.1 Flash (Max) `deepseek/deepseek-v4.1-flash` |  |
 <!-- thalamus:picks:end -->
 
 Full tables, prices and the signals behind every score: `ROUTES.md` in the repo, or the `leaderboard` tool.

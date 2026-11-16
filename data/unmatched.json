@@ -1,13 +1,7 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-16",
  "note": "Add an entry to data/aliases.json to merge these.",
  "records": [
-  {
-   "source": "arena",
-   "source_id": "llm:Gemini 4 Carbon (High)",
-   "name": "Gemini 4 Carbon (High)",
-   "lab": "google"
-  },
   {
    "source": "arena",
    "source_id": "llm:Muse Spark",
@@ -160,27 +154,21 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Kimi K2 Preview (0905)",
-   "name": "Kimi K2 Preview (0905)",
-   "lab": "moonshot"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Grok 4 Fast (Non-Reasoning)",
    "name": "Grok 4 Fast (Non-Reasoning)",
    "lab": "xai"
   },
   {
    "source": "arena",
-   "source_id": "llm:NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
-   "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
-   "lab": "nvidia"
+   "source_id": "llm:Kimi K2 Preview (0905)",
+   "name": "Kimi K2 Preview (0905)",
+   "lab": "moonshot"
   },
   {
    "source": "arena",
-   "source_id": "llm:Inkling 2 Small",
-   "name": "Inkling 2 Small",
-   "lab": "thinky"
+   "source_id": "llm:NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+   "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+   "lab": "nvidia"
   },
   {
    "source": "arena",
@@ -211,6 +199,12 @@
    "source_id": "llm:Hunyuan Vision 1.5 Thinking",
    "name": "Hunyuan Vision 1.5 Thinking",
    "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Step-3.5-Flash",
+   "name": "Step-3.5-Flash",
+   "lab": "stepfun"
   },
   {
    "source": "arena",
@@ -268,15 +262,21 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:o3-mini (High)",
-   "name": "o3-mini (High)",
-   "lab": "openai"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Grok 3 Mini (High)",
    "name": "Grok 3 Mini (High)",
    "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MiniMax-M1",
+   "name": "MiniMax-M1",
+   "lab": "minimax"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:o3-mini (High)",
+   "name": "o3-mini (High)",
+   "lab": "openai"
   },
   {
    "source": "arena",
@@ -340,6 +340,12 @@
   },
   {
    "source": "arena",
+   "source_id": "llm:Mercury 2",
+   "name": "Mercury 2",
+   "lab": "inception-ai"
+  },
+  {
+   "source": "arena",
    "source_id": "llm:Llama 3.3 Nemotron Super 49B v1.5",
    "name": "Llama 3.3 Nemotron Super 49B v1.5",
    "lab": "nvidia"
@@ -349,12 +355,6 @@
    "source_id": "llm:Ling-flash-2.0",
    "name": "Ling-flash-2.0",
    "lab": "ant-group"
-  },
-  {
-   "source": "arena",
-   "source_id": "llm:Mercury 2",
-   "name": "Mercury 2",
-   "lab": "inception-ai"
   },
   {
    "source": "arena",
@@ -394,15 +394,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:QwQ-32B",
-   "name": "QwQ-32B",
-   "lab": "alibaba"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Llama 3.1 405B Instruct (BF16)",
    "name": "Llama 3.1 405B Instruct (BF16)",
    "lab": "meta"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:QwQ-32B",
+   "name": "QwQ-32B",
+   "lab": "alibaba"
   },
   {
    "source": "arena",
@@ -466,15 +466,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Ring-flash-2.0",
-   "name": "Ring-flash-2.0",
-   "lab": "ant-group"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Claude 3 Opus (20240229)",
    "name": "Claude 3 Opus (20240229)",
    "lab": "anthropic"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Ring-flash-2.0",
+   "name": "Ring-flash-2.0",
+   "lab": "ant-group"
   },
   {
    "source": "arena",
@@ -604,15 +604,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Granite 4.2 3B",
-   "name": "Granite 4.2 3B",
-   "lab": "ibm"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Jamba 1.5 Large",
    "name": "Jamba 1.5 Large",
    "lab": null
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Granite 4.2 3B",
+   "name": "Granite 4.2 3B",
+   "lab": "ibm"
   },
   {
    "source": "arena",
@@ -1222,6 +1222,12 @@
   },
   {
    "source": "arena",
+   "source_id": "llm:U2 Flash",
+   "name": "U2 Flash",
+   "lab": "unisound"
+  },
+  {
+   "source": "arena",
    "source_id": "llm:Seed2.1 Pro Preview",
    "name": "Seed2.1 Pro Preview",
    "lab": "bytedance"
@@ -1420,9 +1426,21 @@
   },
   {
    "source": "llmstats",
+   "source_id": "claude-mythos-5-2",
+   "name": "Claude Mythos 5.2",
+   "lab": "Anthropic"
+  },
+  {
+   "source": "llmstats",
    "source_id": "claude-mythos-preview",
    "name": "Claude Mythos Preview",
    "lab": "Anthropic"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "ernie-5.5-flash-preview",
+   "name": "ERNIE 5.5 Flash Preview",
+   "lab": "Baidu"
   },
   {
    "source": "llmstats",
@@ -1438,15 +1456,21 @@
   },
   {
    "source": "llmstats",
-   "source_id": "claude-mythos-5-1",
-   "name": "Claude Mythos 5.1",
-   "lab": "Anthropic"
+   "source_id": "swe-2-flash",
+   "name": "SWE-2 Flash",
+   "lab": "Cognition"
   },
   {
    "source": "llmstats",
    "source_id": "beam-1.0-501b-a23b",
    "name": "Beam 1.0",
    "lab": "Reflection AI"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "claude-mythos-5-1",
+   "name": "Claude Mythos 5.1",
+   "lab": "Anthropic"
   },
   {
    "source": "llmstats",
@@ -1474,15 +1498,15 @@
   },
   {
    "source": "llmstats",
-   "source_id": "gemini-3.8-flash-cyber",
-   "name": "Gemini 3.8 Flash Cyber",
-   "lab": "Google"
-  },
-  {
-   "source": "llmstats",
    "source_id": "seed-2.0-pro",
    "name": "Seed 2.0 Pro",
    "lab": "ByteDance"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "gemini-3.8-flash-cyber",
+   "name": "Gemini 3.8 Flash Cyber",
+   "lab": "Google"
   },
   {
    "source": "llmstats",
@@ -1708,15 +1732,15 @@
   },
   {
    "source": "llmstats",
-   "source_id": "sarvam-30b",
-   "name": "Sarvam-30B",
-   "lab": "Sarvam AI"
-  },
-  {
-   "source": "llmstats",
    "source_id": "qwen3.5-4b",
    "name": "Qwen3.5-4B",
    "lab": "Alibaba Cloud / Qwen Team"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "sarvam-30b",
+   "name": "Sarvam-30B",
+   "lab": "Sarvam AI"
   },
   {
    "source": "llmstats",
@@ -1735,6 +1759,12 @@
    "source_id": "nvidia-nemotron-nano-9b-v2",
    "name": "Nemotron Nano 9B v2",
    "lab": "NVIDIA"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "lfm-2.5-2.6b",
+   "name": "LFM2.5-2.6B",
+   "lab": "Liquid AI"
   },
   {
    "source": "llmstats",
@@ -1957,6 +1987,12 @@
    "source_id": "phi-4-multimodal-instruct",
    "name": "Phi-4-multimodal-instruct",
    "lab": "Microsoft"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "qwen-2.5-7b-instruct",
+   "name": "Qwen2.5 7B Instruct",
+   "lab": "Alibaba Cloud / Qwen Team"
   },
   {
    "source": "llmstats",
@@ -2302,15 +2338,15 @@
   },
   {
    "source": "epoch",
-   "source_id": "StarCoder 2 15B",
-   "name": "StarCoder 2 15B",
-   "lab": "Hugging Face,ServiceNow,Nvidia,BigCode"
-  },
-  {
-   "source": "epoch",
    "source_id": "Phi-2",
    "name": "Phi-2",
    "lab": "Microsoft"
+  },
+  {
+   "source": "epoch",
+   "source_id": "StarCoder 2 15B",
+   "name": "StarCoder 2 15B",
+   "lab": "Hugging Face,ServiceNow,Nvidia,BigCode"
   },
   {
    "source": "epoch",
@@ -2320,15 +2356,15 @@
   },
   {
    "source": "epoch",
-   "source_id": "Llama 2-34B",
-   "name": "Llama 2-34B",
-   "lab": "Meta AI"
-  },
-  {
-   "source": "epoch",
    "source_id": "PaLM 2-S",
    "name": "PaLM 2-S",
    "lab": null
+  },
+  {
+   "source": "epoch",
+   "source_id": "Llama 2-34B",
+   "name": "Llama 2-34B",
+   "lab": "Meta AI"
   },
   {
    "source": "epoch",
