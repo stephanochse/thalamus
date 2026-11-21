@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-21",
  "sources": {
   "openrouter": {
    "name": "OpenRouter models",
    "url": "https://openrouter.ai/api/v1/models",
    "attribution": "Model ids, prices and context windows from OpenRouter (openrouter.ai).",
    "ok": true,
-   "rows": 359,
-   "fetched": "2026-11-16",
+   "rows": 364,
+   "fetched": "2026-11-21",
    "seconds": 0.1
   },
   "arena": {
@@ -15,27 +15,27 @@
    "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
    "attribution": "Human-preference ratings from Arena (arena.ai), dataset CC BY 4.0.",
    "ok": true,
-   "rows": 788,
-   "fetched": "2026-11-16",
-   "seconds": 1.6
+   "rows": 793,
+   "fetched": "2026-11-21",
+   "seconds": 4.3
   },
   "llmstats": {
    "name": "llm-stats",
    "url": "https://llm-stats.com",
    "attribution": "Category indexes from llm-stats.com.",
    "ok": true,
-   "rows": 417,
-   "fetched": "2026-11-16",
-   "seconds": 2.7
+   "rows": 425,
+   "fetched": "2026-11-21",
+   "seconds": 4.5
   },
   "epoch": {
    "name": "Epoch AI benchmarking hub",
    "url": "https://epoch.ai/data/benchmark_data.zip",
    "attribution": "Benchmark data from Epoch AI (epoch.ai), CC BY 4.0.",
    "ok": true,
-   "rows": 289,
-   "fetched": "2026-11-16",
-   "seconds": 0.1
+   "rows": 291,
+   "fetched": "2026-11-21",
+   "seconds": 0.2
   },
   "vectara": {
    "name": "Vectara hallucination leaderboard",
@@ -43,8 +43,8 @@
    "attribution": "Hallucination rates from Vectara's HHEM leaderboard (github.com/vectara/hallucination-leaderboard), Apache-2.0.",
    "ok": true,
    "rows": 111,
-   "fetched": "2026-11-16",
-   "seconds": 0.0
+   "fetched": "2026-11-21",
+   "seconds": 0.3
   },
   "tau2": {
    "name": "tau2-bench (Sierra)",
@@ -52,8 +52,8 @@
    "attribution": "Agent results from tau2-bench by Sierra (github.com/sierra-research/tau2-bench), MIT.",
    "ok": true,
    "rows": 27,
-   "fetched": "2026-11-16",
-   "seconds": 0.3
+   "fetched": "2026-11-21",
+   "seconds": 1.2
   }
  }
 }

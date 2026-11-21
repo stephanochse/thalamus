@@ -1,5 +1,22 @@
 # Weekly changes
 
+## 2026-11-21
+
+Sources: 6 ok.
+
+Pick changes:
+
+- Strategy, plans and decisions, value: Gemini 4 Hydrogen (High) -> Gemini 4 Carbon (High)
+- Business, finance and analysis, value: Muse Spark 1.2 (xHigh) -> Kimi K3.1 Pro (Max)
+- Writing, copy and voice, value: Gemini 3.8 Flash (High) -> Gemini 4 Argon (High)
+- Backends, SaaS and system design, value: MiMo-V2.6-Pro -> Gemini 4 Carbon (High)
+- Websites, UI and screenshot-to-code, budget: Qwen4 Max (xHigh) -> GPT-6.1 Terra (Max)
+- Games, 3D and interactive scenes, value: Gemini 4 Carbon (High) -> Gemini 4 Neon (High)
+- Tool use and multi-step agents, budget: Gemini 4 Carbon (High) -> Claude Sonnet 5.5 (Max)
+- Reading images, screenshots and documents, value: Gemini 3.8 Flash (High) -> Gemini 3.7 Flash (High)
+
+Newly scored (11): Inkling 2 Mini (Thinking Machines), Pixtral Large 2502 (Mistral), Gemini 4 Neon (Google), GPT-6.2 Astra (OpenAI), GPT-6.2 Sol (OpenAI), Hy4 flash (Tencent), Qwen4 Max (Alibaba (Qwen)), Gemini 4 Hydrogen (Google), Llama 3.2 1B Instruct (Meta), Amazon-Web-Search-Agent (Amazon), Aion 1.0 Instruct (Microsoft)
+
 ## 2026-11-16
 
 Sources: 6 ok.
