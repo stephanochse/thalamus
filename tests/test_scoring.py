@@ -60,6 +60,24 @@ class ScoreTests(unittest.TestCase):
         job = {**JOB, "metrics": JOB["metrics"] + [{"id": "never.reported", "w": 10}]}
         self.assertTrue(score.score_job(job, self.models))
 
+    def test_cost_per_task_beats_sticker_price(self):
+        # Fable-shaped: highest quality, cheap per million, expensive per task because it writes a lot.
+        # Astra-shaped: within 90% of that quality, dearer per million, much cheaper per task.
+        models = [
+            model("fable", metrics={"q.a": 65}, price={"blended": 16, "unit": "usd_per_mtok"}, task_cost=15.47),
+            model("astra", metrics={"q.a": 62}, price={"blended": 20, "unit": "usd_per_mtok"}, task_cost=5.12),
+            model("neon", metrics={"q.a": 61}, price={"blended": 6, "unit": "usd_per_mtok"}, task_cost=6.44),
+            model("hydrogen", metrics={"q.a": 58}, price={"blended": 3, "unit": "usd_per_mtok"}, task_cost=2.0),
+            model("sol", metrics={"q.a": 50}, price={"blended": 2, "unit": "usd_per_mtok"}, task_cost=0.90),
+        ] + [model(f"weak{i}", metrics={"q.a": 20}, price={"blended": 0.2, "unit": "usd_per_mtok"}, task_cost=0.2)
+             for i in range(10)]
+        job = {"id": "t", "title": "Test", "kinds": ["llm"], "min_coverage": 0.4, "metrics": [{"id": "q.a", "w": 1}]}
+        picks = score.pick(score.score_job(job, models))
+        self.assertEqual(picks["best"]["id"], "fable")
+        self.assertEqual(picks["value"]["id"], "astra")
+        self.assertEqual(picks["value"]["price_unit"], "usd_per_task")
+        self.assertEqual(picks["budget"]["id"], "hydrogen")
+
     def test_jobs_file_is_valid(self):
         jobs = score.load_jobs()
         ids = [j["id"] for j in jobs]

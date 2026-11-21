@@ -43,7 +43,7 @@ def _scale(values: dict[str, float], higher_better: bool = True) -> dict[str, fl
     return {k: max(0.0, min(1.0, (x - lo) / span)) * 100 for k, x in signed.items()}
 
 
-NON_QUALITY = ("x.", "aa.index_cost")
+NON_QUALITY = ("x.", "aa.index_cost", "aa.task_seconds", "aa.output_tokens")
 
 
 def _is_quality(metric_id: str) -> bool:
@@ -114,6 +114,7 @@ def score_job(job: dict, models: list[dict]) -> list[dict]:
             "id": m["id"], "name": m["name"], "lab": m.get("lab"), "open_weights": bool(m.get("open_weights")),
             "score": round(quality * (0.85 + 0.15 * coverage), 1), "coverage": round(coverage, 2),
             "price": _price(m), "price_unit": (m.get("price") or {}).get("unit", "usd_per_mtok"),
+            "task_cost": m.get("task_cost"),
             "tps": (m.get("speed") or {}).get("tps"), "context": m.get("context"),
             "openrouter": (m.get("where") or {}).get("openrouter"), "access": m.get("access", []),
             "basis": {mt["id"]: round(s) for mt, s in got},
@@ -127,11 +128,18 @@ def score_job(job: dict, models: list[dict]) -> list[dict]:
     return rows
 
 
-def _cheapest(rows: list[dict], floor: float, top: int | None = None) -> dict | None:
+def _cheapest(rows: list[dict], floor: float, top: int | None = None, key: str = "price") -> dict | None:
     """Cheapest model whose quality (price and speed left out) clears the floor."""
     pool = sorted(rows, key=lambda r: -r["quality"])[:top] if top else rows
-    cands = [r for r in pool if r["quality"] >= floor and r["price"] is not None]
-    return min(cands, key=lambda r: (r["price"], -r["quality"])) if cands else None
+    cands = [r for r in pool if r["quality"] >= floor and r.get(key) is not None]
+    return min(cands, key=lambda r: (r[key], -r["quality"])) if cands else None
+
+
+def _priced(row: dict | None, by_task: bool) -> dict | None:
+    """When the band was judged on cost per task, show that figure, not dollars per million tokens."""
+    if not row or not by_task or row.get("task_cost") is None:
+        return row
+    return {**row, "price": row["task_cost"], "price_unit": "usd_per_task"}
 
 
 def pick(rows: list[dict]) -> dict:
@@ -140,12 +148,16 @@ def pick(rows: list[dict]) -> dict:
         return {}
     best = rows[0]
     # value and budget are always judged on quality with price and speed left out, so a job that also
-    # rewards low prices (bulk, structured output) can't push a weak model through on price alone
+    # rewards low prices (bulk, structured output) can't push a weak model through on price alone.
+    # Cost per task (how many tokens the model actually burns) beats the sticker price when we have it
+    # for the leader: a $16/M model that writes 300k tokens is not cheaper than a $8/M model that writes 40k.
     top_q = max(r["quality"] for r in rows)
+    by_task = best.get("task_cost") is not None
+    money = "task_cost" if by_task else "price"
     picks = {
-        "best": best,
-        "value": _cheapest(rows, VALUE_BAND * top_q, top=10),
-        "budget": _cheapest(rows, BUDGET_BAND * top_q),
+        "best": _priced(best, by_task),
+        "value": _priced(_cheapest(rows, VALUE_BAND * top_q, top=10, key=money), by_task),
+        "budget": _priced(_cheapest(rows, BUDGET_BAND * top_q, key=money), by_task),
     }
     fast = [r for r in rows if r["quality"] >= FAST_BAND * top_q and r.get("tps")]
     picks["fast"] = max(fast, key=lambda r: r["tps"]) if fast else None
@@ -158,7 +170,7 @@ def mix_savings(picks: dict, mix: dict | None = None) -> dict | None:
     against sending everything to the top model. Only for jobs priced per token."""
     mix = mix or DEFAULT_MIX
     best = picks.get("best")
-    if not best or best.get("price") in (None, 0) or best.get("price_unit") != "usd_per_mtok":
+    if not best or best.get("price") in (None, 0) or best.get("price_unit") not in ("usd_per_mtok", "usd_per_task"):
         return None
     if any(k.startswith("x.price") for k in best.get("basis", {})):
         return None  # price is already part of this job's score; a mixed plan adds nothing
@@ -168,8 +180,9 @@ def mix_savings(picks: dict, mix: dict | None = None) -> dict | None:
         if r.get("price") is None:
             return None
         cost += share * r["price"]
+    unit = "task" if best.get("price_unit") == "usd_per_task" else "M"
     return {"mixed_per_mtok": round(cost, 3), "all_best_per_mtok": round(best["price"], 3),
-            "saves_pct": round(100 * (1 - cost / best["price"]))}
+            "unit": unit, "saves_pct": round(100 * (1 - cost / best["price"]))}
 
 
 PICK_FIELDS = ("id", "name", "lab", "score", "price", "price_unit", "tps", "openrouter", "access", "held")

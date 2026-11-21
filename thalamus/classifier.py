@@ -20,7 +20,7 @@ from . import scrub as scrubber
 from .seats import env_value
 
 URL = "https://openrouter.ai/api/alpha/decisions"
-MODEL = "typesafe/jev-1.13"
+MODEL = "typesafe/jev-1.14"  # 1.13 still answers; 1.14 is the current release (same price). Do not follow ~jev-latest.
 FLOOR = 0.5  # below this the model isn't sure, and the keyword result stands
 MAX_CHARS = 8000
 INSTRUCTIONS = ("Which kind of work is this task mostly? Pick the job for the main deliverable, "

@@ -217,7 +217,7 @@ def _new_entry(rec: dict, base: str, variant: str | None) -> dict:
         "lab": lab_name, "lab_id": lid, "country": country, "kind": rec.get("kind", "llm"),
         "open_weights": rec.get("open_weights"), "released": rec.get("released"), "context": rec.get("context"),
         "input": rec.get("input"), "reasoning": rec.get("reasoning"), "price": rec.get("price"),
-        "speed": rec.get("speed"), "metrics": {}, "where": {}, "sources": [],
+        "task_cost": rec.get("task_cost"), "speed": rec.get("speed"), "metrics": {}, "where": {}, "sources": [],
     }
 
 
@@ -237,7 +237,9 @@ def _absorb(entry: dict, rec: dict) -> None:
     if not entry.get("price") and rec.get("price"):
         entry["price"] = rec["price"]
     if rec["source"] == "openrouter" and rec.get("price"):
-        entry["price"] = rec["price"]  # the callable price wins
+        entry["price"] = rec["price"]  # the callable token price wins; it has no cost-per-task
+    if rec.get("task_cost") is not None:
+        entry["task_cost"] = rec["task_cost"]  # measured cost of one index task; OpenRouter cannot overwrite it
     if rec.get("lab") and not entry.get("lab"):
         entry["lab"] = rec["lab"]
 

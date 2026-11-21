@@ -84,20 +84,42 @@ def fetch() -> list[dict]:
     for m in _pages("/language/models/free", key):
         ev = m.get("evaluations") or {}
         metrics = {mid: num(ev.get(field)) for field, mid in EVALS.items()}
+        # Pro rows add fields the free list leaves out. Read them when present; never require them.
+        for field, mid in (("coding_agent_index", "aa.coding_agent"),
+                           ("aa_omniscience_accuracy", "aa.omniscience")):
+            v = num(ev.get(field) if field in ev else m.get(field))
+            if v is not None:
+                metrics[mid] = v
         cost = m.get("artificial_analysis_intelligence_index_cost") or {}
-        per_task = (cost.get("cost_per_task") or {}).get("total_cost") if isinstance(cost, dict) else None
-        metrics["aa.index_cost"] = num(per_task if per_task is not None else (cost or {}).get("total_cost"))
+        per_task = None
+        if isinstance(cost, dict):
+            cpt = cost.get("cost_per_task")
+            per_task = num(cpt.get("total_cost") if isinstance(cpt, dict) else cpt)
+        # total_cost on the parent object is the cost of the whole index (thousands of dollars), not one task.
+        if per_task is not None:
+            metrics["aa.index_cost"] = per_task
         pricing = m.get("pricing") or {}
         pin, pout = num(pricing.get("price_1m_input_tokens")), num(pricing.get("price_1m_output_tokens"))
-        price = ({"input": pin, "output": pout, "blended": round((3 * pin + pout) / 4, 4), "unit": "usd_per_mtok"}
+        price = ({"input": pin, "output": pout, "cache_hit": num(pricing.get("price_1m_cache_hit_tokens")),
+                  "blended": round((3 * pin + pout) / 4, 4), "unit": "usd_per_mtok"}
                  if pin is not None and pout is not None else None)
-        perf = m.get("performance") or {}
-        speed = {"tps": num(perf.get("median_output_tokens_per_second")),
+        perf, v3 = m.get("performance") or {}, m.get("performance_v3") or {}
+        speed = {"tps": num(perf.get("median_output_tokens_per_second") or v3.get("mean_output_tokens_per_second")),
                  "ttft": num(perf.get("median_time_to_first_answer_token_seconds")
-                             or perf.get("median_time_to_first_token_seconds"))}
+                             or perf.get("median_time_to_first_token_seconds")
+                             or v3.get("mean_time_to_first_answer_token_seconds"))}
+        task_s = num(v3.get("time_per_task_seconds") or perf.get("time_per_task_seconds"))
+        if task_s is not None:
+            speed["task_seconds"] = task_s
+            metrics["aa.task_seconds"] = task_s
+        tokens = m.get("artificial_analysis_intelligence_index_token_counts") or {}
+        per_out = tokens.get("per_task") if isinstance(tokens, dict) else None
+        out_tok = num(per_out.get("output_tokens") if isinstance(per_out, dict) else tokens.get("output_tokens_per_task"))
+        if out_tok is not None:
+            metrics["aa.output_tokens"] = out_tok
         out.append(record("aa", m.get("slug") or m.get("id"), m.get("name", ""), lab=_creator(m), kind="llm",
                           metrics=metrics, price=price, speed=speed if any(speed.values()) else None,
-                          released=m.get("release_date")))
+                          task_cost=per_task, released=m.get("release_date")))
     for media, (kind, metric) in MEDIA.items():
         try:
             rows = _pages(f"/media/{media}/models/free", key, max_pages=5)

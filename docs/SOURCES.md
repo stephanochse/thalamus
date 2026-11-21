@@ -21,7 +21,7 @@ These run in the GitHub Action and feed the committed `data/` and `ROUTES.md`.
 
 | Source | What it adds | Why it's personal-only |
 |---|---|---|
-| [Artificial Analysis](https://artificialanalysis.ai) (`aa`) | Intelligence Index, capability indexes (strategy and operations, finance and accounting, legal, healthcare, engineering, economics), speed and latency, Elo for image, editing, video, speech and transcription | Official API with a free key (100 requests a day; a run uses about 10). Attribution is required on every tier, the free tier doesn't grant redistribution, and their terms ask for written consent before the data powers a public model-selection product |
+| [Artificial Analysis](https://artificialanalysis.ai) (`aa`) | Intelligence Index, six capability indexes, cost per task, prices, median speed. A Pro key also returns the coding-agent index, omniscience accuracy, time per task and output tokens per task | Official API with a free key (100 requests a day; a run uses about 10). Attribution is required. The free tier does not allow redistribution, and their terms ask for written consent before the data powers a public model-selection product. Cost per task is `cost_per_task.total_cost`. The parent `total_cost` is the cost of the whole index and must not be used as a per-task price |
 | Epoch's re-hosted external benchmarks (`epoch_external`) | Terminal-Bench, METR time horizons, ARC-AGI-2, Humanity's Last Exam, Fiction.LiveBench, Aider Polyglot | Epoch notes that externally sourced data keeps its original licensing |
 | [BenchLM](https://benchlm.ai) (`benchlm`) | Composite category scores | CC BY-NC 4.0 |
 | [EQ-Bench](https://eqbench.com) (`eqbench`) | Creative writing Elo and a "slop" score | No published license or terms for the data |

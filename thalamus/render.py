@@ -27,7 +27,7 @@ def _money(r: dict | None) -> str:
     if unit == "usd_per_mtok":
         return f"${p:,.2f}/M" if p >= 0.1 else f"${p:,.3f}/M"
     return {"usd_per_image": f"${p:,.3f}/img", "usd_per_second": f"${p:,.3f}/s", "usd_per_minute": f"${p:,.3f}/min",
-            "usd_per_mchar": f"${p:,.0f}/M chars"}.get(unit, f"${p:,.3f}")
+            "usd_per_mchar": f"${p:,.0f}/M chars", "usd_per_task": f"${p:,.2f}/task"}.get(unit, f"${p:,.3f}")
 
 
 def _short(r: dict | None) -> str:
@@ -105,8 +105,9 @@ def routes_md(payload: dict, jobs_meta: list[dict], history: dict | None = None)
                 lines.append(f"\n{moving}")
             if e.get("mix"):
                 m = e["mix"]
+                suffix = "/task" if m.get("unit") == "task" else "/M"
                 lines.append(f"\nMixed plan (best for 10% of tokens, value for 30%, budget for 60%): "
-                             f"${m['mixed_per_mtok']}/M against ${m['all_best_per_mtok']}/M all-best, "
+                             f"${m['mixed_per_mtok']}{suffix} against ${m['all_best_per_mtok']}{suffix} all-best, "
                              f"**{m['saves_pct']}% cheaper**.")
             lines += ["", "| # | Tier | Model | Lab | Score | Price | Speed | Based on |",
                       "|---|---|---|---|---|---|---|---|"]
