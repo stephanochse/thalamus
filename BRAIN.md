@@ -1,4 +1,4 @@
-# The brain, week of 2026-11-21
+# The brain, week of 2026-11-23
 
 Thalamus checks its own inputs every week before it trusts them, keeps a memory of past weeks and writes down here what it learned. The weekly sync rewrites this page. How each check works is at the bottom.
 
@@ -11,13 +11,7 @@ Thalamus checks its own inputs every week before it trusts them, keeps a memory 
 
 ## Rising this week
 
-- Claude Opus 4.7 (Max) up 5 places to #8 for autonomous coding agents
-- GPT-5.5 (xHigh) up 5 places to #9 for autonomous coding agents
-- Claude Sonnet 5.5 (xHigh) up 4 places to #9 for math and hard reasoning
-- Claude Opus 4.8 (Max) up 4 places to #9 for tool use and multi-step agents
-- Muse Spark 1.3 (Max) up 3 places to #11 for negotiation, debate and persuasion
-- GPT-6.1 Terra (Max) up 3 places to #12 for websites, ui and screenshot-to-code
-- DeepSeek V4.1 Flash (Max) up 3 places to #5 for bulk work at the lowest price
+- Nothing moved three places or more (or this is the first week on record).
 
 ## How much it trusts each source
 
@@ -25,53 +19,53 @@ Agreement is the rank correlation between one source's view of every job and all
 
 | Source | Agreement this week | Usual | Trust | Last week |
 |---|---|---|---|---|
-| arena | 0.607 | 0.613 | 1.0 | 1.0 |
-| epoch | 0.818 | 0.84 | 1.0 | 1.0 |
-| llmstats | 0.577 | 0.595 | 1.0 | 1.0 |
-| tau2 | 0.693 | 0.697 | 1.0 | 1.0 |
-| vectara | -0.218 | -0.222 | 1.0 | 1.0 |
+| arena | 0.605 | 0.611 | 1.0 | 1.0 |
+| epoch | 0.819 | 0.834 | 1.0 | 1.0 |
+| llmstats | 0.575 | 0.589 | 1.0 | 1.0 |
+| tau2 | 0.693 | 0.696 | 1.0 | 1.0 |
+| vectara | -0.22 | -0.221 | 1.0 | 1.0 |
 
 ## Left out this week
 
-- `llmstats.swe_pro`: lost 58 of 58 rows since last week
+- `llmstats.swe_pro`: lost 56 of 56 rows since last week
 
 ## Every lab, every job
 
 | Lab | Jobs won | Top 3 in | Strongest at |
 |---|---|---|---|
-| Google | 14 | 19 | Everyday questions and chat (Gemini 4 Carbon (High)), 100% of the top score |
-| Anthropic | 10 | 17 | Research and facts (Claude Opus 5 (Max)), 100% of the top score |
-| OpenAI | 4 | 6 | Image generation (GPT-Image-2.6 Sunburst (Medium)), 100% of the top score |
+| Google | 15 | 18 | Everyday questions and chat (Gemini 4 Carbon (High)), 100% of the top score |
+| Anthropic | 9 | 18 | Research and facts (Claude Opus 5 (Max)), 100% of the top score |
+| OpenAI | 4 | 7 | Image generation (GPT-Image-2.6 Sunburst (Medium)), 100% of the top score |
 | Alibaba (Qwen) | 2 | 4 | Following instructions and structured output (Qwen3.8 Max (xHigh)), 100% of the top score |
 | Meta | 1 | 2 | Video from text (Muse Video), 100% of the top score |
 | Zhipu (Z.ai) | 1 | 1 | Bulk work at the lowest price (GLM 5.3 Flash), 100% of the top score |
 | ByteDance | 0 | 1 | Video editing (Dreamina Seedance 2.5), 98% of the top score |
-| DeepSeek | 0 | 1 | Bulk work at the lowest price (DeepSeek V4.1 Flash (Max)), 97% of the top score |
 | Moonshot AI | 0 | 1 | Business, finance and analysis (Kimi K3.1 Pro (Max)), 96% of the top score |
+| DeepSeek | 0 | 1 | Bulk work at the lowest price (DeepSeek V4.1 Flash (Max)), 96% of the top score |
 | hidream | 0 | 1 | Animate an image into video (HiDream-O1-Video-1.0), 91% of the top score |
 | xAI | 0 | 1 | Animate an image into video (Grok Imagine Video 1.5), 90% of the top score |
 | Microsoft | 0 | 1 | Image editing (MAI-Image-2.7), 89% of the top score |
 | Xiaomi | 0 | 0 | Backends, SaaS and system design (MiMo-V2.6-Pro), 93% of the top score |
 | Black Forest Labs | 0 | 0 | Animate an image into video (FLUX 3 Video), 89% of the top score |
 | SpaceXSI | 0 | 0 | Translation and other languages (Grok 4.20 (Reasoning)), 86% of the top score |
-| Tencent | 0 | 0 | Math and hard reasoning (Hy3), 86% of the top score |
+| Tencent | 0 | 0 | Math and hard reasoning (Hy3), 85% of the top score |
 
 ## What it can't judge well yet
 
 Strong models ranked on far less evidence than the others in the same table, usually because they're new and most leaderboards haven't tested them. Try them on low-stakes work (`thalamus scout <job>`) and file a verdict.
 
 - Claude Fable 5.2 (xHigh): #1 for games, 3d and interactive scenes on 2 signals (59% of the evidence)
-- Gemini 4 Neon (High): #6 for strategy, plans and decisions on 4 signals (76% of the evidence)
 - Claude Opus 5.5 (Max): #2 for games, 3d and interactive scenes on 2 signals (59% of the evidence)
+- Gemini 4 Neon (High): #6 for strategy, plans and decisions on 4 signals (76% of the evidence)
 - Claude Opus 5.5 (High): #3 for decks, slides and one-pagers on 4 signals (71% of the evidence)
-- Gemini 3.8 Flash (High): #7 for math and hard reasoning on 2 signals (80% of the evidence)
 - Gemini 4 Hydrogen (High): #8 for math and hard reasoning on 2 signals (80% of the evidence)
+- Gemini 3.8 Flash (High): #9 for math and hard reasoning on 2 signals (80% of the evidence)
 - Claude Fable 5.2 (Max): #6 for decks, slides and one-pagers on 4 signals (71% of the evidence)
-- Muse Wonder (Max): #13 for math and hard reasoning on 2 signals (80% of the evidence)
+- Muse Wonder (Max): #15 for math and hard reasoning on 2 signals (80% of the evidence)
 - Claude Fable 5.1 (Max): #1 for long documents and big codebases on 1 signal (67% of the evidence)
-- GPT-6.2 Astra (Max): #7 for websites, ui and screenshot-to-code on 1 signal (53% of the evidence)
 - Claude Opus 5 (High): #2 for long documents and big codebases on 1 signal (67% of the evidence)
-- GPT-6.2 Sol (Max): #11 for games, 3d and interactive scenes on 2 signals (71% of the evidence)
+- GPT-6.2 Astra (Max): #8 for websites, ui and screenshot-to-code on 1 signal (53% of the evidence)
+- GPT-6.2 Sol (Max): #9 for websites, ui and screenshot-to-code on 1 signal (53% of the evidence)
 
 ## Names it couldn't match
 

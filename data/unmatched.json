@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-23",
  "note": "Add an entry to data/aliases.json to merge these.",
  "records": [
   {
@@ -154,15 +154,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Grok 4 Fast (Non-Reasoning)",
-   "name": "Grok 4 Fast (Non-Reasoning)",
-   "lab": "xai"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Kimi K2 Preview (0905)",
    "name": "Kimi K2 Preview (0905)",
    "lab": "moonshot"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Grok 4 Fast (Non-Reasoning)",
+   "name": "Grok 4 Fast (Non-Reasoning)",
+   "lab": "xai"
   },
   {
    "source": "arena",
@@ -262,15 +262,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:MiniMax-M1",
-   "name": "MiniMax-M1",
-   "lab": "minimax"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Grok 3 Mini (High)",
    "name": "Grok 3 Mini (High)",
    "lab": "xai"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MiniMax-M1",
+   "name": "MiniMax-M1",
+   "lab": "minimax"
   },
   {
    "source": "arena",
@@ -340,15 +340,15 @@
   },
   {
    "source": "arena",
-   "source_id": "llm:Llama 3.3 Nemotron Super 49B v1.5",
-   "name": "Llama 3.3 Nemotron Super 49B v1.5",
-   "lab": "nvidia"
-  },
-  {
-   "source": "arena",
    "source_id": "llm:Ling-flash-2.0",
    "name": "Ling-flash-2.0",
    "lab": "ant-group"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Llama 3.3 Nemotron Super 49B v1.5",
+   "name": "Llama 3.3 Nemotron Super 49B v1.5",
+   "lab": "nvidia"
   },
   {
    "source": "arena",

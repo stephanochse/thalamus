@@ -1,5 +1,17 @@
 # Weekly changes
 
+## 2026-11-23
+
+Sources: 6 ok.
+
+Pick changes:
+
+- Business, finance and analysis, value: Kimi K3.1 Pro (Max) -> Muse Spark 1.2 (xHigh)
+- Writing, copy and voice, value: Gemini 4 Argon (High) -> Gemini 4 Carbon (High)
+- Tool use and multi-step agents, budget: Claude Sonnet 5.5 (Max) -> Gemini 4 Carbon (High)
+
+Newly scored (1): Recraft V4.1 Flash V2 (Recraft)
+
 ## 2026-11-21
 
 Sources: 6 ok.

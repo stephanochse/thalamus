@@ -1,7 +1,49 @@
 {
- "updated": "2026-11-21",
- "week": "2026-W47",
+ "updated": "2026-11-23",
+ "week": "2026-W48",
  "trust": {
+  "arena": {
+   "trust": 1.0,
+   "agreement": 0.605,
+   "baseline": 0.611,
+   "previous": 1.0,
+   "weeks": 4,
+   "flagged": 0
+  },
+  "epoch": {
+   "trust": 1.0,
+   "agreement": 0.819,
+   "baseline": 0.834,
+   "previous": 1.0,
+   "weeks": 4,
+   "flagged": 0
+  },
+  "llmstats": {
+   "trust": 1.0,
+   "agreement": 0.575,
+   "baseline": 0.589,
+   "previous": 1.0,
+   "weeks": 4,
+   "flagged": 0
+  },
+  "tau2": {
+   "trust": 1.0,
+   "agreement": 0.693,
+   "baseline": 0.696,
+   "previous": 1.0,
+   "weeks": 4,
+   "flagged": 0
+  },
+  "vectara": {
+   "trust": 1.0,
+   "agreement": -0.22,
+   "baseline": -0.221,
+   "previous": 1.0,
+   "weeks": 4,
+   "flagged": 0
+  }
+ },
+ "prior_trust": {
   "arena": {
    "trust": 1.0,
    "agreement": 0.607,
@@ -43,49 +85,7 @@
    "flagged": 0
   }
  },
- "prior_trust": {
-  "arena": {
-   "trust": 1.0,
-   "agreement": 0.607,
-   "baseline": 0.616,
-   "previous": 1.0,
-   "weeks": 2,
-   "flagged": 0
-  },
-  "epoch": {
-   "trust": 1.0,
-   "agreement": 0.832,
-   "baseline": 0.849,
-   "previous": 1.0,
-   "weeks": 2,
-   "flagged": 0
-  },
-  "llmstats": {
-   "trust": 1.0,
-   "agreement": 0.593,
-   "baseline": 0.603,
-   "previous": 1.0,
-   "weeks": 2,
-   "flagged": 0
-  },
-  "tau2": {
-   "trust": 1.0,
-   "agreement": 0.715,
-   "baseline": 0.699,
-   "previous": 1.0,
-   "weeks": 2,
-   "flagged": 0
-  },
-  "vectara": {
-   "trust": 1.0,
-   "agreement": -0.224,
-   "baseline": -0.224,
-   "previous": 1.0,
-   "weeks": 2,
-   "flagged": 0
-  }
- },
  "quarantined": {
-  "llmstats.swe_pro": "lost 58 of 58 rows since last week"
+  "llmstats.swe_pro": "lost 56 of 56 rows since last week"
  }
 }
