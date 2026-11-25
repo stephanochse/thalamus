@@ -1,5 +1,28 @@
 # Weekly changes
 
+## 2026-11-25
+
+Sources: 6 ok.
+
+Pick changes:
+
+- Negotiation, debate and persuasion, budget: GLM 5.3 Flash -> Gemma 4 26B A4B
+- Strategy, plans and decisions, budget: GLM 5.3 Flash -> MiMo-V2.6-Flash
+- Business, finance and analysis, budget: GLM 5.3 Flash -> DeepSeek V4 Flash 0423
+- Health and medical, budget: GLM 5.3 Flash -> DeepSeek V4.1 Flash (Max)
+- Math and hard reasoning, budget: GLM 5.3 Flash -> MiMo-V2.6-Flash
+- Translation and other languages, budget: GLM 5.3 Flash -> MiMo-V2.6-Flash
+- Following instructions and structured output, budget: GLM 5.3 Flash -> Gemma 4 26B A4B
+- Writing code, budget: GLM 5.3 Flash -> MiMo-V2.6-Flash
+- Backends, SaaS and system design, budget: GLM 5.3 Flash -> DeepSeek V4 Flash 0423
+- Games, 3D and interactive scenes, value: Gemini 4 Neon (High) -> Claude Opus 5.5 (Max)
+- Reading images, screenshots and documents, value: Gemini 3.7 Flash (High) -> Gemini 3.8 Flash (High)
+- Decks, slides and one-pagers, value: Gemini 4 Carbon (High) -> Gemini 4 Hydrogen (High)
+- Decks, slides and one-pagers, budget: GLM 5.3 Flash -> DeepSeek V4 Flash 0423
+- Bulk work at the lowest price, budget: GLM 5.3 Flash -> MiMo-V2.6-Flash
+
+Newly scored (5): MiMo-V2.5-Pro (Xiaomi), MiMo-V2.5 (Xiaomi), Mistral Medium 3.1 (Mistral), Mistral Medium 3 (Mistral), Kimi K2-Thinking-0905 (Moonshot AI)
+
 ## 2026-11-23
 
 Sources: 6 ok.

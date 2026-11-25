@@ -33,7 +33,7 @@ Thalamus reads open AI leaderboards each week, ranks every model from every lab 
 <!-- thalamus:example:start -->
 ```console
 $ thalamus top general --labs
-Everyday questions and chat (week of 2026-11-23)
+Everyday questions and chat (week of 2026-11-25)
 Google           Gemini 4 Carbon (High)       #1    100% of the top
 Anthropic        Claude Opus 5.5 (High)       #2     96% of the top
 Meta             Muse Wonder (Max)            #7     90% of the top
@@ -66,7 +66,7 @@ In your brain, the thalamus sits in the middle and relays almost every signal to
 | Writing code | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GPT-6 Astra (Max) |
 | Autonomous coding agents | Claude Fable 5.2 (Max) | Claude Fable 5.2 (Max) | Gemini 4 Neon (High) |
 | Research and facts | Claude Opus 5 (High) | Kimi K3.1 Pro (Max) | Qwen3.8 Max (0902) |
-| Reading images, screenshots and documents | Claude Opus 5.5 (High) | Gemini 3.7 Flash (High) | Gemini 3.8 Flash (High) |
+| Reading images, screenshots and documents | Claude Opus 5.5 (High) | Gemini 3.8 Flash (High) | Gemini 3.8 Flash (High) |
 | Image generation | GPT-Image-2.6 Sunburst (Medium) | - | - |
 <!-- thalamus:headline:end -->
 
@@ -78,30 +78,30 @@ In your brain, the thalamus sits in the middle and relays almost every signal to
 <!-- thalamus:picks:start -->
 | Job | Best | Value | Budget | Other lab | Mix saves |
 |---|---|---|---|---|---|
-| Everyday questions and chat | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 5.5 (High) | 59% |
-| Strategy, plans and decisions | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 5.5 (High) | 59% |
-| Business, finance and analysis | Gemini 4 Carbon (High) | Muse Spark 1.2 (xHigh) | GLM 5.3 Flash | Claude Opus 5.5 (High) | 74% |
-| Legal and compliance | Gemini 4 Carbon (High) | Gemini 4 Hydrogen (High) | DeepSeek V4.1 Flash (Max) | Muse Wonder (Max) | 66% |
-| Health and medical | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Fable 5.1 (Max) | 59% |
-| Research and facts | Claude Opus 5 (High) | Kimi K3.1 Pro (Max) | DeepSeek V4.1 Flash (Max) | Qwen3.8 Max (0902) | 83% |
+| Everyday questions and chat | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 5.5 (High) | 57% |
+| Strategy, plans and decisions | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | MiMo-V2.6-Flash | Claude Opus 5.5 (High) | 57% |
+| Business, finance and analysis | Gemini 4 Carbon (High) | Muse Spark 1.2 (xHigh) | DeepSeek V4 Flash 0423 | Claude Opus 5.5 (High) | 73% |
+| Legal and compliance | Gemini 4 Carbon (High) | Gemini 4 Hydrogen (High) | DeepSeek V4.1 Flash (Max) | Muse Wonder (Max) | 64% |
+| Health and medical | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | DeepSeek V4.1 Flash (Max) | Claude Fable 5.1 (Max) | 57% |
+| Research and facts | Claude Opus 5 (High) | Kimi K3.1 Pro (Max) | DeepSeek V4.1 Flash (Max) | Qwen3.8 Max (0902) | 82% |
 | Deep research and investigations | Claude Opus 5 (High) | Qwen3.8 Max (0902) | Qwen3.8 Max (0902) | Qwen3.8 Max (0902) | 63% |
-| Math and hard reasoning | Claude Fable 5.1 (Max) | Gemini 3.8 Flash (High) | GLM 5.3 Flash | GPT-6.2 Astra (Max) | 87% |
+| Math and hard reasoning | Claude Fable 5.1 (Max) | Gemini 3.8 Flash (High) | MiMo-V2.6-Flash | GPT-6.2 Astra (Max) | 87% |
 | Long documents and big codebases | Claude Fable 5.1 (Max) | Claude Opus 5 (High) | Gemini 3.7 Flash (High) |  | 70% |
-| Negotiation, debate and persuasion | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Fable 5 (High) | 59% |
-| Learning a skill and being taught | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 5.5 (High) | 59% |
-| Writing, copy and voice | Gemini 4 Argon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Fable 5.2 (Max) | 59% |
-| Personality and conversation | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Muse Wonder (Max) | 59% |
-| Translation and other languages | Gemini 4 Carbon (High) | Gemini 3.7 Flash (High) | GLM 5.3 Flash | Muse Wonder (Max) | 78% |
-| Following instructions and structured output | Qwen3.8 Max (xHigh) | Gemini 3.8 Flash (High) | GLM 5.3 Flash | GLM 5.3 Flash |  |
-| Writing code | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | GPT-6 Astra (Max) | 59% |
-| Backends, SaaS and system design | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 4.7 (Max) | 59% |
+| Negotiation, debate and persuasion | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | Gemma 4 26B A4B | Claude Fable 5 (High) | 58% |
+| Learning a skill and being taught | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 5.5 (High) | 57% |
+| Writing, copy and voice | Gemini 4 Argon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Fable 5.2 (Max) | 57% |
+| Personality and conversation | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Muse Wonder (Max) | 57% |
+| Translation and other languages | Gemini 4 Carbon (High) | Gemini 3.7 Flash (High) | MiMo-V2.6-Flash | Muse Wonder (Max) | 76% |
+| Following instructions and structured output | Qwen3.8 Max (xHigh) | Gemini 3.8 Flash (High) | Gemma 4 26B A4B | Gemini 4 Carbon (High) |  |
+| Writing code | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | MiMo-V2.6-Flash | GPT-6 Astra (Max) | 57% |
+| Backends, SaaS and system design | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | DeepSeek V4 Flash 0423 | Claude Opus 4.7 (Max) | 58% |
 | Autonomous coding agents | Claude Fable 5.2 (Max) | Claude Fable 5.2 (Max) | Gemini 4 Carbon (High) | Gemini 4 Neon (High) | 45% |
-| Code review and debugging | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 4.7 (Max) | 59% |
+| Code review and debugging | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 4.7 (Max) | 57% |
 | Websites, UI and screenshot-to-code | Claude Opus 5.5 (Max) | Claude Sonnet 5.5 (xHigh) | GPT-6.1 Terra (Max) | GPT-6 Astra (Max) | 60% |
-| Games, 3D and interactive scenes | Claude Fable 5.2 (xHigh) | Gemini 4 Neon (High) | Qwen3.7 Plus | GPT-6 Astra (Max) | 77% |
+| Games, 3D and interactive scenes | Claude Fable 5.2 (xHigh) | Claude Opus 5.5 (Max) | Qwen3.7 Plus | GPT-6 Astra (Max) | 73% |
 | Tool use and multi-step agents | Claude Fable 5.2 (Max) | Claude Fable 5.2 (Max) | Gemini 4 Carbon (High) | Gemini 4 Neon (High) | 45% |
-| Reading images, screenshots and documents | Claude Opus 5.5 (High) | Gemini 3.7 Flash (High) | GLM 5.3 Flash | Gemini 3.8 Flash (High) | 84% |
-| Decks, slides and one-pagers | Gemini 4 Carbon (High) | Gemini 4 Carbon (High) | GLM 5.3 Flash | Claude Opus 5.5 (High) | 59% |
+| Reading images, screenshots and documents | Claude Opus 5.5 (High) | Gemini 3.8 Flash (High) | GLM 5.3 Flash | Gemini 3.8 Flash (High) | 82% |
+| Decks, slides and one-pagers | Gemini 4 Carbon (High) | Gemini 4 Hydrogen (High) | DeepSeek V4 Flash 0423 | Claude Opus 5.5 (High) | 66% |
 | Image generation | GPT-Image-2.6 Sunburst (Medium) |  |  |  |  |
 | Ads, posters and images with text | GPT-Image-2.6 Sunburst (Medium) |  |  |  |  |
 | Photoreal images and product shots | GPT-Image-2.6 Sunburst (Medium) |  |  |  |  |
@@ -109,9 +109,9 @@ In your brain, the thalamus sits in the middle and relays almost every signal to
 | Video from text | Muse Video |  |  | Sora 2 Pro |  |
 | Animate an image into video | Gemini Omni 1.1 Flash |  |  | HiDream-O1-Video-1.0 |  |
 | Video editing | Wan 3.0 |  |  | Dreamina Seedance 2.5 |  |
-| Bulk work at the lowest price | GLM 5.3 Flash | Gemini 4 Carbon (High) | GLM 5.3 Flash | DeepSeek V4.1 Flash (Max) |  |
+| Bulk work at the lowest price | GLM 5.3 Flash | Gemini 4 Carbon (High) | MiMo-V2.6-Flash | DeepSeek V4.1 Flash (Max) |  |
 
-_Updated 2026-11-23 by the weekly sync. Full tables: [ROUTES.md](ROUTES.md)._
+_Updated 2026-11-25 by the weekly sync. Full tables: [ROUTES.md](ROUTES.md)._
 <!-- thalamus:picks:end -->
 
 </details>
@@ -133,14 +133,14 @@ How each lab did across all 35 jobs this week. "Strongest at" is the job where i
 | Lab | Jobs won | In the top 3 for | Strongest at |
 |---|---|---|---|
 | Google | 15 | 18 | Everyday questions and chat (Gemini 4 Carbon (High)), 100% of the top |
-| Anthropic | 9 | 18 | Research and facts (Claude Opus 5 (Max)), 100% of the top |
+| Anthropic | 9 | 19 | Research and facts (Claude Opus 5 (Max)), 100% of the top |
 | OpenAI | 4 | 7 | Image generation (GPT-Image-2.6 Sunburst (Medium)), 100% of the top |
 | Alibaba (Qwen) | 2 | 4 | Following instructions and structured output (Qwen3.8 Max (xHigh)), 100% of the top |
 | Meta | 1 | 2 | Video from text (Muse Video), 100% of the top |
 | Zhipu (Z.ai) | 1 | 1 | Bulk work at the lowest price (GLM 5.3 Flash), 100% of the top |
+| DeepSeek | 0 | 1 | Bulk work at the lowest price (DeepSeek V4.1 Flash (Max)), 100% of the top |
 | ByteDance | 0 | 1 | Video editing (Dreamina Seedance 2.5), 98% of the top |
 | Moonshot AI | 0 | 1 | Business, finance and analysis (Kimi K3.1 Pro (Max)), 96% of the top |
-| DeepSeek | 0 | 1 | Bulk work at the lowest price (DeepSeek V4.1 Flash (Max)), 96% of the top |
 | hidream | 0 | 1 | Animate an image into video (HiDream-O1-Video-1.0), 91% of the top |
 | xAI | 0 | 1 | Animate an image into video (Grok Imagine Video 1.5), 90% of the top |
 | Microsoft | 0 | 1 | Image editing (MAI-Image-2.7), 89% of the top |

@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-23",
- "count": 1112,
- "scored": 977,
+ "updated": "2026-11-25",
+ "count": 1115,
+ "scored": 978,
  "models": [
   {
    "id": "aion-labs/aion-2.0",
@@ -711,7 +711,7 @@
     "arena.multiturn": 1482.8764156734028,
     "arena.multilingual": 1494.0188449473749,
     "arena.factuality": 1497.8417364303625,
-    "arena.webdev": 1742.1002817722865,
+    "arena.webdev": 1741.8110561298713,
     "arena.image_to_webdev": 1722.6894861773885,
     "arena.vision": 1322.001447093446,
     "arena.diagram": 1345.2784309522083,
@@ -899,7 +899,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1822.1334535572094,
+    "arena.webdev": 1821.6543300273584,
     "llmstats.general": 60.61,
     "llmstats.agents": 46.78,
     "llmstats.code": 50.16,
@@ -969,7 +969,7 @@
     "arena.multiturn": 1516.7702529703936,
     "arena.multilingual": 1492.7962374766466,
     "arena.factuality": 1483.2531978439524,
-    "arena.webdev": 1625.884744970482,
+    "arena.webdev": 1625.8274645929919,
     "arena.image_to_webdev": 1620.157536623462,
     "arena.vision": 1325.0059503519458,
     "arena.diagram": 1354.1667020321436,
@@ -1154,7 +1154,7 @@
     "arena.multiturn": 1424.9845293864998,
     "arena.multilingual": 1393.9453009057515,
     "arena.factuality": 1418.224843700757,
-    "arena.webdev": 1330.1234938537095,
+    "arena.webdev": 1330.111344096381,
     "arena.document": 1420.40423692533,
     "llmstats.general": 24.24,
     "llmstats.agents": 12.53,
@@ -1293,7 +1293,7 @@
     "arena.multiturn": 1412.5233005197865,
     "arena.multilingual": 1406.2354964736858,
     "arena.factuality": 1425.936140949716,
-    "arena.webdev": 1595.1199560828725,
+    "arena.webdev": 1594.68828242659,
     "arena.agent": -0.004238737455761248,
     "llmstats.general": 48.47,
     "llmstats.agents": 32.72,
@@ -1402,7 +1402,7 @@
     "arena.multiturn": 1468.6860890740065,
     "arena.multilingual": 1434.1449798000954,
     "arena.factuality": 1434.9314869660438,
-    "arena.webdev": 1390.2287724876946,
+    "arena.webdev": 1390.2002304415937,
     "llmstats.general": 29.1,
     "llmstats.agents": 11.97,
     "llmstats.code": 21.27,
@@ -1484,7 +1484,7 @@
     "arena.multiturn": 1468.6860890740065,
     "arena.multilingual": 1434.1449798000954,
     "arena.factuality": 1434.9314869660438,
-    "arena.webdev": 1390.2287724876946,
+    "arena.webdev": 1390.2002304415937,
     "llmstats.general": 29.1,
     "llmstats.agents": 11.97,
     "llmstats.code": 21.27,
@@ -1558,7 +1558,7 @@
     "arena.multiturn": 1471.0730572627915,
     "arena.multilingual": 1433.4897655624563,
     "arena.factuality": 1433.1868270095667,
-    "arena.webdev": 1390.2287724876946,
+    "arena.webdev": 1390.2002304415937,
     "llmstats.general": 29.1,
     "llmstats.agents": 11.97,
     "llmstats.code": 21.27,
@@ -1632,7 +1632,7 @@
     "arena.multiturn": 1484.143775053411,
     "arena.multilingual": 1456.2934348434337,
     "arena.factuality": 1459.1353649689954,
-    "arena.webdev": 1469.041662628633,
+    "arena.webdev": 1469.081470901135,
     "arena.document": 1465.7142349591215,
     "llmstats.general": 37.37,
     "llmstats.agents": 16.52,
@@ -1715,7 +1715,7 @@
     "arena.multiturn": 1485.069065938451,
     "arena.multilingual": 1459.4036948755806,
     "arena.factuality": 1459.0374411385292,
-    "arena.webdev": 1493.7184579492139,
+    "arena.webdev": 1493.7119819862355,
     "tau2.banking": 24.74,
     "tau2.classic": 85.31,
     "arena.document": 1465.7142349591215,
@@ -1796,7 +1796,7 @@
     "arena.multiturn": 1484.143775053411,
     "arena.multilingual": 1456.2934348434337,
     "arena.factuality": 1459.1353649689954,
-    "arena.webdev": 1469.041662628633,
+    "arena.webdev": 1469.081470901135,
     "arena.document": 1465.7142349591215,
     "llmstats.general": 37.37,
     "llmstats.agents": 16.52,
@@ -1872,7 +1872,7 @@
     "arena.multiturn": 1509.3771780597426,
     "arena.multilingual": 1483.3370528535806,
     "arena.factuality": 1488.2907366545955,
-    "arena.webdev": 1536.7295872549491,
+    "arena.webdev": 1536.614231369147,
     "arena.image_to_webdev": 1537.709055532553,
     "arena.vision": 1312.0673142437292,
     "arena.diagram": 1339.4113217243062,
@@ -1969,7 +1969,7 @@
     "arena.multiturn": 1516.2203371296703,
     "arena.multilingual": 1488.0820235033113,
     "arena.factuality": 1492.7669386681855,
-    "arena.webdev": 1546.555808845319,
+    "arena.webdev": 1546.3530721710918,
     "arena.image_to_webdev": 1543.9565716184215,
     "arena.vision": 1315.0899503504263,
     "arena.diagram": 1331.5842699011007,
@@ -2060,7 +2060,7 @@
     "arena.multiturn": 1509.3771780597426,
     "arena.multilingual": 1483.3370528535806,
     "arena.factuality": 1488.2907366545955,
-    "arena.webdev": 1536.7295872549491,
+    "arena.webdev": 1536.614231369147,
     "arena.image_to_webdev": 1537.709055532553,
     "arena.vision": 1312.0673142437292,
     "arena.diagram": 1339.4113217243062,
@@ -2155,7 +2155,7 @@
     "arena.multiturn": 1509.3771780597426,
     "arena.multilingual": 1483.3370528535806,
     "arena.factuality": 1488.2907366545955,
-    "arena.webdev": 1536.7295872549491,
+    "arena.webdev": 1536.614231369147,
     "arena.image_to_webdev": 1537.709055532553,
     "arena.vision": 1312.0673142437292,
     "arena.diagram": 1339.4113217243062,
@@ -2245,7 +2245,7 @@
     "arena.multiturn": 1513.7289301627484,
     "arena.multilingual": 1483.1462332025515,
     "arena.factuality": 1476.1145654123645,
-    "arena.webdev": 1555.502495613465,
+    "arena.webdev": 1555.5839597922704,
     "arena.image_to_webdev": 1562.011906097579,
     "arena.vision": 1317.4264085382335,
     "arena.diagram": 1334.584760300814,
@@ -2341,7 +2341,7 @@
     "arena.multiturn": 1516.3189026663606,
     "arena.multilingual": 1489.8808049104905,
     "arena.factuality": 1478.1140335517994,
-    "arena.webdev": 1557.5228489262315,
+    "arena.webdev": 1557.3954105121502,
     "arena.image_to_webdev": 1579.4163884995637,
     "arena.vision": 1313.7130943780119,
     "arena.diagram": 1336.6894310070877,
@@ -2432,7 +2432,7 @@
     "arena.multiturn": 1513.7289301627484,
     "arena.multilingual": 1483.1462332025515,
     "arena.factuality": 1476.1145654123645,
-    "arena.webdev": 1555.502495613465,
+    "arena.webdev": 1555.5839597922704,
     "arena.image_to_webdev": 1562.011906097579,
     "arena.vision": 1317.4264085382335,
     "arena.diagram": 1334.584760300814,
@@ -2525,7 +2525,7 @@
     "arena.multiturn": 1493.4837377152874,
     "arena.multilingual": 1463.2991439995421,
     "arena.factuality": 1464.5925214798456,
-    "arena.webdev": 1536.1840770272686,
+    "arena.webdev": 1536.2792018450414,
     "arena.vision": 1287.983412087309,
     "arena.diagram": 1302.2111842407576,
     "arena.ocr": 1297.6481648515999,
@@ -2616,7 +2616,7 @@
     "arena.multiturn": 1497.269598517538,
     "arena.multilingual": 1469.982573228429,
     "arena.factuality": 1470.265069706231,
-    "arena.webdev": 1555.5595725598923,
+    "arena.webdev": 1555.5656330756242,
     "arena.vision": 1294.3228087249483,
     "arena.diagram": 1313.5433099061408,
     "arena.ocr": 1303.1693920372882,
@@ -2703,7 +2703,7 @@
     "arena.multiturn": 1493.4837377152874,
     "arena.multilingual": 1463.2991439995421,
     "arena.factuality": 1464.5925214798456,
-    "arena.webdev": 1536.1840770272686,
+    "arena.webdev": 1536.2792018450414,
     "arena.vision": 1287.983412087309,
     "arena.diagram": 1302.2111842407576,
     "arena.ocr": 1297.6481648515999,
@@ -2969,7 +2969,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1820.2717791077653,
+    "arena.webdev": 1820.352133915408,
     "arena.image_to_webdev": 1758.3944059756468,
     "arena.agent": 0.19117186195772867,
     "llmstats.general": 58.0,
@@ -3099,7 +3099,7 @@
     "arena.multiturn": 1485.6187404131929,
     "arena.multilingual": 1479.6482038901456,
     "arena.factuality": 1477.6151222771425,
-    "arena.webdev": 1656.5658490486398,
+    "arena.webdev": 1656.4457858311303,
     "arena.vision": 1317.2672846533776,
     "arena.diagram": 1344.645819222844,
     "arena.ocr": 1325.3019630245092,
@@ -3176,7 +3176,7 @@
     "arena.multiturn": 1485.9228190337983,
     "arena.multilingual": 1479.6121471510344,
     "arena.factuality": 1487.651302868293,
-    "arena.webdev": 1691.6504623219375,
+    "arena.webdev": 1691.5779347983207,
     "arena.image_to_webdev": 1664.0364823528735,
     "arena.agent": 0.061716029751691465,
     "tau2.banking": 48.71134020618557,
@@ -3293,7 +3293,7 @@
     "arena.multiturn": 1477.0463971004467,
     "arena.multilingual": 1440.7565029446687,
     "arena.factuality": 1448.6660322320065,
-    "arena.webdev": 1384.8319271764558,
+    "arena.webdev": 1384.7172483367672,
     "arena.document": 1449.3396697696953,
     "llmstats.general": 31.3,
     "llmstats.agents": 16.32,
@@ -3379,7 +3379,7 @@
     "arena.multiturn": 1471.0150568872068,
     "arena.multilingual": 1439.024683847314,
     "arena.factuality": 1446.067057675404,
-    "arena.webdev": 1393.8760562782272,
+    "arena.webdev": 1393.8354954016907,
     "arena.document": 1449.3396697696953,
     "llmstats.general": 31.3,
     "llmstats.agents": 16.32,
@@ -3457,7 +3457,7 @@
     "arena.multiturn": 1477.0463971004467,
     "arena.multilingual": 1440.7565029446687,
     "arena.factuality": 1448.6660322320065,
-    "arena.webdev": 1384.8319271764558,
+    "arena.webdev": 1384.7172483367672,
     "arena.document": 1449.3396697696953,
     "llmstats.general": 31.3,
     "llmstats.agents": 16.32,
@@ -3534,7 +3534,7 @@
     "arena.multiturn": 1479.9483733457723,
     "arena.multilingual": 1456.5192095560635,
     "arena.factuality": 1460.8363635409357,
-    "arena.webdev": 1521.996993255396,
+    "arena.webdev": 1521.9701054721168,
     "arena.image_to_webdev": 1529.3396796493214,
     "arena.vision": 1282.4951793644625,
     "arena.diagram": 1305.1824787061444,
@@ -3631,7 +3631,7 @@
     "arena.multiturn": 1479.9483733457723,
     "arena.multilingual": 1456.5192095560635,
     "arena.factuality": 1460.8363635409357,
-    "arena.webdev": 1521.996993255396,
+    "arena.webdev": 1521.9701054721168,
     "arena.image_to_webdev": 1529.3396796493214,
     "arena.vision": 1282.4951793644625,
     "arena.diagram": 1305.1824787061444,
@@ -3823,7 +3823,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1715.9238330916182,
+    "arena.webdev": 1715.4181220142164,
     "arena.agent": 0.07874981157680937,
     "llmstats.general": 56.29,
     "llmstats.agents": 41.72,
@@ -3948,7 +3948,7 @@
     "arena.multiturn": 1470.0257800916377,
     "arena.multilingual": 1456.8444833906333,
     "arena.factuality": 1473.350497180003,
-    "arena.webdev": 1772.3567021268916,
+    "arena.webdev": 1772.644765547574,
     "arena.image_to_webdev": 1746.414195889687,
     "arena.vision": 1285.9746364713856,
     "arena.diagram": 1317.802028389496,
@@ -4022,7 +4022,7 @@
     "arena.multiturn": 1473.1056545273016,
     "arena.multilingual": 1447.702039642661,
     "arena.factuality": 1451.2620225088647,
-    "arena.webdev": 1539.6269742847192,
+    "arena.webdev": 1539.4492060589214,
     "arena.image_to_webdev": 1538.923222565642,
     "arena.vision": 1271.5271313755632,
     "arena.diagram": 1293.1111366190264,
@@ -6005,7 +6005,7 @@
     "arena.multiturn": 1446.6144778486887,
     "arena.multilingual": 1423.5561575487516,
     "arena.factuality": 1434.0068882031276,
-    "arena.webdev": 1431.2196786604218
+    "arena.webdev": 1430.9706451768225
    },
    "where": {
     "arena": "llm:DeepSeek-V4-Flash Preview (High)"
@@ -6025,14 +6025,14 @@
    "country": "FR",
    "kind": "llm",
    "open_weights": false,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1071.9543038631753,
+    "arena.webdev": 1071.9197347958398,
     "llmstats.general": 12.81,
     "llmstats.code": 5.04,
     "llmstats.reasoning": 12.73,
@@ -7228,7 +7228,7 @@
     "arena.multiturn": 1495.4248204947955,
     "arena.multilingual": 1477.8264905222075,
     "arena.factuality": 1481.620209426565,
-    "arena.webdev": 1441.1298285050232,
+    "arena.webdev": 1441.0787903983446,
     "arena.image_to_webdev": 1440.9490364452274,
     "arena.vision": 1304.5652272932277,
     "arena.diagram": 1301.6962968895932,
@@ -7338,7 +7338,7 @@
     "arena.multiturn": 1495.4248204947955,
     "arena.multilingual": 1477.8264905222075,
     "arena.factuality": 1481.620209426565,
-    "arena.webdev": 1441.1298285050232,
+    "arena.webdev": 1441.0787903983446,
     "arena.image_to_webdev": 1440.9490364452274,
     "arena.vision": 1304.5652272932277,
     "arena.diagram": 1301.6962968895932,
@@ -9016,7 +9016,7 @@
     "arena.multiturn": 1280.6085376205124,
     "arena.multilingual": 1274.612286362429,
     "arena.factuality": 1310.9962114278487,
-    "arena.webdev": 1193.3677870471124
+    "arena.webdev": 1192.7632261304452
    },
    "where": {
     "arena": "llm:Granite 4.1 8B"
@@ -9587,7 +9587,7 @@
     "arena.multiturn": 1404.8974602610188,
     "arena.multilingual": 1391.4521510219904,
     "arena.factuality": 1417.0504399453444,
-    "arena.webdev": 1158.4915651806223,
+    "arena.webdev": 1158.460344568934,
     "vectara.hallucination": 20.2,
     "vectara.answer_rate": 99.5,
     "llmstats.general": 30.55,
@@ -9800,7 +9800,7 @@
     "arena.multiturn": 1413.636493766576,
     "arena.multilingual": 1414.2374417377225,
     "arena.factuality": 1413.7645697123555,
-    "arena.webdev": 1241.6696587799222,
+    "arena.webdev": 1241.6294879826992,
     "arena.vision": 1201.4609017832215,
     "arena.diagram": 1211.3641112278892,
     "arena.ocr": 1194.7849568913987
@@ -9873,7 +9873,7 @@
     "arena.multiturn": 1458.522874999004,
     "arena.multilingual": 1452.921613403784,
     "arena.factuality": 1434.570864998454,
-    "arena.webdev": 1216.0148285718155,
+    "arena.webdev": 1215.9820553143031,
     "llmstats.general": 15.37,
     "llmstats.agents": 1.41,
     "llmstats.code": 1.1,
@@ -10001,14 +10001,14 @@
    "country": "US",
    "kind": "llm",
    "open_weights": false,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1165.814587866719,
+    "arena.webdev": 1165.78075358674,
     "llmstats.general": 20.02,
     "llmstats.code": 12.63,
     "llmstats.reasoning": 19.88,
@@ -11306,19 +11306,19 @@
    "base": "arena:kat-coder-pro-v-1",
    "name": "KAT-Coder-Pro V1",
    "variant": null,
-   "lab": null,
-   "lab_id": null,
+   "lab": "kwaikat",
+   "lab_id": "kwaikat",
    "country": null,
    "kind": "llm",
    "open_weights": false,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1257.3887726354787
+    "arena.webdev": 1257.3560834238115
    },
    "where": {
     "arena": "llm:KAT-Coder-Pro V1"
@@ -11361,22 +11361,22 @@
     "arena.multiturn": 1404.1129650748328,
     "arena.multilingual": 1408.9695288597159,
     "arena.factuality": 1401.9469415662325,
-    "llmstats.general": 20.96,
+    "llmstats.general": 21.13,
+    "llmstats.code": 19.22,
+    "llmstats.reasoning": 21.36,
+    "llmstats.legal": 26.84,
+    "llmstats.finance": 26.84,
+    "llmstats.math": 24.41,
+    "llmstats.healthcare": 26.84,
+    "llmstats.language": 26.84,
+    "llmstats.gpqa": 75.8,
     "llmstats.agents": -1.94,
-    "llmstats.code": 12.0,
-    "llmstats.reasoning": 21.16,
-    "llmstats.legal": 24.27,
-    "llmstats.finance": 24.27,
     "llmstats.economics": 9.17,
     "llmstats.tool_calling": 5.72,
     "llmstats.vision": -10.36,
     "llmstats.structured_output": 19.66,
     "llmstats.factuality": 12.23,
     "llmstats.instruction_following": 19.66,
-    "llmstats.math": 22.17,
-    "llmstats.healthcare": 24.34,
-    "llmstats.language": 26.38,
-    "llmstats.gpqa": 75.1,
     "llmstats.aime": 49.5,
     "llmstats.hle": 4.7,
     "llmstats.ifeval": 89.8,
@@ -11385,14 +11385,14 @@
     "llmstats.frontend_development": 7.21,
     "llmstats.swe_verified": 65.8,
     "epoch.eci": 141.27,
-    "vectara.hallucination": 17.9,
-    "vectara.answer_rate": 98.6
+    "vectara.hallucination": 13.9,
+    "vectara.answer_rate": 97.0
    },
    "where": {
     "arena": "llm:Kimi K2 Preview (0905)",
-    "llmstats": "kimi-k2-instruct",
+    "llmstats": "kimi-k2-0905",
     "epoch": "Kimi K2 (Jul 2025)",
-    "vectara": "moonshotai/Kimi-K2-Instruct-0905"
+    "vectara": "moonshotai/Kimi-K2-Instruct"
    },
    "sources": [
     "arena",
@@ -11435,7 +11435,7 @@
     "arena.multiturn": 1432.383110598531,
     "arena.multilingual": 1412.2795230151676,
     "arena.factuality": 1423.0326744181882,
-    "arena.webdev": 1321.8283590412236
+    "arena.webdev": 1321.7783513020288
    },
    "where": {
     "arena": "llm:Kimi K2 Thinking Turbo"
@@ -11827,14 +11827,14 @@
    "country": null,
    "kind": "llm",
    "open_weights": true,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1350.1424808403735
+    "arena.webdev": 1349.900136967064
    },
    "where": {
     "arena": "llm:Laguna M.1"
@@ -11854,14 +11854,14 @@
    "country": null,
    "kind": "llm",
    "open_weights": true,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1303.8417476716536
+    "arena.webdev": 1304.0476113569944
    },
    "where": {
     "arena": "llm:Laguna XS.2"
@@ -13339,7 +13339,7 @@
     "arena.multiturn": 1341.6953011709093,
     "arena.multilingual": 1319.6099325675098,
     "arena.factuality": 1367.4195233594503,
-    "arena.webdev": 1169.636442539069,
+    "arena.webdev": 1169.5710120767048,
     "llmstats.general": 22.81,
     "llmstats.code": 12.46,
     "llmstats.reasoning": 22.1,
@@ -13397,7 +13397,7 @@
     "arena.multiturn": 1388.0911785206017,
     "arena.multilingual": 1368.5913346027237,
     "arena.factuality": 1422.1098395785923,
-    "arena.webdev": 1331.632983507087,
+    "arena.webdev": 1331.7102387840305,
     "llmstats.general": 29.69,
     "llmstats.agents": 6.73,
     "llmstats.code": 17.0,
@@ -13465,7 +13465,7 @@
     "arena.multiturn": 1374.6709100485332,
     "arena.multilingual": 1363.6212938218914,
     "arena.factuality": 1409.4111079800355,
-    "arena.webdev": 1290.9700201967114,
+    "arena.webdev": 1290.9318530874402,
     "llmstats.general": 29.69,
     "llmstats.agents": 6.73,
     "llmstats.code": 17.0,
@@ -13584,7 +13584,7 @@
     "arena.multiturn": 1466.2107687921607,
     "arena.multilingual": 1429.0977668916453,
     "arena.factuality": 1443.781121894147,
-    "arena.webdev": 1435.023090708668,
+    "arena.webdev": 1434.8195696514645,
     "llmstats.general": 34.65,
     "llmstats.agents": 16.06,
     "llmstats.code": 24.06,
@@ -13597,6 +13597,129 @@
    "where": {
     "arena": "llm:MiMo-V2-Pro",
     "llmstats": "mimo-v2-pro"
+   },
+   "sources": [
+    "arena",
+    "llmstats"
+   ],
+   "access": []
+  },
+  {
+   "id": "arena:mimo-v-2.5",
+   "base": "arena:mimo-v-2.5",
+   "name": "MiMo-V2.5",
+   "variant": null,
+   "lab": "Xiaomi",
+   "lab_id": "xiaomi",
+   "country": "CN",
+   "kind": "llm",
+   "open_weights": true,
+   "released": "2026-11-22",
+   "context": null,
+   "input": null,
+   "reasoning": null,
+   "price": null,
+   "task_cost": null,
+   "metrics": {
+    "arena.text": 1433.7314800826944,
+    "arena.coding": 1491.060030813216,
+    "arena.creative": 1393.1336217273108,
+    "arena.expert": 1470.3950245124697,
+    "arena.hard": 1462.2351459552613,
+    "arena.business": 1441.5089318466132,
+    "arena.legal": 1430.0847388797397,
+    "arena.health": 1450.3192491574387,
+    "arena.software": 1479.905841458015,
+    "arena.writing": 1411.518014561551,
+    "arena.if": 1431.1120551968902,
+    "arena.longer": 1452.2079387887215,
+    "arena.math": 1437.2439268637527,
+    "arena.multiturn": 1450.2950235537269,
+    "arena.multilingual": 1411.4348562720443,
+    "arena.factuality": 1438.7834978075248,
+    "arena.webdev": 1437.818176491485,
+    "arena.vision": 1247.177289333396,
+    "arena.diagram": 1269.521086153374,
+    "arena.ocr": 1256.1825756363191,
+    "llmstats.general": 35.24,
+    "llmstats.agents": 19.78,
+    "llmstats.code": 27.24,
+    "llmstats.reasoning": 35.21,
+    "llmstats.finance": 12.93,
+    "llmstats.long_context": 7.09,
+    "llmstats.tool_calling": 18.97,
+    "llmstats.vision": 23.63,
+    "llmstats.multimodal": 25.42,
+    "llmstats.mmmu_pro": 77.9,
+    "llmstats.finance_agent": 36.73,
+    "llmstats.charxiv": 81.0
+   },
+   "where": {
+    "arena": "llm:MiMo-V2.5",
+    "llmstats": "mimo-v2.5"
+   },
+   "sources": [
+    "arena",
+    "llmstats"
+   ],
+   "access": []
+  },
+  {
+   "id": "arena:mimo-v-2.5-pro",
+   "base": "arena:mimo-v-2.5-pro",
+   "name": "MiMo-V2.5-Pro",
+   "variant": null,
+   "lab": "Xiaomi",
+   "lab_id": "xiaomi",
+   "country": "CN",
+   "kind": "llm",
+   "open_weights": true,
+   "released": "2026-11-22",
+   "context": null,
+   "input": null,
+   "reasoning": null,
+   "price": null,
+   "task_cost": null,
+   "metrics": {
+    "arena.text": 1466.3354197610752,
+    "arena.coding": 1520.2760293810345,
+    "arena.creative": 1432.9230761579333,
+    "arena.expert": 1506.0835887817725,
+    "arena.hard": 1493.8243841044186,
+    "arena.business": 1471.810475547672,
+    "arena.legal": 1475.2375181539235,
+    "arena.health": 1485.554557961118,
+    "arena.software": 1508.5897829124533,
+    "arena.writing": 1449.2010473001862,
+    "arena.if": 1467.498912485529,
+    "arena.longer": 1485.8702608159788,
+    "arena.math": 1478.8070011238965,
+    "arena.multiturn": 1479.7553091794914,
+    "arena.multilingual": 1450.479535347462,
+    "arena.factuality": 1464.3005196093056,
+    "arena.webdev": 1479.2733487448663,
+    "llmstats.general": 24.8,
+    "llmstats.agents": 22.49,
+    "llmstats.code": 30.88,
+    "llmstats.reasoning": 23.31,
+    "llmstats.legal": 17.49,
+    "llmstats.finance": 20.78,
+    "llmstats.long_context": -1.19,
+    "llmstats.tool_calling": 23.2,
+    "llmstats.vision": 14.39,
+    "llmstats.frontend_development": 25.34,
+    "llmstats.math": 25.46,
+    "llmstats.healthcare": 17.49,
+    "llmstats.language": 21.89,
+    "llmstats.gpqa": 66.7,
+    "llmstats.swe_verified": 78.9,
+    "llmstats.hle": 34.0,
+    "llmstats.livecodebench": 39.6,
+    "llmstats.finance_agent": 41.5
+   },
+   "where": {
+    "arena": "llm:MiMo-V2.5-Pro",
+    "llmstats": "mimo-v2.5-pro"
    },
    "sources": [
     "arena",
@@ -13760,7 +13883,7 @@
     "arena.multiturn": 1359.001056912843,
     "arena.multilingual": 1313.063056982311,
     "arena.factuality": 1359.6468475961003,
-    "arena.webdev": 1298.9891887217834,
+    "arena.webdev": 1298.9605586343614,
     "llmstats.general": 25.93,
     "llmstats.agents": 7.95,
     "llmstats.code": 17.86,
@@ -13823,7 +13946,7 @@
     "arena.multiturn": 1392.6612188862632,
     "arena.multilingual": 1367.6225534105024,
     "arena.factuality": 1410.4381717328188,
-    "arena.webdev": 1384.1594989480586,
+    "arena.webdev": 1383.9880989288572,
     "llmstats.general": 30.73,
     "llmstats.agents": 16.54,
     "llmstats.code": 21.68,
@@ -14078,6 +14201,98 @@
    "sources": [
     "arena",
     "vectara"
+   ],
+   "access": []
+  },
+  {
+   "id": "arena:mistral-medium-3",
+   "base": "arena:mistral-medium-3",
+   "name": "Mistral Medium 3",
+   "variant": null,
+   "lab": "Mistral",
+   "lab_id": "mistral",
+   "country": "FR",
+   "kind": "llm",
+   "open_weights": false,
+   "released": "2026-11-22",
+   "context": null,
+   "input": null,
+   "reasoning": null,
+   "price": null,
+   "task_cost": null,
+   "metrics": {
+    "arena.text": 1387.2388018771276,
+    "arena.coding": 1432.457267535965,
+    "arena.creative": 1363.7121749960572,
+    "arena.expert": 1377.829846722189,
+    "arena.hard": 1400.6899334391562,
+    "arena.business": 1386.6415238882064,
+    "arena.legal": 1409.6503499127418,
+    "arena.health": 1419.249343172973,
+    "arena.software": 1421.529434317108,
+    "arena.writing": 1369.8710799423004,
+    "arena.if": 1365.4344614583897,
+    "arena.longer": 1392.220762615777,
+    "arena.math": 1347.4293357700292,
+    "arena.multiturn": 1402.5229618298192,
+    "arena.multilingual": 1369.691850817484,
+    "arena.vision": 1156.766233069698,
+    "arena.diagram": 1155.1271898829661,
+    "arena.ocr": 1153.9466764561291,
+    "epoch.eci": 132.8
+   },
+   "where": {
+    "arena": "llm:Mistral Medium 3 (2505)",
+    "epoch": "Mistral Medium 3"
+   },
+   "sources": [
+    "arena",
+    "epoch"
+   ],
+   "access": []
+  },
+  {
+   "id": "arena:mistral-medium-3.1",
+   "base": "arena:mistral-medium-3.1",
+   "name": "Mistral Medium 3.1",
+   "variant": null,
+   "lab": "Mistral",
+   "lab_id": "mistral",
+   "country": "FR",
+   "kind": "llm",
+   "open_weights": false,
+   "released": "2026-11-22",
+   "context": null,
+   "input": null,
+   "reasoning": null,
+   "price": null,
+   "task_cost": null,
+   "metrics": {
+    "arena.text": 1407.971493224827,
+    "arena.coding": 1453.6165629388797,
+    "arena.creative": 1378.1445365790041,
+    "arena.expert": 1410.451355189476,
+    "arena.hard": 1426.6726806208735,
+    "arena.business": 1406.7110549302809,
+    "arena.legal": 1417.1402396730368,
+    "arena.health": 1433.1877631772409,
+    "arena.software": 1439.1615876617334,
+    "arena.writing": 1386.3179231828285,
+    "arena.if": 1394.8017174449187,
+    "arena.longer": 1408.2077215917711,
+    "arena.math": 1395.0224966966216,
+    "arena.multiturn": 1406.5898928348806,
+    "arena.multilingual": 1388.7228017851935,
+    "arena.factuality": 1429.013523959853,
+    "arena.vision": 1172.2868616980174,
+    "arena.diagram": 1174.5816984310782,
+    "arena.ocr": 1174.6729002647776
+   },
+   "where": {
+    "arena": "llm:Mistral Medium 3.1 (2508)"
+   },
+   "sources": [
+    "arena"
    ],
    "access": []
   },
@@ -14435,7 +14650,7 @@
     "arena.multiturn": 1429.18603588295,
     "arena.multilingual": 1420.4426524745852,
     "arena.factuality": 1402.24622942481,
-    "arena.webdev": 1353.006344999232
+    "arena.webdev": 1352.9724310961064
    },
    "where": {
     "arena": "llm:Muse Glimmer"
@@ -14576,7 +14791,7 @@
    "country": "US",
    "kind": "llm",
    "open_weights": false,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
@@ -14613,14 +14828,14 @@
    "country": "US",
    "kind": "llm",
    "open_weights": false,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1723.0788820527512,
+    "arena.webdev": 1723.5123274877274,
     "arena.agent": 0.08039083830005407,
     "llmstats.general": 52.16,
     "llmstats.agents": 40.25,
@@ -14923,7 +15138,7 @@
     "arena.multiturn": 1427.2069473063027,
     "arena.multilingual": 1391.320652262946,
     "arena.factuality": 1425.6187471357541,
-    "arena.webdev": 1399.6359221899095,
+    "arena.webdev": 1400.038159892862,
     "arena.image_to_webdev": 1391.70455636835,
     "arena.vision": 1213.3882038828517,
     "arena.diagram": 1226.856530987547,
@@ -16927,7 +17142,7 @@
     "arena.multiturn": 1465.8398111132637,
     "arena.multilingual": 1447.1178906269422,
     "arena.factuality": 1452.262734061757,
-    "arena.webdev": 1481.51453620184,
+    "arena.webdev": 1481.246456693862,
     "epoch.eci": 149.86,
     "epoch.swebench": 0.7665289256198347
    },
@@ -16951,14 +17166,14 @@
    "country": "CN",
    "kind": "llm",
    "open_weights": true,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1625.5016615310535,
+    "arena.webdev": 1625.8388451198834,
     "arena.agent": -0.046761904275303745,
     "llmstats.general": 47.02,
     "llmstats.agents": 31.34,
@@ -17950,14 +18165,14 @@
    "country": "CN",
    "kind": "llm",
    "open_weights": false,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1518.1140081331157,
+    "arena.webdev": 1517.9582255487817,
     "arena.image_to_webdev": 1504.8230709691095,
     "llmstats.general": 44.62,
     "llmstats.agents": 29.8,
@@ -18510,14 +18725,14 @@
    "country": null,
    "kind": "llm",
    "open_weights": false,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1485.0403290473562,
+    "arena.webdev": 1485.0538201696313,
     "arena.agent": -0.12344300110942992
    },
    "where": {
@@ -19083,7 +19298,7 @@
     "arena.multiturn": 1345.7408844401953,
     "arena.multilingual": 1350.9826126166,
     "arena.factuality": 1369.8810815412212,
-    "arena.webdev": 1236.6533555050455,
+    "arena.webdev": 1236.9272778121367,
     "vectara.hallucination": 6.9,
     "vectara.answer_rate": 99.0
    },
@@ -19145,14 +19360,14 @@
    "country": null,
    "kind": "llm",
    "open_weights": false,
-   "released": "2026-11-22",
+   "released": "2026-11-23",
    "context": null,
    "input": null,
    "reasoning": null,
    "price": null,
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1609.9192780666788
+    "arena.webdev": 1609.4581322166136
    },
    "where": {
     "arena": "llm:U2 Flash"
@@ -21320,7 +21535,7 @@
     "arena.multiturn": 1427.7334945540458,
     "arena.multilingual": 1408.0525269350567,
     "arena.factuality": 1436.739863701929,
-    "arena.webdev": 1325.6923249788695,
+    "arena.webdev": 1325.6393972984743,
     "llmstats.general": 32.24,
     "llmstats.agents": 10.7,
     "llmstats.code": 22.52,
@@ -21404,7 +21619,7 @@
     "arena.multiturn": 1427.4665116249914,
     "arena.multilingual": 1406.0741028492957,
     "arena.factuality": 1436.2005602609943,
-    "arena.webdev": 1271.336963890124,
+    "arena.webdev": 1271.3061784387824,
     "llmstats.general": 27.21,
     "llmstats.agents": 4.52,
     "llmstats.code": 17.08,
@@ -21488,7 +21703,7 @@
     "arena.multiturn": 1419.7156514955723,
     "arena.multilingual": 1406.305372302746,
     "arena.factuality": 1446.956276365948,
-    "arena.webdev": 1271.336963890124,
+    "arena.webdev": 1271.3061784387824,
     "llmstats.general": 27.21,
     "llmstats.agents": 4.52,
     "llmstats.code": 17.08,
@@ -21565,7 +21780,7 @@
     "arena.multiturn": 1427.900876050613,
     "arena.multilingual": 1401.3799818687924,
     "arena.factuality": 1432.6504478968711,
-    "arena.webdev": 1362.711023945393,
+    "arena.webdev": 1362.76675807408,
     "llmstats.general": 31.57,
     "llmstats.agents": 9.72,
     "llmstats.code": 22.39,
@@ -21667,6 +21882,8 @@
     "llmstats.mcp_atlas": 67.4,
     "llmstats.simpleqa": 28.9,
     "epoch.eci": 146.91,
+    "vectara.hallucination": 6.4,
+    "vectara.answer_rate": 97.7,
     "x.context": 1048576,
     "x.price": 0.1125
    },
@@ -21674,13 +21891,15 @@
     "openrouter": "deepseek/deepseek-v4-flash",
     "arena": "llm:DeepSeek-V4-Flash",
     "llmstats": "deepseek-v4-flash-0423",
-    "epoch": "DeepSeek-V4-Flash"
+    "epoch": "DeepSeek-V4-Flash",
+    "vectara": "deepseek-ai/DeepSeek-V4-Flash"
    },
    "sources": [
     "openrouter",
     "arena",
     "llmstats",
-    "epoch"
+    "epoch",
+    "vectara"
    ],
    "access": [
     "openrouter"
@@ -21703,9 +21922,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.0434,
+    "input": 0.047,
     "output": 0.3,
-    "blended": 0.1076,
+    "blended": 0.1103,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -21719,7 +21938,7 @@
     "llmstats.toolathlon": 70.3,
     "epoch.eci": 154.43,
     "x.context": 1048576,
-    "x.price": 0.1076
+    "x.price": 0.1103
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4-flash-0731",
@@ -21752,15 +21971,15 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.0434,
+    "input": 0.047,
     "output": 0.3,
-    "blended": 0.1076,
+    "blended": 0.1103,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
    "metrics": {
     "x.context": 1048576,
-    "x.price": 0.1076
+    "x.price": 0.1103
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4-flash-latest"
@@ -21791,9 +22010,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.2156,
-    "output": 0.6468,
-    "blended": 0.3234,
+    "input": 0.44,
+    "output": 1.32,
+    "blended": 0.66,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -21807,7 +22026,7 @@
     "llmstats.multimodal": 22.71,
     "llmstats.terminal_bench": 83.9,
     "x.context": 1048576,
-    "x.price": 0.3234
+    "x.price": 0.66
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4-flash-vision-exp",
@@ -21845,7 +22064,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1582.0087862554997,
+    "arena.webdev": 1582.0102283043625,
     "arena.text": 1435.590436230298,
     "arena.coding": 1483.8529332535804,
     "arena.creative": 1407.5583684254048,
@@ -21885,6 +22104,8 @@
     "llmstats.mcp_atlas": 67.4,
     "llmstats.simpleqa": 28.9,
     "epoch.eci": 146.91,
+    "vectara.hallucination": 6.4,
+    "vectara.answer_rate": 97.7,
     "x.context": 1048576,
     "x.price": 0.1125
    },
@@ -21916,9 +22137,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.9,
-    "output": 1.5,
-    "blended": 1.05,
+    "input": 1.28,
+    "output": 2.56,
+    "blended": 1.6,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -21939,12 +22160,12 @@
     "arena.multiturn": 1474.7463934737536,
     "arena.multilingual": 1444.7030337352421,
     "arena.factuality": 1455.047911751779,
-    "arena.webdev": 1448.6802748692253,
+    "arena.webdev": 1448.461010382081,
     "epoch.eci": 150.19,
     "vectara.hallucination": 8.6,
     "vectara.answer_rate": 97.2,
     "x.context": 1048576,
-    "x.price": 1.05
+    "x.price": 1.6
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4-pro",
@@ -21979,9 +22200,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 1.32,
-    "output": 3.96,
-    "blended": 1.98,
+    "input": 0.111,
+    "output": 4.44,
+    "blended": 1.1932,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -21998,7 +22219,7 @@
     "llmstats.toolathlon": 74.1,
     "epoch.eci": 155.96,
     "x.context": 1048576,
-    "x.price": 1.98
+    "x.price": 1.1932
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4-pro-0813",
@@ -22031,9 +22252,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.9,
-    "output": 1.5,
-    "blended": 1.05,
+    "input": 1.28,
+    "output": 2.56,
+    "blended": 1.6,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -22054,12 +22275,12 @@
     "arena.multiturn": 1469.8536156704224,
     "arena.multilingual": 1445.7519659423592,
     "arena.factuality": 1452.8534079121844,
-    "arena.webdev": 1581.2477877388428,
+    "arena.webdev": 1581.3871408900563,
     "epoch.eci": 150.19,
     "vectara.hallucination": 8.6,
     "vectara.answer_rate": 97.2,
     "x.context": 1048576,
-    "x.price": 1.05
+    "x.price": 1.6
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4-pro",
@@ -22089,9 +22310,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.9,
-    "output": 1.5,
-    "blended": 1.05,
+    "input": 1.28,
+    "output": 2.56,
+    "blended": 1.6,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -22135,12 +22356,12 @@
     "arena.multiturn": 1474.7463934737536,
     "arena.multilingual": 1444.7030337352421,
     "arena.factuality": 1455.047911751779,
-    "arena.webdev": 1448.6802748692253,
+    "arena.webdev": 1448.461010382081,
     "epoch.eci": 150.19,
     "vectara.hallucination": 8.6,
     "vectara.answer_rate": 97.2,
     "x.context": 1048576,
-    "x.price": 1.05
+    "x.price": 1.6
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4-pro",
@@ -22174,9 +22395,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.0498,
-    "output": 0.1992,
-    "blended": 0.0872,
+    "input": 0.14,
+    "output": 0.42,
+    "blended": 0.21,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -22197,7 +22418,7 @@
     "vectara.hallucination": 4.2,
     "vectara.answer_rate": 99.9,
     "x.context": 1048576,
-    "x.price": 0.0872
+    "x.price": 0.21
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4.1-flash",
@@ -22233,9 +22454,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.15,
-    "output": 0.6,
-    "blended": 0.2625,
+    "input": 0.3,
+    "output": 1.2,
+    "blended": 0.525,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -22252,7 +22473,7 @@
     "llmstats.deepswe": 77.0,
     "epoch.eci": 159.41,
     "x.context": 1048576,
-    "x.price": 0.2625
+    "x.price": 0.525
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4.1-flash-1017",
@@ -22286,14 +22507,14 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.15,
-    "output": 0.6,
-    "blended": 0.2625,
+    "input": 0.3,
+    "output": 1.2,
+    "blended": 0.525,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1658.088125196156,
+    "arena.webdev": 1658.5537657054115,
     "arena.image_to_webdev": 1608.0804007361085,
     "arena.agent": 0.006816655935366427,
     "llmstats.general": 49.78,
@@ -22308,7 +22529,7 @@
     "llmstats.deepswe": 77.0,
     "epoch.eci": 159.41,
     "x.context": 1048576,
-    "x.price": 0.2625
+    "x.price": 0.525
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4.1-flash-1017",
@@ -22339,9 +22560,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.0498,
-    "output": 0.1992,
-    "blended": 0.0872,
+    "input": 0.14,
+    "output": 0.42,
+    "blended": 0.21,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -22362,7 +22583,7 @@
     "arena.multiturn": 1469.647254729672,
     "arena.multilingual": 1459.878876527232,
     "arena.factuality": 1467.485205585435,
-    "arena.webdev": 1621.4973484739592,
+    "arena.webdev": 1621.409880203697,
     "arena.image_to_webdev": 1611.8145835514656,
     "arena.vision": 1278.3328953969099,
     "arena.diagram": 1296.082994941887,
@@ -22383,7 +22604,7 @@
     "vectara.hallucination": 4.2,
     "vectara.answer_rate": 99.9,
     "x.context": 1048576,
-    "x.price": 0.0872
+    "x.price": 0.21
    },
    "where": {
     "openrouter": "deepseek/deepseek-v4.1-flash",
@@ -24233,7 +24454,7 @@
     "arena.multiturn": 1447.9834608716992,
     "arena.multilingual": 1437.0753887839587,
     "arena.factuality": 1461.822273093378,
-    "arena.webdev": 1226.5231932877393,
+    "arena.webdev": 1226.4889306006512,
     "arena.image_to_webdev": 1284.6222979139711,
     "arena.vision": 1263.2470067142074,
     "arena.diagram": 1273.1144503811659,
@@ -24383,7 +24604,7 @@
     "arena.multiturn": 1447.9834608716992,
     "arena.multilingual": 1437.0753887839587,
     "arena.factuality": 1461.822273093378,
-    "arena.webdev": 1226.5231932877393,
+    "arena.webdev": 1226.4889306006512,
     "arena.image_to_webdev": 1284.6222979139711,
     "arena.vision": 1263.2470067142074,
     "arena.diagram": 1273.1144503811659,
@@ -24470,7 +24691,7 @@
     "arena.multiturn": 1481.5888659580967,
     "arena.multilingual": 1464.223350504383,
     "arena.factuality": 1467.992717796976,
-    "arena.webdev": 1440.2619910584126,
+    "arena.webdev": 1440.4185068889637,
     "arena.image_to_webdev": 1451.3181123418335,
     "arena.vision": 1284.7577594150587,
     "arena.diagram": 1289.5232250643846,
@@ -24575,7 +24796,7 @@
     "arena.multiturn": 1481.5888659580967,
     "arena.multilingual": 1464.223350504383,
     "arena.factuality": 1467.992717796976,
-    "arena.webdev": 1440.2619910584126,
+    "arena.webdev": 1440.4185068889637,
     "arena.image_to_webdev": 1451.3181123418335,
     "arena.vision": 1284.7577594150587,
     "arena.diagram": 1289.5232250643846,
@@ -24675,7 +24896,7 @@
     "arena.multiturn": 1474.098666830289,
     "arena.multilingual": 1451.6718641692726,
     "arena.factuality": 1451.0727896771423,
-    "arena.webdev": 1384.5217179293977,
+    "arena.webdev": 1384.357522303656,
     "arena.image_to_webdev": 1430.8870656637457,
     "arena.vision": 1265.6050637237422,
     "arena.diagram": 1275.9805263094684,
@@ -25031,7 +25252,7 @@
     "arena.multiturn": 1435.8754195085623,
     "arena.multilingual": 1425.2775575573344,
     "arena.factuality": 1433.0167981776876,
-    "arena.webdev": 1255.9266725067162,
+    "arena.webdev": 1255.8328224118745,
     "arena.image_to_webdev": 1338.1459866533633,
     "arena.vision": 1239.9909188659406,
     "arena.diagram": 1242.105222770966,
@@ -25099,7 +25320,7 @@
     "arena.multiturn": 1495.2376633651318,
     "arena.multilingual": 1478.5214231111236,
     "arena.factuality": 1471.5734974100144,
-    "arena.webdev": 1446.5004040945703,
+    "arena.webdev": 1446.4257131784339,
     "arena.image_to_webdev": 1479.8823586219723,
     "arena.vision": 1296.4751730536896,
     "arena.diagram": 1311.3788508414364,
@@ -25243,7 +25464,7 @@
     "arena.multiturn": 1495.2376633651318,
     "arena.multilingual": 1478.5214231111236,
     "arena.factuality": 1471.5734974100144,
-    "arena.webdev": 1446.5004040945703,
+    "arena.webdev": 1446.4257131784339,
     "arena.image_to_webdev": 1479.8823586219723,
     "arena.vision": 1296.4751730536896,
     "arena.diagram": 1311.3788508414364,
@@ -25407,7 +25628,7 @@
     "arena.multiturn": 1467.265726097969,
     "arena.multilingual": 1445.3908529613145,
     "arena.factuality": 1446.5411102695746,
-    "arena.webdev": 1434.4933792194483,
+    "arena.webdev": 1434.451295285351,
     "arena.image_to_webdev": 1449.3109984555917,
     "arena.vision": 1268.0584247869447,
     "arena.diagram": 1278.9823190287411,
@@ -25488,7 +25709,7 @@
     "arena.multiturn": 1480.0388987568333,
     "arena.multilingual": 1469.7855674307948,
     "arena.factuality": 1478.35465782533,
-    "arena.webdev": 1499.975944627982,
+    "arena.webdev": 1499.9136708180567,
     "arena.image_to_webdev": 1500.0476314058724,
     "arena.vision": 1307.6820328336216,
     "arena.diagram": 1321.9368857915938,
@@ -25576,7 +25797,7 @@
     "arena.multiturn": 1479.0845319703362,
     "arena.multilingual": 1467.5042916871575,
     "arena.factuality": 1467.1568785910802,
-    "arena.webdev": 1490.3851669649005,
+    "arena.webdev": 1490.3302638833225,
     "arena.image_to_webdev": 1504.9664113775405,
     "arena.vision": 1306.1644431356988,
     "arena.diagram": 1322.098746907359,
@@ -25720,7 +25941,7 @@
     "arena.multiturn": 1489.630313665838,
     "arena.multilingual": 1472.161801638769,
     "arena.factuality": 1472.0575453880092,
-    "arena.webdev": 1537.9064690816265,
+    "arena.webdev": 1538.0393764770001,
     "arena.image_to_webdev": 1544.4364852381075,
     "arena.vision": 1296.974206969669,
     "arena.diagram": 1316.7885543022035,
@@ -25859,7 +26080,7 @@
     "arena.multiturn": 1490.0958946643043,
     "arena.multilingual": 1485.1054479378631,
     "arena.factuality": 1476.0249171031983,
-    "arena.webdev": 1588.7230846168109,
+    "arena.webdev": 1588.7344105515144,
     "arena.image_to_webdev": 1600.462789693835,
     "arena.vision": 1313.6371365776968,
     "arena.diagram": 1329.3092169028146,
@@ -25999,7 +26220,7 @@
     "arena.multiturn": 1502.5355056323522,
     "arena.multilingual": 1488.591356814082,
     "arena.factuality": 1468.8450337286697,
-    "arena.webdev": 1584.0154399737366,
+    "arena.webdev": 1584.313184986891,
     "arena.image_to_webdev": 1592.4630410836194,
     "arena.vision": 1316.4104703780179,
     "arena.diagram": 1347.3923530285017,
@@ -26140,7 +26361,7 @@
     "arena.multiturn": 1542.1421545116643,
     "arena.multilingual": 1511.8611067232855,
     "arena.factuality": 1492.881886913458,
-    "arena.webdev": 1681.4217235601088,
+    "arena.webdev": 1682.0602691734389,
     "arena.agent": 0.10252691966101724,
     "llmstats.general": 52.67,
     "llmstats.agents": 39.32,
@@ -26270,7 +26491,7 @@
     "arena.multiturn": 1562.7168206809843,
     "arena.multilingual": 1518.0542080449675,
     "arena.factuality": 1521.9053369529909,
-    "arena.webdev": 1768.897000921913,
+    "arena.webdev": 1768.9772706074991,
     "arena.agent": 0.16127062430229325,
     "llmstats.general": 56.39,
     "llmstats.agents": 43.05,
@@ -26394,7 +26615,6 @@
     "arena.multiturn": 1481.0785312665591,
     "arena.multilingual": 1479.8667326112827,
     "arena.factuality": 1494.0717593060203,
-    "arena.webdev": 1701.1091693901035,
     "arena.agent": 0.13589964976474905,
     "llmstats.general": 47.54,
     "llmstats.agents": 34.61,
@@ -26410,6 +26630,57 @@
    "where": {
     "openrouter": "google/gemini-4-hydrogen",
     "arena": "llm:Gemini 4 Hydrogen (High)"
+   },
+   "sources": [
+    "arena"
+   ],
+   "access": [
+    "openrouter"
+   ]
+  },
+  {
+   "id": "google/gemini-4-hydrogen@xhigh",
+   "base": "google/gemini-4-hydrogen",
+   "name": "Gemini 4 Hydrogen (xHigh)",
+   "variant": "xhigh",
+   "lab": "Google",
+   "lab_id": "google",
+   "country": "US",
+   "kind": "llm",
+   "open_weights": false,
+   "released": "2026-11-12",
+   "context": 1048576,
+   "input": [
+    "audio",
+    "file",
+    "image",
+    "text",
+    "video"
+   ],
+   "reasoning": true,
+   "price": {
+    "input": 1.5,
+    "output": 7.5,
+    "blended": 3.0,
+    "unit": "usd_per_mtok"
+   },
+   "task_cost": null,
+   "metrics": {
+    "arena.webdev": 1701.4196190243106,
+    "llmstats.general": 47.54,
+    "llmstats.agents": 34.61,
+    "llmstats.code": 24.84,
+    "llmstats.reasoning": 45.67,
+    "llmstats.tool_calling": 28.64,
+    "llmstats.vision": 26.18,
+    "llmstats.multimodal": 25.61,
+    "epoch.eci": 166.81,
+    "x.context": 1048576,
+    "x.price": 3.0
+   },
+   "where": {
+    "openrouter": "google/gemini-4-hydrogen",
+    "arena": "llm:Gemini 4 Hydrogen (xHigh)"
    },
    "sources": [
     "arena"
@@ -26514,7 +26785,6 @@
     "arena.multiturn": 1518.807912091895,
     "arena.multilingual": 1509.1458070451577,
     "arena.factuality": 1509.4267855571368,
-    "arena.webdev": 1765.7693354866158,
     "arena.agent": 0.18288671775196863,
     "llmstats.general": 58.49,
     "llmstats.agents": 45.34,
@@ -26531,6 +26801,58 @@
    "where": {
     "openrouter": "google/gemini-4-neon",
     "arena": "llm:Gemini 4 Neon (High)"
+   },
+   "sources": [
+    "arena"
+   ],
+   "access": [
+    "openrouter"
+   ]
+  },
+  {
+   "id": "google/gemini-4-neon@xhigh",
+   "base": "google/gemini-4-neon",
+   "name": "Gemini 4 Neon (xHigh)",
+   "variant": "xhigh",
+   "lab": "Google",
+   "lab_id": "google",
+   "country": "US",
+   "kind": "llm",
+   "open_weights": false,
+   "released": "2026-11-18",
+   "context": 1048576,
+   "input": [
+    "audio",
+    "file",
+    "image",
+    "text",
+    "video"
+   ],
+   "reasoning": true,
+   "price": {
+    "input": 3.0,
+    "output": 15.0,
+    "blended": 6.0,
+    "unit": "usd_per_mtok"
+   },
+   "task_cost": null,
+   "metrics": {
+    "arena.webdev": 1765.2738702758857,
+    "llmstats.general": 58.49,
+    "llmstats.agents": 45.34,
+    "llmstats.code": 43.64,
+    "llmstats.reasoning": 56.97,
+    "llmstats.long_context": 30.55,
+    "llmstats.tool_calling": 37.5,
+    "llmstats.vision": 36.7,
+    "llmstats.math": 11.46,
+    "llmstats.multimodal": 36.57,
+    "x.context": 1048576,
+    "x.price": 6.0
+   },
+   "where": {
+    "openrouter": "google/gemini-4-neon",
+    "arena": "llm:Gemini 4 Neon (xHigh)"
    },
    "sources": [
     "arena"
@@ -27086,9 +27408,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.09,
-    "output": 0.3,
-    "blended": 0.1425,
+    "input": 0.0765,
+    "output": 0.255,
+    "blended": 0.1211,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -27109,7 +27431,7 @@
     "arena.multiturn": 1447.9616054172882,
     "arena.multilingual": 1423.1359440278165,
     "arena.factuality": 1444.5189325183128,
-    "arena.webdev": 1357.677243496498,
+    "arena.webdev": 1357.6223950214903,
     "arena.vision": 1259.1660754373413,
     "arena.diagram": 1264.0542240426425,
     "arena.ocr": 1267.2278559871693,
@@ -27134,7 +27456,7 @@
     "vectara.hallucination": 5.2,
     "vectara.answer_rate": 99.8,
     "x.context": 262144,
-    "x.price": 0.1425
+    "x.price": 0.1211
    },
    "where": {
     "openrouter": "google/gemma-4-26b-a4b-it",
@@ -27196,7 +27518,7 @@
     "arena.multiturn": 1465.0042956258148,
     "arena.multilingual": 1438.0287670628816,
     "arena.factuality": 1449.4099759960884,
-    "arena.webdev": 1370.6853714888523,
+    "arena.webdev": 1370.5641443874654,
     "arena.vision": 1279.2534991411474,
     "arena.diagram": 1286.8203107053014,
     "arena.ocr": 1285.1728351184547,
@@ -27566,15 +27888,15 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.06,
-    "output": 0.18,
-    "blended": 0.09,
+    "input": 0.075,
+    "output": 0.225,
+    "blended": 0.1125,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
    "metrics": {
     "x.context": 1048576,
-    "x.price": 0.09
+    "x.price": 0.1125
    },
    "where": {
     "openrouter": "inclusionai/ling-3.1-flash"
@@ -30027,6 +30349,55 @@
    },
    "sources": [
     "llmstats"
+   ],
+   "access": []
+  },
+  {
+   "id": "llmstats:kimi-k-2-thinking",
+   "base": "llmstats:kimi-k-2-thinking",
+   "name": "Kimi K2-Thinking-0905",
+   "variant": null,
+   "lab": "Moonshot AI",
+   "lab_id": "moonshot",
+   "country": "CN",
+   "kind": "llm",
+   "open_weights": true,
+   "released": "2025-11-06",
+   "context": null,
+   "input": null,
+   "reasoning": null,
+   "price": null,
+   "task_cost": null,
+   "metrics": {
+    "llmstats.general": 34.98,
+    "llmstats.agents": 14.58,
+    "llmstats.code": 20.21,
+    "llmstats.reasoning": 35.32,
+    "llmstats.legal": 18.66,
+    "llmstats.finance": 19.38,
+    "llmstats.vision": 25.97,
+    "llmstats.search": 14.63,
+    "llmstats.frontend_development": 13.98,
+    "llmstats.math": 37.73,
+    "llmstats.writing": -2.47,
+    "llmstats.creativity": -2.47,
+    "llmstats.healthcare": 29.18,
+    "llmstats.language": 32.14,
+    "llmstats.gpqa": 84.5,
+    "llmstats.aime": 100.0,
+    "llmstats.swe_verified": 71.3,
+    "llmstats.hle": 51.0,
+    "llmstats.browsecomp": 60.2,
+    "llmstats.livecodebench": 83.1,
+    "epoch.eci": 145.46
+   },
+   "where": {
+    "llmstats": "kimi-k2-thinking-0905",
+    "epoch": "Kimi K2 Thinking"
+   },
+   "sources": [
+    "llmstats",
+    "epoch"
    ],
    "access": []
   },
@@ -32797,9 +33168,9 @@
    ],
    "reasoning": false,
    "price": {
-    "input": 0.02,
-    "output": 0.04,
-    "blended": 0.025,
+    "input": 0.05,
+    "output": 0.08,
+    "blended": 0.0575,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -32834,7 +33205,7 @@
     "llmstats.ifeval": 80.4,
     "epoch.eci": 110.9,
     "x.context": 131072,
-    "x.price": 0.025
+    "x.price": 0.0575
    },
    "where": {
     "openrouter": "meta-llama/llama-3.1-8b-instruct",
@@ -33218,7 +33589,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1608.18828666169,
+    "arena.webdev": 1607.4826440215238,
     "arena.agent": -0.01044070771270847,
     "llmstats.general": 44.93,
     "llmstats.agents": 31.18,
@@ -33351,7 +33722,7 @@
     "arena.multiturn": 1497.0078698489617,
     "arena.multilingual": 1483.7944964048063,
     "arena.factuality": 1463.728228628276,
-    "arena.webdev": 1541.4120401120108,
+    "arena.webdev": 1541.345934430838,
     "arena.image_to_webdev": 1538.8485030981872,
     "arena.vision": 1291.073634518643,
     "arena.diagram": 1305.39068532417,
@@ -33439,7 +33810,7 @@
     "arena.multiturn": 1497.0078698489617,
     "arena.multilingual": 1483.7944964048063,
     "arena.factuality": 1463.728228628276,
-    "arena.webdev": 1541.4120401120108,
+    "arena.webdev": 1541.345934430838,
     "arena.image_to_webdev": 1538.8485030981872,
     "arena.vision": 1291.073634518643,
     "arena.diagram": 1305.39068532417,
@@ -33617,7 +33988,7 @@
     "arena.multiturn": 1506.298793066832,
     "arena.multilingual": 1486.305498346298,
     "arena.factuality": 1479.3658065949403,
-    "arena.webdev": 1533.1917451175395,
+    "arena.webdev": 1532.95378197347,
     "arena.vision": 1304.1736959826903,
     "arena.diagram": 1314.0523429501773,
     "arena.ocr": 1311.683205523413,
@@ -33787,7 +34158,7 @@
     "arena.multiturn": 1493.4649198022523,
     "arena.multilingual": 1486.5140230598563,
     "arena.factuality": 1480.663698380954,
-    "arena.webdev": 1652.3301529189641,
+    "arena.webdev": 1652.3208963362117,
     "arena.image_to_webdev": 1635.7827503454928,
     "arena.vision": 1306.216975731572,
     "arena.diagram": 1336.1002698723598,
@@ -33850,7 +34221,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1619.6907741171842,
+    "arena.webdev": 1619.679794631872,
     "arena.image_to_webdev": 1598.741311403051,
     "arena.vision": 1300.4092435960597,
     "arena.diagram": 1314.1414701681094,
@@ -33973,7 +34344,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1527.5474038104987,
+    "arena.webdev": 1526.9671468743263,
     "llmstats.general": 44.58,
     "llmstats.agents": 29.7,
     "llmstats.code": 32.69,
@@ -34105,7 +34476,7 @@
     "arena.multiturn": 1522.2493761855774,
     "arena.multilingual": 1499.8125594286353,
     "arena.factuality": 1493.968521164708,
-    "arena.webdev": 1646.0052671307333,
+    "arena.webdev": 1645.9398221536017,
     "arena.agent": 0.003555309149791817,
     "llmstats.general": 48.96,
     "llmstats.agents": 37.07,
@@ -34297,15 +34668,15 @@
    "kind": "llm",
    "open_weights": true,
    "released": "2026-02-12",
-   "context": 198000,
+   "context": 65536,
    "input": [
     "text"
    ],
    "reasoning": true,
    "price": {
-    "input": 0.27,
-    "output": 0.95,
-    "blended": 0.44,
+    "input": 0.3,
+    "output": 1.2,
+    "blended": 0.525,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -34326,7 +34697,7 @@
     "arena.multiturn": 1397.0566918595748,
     "arena.multilingual": 1368.7669413643237,
     "arena.factuality": 1385.010920781189,
-    "arena.webdev": 1385.9398079170805,
+    "arena.webdev": 1385.8115977845741,
     "llmstats.general": 36.01,
     "llmstats.agents": 16.43,
     "llmstats.code": 26.52,
@@ -34337,8 +34708,8 @@
     "llmstats.multimodal": -0.61,
     "llmstats.swe_verified": 80.2,
     "llmstats.browsecomp": 76.3,
-    "x.context": 198000,
-    "x.price": 0.44
+    "x.context": 65536,
+    "x.price": 0.525
    },
    "where": {
     "openrouter": "minimax/minimax-m2.5",
@@ -34394,7 +34765,7 @@
     "arena.multiturn": 1425.7674034388358,
     "arena.multilingual": 1393.9300740562016,
     "arena.factuality": 1421.845970451888,
-    "arena.webdev": 1398.0064063767911,
+    "arena.webdev": 1397.9128553136584,
     "llmstats.general": 35.12,
     "llmstats.agents": 14.72,
     "llmstats.code": 26.67,
@@ -34462,7 +34833,7 @@
     "arena.multiturn": 1446.8265171548783,
     "arena.multilingual": 1417.3352299707235,
     "arena.factuality": 1432.9635156959614,
-    "arena.webdev": 1484.1964237886375,
+    "arena.webdev": 1484.2010329776285,
     "arena.image_to_webdev": 1473.6503300608447,
     "arena.vision": 1248.402688785522,
     "arena.diagram": 1264.9067039658387,
@@ -34490,6 +34861,8 @@
     "llmstats.osworld": 70.06,
     "llmstats.finance_agent": 48.27,
     "epoch.eci": 147.84,
+    "vectara.hallucination": 11.2,
+    "vectara.answer_rate": 100.0,
     "x.context": 1048576,
     "x.price": 0.525
    },
@@ -34497,13 +34870,15 @@
     "openrouter": "minimax/minimax-m3",
     "arena": "llm:MiniMax-M3",
     "llmstats": "minimax-m3",
-    "epoch": "MiniMax-M3"
+    "epoch": "MiniMax-M3",
+    "vectara": "MiniMaxAI/minimax-m3"
    },
    "sources": [
     "openrouter",
     "arena",
     "llmstats",
-    "epoch"
+    "epoch",
+    "vectara"
    ],
    "access": [
     "openrouter"
@@ -34528,14 +34903,14 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.075,
-    "output": 0.3,
-    "blended": 0.1312,
+    "input": 0.15,
+    "output": 0.6,
+    "blended": 0.2625,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1581.5917873993749,
+    "arena.webdev": 1581.6310218869808,
     "arena.agent": -0.03973254891965576,
     "llmstats.general": 47.3,
     "llmstats.agents": 34.46,
@@ -34548,18 +34923,22 @@
     "llmstats.multimodal": 29.56,
     "llmstats.charxiv": 82.5,
     "llmstats.deepswe": 73.7,
+    "vectara.hallucination": 11.0,
+    "vectara.answer_rate": 100.0,
     "x.context": 1048576,
-    "x.price": 0.1312
+    "x.price": 0.2625
    },
    "where": {
     "openrouter": "minimax/minimax-m3.1-flash",
     "arena": "llm:MiniMax-M3.1-Flash",
-    "llmstats": "minimax-m3.1-flash"
+    "llmstats": "minimax-m3.1-flash",
+    "vectara": "MiniMaxAI/minimax-m3.1-flash"
    },
    "sources": [
     "openrouter",
     "arena",
-    "llmstats"
+    "llmstats",
+    "vectara"
    ],
    "access": [
     "openrouter"
@@ -34629,7 +35008,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1195.5680099931544,
+    "arena.webdev": 1195.5237993097935,
     "x.context": 262144,
     "x.price": 0.8
    },
@@ -34926,7 +35305,7 @@
     "arena.multiturn": 1418.8148577307163,
     "arena.multilingual": 1398.6714146778352,
     "arena.factuality": 1434.5935223823685,
-    "arena.webdev": 1232.6597423133696,
+    "arena.webdev": 1232.629623357218,
     "arena.image_to_webdev": 1361.37546101428,
     "arena.vision": 1222.1782334005864,
     "arena.diagram": 1238.4154035792299,
@@ -35004,7 +35383,7 @@
     "arena.multiturn": 1431.4389412578337,
     "arena.multilingual": 1408.5878050533581,
     "arena.factuality": 1421.7183489652582,
-    "arena.webdev": 1572.5110238838154,
+    "arena.webdev": 1572.3896552009987,
     "arena.vision": 1246.0792452302692,
     "arena.diagram": 1272.608674967779,
     "arena.ocr": 1260.929765543017,
@@ -35037,68 +35416,6 @@
     "openrouter",
     "arena",
     "llmstats",
-    "epoch"
-   ],
-   "access": [
-    "openrouter"
-   ]
-  },
-  {
-   "id": "mistralai/mistral-medium-3",
-   "base": "mistralai/mistral-medium-3",
-   "name": "Mistral Medium 3",
-   "variant": null,
-   "lab": "Mistral",
-   "lab_id": "mistral",
-   "country": "FR",
-   "kind": "llm",
-   "open_weights": false,
-   "released": "2025-05-07",
-   "context": 131072,
-   "input": [
-    "text",
-    "image",
-    "file"
-   ],
-   "reasoning": false,
-   "price": {
-    "input": 0.44,
-    "output": 2.2,
-    "blended": 0.88,
-    "unit": "usd_per_mtok"
-   },
-   "task_cost": null,
-   "metrics": {
-    "arena.text": 1387.2388018771276,
-    "arena.coding": 1432.457267535965,
-    "arena.creative": 1363.7121749960572,
-    "arena.expert": 1377.829846722189,
-    "arena.hard": 1400.6899334391562,
-    "arena.business": 1386.6415238882064,
-    "arena.legal": 1409.6503499127418,
-    "arena.health": 1419.249343172973,
-    "arena.software": 1421.529434317108,
-    "arena.writing": 1369.8710799423004,
-    "arena.if": 1365.4344614583897,
-    "arena.longer": 1392.220762615777,
-    "arena.math": 1347.4293357700292,
-    "arena.multiturn": 1402.5229618298192,
-    "arena.multilingual": 1369.691850817484,
-    "arena.vision": 1156.766233069698,
-    "arena.diagram": 1155.1271898829661,
-    "arena.ocr": 1153.9466764561291,
-    "epoch.eci": 132.8,
-    "x.context": 131072,
-    "x.price": 0.88
-   },
-   "where": {
-    "openrouter": "mistralai/mistral-medium-3",
-    "arena": "llm:Mistral Medium 3 (2505)",
-    "epoch": "Mistral Medium 3"
-   },
-   "sources": [
-    "openrouter",
-    "arena",
     "epoch"
    ],
    "access": [
@@ -35147,7 +35464,7 @@
     "arena.multiturn": 1432.0852312008476,
     "arena.multilingual": 1406.2037763920232,
     "arena.factuality": 1429.8767881218287,
-    "arena.webdev": 1263.1893606952653,
+    "arena.webdev": 1263.2125877591725,
     "arena.vision": 1222.2279789434658,
     "arena.diagram": 1255.3981284535892,
     "arena.ocr": 1232.3972566022157,
@@ -35184,66 +35501,6 @@
     "arena",
     "llmstats",
     "epoch"
-   ],
-   "access": [
-    "openrouter"
-   ]
-  },
-  {
-   "id": "mistralai/mistral-medium-3.1",
-   "base": "mistralai/mistral-medium-3.1",
-   "name": "Mistral Medium 3.1",
-   "variant": null,
-   "lab": "Mistral",
-   "lab_id": "mistral",
-   "country": "FR",
-   "kind": "llm",
-   "open_weights": false,
-   "released": "2025-08-13",
-   "context": 131072,
-   "input": [
-    "text",
-    "image",
-    "file"
-   ],
-   "reasoning": false,
-   "price": {
-    "input": 0.44,
-    "output": 2.2,
-    "blended": 0.88,
-    "unit": "usd_per_mtok"
-   },
-   "task_cost": null,
-   "metrics": {
-    "arena.text": 1407.971493224827,
-    "arena.coding": 1453.6165629388797,
-    "arena.creative": 1378.1445365790041,
-    "arena.expert": 1410.451355189476,
-    "arena.hard": 1426.6726806208735,
-    "arena.business": 1406.7110549302809,
-    "arena.legal": 1417.1402396730368,
-    "arena.health": 1433.1877631772409,
-    "arena.software": 1439.1615876617334,
-    "arena.writing": 1386.3179231828285,
-    "arena.if": 1394.8017174449187,
-    "arena.longer": 1408.2077215917711,
-    "arena.math": 1395.0224966966216,
-    "arena.multiturn": 1406.5898928348806,
-    "arena.multilingual": 1388.7228017851935,
-    "arena.factuality": 1429.013523959853,
-    "arena.vision": 1172.2868616980174,
-    "arena.diagram": 1174.5816984310782,
-    "arena.ocr": 1174.6729002647776,
-    "x.context": 131072,
-    "x.price": 0.88
-   },
-   "where": {
-    "openrouter": "mistralai/mistral-medium-3.1",
-    "arena": "llm:Mistral Medium 3.1 (2508)"
-   },
-   "sources": [
-    "openrouter",
-    "arena"
    ],
    "access": [
     "openrouter"
@@ -35791,154 +36048,6 @@
    "catalog_only": true
   },
   {
-   "id": "moonshotai/kimi-k2",
-   "base": "moonshotai/kimi-k2",
-   "name": "Kimi K2 0711",
-   "variant": null,
-   "lab": "Moonshot AI",
-   "lab_id": "moonshot",
-   "country": "CN",
-   "kind": "llm",
-   "open_weights": true,
-   "released": "2025-07-11",
-   "context": 131072,
-   "input": [
-    "text"
-   ],
-   "reasoning": false,
-   "price": {
-    "input": 0.57,
-    "output": 2.3,
-    "blended": 1.0025,
-    "unit": "usd_per_mtok"
-   },
-   "task_cost": null,
-   "metrics": {
-    "x.context": 131072,
-    "x.price": 1.0025
-   },
-   "where": {
-    "openrouter": "moonshotai/kimi-k2"
-   },
-   "sources": [
-    "openrouter"
-   ],
-   "access": [
-    "openrouter"
-   ],
-   "catalog_only": true
-  },
-  {
-   "id": "moonshotai/kimi-k2-0905",
-   "base": "moonshotai/kimi-k2-0905",
-   "name": "Kimi K2 0905",
-   "variant": null,
-   "lab": "Moonshot AI",
-   "lab_id": "moonshot",
-   "country": "CN",
-   "kind": "llm",
-   "open_weights": true,
-   "released": "2025-09-04",
-   "context": 262144,
-   "input": [
-    "text"
-   ],
-   "reasoning": false,
-   "price": {
-    "input": 0.6,
-    "output": 2.5,
-    "blended": 1.075,
-    "unit": "usd_per_mtok"
-   },
-   "task_cost": null,
-   "metrics": {
-    "llmstats.general": 21.13,
-    "llmstats.code": 19.22,
-    "llmstats.reasoning": 21.36,
-    "llmstats.legal": 26.84,
-    "llmstats.finance": 26.84,
-    "llmstats.math": 24.41,
-    "llmstats.healthcare": 26.84,
-    "llmstats.language": 26.84,
-    "llmstats.gpqa": 75.8,
-    "x.context": 262144,
-    "x.price": 1.075
-   },
-   "where": {
-    "openrouter": "moonshotai/kimi-k2-0905",
-    "llmstats": "kimi-k2-0905"
-   },
-   "sources": [
-    "openrouter",
-    "llmstats"
-   ],
-   "access": [
-    "openrouter"
-   ]
-  },
-  {
-   "id": "moonshotai/kimi-k2-thinking",
-   "base": "moonshotai/kimi-k2-thinking",
-   "name": "Kimi K2 Thinking",
-   "variant": null,
-   "lab": "Moonshot AI",
-   "lab_id": "moonshot",
-   "country": "CN",
-   "kind": "llm",
-   "open_weights": true,
-   "released": "2025-11-06",
-   "context": 262144,
-   "input": [
-    "text"
-   ],
-   "reasoning": true,
-   "price": {
-    "input": 0.6,
-    "output": 2.5,
-    "blended": 1.075,
-    "unit": "usd_per_mtok"
-   },
-   "task_cost": null,
-   "metrics": {
-    "llmstats.general": 34.98,
-    "llmstats.agents": 14.58,
-    "llmstats.code": 20.21,
-    "llmstats.reasoning": 35.32,
-    "llmstats.legal": 18.66,
-    "llmstats.finance": 19.38,
-    "llmstats.vision": 25.97,
-    "llmstats.search": 14.63,
-    "llmstats.frontend_development": 13.98,
-    "llmstats.math": 37.73,
-    "llmstats.writing": -2.47,
-    "llmstats.creativity": -2.47,
-    "llmstats.healthcare": 29.18,
-    "llmstats.language": 32.14,
-    "llmstats.gpqa": 84.5,
-    "llmstats.aime": 100.0,
-    "llmstats.swe_verified": 71.3,
-    "llmstats.hle": 51.0,
-    "llmstats.browsecomp": 60.2,
-    "llmstats.livecodebench": 83.1,
-    "epoch.eci": 145.46,
-    "x.context": 262144,
-    "x.price": 1.075
-   },
-   "where": {
-    "openrouter": "moonshotai/kimi-k2-thinking",
-    "llmstats": "kimi-k2-thinking-0905",
-    "epoch": "Kimi K2 Thinking"
-   },
-   "sources": [
-    "openrouter",
-    "llmstats",
-    "epoch"
-   ],
-   "access": [
-    "openrouter"
-   ]
-  },
-  {
    "id": "moonshotai/kimi-k2.5",
    "base": "moonshotai/kimi-k2.5",
    "name": "Kimi K2.5",
@@ -35979,7 +36088,7 @@
     "arena.multiturn": 1438.9764583730487,
     "arena.multilingual": 1414.6698149846382,
     "arena.factuality": 1429.105926348203,
-    "arena.webdev": 1405.6450665171965,
+    "arena.webdev": 1405.7554098611326,
     "arena.image_to_webdev": 1410.6665025125449,
     "arena.vision": 1252.9913799173992,
     "arena.diagram": 1257.7608421374177,
@@ -36075,7 +36184,7 @@
     "arena.multiturn": 1452.11701284233,
     "arena.multilingual": 1434.6605435359395,
     "arena.factuality": 1444.9552241053839,
-    "arena.webdev": 1436.4228019470754,
+    "arena.webdev": 1436.2995374936563,
     "arena.image_to_webdev": 1439.2142272526123,
     "arena.vision": 1269.318295326128,
     "arena.diagram": 1282.5532697499243,
@@ -36165,7 +36274,7 @@
     "arena.multiturn": 1461.519954701111,
     "arena.multilingual": 1448.5123720070103,
     "arena.factuality": 1456.4859333765853,
-    "arena.webdev": 1509.0031648022205,
+    "arena.webdev": 1508.8499946385537,
     "arena.image_to_webdev": 1522.1180704104152,
     "arena.vision": 1282.2996800428166,
     "arena.diagram": 1298.5560414249253,
@@ -36242,7 +36351,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1475.0124636958437,
+    "arena.webdev": 1474.9550267141997,
     "arena.image_to_webdev": 1511.4480112708625,
     "llmstats.general": 37.6,
     "llmstats.agents": 24.53,
@@ -36435,7 +36544,7 @@
     "arena.multiturn": 1477.3745357153427,
     "arena.multilingual": 1467.09686192998,
     "arena.factuality": 1479.3031695979448,
-    "arena.webdev": 1683.1322989374808,
+    "arena.webdev": 1682.8911109229225,
     "arena.image_to_webdev": 1608.8487869361493,
     "arena.agent": 0.03922965546904197,
     "llmstats.general": 53.98,
@@ -36510,7 +36619,7 @@
     "arena.multiturn": 1501.5036976108988,
     "arena.multilingual": 1477.1264396827892,
     "arena.factuality": 1470.2602718676303,
-    "arena.webdev": 1658.7846800157013,
+    "arena.webdev": 1658.4449671446018,
     "arena.image_to_webdev": 1586.4137312060502,
     "arena.agent": -0.0014528588667886708,
     "tau2.banking": 37.11340206185567,
@@ -37109,9 +37218,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.07,
+    "input": 0.05,
     "output": 0.2,
-    "blended": 0.1025,
+    "blended": 0.0875,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -37139,7 +37248,7 @@
     "llmstats.ifbench": 71.88,
     "llmstats.lcr": 52.0,
     "x.context": 1048576,
-    "x.price": 0.1025
+    "x.price": 0.0875
    },
    "where": {
     "openrouter": "nvidia/nemotron-3.5-lightning",
@@ -38608,7 +38717,7 @@
     "arena.multiturn": 1448.2031422427153,
     "arena.multilingual": 1428.5683685808517,
     "arena.factuality": 1443.852799793064,
-    "arena.webdev": 1342.2417008756522,
+    "arena.webdev": 1342.2118690902225,
     "arena.image_to_webdev": 1348.250432734489,
     "arena.vision": 1235.1036559006338,
     "arena.diagram": 1245.1495459843957,
@@ -38672,7 +38781,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1338.2736481016634,
+    "arena.webdev": 1338.2453190761416,
     "llmstats.general": 28.81,
     "llmstats.agents": 9.58,
     "llmstats.code": 20.58,
@@ -38761,7 +38870,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1243.520297979182,
+    "arena.webdev": 1243.4859029153295,
     "llmstats.general": -3.27,
     "llmstats.reasoning": -3.14,
     "llmstats.math": -1.35,
@@ -38812,7 +38921,7 @@
     "llmstats.reasoning": 28.35,
     "llmstats.math": 29.75,
     "llmstats.aime": 96.7,
-    "arena.webdev": 1338.2736481016634,
+    "arena.webdev": 1338.2453190761416,
     "llmstats.agents": 9.58,
     "llmstats.code": 20.58,
     "llmstats.tool_calling": 10.62,
@@ -38887,7 +38996,7 @@
     "epoch.swebench": 0.6797520661157025,
     "vectara.hallucination": 12.1,
     "vectara.answer_rate": 100.0,
-    "arena.webdev": 1342.2417008756522,
+    "arena.webdev": 1342.2118690902225,
     "arena.document": 1403.0147516077493,
     "llmstats.code": 20.96,
     "llmstats.tool_calling": 16.49,
@@ -38962,7 +39071,7 @@
     "arena.multiturn": 1448.2031422427153,
     "arena.multilingual": 1428.5683685808517,
     "arena.factuality": 1443.852799793064,
-    "arena.webdev": 1342.2417008756522,
+    "arena.webdev": 1342.2118690902225,
     "arena.image_to_webdev": 1348.250432734489,
     "arena.vision": 1235.1036559006338,
     "arena.diagram": 1245.1495459843957,
@@ -39025,7 +39134,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1397.44971140007,
+    "arena.webdev": 1397.4225554469785,
     "llmstats.general": 30.35,
     "llmstats.reasoning": 30.17,
     "llmstats.math": 31.62,
@@ -39120,7 +39229,7 @@
     "arena.multiturn": 1448.2031422427153,
     "arena.multilingual": 1428.5683685808517,
     "arena.factuality": 1443.852799793064,
-    "arena.webdev": 1342.2417008756522,
+    "arena.webdev": 1342.2118690902225,
     "arena.image_to_webdev": 1348.250432734489,
     "arena.vision": 1235.1036559006338,
     "arena.diagram": 1245.1495459843957,
@@ -39209,7 +39318,7 @@
     "arena.multiturn": 1448.2031422427153,
     "arena.multilingual": 1428.5683685808517,
     "arena.factuality": 1443.852799793064,
-    "arena.webdev": 1342.2417008756522,
+    "arena.webdev": 1342.2118690902225,
     "arena.image_to_webdev": 1348.250432734489,
     "arena.vision": 1235.1036559006338,
     "arena.diagram": 1245.1495459843957,
@@ -39273,7 +39382,7 @@
     "arena.multiturn": 1444.2061976611717,
     "arena.multilingual": 1426.593299684895,
     "arena.factuality": 1441.3186486256718,
-    "arena.webdev": 1418.9775048431984,
+    "arena.webdev": 1418.9492398164925,
     "arena.vision": 1228.2894200757387,
     "arena.diagram": 1245.4526649767256,
     "arena.ocr": 1232.8248860513165,
@@ -39388,7 +39497,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1338.919820972687,
+    "arena.webdev": 1338.74655107026,
     "llmstats.general": 33.49,
     "llmstats.agents": 18.3,
     "llmstats.code": 24.38,
@@ -39515,7 +39624,7 @@
     "epoch.swebench": 0.737603305785124,
     "tau2.banking": 32.22,
     "tau2.classic": 84.76,
-    "arena.webdev": 1418.9775048431984,
+    "arena.webdev": 1418.9492398164925,
     "llmstats.general": 40.41,
     "llmstats.agents": 13.28,
     "llmstats.code": 22.87,
@@ -39599,7 +39708,7 @@
     "arena.multiturn": 1444.2061976611717,
     "arena.multilingual": 1426.593299684895,
     "arena.factuality": 1441.3186486256718,
-    "arena.webdev": 1418.9775048431984,
+    "arena.webdev": 1418.9492398164925,
     "arena.vision": 1228.2894200757387,
     "arena.diagram": 1245.4526649767256,
     "arena.ocr": 1232.8248860513165,
@@ -39668,7 +39777,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1406.1594322629041,
+    "arena.webdev": 1405.9513304472066,
     "arena.image_to_webdev": 1443.6962647072837,
     "llmstats.general": 35.6,
     "llmstats.agents": 21.71,
@@ -39723,7 +39832,7 @@
    "task_cost": null,
    "metrics": {
     "epoch.swebench": 0.7479338842975206,
-    "arena.webdev": 1406.1594322629041,
+    "arena.webdev": 1405.9513304472066,
     "arena.image_to_webdev": 1443.6962647072837,
     "llmstats.general": 35.6,
     "llmstats.agents": 21.71,
@@ -39792,7 +39901,7 @@
     "arena.multiturn": 1480.0298054492184,
     "arena.multilingual": 1456.4683628020496,
     "arena.factuality": 1474.7706150128793,
-    "arena.webdev": 1400.2700263984652,
+    "arena.webdev": 1399.88973631533,
     "arena.image_to_webdev": 1440.84384642112,
     "arena.vision": 1291.2862092260327,
     "arena.diagram": 1315.59002668956,
@@ -39995,7 +40104,7 @@
     "arena.multiturn": 1465.1282003725134,
     "arena.multilingual": 1437.5649754704373,
     "arena.factuality": 1446.3662778135856,
-    "arena.webdev": 1397.9827710140364,
+    "arena.webdev": 1398.0933984071448,
     "arena.vision": 1244.492718947158,
     "arena.diagram": 1264.8932620292385,
     "arena.ocr": 1253.1359400883343,
@@ -40278,7 +40387,7 @@
     "arena.vision": 1300.9161682001406,
     "arena.diagram": 1325.5255200799281,
     "arena.ocr": 1310.0837623023638,
-    "arena.webdev": 1461.6162614115647,
+    "arena.webdev": 1461.5547291632633,
     "epoch.swebench": 0.768595041322314,
     "arena.image_to_webdev": 1440.84384642112,
     "arena.document": 1472.9459723994214,
@@ -40349,7 +40458,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1441.825320500098,
+    "arena.webdev": 1441.7599998841424,
     "arena.text": 1464.8550789468463,
     "arena.coding": 1511.0189288060933,
     "arena.creative": 1432.4579899774928,
@@ -40453,7 +40562,7 @@
     "arena.multiturn": 1480.0298054492184,
     "arena.multilingual": 1456.4683628020496,
     "arena.factuality": 1474.7706150128793,
-    "arena.webdev": 1400.2700263984652,
+    "arena.webdev": 1399.88973631533,
     "arena.image_to_webdev": 1440.84384642112,
     "arena.vision": 1291.2862092260327,
     "arena.diagram": 1315.59002668956,
@@ -40541,7 +40650,7 @@
     "arena.multiturn": 1480.0298054492184,
     "arena.multilingual": 1456.4683628020496,
     "arena.factuality": 1474.7706150128793,
-    "arena.webdev": 1400.2700263984652,
+    "arena.webdev": 1399.88973631533,
     "arena.image_to_webdev": 1440.84384642112,
     "arena.vision": 1291.2862092260327,
     "arena.diagram": 1315.59002668956,
@@ -40636,7 +40745,7 @@
     "arena.diagram": 1322.5086861785942,
     "arena.ocr": 1303.6257527332446,
     "arena.document": 1480.8955041284694,
-    "arena.webdev": 1455.426066904178,
+    "arena.webdev": 1455.8045101073064,
     "arena.image_to_webdev": 1503.5332423155396,
     "llmstats.general": 46.29,
     "llmstats.agents": 30.02,
@@ -40784,7 +40893,7 @@
     "arena.diagram": 1317.648608585927,
     "arena.ocr": 1305.65973468114,
     "arena.document": 1484.2928607888468,
-    "arena.webdev": 1487.0618892579635,
+    "arena.webdev": 1487.1526248550797,
     "arena.image_to_webdev": 1519.056952623152,
     "llmstats.general": 46.29,
     "llmstats.agents": 30.02,
@@ -40872,7 +40981,7 @@
     "arena.diagram": 1322.5086861785942,
     "arena.ocr": 1303.6257527332446,
     "arena.document": 1480.8955041284694,
-    "arena.webdev": 1455.426066904178,
+    "arena.webdev": 1455.8045101073064,
     "arena.image_to_webdev": 1503.5332423155396,
     "llmstats.general": 46.29,
     "llmstats.agents": 30.02,
@@ -40939,7 +41048,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1512.4282486789286,
+    "arena.webdev": 1512.5614392231494,
     "arena.image_to_webdev": 1531.375667431686,
     "epoch.swebench": 0.8057851239669421,
     "tau2.banking": 44.58762886597938,
@@ -41155,7 +41264,7 @@
     "arena.diagram": 1272.1063324412414,
     "arena.ocr": 1263.2959391190864,
     "arena.document": 1453.799456583834,
-    "arena.webdev": 1519.1704524554284,
+    "arena.webdev": 1519.1708168187251,
     "arena.image_to_webdev": 1517.4886384008705,
     "llmstats.general": 42.88,
     "llmstats.agents": 28.21,
@@ -41346,7 +41455,7 @@
     "arena.document": 1480.0373058145378,
     "arena.search": 1256.1534304411045,
     "arena.agent": 0.03450277496175428,
-    "arena.webdev": 1615.661193106478,
+    "arena.webdev": 1615.7627402900807,
     "arena.image_to_webdev": 1606.0183391973937,
     "tau2.banking": 46.90721649484536,
     "llmstats.general": 51.47,
@@ -41537,7 +41646,7 @@
     "arena.ocr": 1278.241448888356,
     "arena.document": 1467.6595651845703,
     "arena.agent": -0.02587256445296298,
-    "arena.webdev": 1520.533224405172,
+    "arena.webdev": 1520.4500004670954,
     "arena.image_to_webdev": 1539.4507322902782,
     "llmstats.general": 47.78,
     "llmstats.agents": 33.97,
@@ -41692,7 +41801,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1417.620580986529,
+    "arena.webdev": 1417.585295566434,
     "llmstats.general": 28.72,
     "llmstats.reasoning": 27.69,
     "llmstats.math": 19.69,
@@ -42073,7 +42182,7 @@
     "arena.multiturn": 1480.3429746063287,
     "arena.multilingual": 1461.3293605861802,
     "arena.factuality": 1468.1133511728488,
-    "arena.webdev": 1764.3365718071632,
+    "arena.webdev": 1763.6447154168923,
     "arena.image_to_webdev": 1718.5755327900206,
     "arena.vision": 1276.1585649485985,
     "arena.diagram": 1302.597420602522,
@@ -42295,7 +42404,7 @@
     "arena.multiturn": 1445.0133027523202,
     "arena.multilingual": 1432.1416932187299,
     "arena.factuality": 1465.5002931463262,
-    "arena.webdev": 1578.6377859741026,
+    "arena.webdev": 1578.6975414663725,
     "arena.image_to_webdev": 1567.46770842363,
     "arena.vision": 1209.676230701142,
     "arena.diagram": 1237.818107122277,
@@ -42513,7 +42622,7 @@
     "arena.multiturn": 1468.8561191278736,
     "arena.multilingual": 1444.768365191696,
     "arena.factuality": 1442.2659619415167,
-    "arena.webdev": 1674.8160322803112,
+    "arena.webdev": 1674.5323280937087,
     "arena.image_to_webdev": 1659.0765059917185,
     "arena.vision": 1232.1032254937809,
     "arena.diagram": 1263.465391697843,
@@ -42683,7 +42792,7 @@
     "arena.multiturn": 1487.743853787582,
     "arena.multilingual": 1469.0831672786555,
     "arena.factuality": 1470.0821676432738,
-    "arena.webdev": 1744.4402610654995,
+    "arena.webdev": 1744.7305522570327,
     "arena.image_to_webdev": 1694.5049855370116,
     "arena.vision": 1283.7651906408553,
     "arena.diagram": 1316.0358239671848,
@@ -42903,7 +43012,7 @@
     "arena.multiturn": 1476.9488837825224,
     "arena.multilingual": 1460.7408757921721,
     "arena.factuality": 1456.311410248347,
-    "arena.webdev": 1686.413765504842,
+    "arena.webdev": 1686.2645897755729,
     "arena.image_to_webdev": 1674.2321621939327,
     "arena.vision": 1246.9445504830046,
     "arena.diagram": 1258.9149041570197,
@@ -43111,7 +43220,7 @@
     "arena.multiturn": 1464.7927682254299,
     "arena.multilingual": 1453.7132014618205,
     "arena.factuality": 1443.9219628511612,
-    "arena.webdev": 1759.4459073817447,
+    "arena.webdev": 1760.6727670955838,
     "arena.search": 1191.3986839676506,
     "arena.agent": 0.1391246491333556,
     "llmstats.general": 57.81,
@@ -43266,7 +43375,7 @@
     "arena.multiturn": 1469.4072373415718,
     "arena.multilingual": 1450.694697620664,
     "arena.factuality": 1444.4059067220849,
-    "arena.webdev": 1755.0678190213337,
+    "arena.webdev": 1754.823285761312,
     "arena.search": 1179.1502621753448,
     "arena.agent": 0.11277870995932568,
     "llmstats.general": 53.55,
@@ -45568,7 +45677,7 @@
     "arena.multiturn": 1396.7788036580362,
     "arena.multilingual": 1371.1340205517845,
     "arena.factuality": 1400.2358550787399,
-    "arena.webdev": 1274.4411575734243,
+    "arena.webdev": 1274.4575468828298,
     "llmstats.general": 20.27,
     "llmstats.agents": 4.66,
     "llmstats.code": 11.9,
@@ -46336,7 +46445,7 @@
     "arena.multiturn": 1418.8195057759956,
     "arena.multilingual": 1396.9470793887256,
     "arena.factuality": 1427.8112231790976,
-    "arena.webdev": 1360.369178163605,
+    "arena.webdev": 1360.350079433465,
     "arena.vision": 1243.9942981525855,
     "arena.diagram": 1249.088958396019,
     "arena.ocr": 1250.2032106754457,
@@ -46432,7 +46541,7 @@
     "arena.multiturn": 1413.9072916836556,
     "arena.multilingual": 1386.8328041881782,
     "arena.factuality": 1419.3686729734363,
-    "arena.webdev": 1357.230222888965,
+    "arena.webdev": 1357.1361585250293,
     "arena.vision": 1239.328983569915,
     "arena.diagram": 1249.769889511421,
     "arena.ocr": 1244.24370313128,
@@ -46528,7 +46637,7 @@
     "arena.multiturn": 1394.298628336579,
     "arena.multilingual": 1373.923971122414,
     "arena.factuality": 1407.2604811956714,
-    "arena.webdev": 1253.4317076759228,
+    "arena.webdev": 1253.3729491787813,
     "llmstats.general": 29.69,
     "llmstats.agents": 11.6,
     "llmstats.code": 11.36,
@@ -46624,7 +46733,7 @@
     "arena.multiturn": 1451.882232167017,
     "arena.multilingual": 1432.3180453728376,
     "arena.factuality": 1444.3461568301323,
-    "arena.webdev": 1399.9679197486396,
+    "arena.webdev": 1399.9444996196626,
     "arena.image_to_webdev": 1437.8399280883118,
     "arena.vision": 1262.169136447027,
     "arena.diagram": 1277.0156093445728,
@@ -46786,7 +46895,7 @@
     "arena.multiturn": 1395.8004025984792,
     "arena.multilingual": 1381.0188386680077,
     "arena.factuality": 1413.8016820172263,
-    "arena.webdev": 1243.5451408560439,
+    "arena.webdev": 1243.486488208217,
     "epoch.eci": 143.83,
     "vectara.hallucination": 10.5,
     "vectara.answer_rate": 99.8,
@@ -46980,9 +47089,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.05,
-    "output": 0.7,
-    "blended": 0.2125,
+    "input": 0.1,
+    "output": 0.89,
+    "blended": 0.2975,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -47014,7 +47123,7 @@
     "llmstats.charxiv": 78.0,
     "epoch.eci": 144.07,
     "x.context": 262144,
-    "x.price": 0.2125
+    "x.price": 0.2975
    },
    "where": {
     "openrouter": "qwen/qwen3.6-35b-a3b",
@@ -47114,7 +47223,7 @@
     "arena.multiturn": 1445.3592023263411,
     "arena.multilingual": 1426.8758095391918,
     "arena.factuality": 1437.4958457136656,
-    "arena.webdev": 1461.8118039494004,
+    "arena.webdev": 1461.861438073035,
     "arena.image_to_webdev": 1472.955310467982,
     "llmstats.general": 38.17,
     "llmstats.agents": 19.34,
@@ -47248,7 +47357,7 @@
     "arena.multiturn": 1480.2616792395854,
     "arena.multilingual": 1469.1682291308405,
     "arena.factuality": 1479.72777256486,
-    "arena.webdev": 1515.924819790866,
+    "arena.webdev": 1515.856358587116,
     "arena.agent": -0.08501347396455586,
     "llmstats.general": 44.0,
     "llmstats.agents": 26.92,
@@ -47469,7 +47578,7 @@
     "arena.multiturn": 1439.0732813017069,
     "arena.multilingual": 1423.7458356016168,
     "arena.factuality": 1436.6099000465945,
-    "arena.webdev": 1590.177649407764,
+    "arena.webdev": 1590.2557609636428,
     "arena.image_to_webdev": 1574.8817601528253,
     "arena.vision": 1270.9774641620807,
     "arena.diagram": 1280.4461838370944,
@@ -47613,7 +47722,7 @@
     "arena.multiturn": 1494.6798731792037,
     "arena.multilingual": 1473.2760188216084,
     "arena.factuality": 1473.1540495330169,
-    "arena.webdev": 1670.5592725144666,
+    "arena.webdev": 1670.5277833582195,
     "arena.image_to_webdev": 1615.309555682723,
     "arena.vision": 1306.72220222884,
     "arena.diagram": 1320.4122240814324,
@@ -47705,7 +47814,7 @@
     "arena.multiturn": 1494.6798731792037,
     "arena.multilingual": 1473.2760188216084,
     "arena.factuality": 1473.1540495330169,
-    "arena.webdev": 1670.5592725144666,
+    "arena.webdev": 1670.5277833582195,
     "arena.image_to_webdev": 1615.309555682723,
     "arena.vision": 1306.72220222884,
     "arena.diagram": 1320.4122240814324,
@@ -47917,7 +48026,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1751.9711365052117,
+    "arena.webdev": 1752.14420959669,
     "arena.image_to_webdev": 1674.8582453511108,
     "arena.agent": 0.07303501775920995,
     "llmstats.general": 49.84,
@@ -48025,7 +48134,7 @@
     "arena.multiturn": 1431.410761257959,
     "arena.multilingual": 1420.1692199240015,
     "arena.factuality": 1439.7031566630462,
-    "arena.webdev": 1437.5343787289617,
+    "arena.webdev": 1437.3435784816943,
     "arena.agent": -0.09541265299694282,
     "x.context": 1048576,
     "x.price": 0.4375
@@ -48569,7 +48678,7 @@
    "kind": "llm",
    "open_weights": true,
    "released": "2026-05-28",
-   "context": 262144,
+   "context": 256000,
    "input": [
     "text",
     "image",
@@ -48593,7 +48702,7 @@
     "llmstats.tool_calling": 6.16,
     "llmstats.math": 19.82,
     "llmstats.terminal_bench": 59.5,
-    "x.context": 262144,
+    "x.context": 256000,
     "x.price": 0.4375
    },
    "where": {
@@ -48695,7 +48804,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1570.2696790099062,
+    "arena.webdev": 1570.2012742006268,
     "arena.image_to_webdev": 1550.232190276511,
     "arena.text": 1449.0610780079587,
     "arena.coding": 1504.170752756374,
@@ -48910,9 +49019,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.14,
-    "output": 0.58,
-    "blended": 0.25,
+    "input": 0.132,
+    "output": 0.528,
+    "blended": 0.231,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -48933,7 +49042,7 @@
     "arena.multiturn": 1454.3080773967226,
     "arena.multilingual": 1442.5183792672467,
     "arena.factuality": 1448.2500914781208,
-    "arena.webdev": 1506.1113989279459,
+    "arena.webdev": 1506.334064545486,
     "arena.agent": -0.08702432972955201,
     "llmstats.general": 41.55,
     "llmstats.agents": 25.49,
@@ -48952,7 +49061,7 @@
     "llmstats.mcp_atlas": 79.1,
     "llmstats.lcr": 73.4,
     "x.context": 262144,
-    "x.price": 0.25
+    "x.price": 0.231
    },
    "where": {
     "openrouter": "tencent/hy3",
@@ -48993,7 +49102,7 @@
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1650.382804169449,
+    "arena.webdev": 1650.0889491020257,
     "arena.image_to_webdev": 1618.6262795029834,
     "arena.agent": 0.060908120482314,
     "x.context": 1048576,
@@ -49078,14 +49187,14 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.7506,
-    "output": 2.2509,
-    "blended": 1.1257,
+    "input": 0.834,
+    "output": 2.501,
+    "blended": 1.2508,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
    "metrics": {
-    "arena.webdev": 1631.227653878617,
+    "arena.webdev": 1631.3354119536648,
     "arena.agent": -0.004709320392131132,
     "llmstats.general": 47.78,
     "llmstats.agents": 33.02,
@@ -49102,7 +49211,7 @@
     "llmstats.toolathlon": 74.1,
     "llmstats.mcp_atlas": 83.7,
     "x.context": 1048576,
-    "x.price": 1.1257
+    "x.price": 1.2508
    },
    "where": {
     "openrouter": "tencent/hy4-preview",
@@ -49243,7 +49352,7 @@
    "kind": "llm",
    "open_weights": true,
    "released": "2026-07-17",
-   "context": 524288,
+   "context": 1048576,
    "input": [
     "text",
     "image",
@@ -49274,7 +49383,7 @@
     "arena.multiturn": 1445.2933612071927,
     "arena.multilingual": 1431.529447523562,
     "arena.factuality": 1452.1994280010729,
-    "arena.webdev": 1413.8324507566845,
+    "arena.webdev": 1413.9528449856919,
     "arena.agent": -0.18543913127683925,
     "llmstats.general": 36.16,
     "llmstats.agents": 18.23,
@@ -49297,7 +49406,7 @@
     "llmstats.ifbench": 79.8,
     "llmstats.charxiv": 78.1,
     "epoch.eci": 148.39,
-    "x.context": 524288,
+    "x.context": 1048576,
     "x.price": 1.7625
    },
    "where": {
@@ -49353,7 +49462,7 @@
     "arena.multiturn": 1359.1481034411752,
     "arena.multilingual": 1341.8458435488637,
     "arena.factuality": 1377.8343816880022,
-    "arena.webdev": 1557.149244794357,
+    "arena.webdev": 1559.7868951203154,
     "arena.agent": -0.07738694516381724,
     "llmstats.general": 39.36,
     "llmstats.agents": 24.66,
@@ -49429,7 +49538,7 @@
     "arena.multiturn": 1413.4898002610616,
     "arena.multilingual": 1398.049440043382,
     "arena.factuality": 1424.4046855560543,
-    "arena.webdev": 1640.624094232206,
+    "arena.webdev": 1642.1287050746696,
     "arena.agent": 0.01363765115192338,
     "llmstats.general": 46.9,
     "llmstats.agents": 32.77,
@@ -49509,7 +49618,7 @@
     "arena.multiturn": 1414.3637955976167,
     "arena.multilingual": 1389.7246339404737,
     "arena.factuality": 1426.0027180220652,
-    "arena.webdev": 1407.6327916303615,
+    "arena.webdev": 1407.475269422044,
     "arena.image_to_webdev": 1409.9128267097394,
     "arena.vision": 1236.3150997511639,
     "arena.diagram": 1253.458607352185,
@@ -49571,7 +49680,7 @@
    "kind": "llm",
    "open_weights": true,
    "released": "2026-07-17",
-   "context": 524288,
+   "context": 1048576,
    "input": [
     "text",
     "image",
@@ -49603,7 +49712,7 @@
     "arena.multiturn": 1445.2933612071927,
     "arena.multilingual": 1431.529447523562,
     "arena.factuality": 1452.1994280010729,
-    "arena.webdev": 1413.8324507566845,
+    "arena.webdev": 1413.9528449856919,
     "arena.agent": -0.18543913127683925,
     "llmstats.general": 36.16,
     "llmstats.agents": 18.23,
@@ -49626,7 +49735,7 @@
     "llmstats.ifbench": 79.8,
     "llmstats.charxiv": 78.1,
     "epoch.eci": 148.39,
-    "x.context": 524288,
+    "x.context": 1048576,
     "x.price": 1.7625
    },
    "where": {
@@ -49838,6 +49947,44 @@
    "catalog_only": true
   },
   {
+   "id": "upstage/solar-mini-4-5",
+   "base": "upstage/solar-mini-4-5",
+   "name": "Solar Mini 4.5 (Preview)",
+   "variant": null,
+   "lab": "Upstage",
+   "lab_id": "upstage",
+   "country": "KR",
+   "kind": "llm",
+   "open_weights": false,
+   "released": "2026-11-24",
+   "context": 524288,
+   "input": [
+    "text"
+   ],
+   "reasoning": true,
+   "price": {
+    "input": 0.01,
+    "output": 0.04,
+    "blended": 0.0175,
+    "unit": "usd_per_mtok"
+   },
+   "task_cost": null,
+   "metrics": {
+    "x.context": 524288,
+    "x.price": 0.0175
+   },
+   "where": {
+    "openrouter": "upstage/solar-mini-4-5"
+   },
+   "sources": [
+    "openrouter"
+   ],
+   "access": [
+    "openrouter"
+   ],
+   "catalog_only": true
+  },
+  {
    "id": "upstage/solar-mini4",
    "base": "upstage/solar-mini4",
    "name": "Solar Mini 4",
@@ -49885,6 +50032,44 @@
    ]
   },
   {
+   "id": "upstage/solar-pro-4-contributor",
+   "base": "upstage/solar-pro-4-contributor",
+   "name": "Solar Pro 4 Contributor",
+   "variant": null,
+   "lab": "Upstage",
+   "lab_id": "upstage",
+   "country": "KR",
+   "kind": "llm",
+   "open_weights": false,
+   "released": "2026-11-24",
+   "context": 524288,
+   "input": [
+    "text"
+   ],
+   "reasoning": true,
+   "price": {
+    "input": 0.09,
+    "output": 0.36,
+    "blended": 0.1575,
+    "unit": "usd_per_mtok"
+   },
+   "task_cost": null,
+   "metrics": {
+    "x.context": 524288,
+    "x.price": 0.1575
+   },
+   "where": {
+    "openrouter": "upstage/solar-pro-4-contributor"
+   },
+   "sources": [
+    "openrouter"
+   ],
+   "access": [
+    "openrouter"
+   ],
+   "catalog_only": true
+  },
+  {
    "id": "upstage/solar-pro4",
    "base": "upstage/solar-pro4",
    "name": "Solar Pro 4",
@@ -49924,7 +50109,7 @@
     "arena.multiturn": 1388.6397278701502,
     "arena.multilingual": 1358.7201030260858,
     "arena.factuality": 1414.711384622695,
-    "arena.webdev": 1369.3311053081443,
+    "arena.webdev": 1369.2777100253147,
     "arena.agent": -0.24049079608880114,
     "llmstats.general": 33.47,
     "llmstats.agents": 9.9,
@@ -50641,7 +50826,7 @@
     "arena.multiturn": 1478.516645926369,
     "arena.multilingual": 1461.358335209614,
     "arena.factuality": 1456.0017276478648,
-    "arena.webdev": 1376.3332678877873,
+    "arena.webdev": 1376.3399412349731,
     "arena.vision": 1262.6236624306407,
     "arena.diagram": 1267.12939885122,
     "arena.ocr": 1266.294632458502,
@@ -50711,7 +50896,7 @@
     "arena.multiturn": 1447.2417758548513,
     "arena.multilingual": 1428.1083457478694,
     "arena.factuality": 1426.362678720315,
-    "arena.webdev": 1357.4500225996235,
+    "arena.webdev": 1357.4271590044264,
     "arena.image_to_webdev": 1375.536892993824,
     "arena.vision": 1228.0428546636142,
     "arena.diagram": 1241.0543160119253,
@@ -50784,7 +50969,7 @@
     "arena.multiturn": 1471.4264664749346,
     "arena.multilingual": 1455.185272068709,
     "arena.factuality": 1464.629491151915,
-    "arena.webdev": 1552.3972741184702,
+    "arena.webdev": 1552.4448958178587,
     "arena.image_to_webdev": 1561.5257263966644,
     "arena.vision": 1287.8362181968089,
     "arena.diagram": 1304.6326873060652,
@@ -50862,7 +51047,7 @@
     "arena.multiturn": 1471.4264664749346,
     "arena.multilingual": 1455.185272068709,
     "arena.factuality": 1464.629491151915,
-    "arena.webdev": 1552.3972741184702,
+    "arena.webdev": 1552.4448958178587,
     "arena.image_to_webdev": 1561.5257263966644,
     "arena.vision": 1287.8362181968089,
     "arena.diagram": 1304.6326873060652,
@@ -50989,7 +51174,7 @@
     "arena.multiturn": 1449.6883911746488,
     "arena.multilingual": 1447.0908799445244,
     "arena.factuality": 1451.3387167002318,
-    "arena.webdev": 1618.0648991739006,
+    "arena.webdev": 1618.071048155995,
     "arena.image_to_webdev": 1607.1944987491152,
     "arena.vision": 1264.8906623346236,
     "arena.diagram": 1286.8469337632428,
@@ -51162,7 +51347,7 @@
     "arena.multiturn": 1433.3187828010375,
     "arena.multilingual": 1432.4892812329367,
     "arena.factuality": 1438.8834660719408,
-    "arena.webdev": 1639.494292854653,
+    "arena.webdev": 1639.0292895238558,
     "arena.image_to_webdev": 1591.541607642925,
     "arena.vision": 1230.976428000711,
     "arena.diagram": 1257.5465891338697,
@@ -51232,158 +51417,6 @@
    "catalog_only": true
   },
   {
-   "id": "xiaomi/mimo-v2.5",
-   "base": "xiaomi/mimo-v2.5",
-   "name": "MiMo-V2.5",
-   "variant": null,
-   "lab": "Xiaomi",
-   "lab_id": "xiaomi",
-   "country": "CN",
-   "kind": "llm",
-   "open_weights": true,
-   "released": "2026-04-22",
-   "context": 1000000,
-   "input": [
-    "text",
-    "audio",
-    "image",
-    "video"
-   ],
-   "reasoning": true,
-   "price": {
-    "input": 0.4,
-    "output": 2.0,
-    "blended": 0.8,
-    "unit": "usd_per_mtok"
-   },
-   "task_cost": null,
-   "metrics": {
-    "arena.text": 1433.7314800826944,
-    "arena.coding": 1491.060030813216,
-    "arena.creative": 1393.1336217273108,
-    "arena.expert": 1470.3950245124697,
-    "arena.hard": 1462.2351459552613,
-    "arena.business": 1441.5089318466132,
-    "arena.legal": 1430.0847388797397,
-    "arena.health": 1450.3192491574387,
-    "arena.software": 1479.905841458015,
-    "arena.writing": 1411.518014561551,
-    "arena.if": 1431.1120551968902,
-    "arena.longer": 1452.2079387887215,
-    "arena.math": 1437.2439268637527,
-    "arena.multiturn": 1450.2950235537269,
-    "arena.multilingual": 1411.4348562720443,
-    "arena.factuality": 1438.7834978075248,
-    "arena.webdev": 1437.9277968773035,
-    "arena.vision": 1247.177289333396,
-    "arena.diagram": 1269.521086153374,
-    "arena.ocr": 1256.1825756363191,
-    "llmstats.general": 35.24,
-    "llmstats.agents": 19.78,
-    "llmstats.code": 27.24,
-    "llmstats.reasoning": 35.21,
-    "llmstats.finance": 12.93,
-    "llmstats.long_context": 7.09,
-    "llmstats.tool_calling": 18.97,
-    "llmstats.vision": 23.63,
-    "llmstats.multimodal": 25.42,
-    "llmstats.mmmu_pro": 77.9,
-    "llmstats.finance_agent": 36.73,
-    "llmstats.charxiv": 81.0,
-    "x.context": 1000000,
-    "x.price": 0.8
-   },
-   "where": {
-    "openrouter": "xiaomi/mimo-v2.5",
-    "arena": "llm:MiMo-V2.5",
-    "llmstats": "mimo-v2.5"
-   },
-   "sources": [
-    "openrouter",
-    "arena",
-    "llmstats"
-   ],
-   "access": [
-    "openrouter"
-   ]
-  },
-  {
-   "id": "xiaomi/mimo-v2.5-pro",
-   "base": "xiaomi/mimo-v2.5-pro",
-   "name": "MiMo-V2.5-Pro",
-   "variant": null,
-   "lab": "Xiaomi",
-   "lab_id": "xiaomi",
-   "country": "CN",
-   "kind": "llm",
-   "open_weights": true,
-   "released": "2026-04-22",
-   "context": 262144,
-   "input": [
-    "text"
-   ],
-   "reasoning": true,
-   "price": {
-    "input": 0.48,
-    "output": 1.8,
-    "blended": 0.81,
-    "unit": "usd_per_mtok"
-   },
-   "task_cost": null,
-   "metrics": {
-    "arena.text": 1466.3354197610752,
-    "arena.coding": 1520.2760293810345,
-    "arena.creative": 1432.9230761579333,
-    "arena.expert": 1506.0835887817725,
-    "arena.hard": 1493.8243841044186,
-    "arena.business": 1471.810475547672,
-    "arena.legal": 1475.2375181539235,
-    "arena.health": 1485.554557961118,
-    "arena.software": 1508.5897829124533,
-    "arena.writing": 1449.2010473001862,
-    "arena.if": 1467.498912485529,
-    "arena.longer": 1485.8702608159788,
-    "arena.math": 1478.8070011238965,
-    "arena.multiturn": 1479.7553091794914,
-    "arena.multilingual": 1450.479535347462,
-    "arena.factuality": 1464.3005196093056,
-    "arena.webdev": 1479.3949758499728,
-    "llmstats.general": 24.8,
-    "llmstats.agents": 22.49,
-    "llmstats.code": 30.88,
-    "llmstats.reasoning": 23.31,
-    "llmstats.legal": 17.49,
-    "llmstats.finance": 20.78,
-    "llmstats.long_context": -1.19,
-    "llmstats.tool_calling": 23.2,
-    "llmstats.vision": 14.39,
-    "llmstats.frontend_development": 25.34,
-    "llmstats.math": 25.46,
-    "llmstats.healthcare": 17.49,
-    "llmstats.language": 21.89,
-    "llmstats.gpqa": 66.7,
-    "llmstats.swe_verified": 78.9,
-    "llmstats.hle": 34.0,
-    "llmstats.livecodebench": 39.6,
-    "llmstats.finance_agent": 41.5,
-    "x.context": 262144,
-    "x.price": 0.81
-   },
-   "where": {
-    "openrouter": "xiaomi/mimo-v2.5-pro",
-    "arena": "llm:MiMo-V2.5-Pro",
-    "llmstats": "mimo-v2.5-pro"
-   },
-   "sources": [
-    "openrouter",
-    "arena",
-    "llmstats"
-   ],
-   "access": [
-    "openrouter"
-   ]
-  },
-  {
    "id": "xiaomi/mimo-v2.6-flash",
    "base": "xiaomi/mimo-v2.6-flash",
    "name": "MiMo-V2.6-Flash",
@@ -51426,7 +51459,7 @@
     "arena.multiturn": 1447.8893016218763,
     "arena.multilingual": 1428.2643082947766,
     "arena.factuality": 1450.1595562966402,
-    "arena.webdev": 1636.9862571018007,
+    "arena.webdev": 1637.214746940664,
     "arena.image_to_webdev": 1592.101476220234,
     "arena.vision": 1257.5100114406273,
     "arena.diagram": 1269.1615369020235,
@@ -51458,6 +51491,47 @@
    "access": [
     "openrouter"
    ]
+  },
+  {
+   "id": "xiaomi/mimo-v2.6-flash-mopd",
+   "base": "xiaomi/mimo-v2.6-flash-mopd",
+   "name": "MiMo-V2.6-Flash-MOPD",
+   "variant": null,
+   "lab": "Xiaomi",
+   "lab_id": "xiaomi",
+   "country": "CN",
+   "kind": "llm",
+   "open_weights": true,
+   "released": "2026-11-23",
+   "context": 1048576,
+   "input": [
+    "text",
+    "image",
+    "video",
+    "audio"
+   ],
+   "reasoning": true,
+   "price": {
+    "input": 0.15,
+    "output": 0.42,
+    "blended": 0.2175,
+    "unit": "usd_per_mtok"
+   },
+   "task_cost": null,
+   "metrics": {
+    "x.context": 1048576,
+    "x.price": 0.2175
+   },
+   "where": {
+    "openrouter": "xiaomi/mimo-v2.6-flash-mopd"
+   },
+   "sources": [
+    "openrouter"
+   ],
+   "access": [
+    "openrouter"
+   ],
+   "catalog_only": true
   },
   {
    "id": "xiaomi/mimo-v2.6-pro",
@@ -51502,7 +51576,7 @@
     "arena.multiturn": 1463.4947311890585,
     "arena.multilingual": 1462.605579666705,
     "arena.factuality": 1485.9209630727498,
-    "arena.webdev": 1622.4017069116076,
+    "arena.webdev": 1622.4705526542643,
     "arena.image_to_webdev": 1595.5114851893427,
     "arena.vision": 1266.0135455031254,
     "arena.diagram": 1285.5806752057315,
@@ -51823,7 +51897,7 @@
     "arena.multiturn": 1421.2348888692975,
     "arena.multilingual": 1407.663417655119,
     "arena.factuality": 1446.9732802143585,
-    "arena.webdev": 1341.9810150919682,
+    "arena.webdev": 1341.9528549632305,
     "llmstats.general": 27.99,
     "llmstats.agents": 7.78,
     "llmstats.code": 14.61,
@@ -51958,7 +52032,7 @@
     "arena.multiturn": 1457.79576005416,
     "arena.multilingual": 1421.078394993049,
     "arena.factuality": 1443.8873838373647,
-    "arena.webdev": 1436.0515254386073,
+    "arena.webdev": 1436.0192312384359,
     "llmstats.general": 33.31,
     "llmstats.agents": 8.08,
     "llmstats.code": 17.08,
@@ -52113,7 +52187,7 @@
     "arena.multiturn": 1471.2248431902337,
     "arena.multilingual": 1438.8705622246569,
     "arena.factuality": 1451.8046565225914,
-    "arena.webdev": 1434.8364338006375,
+    "arena.webdev": 1434.7886227063495,
     "llmstats.general": 36.01,
     "llmstats.agents": 18.35,
     "llmstats.code": 24.96,
@@ -52231,7 +52305,7 @@
     "arena.multiturn": 1478.2787953553393,
     "arena.multilingual": 1448.4265914664952,
     "arena.factuality": 1455.9882120229588,
-    "arena.webdev": 1508.2193523644025,
+    "arena.webdev": 1508.10517802282,
     "llmstats.general": 38.17,
     "llmstats.agents": 22.82,
     "llmstats.code": 28.44,
@@ -52306,18 +52380,22 @@
     "llmstats.mcp_atlas": 76.8,
     "llmstats.deepswe": 44.0,
     "epoch.eci": 153.07,
+    "vectara.hallucination": 9.7,
+    "vectara.answer_rate": 99.7,
     "x.context": 1048576,
     "x.price": 1.07
    },
    "where": {
     "openrouter": "z-ai/glm-5.2",
     "llmstats": "glm-5.2",
-    "epoch": "GLM-5.2"
+    "epoch": "GLM-5.2",
+    "vectara": "zai-org/GLM-5.2"
    },
    "sources": [
     "openrouter",
     "llmstats",
-    "epoch"
+    "epoch",
+    "vectara"
    ],
    "access": [
     "openrouter"
@@ -52363,7 +52441,7 @@
     "arena.multiturn": 1476.802549184265,
     "arena.multilingual": 1461.7175663303963,
     "arena.factuality": 1462.6703305121907,
-    "arena.webdev": 1607.335758974533,
+    "arena.webdev": 1607.3921597419799,
     "arena.agent": -0.0036369746058279922,
     "epoch.swebench": 0.787,
     "llmstats.general": 43.84,
@@ -52380,6 +52458,8 @@
     "llmstats.mcp_atlas": 76.8,
     "llmstats.deepswe": 44.0,
     "epoch.eci": 153.07,
+    "vectara.hallucination": 9.7,
+    "vectara.answer_rate": 99.7,
     "x.context": 1048576,
     "x.price": 1.07
    },
@@ -52435,6 +52515,8 @@
     "llmstats.mcp_atlas": 76.8,
     "llmstats.deepswe": 44.0,
     "epoch.eci": 153.07,
+    "vectara.hallucination": 9.7,
+    "vectara.answer_rate": 99.7,
     "x.context": 1048576,
     "x.price": 1.07
    },
@@ -52442,6 +52524,7 @@
     "openrouter": "z-ai/glm-5.2",
     "llmstats": "glm-5.2",
     "epoch": "GLM-5.2",
+    "vectara": "zai-org/GLM-5.2",
     "tau2": "glm-5-2_sierra_2026-08-04"
    },
    "sources": [
@@ -52525,9 +52608,9 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.0399,
-    "output": 0.074,
-    "blended": 0.0484,
+    "input": 0.12,
+    "output": 0.38,
+    "blended": 0.185,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
@@ -52548,7 +52631,7 @@
     "arena.multiturn": 1478.2325945293792,
     "arena.multilingual": 1464.1297005162253,
     "arena.factuality": 1461.0603338606923,
-    "arena.webdev": 1610.7839118554873,
+    "arena.webdev": 1611.0532405732251,
     "arena.image_to_webdev": 1581.3553011971703,
     "arena.vision": 1296.4705628595646,
     "arena.diagram": 1320.3472085572982,
@@ -52570,20 +52653,24 @@
     "llmstats.charxiv": 89.4,
     "llmstats.deepswe": 63.4,
     "epoch.eci": 153.77,
+    "vectara.hallucination": 8.5,
+    "vectara.answer_rate": 99.8,
     "x.context": 1048576,
-    "x.price": 0.0484
+    "x.price": 0.185
    },
    "where": {
     "openrouter": "z-ai/glm-5.3-flash",
     "arena": "llm:GLM-5.3-Flash",
     "llmstats": "glm-5.3-flash",
-    "epoch": "GLM-5.3-Flash"
+    "epoch": "GLM-5.3-Flash",
+    "vectara": "zai-org/GLM-5.3-Flash"
    },
    "sources": [
     "openrouter",
     "arena",
     "llmstats",
-    "epoch"
+    "epoch",
+    "vectara"
    ],
    "access": [
     "openrouter"
@@ -52752,7 +52839,7 @@
     "arena.multiturn": 1484.1046451130742,
     "arena.multilingual": 1468.206147019836,
     "arena.factuality": 1467.8455246102844,
-    "arena.webdev": 1622.9511692846652,
+    "arena.webdev": 1623.0219356379225,
     "arena.agent": 0.0019112494479580607,
     "llmstats.general": 49.27,
     "llmstats.agents": 35.17,
@@ -52852,15 +52939,15 @@
    ],
    "reasoning": true,
    "price": {
-    "input": 0.0399,
-    "output": 0.074,
-    "blended": 0.0484,
+    "input": 0.0356,
+    "output": 0.0815,
+    "blended": 0.0471,
     "unit": "usd_per_mtok"
    },
    "task_cost": null,
    "metrics": {
     "x.context": 1048576,
-    "x.price": 0.0484
+    "x.price": 0.0471
    },
    "where": {
     "openrouter": "z-ai/glm-flash-latest"

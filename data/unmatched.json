@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "note": "Add an entry to data/aliases.json to merge these.",
  "records": [
   {
@@ -37,6 +37,12 @@
    "source_id": "llm:ERNIE 5.1",
    "name": "ERNIE 5.1",
    "lab": "baidu"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:MiMo-V2.5-Pro",
+   "name": "MiMo-V2.5-Pro",
+   "lab": "xiaomi"
   },
   {
    "source": "arena",
@@ -112,6 +118,12 @@
   },
   {
    "source": "arena",
+   "source_id": "llm:MiMo-V2.5",
+   "name": "MiMo-V2.5",
+   "lab": "xiaomi"
+  },
+  {
+   "source": "arena",
    "source_id": "llm:Grok 4.1 Fast (Reasoning)",
    "name": "Grok 4.1 Fast (Reasoning)",
    "lab": "xai"
@@ -184,6 +196,12 @@
   },
   {
    "source": "arena",
+   "source_id": "llm:Mistral Medium 3.1 (2508)",
+   "name": "Mistral Medium 3.1 (2508)",
+   "lab": "mistral"
+  },
+  {
+   "source": "arena",
    "source_id": "llm:o1 (2024-12-17)",
    "name": "o1 (2024-12-17)",
    "lab": "openai"
@@ -229,6 +247,12 @@
    "source_id": "llm:Hunyuan T1 (20250711)",
    "name": "Hunyuan T1 (20250711)",
    "lab": "tencent"
+  },
+  {
+   "source": "arena",
+   "source_id": "llm:Mistral Medium 3 (2505)",
+   "name": "Mistral Medium 3 (2505)",
+   "lab": "mistral"
   },
   {
    "source": "arena",
@@ -1260,7 +1284,7 @@
    "source": "arena",
    "source_id": "llm:KAT-Coder-Pro V1",
    "name": "KAT-Coder-Pro V1",
-   "lab": null
+   "lab": "kwaikat"
   },
   {
    "source": "arena",
@@ -1543,6 +1567,12 @@
    "source_id": "mercury-3",
    "name": "Mercury 3",
    "lab": "Inception"
+  },
+  {
+   "source": "llmstats",
+   "source_id": "kimi-k2-thinking-0905",
+   "name": "Kimi K2-Thinking-0905",
+   "lab": "Moonshot AI"
   },
   {
    "source": "llmstats",

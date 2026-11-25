@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "sources": {
   "openrouter": {
    "name": "OpenRouter models",
    "url": "https://openrouter.ai/api/v1/models",
    "attribution": "Model ids, prices and context windows from OpenRouter (openrouter.ai).",
    "ok": true,
-   "rows": 364,
-   "fetched": "2026-11-23",
+   "rows": 360,
+   "fetched": "2026-11-25",
    "seconds": 0.1
   },
   "arena": {
@@ -15,9 +15,9 @@
    "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
    "attribution": "Human-preference ratings from Arena (arena.ai), dataset CC BY 4.0.",
    "ok": true,
-   "rows": 795,
-   "fetched": "2026-11-23",
-   "seconds": 3.6
+   "rows": 797,
+   "fetched": "2026-11-25",
+   "seconds": 3.8
   },
   "llmstats": {
    "name": "llm-stats",
@@ -25,8 +25,8 @@
    "attribution": "Category indexes from llm-stats.com.",
    "ok": true,
    "rows": 425,
-   "fetched": "2026-11-23",
-   "seconds": 9.2
+   "fetched": "2026-11-25",
+   "seconds": 2.6
   },
   "epoch": {
    "name": "Epoch AI benchmarking hub",
@@ -34,17 +34,17 @@
    "attribution": "Benchmark data from Epoch AI (epoch.ai), CC BY 4.0.",
    "ok": true,
    "rows": 291,
-   "fetched": "2026-11-23",
-   "seconds": 1.1
+   "fetched": "2026-11-25",
+   "seconds": 0.3
   },
   "vectara": {
    "name": "Vectara hallucination leaderboard",
    "url": "https://raw.githubusercontent.com/vectara/hallucination-leaderboard/main/README.md",
    "attribution": "Hallucination rates from Vectara's HHEM leaderboard (github.com/vectara/hallucination-leaderboard), Apache-2.0.",
    "ok": true,
-   "rows": 111,
-   "fetched": "2026-11-23",
-   "seconds": 0.1
+   "rows": 117,
+   "fetched": "2026-11-25",
+   "seconds": 0.2
   },
   "tau2": {
    "name": "tau2-bench (Sierra)",
@@ -52,8 +52,8 @@
    "attribution": "Agent results from tau2-bench by Sierra (github.com/sierra-research/tau2-bench), MIT.",
    "ok": true,
    "rows": 27,
-   "fetched": "2026-11-23",
-   "seconds": 0.8
+   "fetched": "2026-11-25",
+   "seconds": 0.7
   }
  }
 }

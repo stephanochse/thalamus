@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "week": "2026-W48",
  "trust": {
   "arena": {
    "trust": 1.0,
-   "agreement": 0.605,
-   "baseline": 0.611,
+   "agreement": 0.604,
+   "baseline": 0.61,
    "previous": 1.0,
    "weeks": 4,
    "flagged": 0
@@ -20,23 +20,23 @@
   },
   "llmstats": {
    "trust": 1.0,
-   "agreement": 0.575,
-   "baseline": 0.589,
+   "agreement": 0.572,
+   "baseline": 0.588,
    "previous": 1.0,
    "weeks": 4,
    "flagged": 0
   },
   "tau2": {
    "trust": 1.0,
-   "agreement": 0.693,
-   "baseline": 0.696,
+   "agreement": 0.671,
+   "baseline": 0.689,
    "previous": 1.0,
    "weeks": 4,
    "flagged": 0
   },
   "vectara": {
    "trust": 1.0,
-   "agreement": -0.22,
+   "agreement": -0.219,
    "baseline": -0.221,
    "previous": 1.0,
    "weeks": 4,
